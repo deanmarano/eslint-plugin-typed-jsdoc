@@ -67,7 +67,7 @@ function double(count) {
     <div class="text-center max-w-3xl mx-auto">
       <h1 class="text-5xl sm:text-6xl font-bold text-gray-900 tracking-tight text-balance">
         JSDoc that matches
-        <span class="text-primary-600">TypeScript</span>
+        <span class="text-[#3178c6]">TypeScript</span>
       </h1>
       <p class="mt-6 text-xl text-gray-600 text-balance">
         ESLint plugin for JSDoc type accuracy. Compares JSDoc annotations against TypeScript's type inference and auto-fixes mismatches.
