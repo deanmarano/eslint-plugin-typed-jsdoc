@@ -1,0 +1,2560 @@
+{
+  "name": "mocha",
+  "downloadedAt": "2026-02-03T22:00:08.067Z",
+  "lintedAt": "2026-02-03T22:00:08.067Z",
+  "filesAnalyzed": 58,
+  "totalIssues": 317,
+  "errors": 6,
+  "warnings": 311,
+  "byRule": {
+    "tjd/require-jsdoc-types": 65,
+    "tjd/no-implicit-any": 245,
+    "tjd/accurate-jsdoc": 6,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "lib/browser/highlight-tags.js",
+      "line": 34,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string} name"
+    },
+    {
+      "file": "lib/browser/parse-query.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string} qs, @returns {{ [x: string]: string; }}"
+    },
+    {
+      "file": "lib/cli/cli.js",
+      "line": 41,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "main needs JSDoc: @param {any} mochaArgs"
+    },
+    {
+      "file": "lib/cli/cli.js",
+      "line": 41,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In main(): parameter 'mochaArgs' needs a type. Add: @param {unknown} mochaArgs"
+    },
+    {
+      "file": "lib/cli/cli.js",
+      "line": 65,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: msg, err: Error, yargs: object"
+    },
+    {
+      "file": "lib/cli/collect-files.js",
+      "line": 30,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {FileCollectionResponse}"
+    },
+    {
+      "file": "lib/cli/collect-files.js",
+      "line": 42,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'filename' needs a type. Add: @param {unknown} filename"
+    },
+    {
+      "file": "lib/cli/collect-files.js",
+      "line": 48,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'filename' needs a type. Add: @param {unknown} filename"
+    },
+    {
+      "file": "lib/cli/collect-files.js",
+      "line": 105,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'warning' needs a type. Add: @param {object} warning"
+    },
+    {
+      "file": "lib/cli/config.js",
+      "line": 39,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In yaml(): parameter 'filepath' needs a type. Add: @param {unknown} filepath"
+    },
+    {
+      "file": "lib/cli/config.js",
+      "line": 41,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In js(): parameter 'filepath' needs a type. Add: @param {unknown} filepath"
+    },
+    {
+      "file": "lib/cli/config.js",
+      "line": 54,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In json(): parameter 'filepath' needs a type. Add: @param {unknown} filepath"
+    },
+    {
+      "file": "lib/cli/config.js",
+      "line": 68,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "loadConfig needs JSDoc: @param {string} filepath, @returns {any}"
+    },
+    {
+      "file": "lib/cli/config.js",
+      "line": 97,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "findConfig needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "lib/cli/init.js",
+      "line": 17,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "builder needs JSDoc: @param {any} yargs, @returns {any}"
+    },
+    {
+      "file": "lib/cli/init.js",
+      "line": 17,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In builder(): parameter 'yargs' needs a type. Add: @param {object} yargs"
+    },
+    {
+      "file": "lib/cli/init.js",
+      "line": 23,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handler needs JSDoc: @param {any} argv"
+    },
+    {
+      "file": "lib/cli/init.js",
+      "line": 23,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handler(): parameter 'argv' needs a type. Add: @param {object} argv"
+    },
+    {
+      "file": "lib/cli/lookup-files.js",
+      "line": 68,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string} filepath, @returns {string[]}"
+    },
+    {
+      "file": "lib/cli/lookup-files.js",
+      "line": 98,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: string, b"
+    },
+    {
+      "file": "lib/cli/node-flags.js",
+      "line": 37,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNodeFlag needs JSDoc: @param {string} flag, @returns {boolean}"
+    },
+    {
+      "file": "lib/cli/node-flags.js",
+      "line": 65,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "impliesNoTimeouts needs JSDoc: @param {string} flag, @returns {boolean}"
+    },
+    {
+      "file": "lib/cli/node-flags.js",
+      "line": 75,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "unparseNodeFlags needs JSDoc: @param {any} opts, @returns {string[]}"
+    },
+    {
+      "file": "lib/cli/node-flags.js",
+      "line": 75,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unparseNodeFlags(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/cli/node-flags.js",
+      "line": 81,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "lib/cli/one-and-dones.js",
+      "line": 20,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In showKeys(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/cli/options.js",
+      "line": 81,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arg(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/cli/options.js",
+      "line": 90,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arg(): parameter 'v' needs a type. Add: @param {any[]} v"
+    },
+    {
+      "file": "lib/cli/options.js",
+      "line": 118,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createErrorForNumericPositionalArg(): parameter 'parsedResult' needs a type. Add: @param {object} parsedResult"
+    },
+    {
+      "file": "lib/cli/options.js",
+      "line": 181,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pair' needs a type. Add: @param {unknown} pair"
+    },
+    {
+      "file": "lib/cli/options.js",
+      "line": 188,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 86,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "list needs JSDoc: @param {string | string[]} str, @returns {string[]}"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 97,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleRequires needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 162,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In singleRun(): parameter 'fileCollectParams' needs a type. Add: @param {unknown} fileCollectParams"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 191,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parallelRun(): parameter 'fileCollectParams' needs a type. Add: @param {unknown} fileCollectParams"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 219,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "runMocha needs JSDoc: @param {Mocha} mocha, @param {MochaOptions} options, @returns {Promise<Runner>}"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 261,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "validateLegacyPlugin needs JSDoc: @param {any} opts, @param {\"reporter\" | \"ui\"} pluginType"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 261,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateLegacyPlugin(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 276,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createUnknownError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/cli/run-helpers.js",
+      "line": 303,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {unknown} code"
+    },
+    {
+      "file": "lib/cli/run-option-metadata.js",
+      "line": 116,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMochaFlag needs JSDoc: @param {string} flag, @returns {boolean}"
+    },
+    {
+      "file": "lib/cli/run-option-metadata.js",
+      "line": 126,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "expectedTypeForFlag needs JSDoc: @param {string} flag, @returns {string}"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 48,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "builder needs JSDoc: @param {any} yargs, @returns {any}"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 48,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In builder(): parameter 'yargs' needs a type. Add: @param {object} yargs"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 150,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In coerce(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 225,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In coerce(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 298,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'argv' needs a type. Add: @param {object} argv"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 352,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: argv: object, yargs: object"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 372,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handler needs JSDoc: @param {any} argv, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/cli/run.js",
+      "line": 372,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handler(): parameter 'argv' needs a type. Add: @param {unknown} argv"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 47,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "watchParallelRun needs JSDoc: @param {Mocha} mocha, @param {FileCollectionOptions} fileCollectParams, @returns {any}"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 111,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "watchRun needs JSDoc: @param {Mocha} mocha, @param {FileCollectionOptions} fileCollectParams, @returns {any}"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 348,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ignore needs types for 2 parameters: filePath: string, stats: object"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 450,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _event, filePath: string"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 518,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createRerunner(): parameter 'watcher' needs a type. Add: @param {unknown} watcher"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 577,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getWatchedFiles(): parameter 'watcher' needs a type. Add: @param {object} watcher"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 582,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/cli/watch-run.js",
+      "line": 620,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In blastCache(): parameter 'watcher' needs a type. Add: @param {unknown} watcher"
+    },
+    {
+      "file": "lib/errors.js",
+      "line": 25,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "emitWarning needs types for 2 parameters: msg, type: string"
+    },
+    {
+      "file": "lib/errors.js",
+      "line": 193,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createInvalidExceptionError(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/errors.js",
+      "line": 209,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createFatalError(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/errors.js",
+      "line": 279,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createMochaInstanceAlreadyRunningError(): parameter 'instance' needs a type. Add: @param {unknown} instance"
+    },
+    {
+      "file": "lib/errors.js",
+      "line": 421,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMochaError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 28,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {Suite} suite"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 31,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: context: object, file, mocha: object"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 45,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "context needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 60,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skip needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 72,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "only needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 86,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "specify needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 101,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "only needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/bdd.js",
+      "line": 112,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skip(): parameter 'title' needs a type. Add: @param {string} title"
+    },
+    {
+      "file": "lib/interfaces/common.js",
+      "line": 27,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {Suite[]} suites, @param {Context} context, @param {Mocha} mocha, @returns {any}"
+    },
+    {
+      "file": "lib/interfaces/common.js",
+      "line": 106,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In only(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/interfaces/common.js",
+      "line": 121,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skip(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/interfaces/common.js",
+      "line": 180,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In only(): parameter 'mocha' needs a type. Add: @param {object} mocha"
+    },
+    {
+      "file": "lib/interfaces/exports.js",
+      "line": 22,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {Suite} suite"
+    },
+    {
+      "file": "lib/interfaces/exports.js",
+      "line": 27,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "visit needs types for 2 parameters: obj: object, file"
+    },
+    {
+      "file": "lib/interfaces/qunit.js",
+      "line": 35,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {Suite} suite"
+    },
+    {
+      "file": "lib/interfaces/qunit.js",
+      "line": 38,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: context: object, file, mocha: object"
+    },
+    {
+      "file": "lib/interfaces/qunit.js",
+      "line": 50,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In suite(): parameter 'title' needs a type. Add: @param {string} title"
+    },
+    {
+      "file": "lib/interfaces/qunit.js",
+      "line": 65,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In only(): parameter 'title' needs a type. Add: @param {string} title"
+    },
+    {
+      "file": "lib/interfaces/qunit.js",
+      "line": 82,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "test needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/qunit.js",
+      "line": 93,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "only needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 36,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {Suite} suite"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 39,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: context: object, file, mocha: object"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 52,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "suite needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 63,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skip needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 74,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "only needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 86,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "test needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/interfaces/tdd.js",
+      "line": 101,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "only needs types for 2 parameters: title: string, fn: Function"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 100,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "afterEach needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 106,
+      "column": 17,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "after needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 112,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "beforeEach needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 115,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "before needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 118,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "describe needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 133,
+      "column": 14,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "it needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 150,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "run needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 304,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reporter(): parameter 'reporterOptions' needs a type. Add: @param {object} reporterOptions"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 376,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 401,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 439,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 442,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: file, resultModule"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 491,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 1014,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In done(): parameter 'failures' needs a type. Add: @param {unknown} failures"
+    },
+    {
+      "file": "lib/mocha.js",
+      "line": 1027,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In runAsync(): parameter 'runner' needs a type. Add: @param {object} runner"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In forward(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 8,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In formattedImport(): parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 37,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "doImport needs JSDoc: @param {any} file, @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 37,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doImport(): parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 43,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tryImportAndRequire needs types for 2 parameters: file, esmDecorator"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 94,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "requireModule needs types for 2 parameters: file, esmDecorator"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 143,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dealWithExports(): parameter 'module' needs a type. Add: @param {any[] | object} module"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 151,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadFilesAsync needs types for 4 parameters: files: any[], preLoadFunc: Function, postLoadFunc: Function, esmDecorator"
+    },
+    {
+      "file": "lib/nodejs/esm-utils.js",
+      "line": 151,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "loadFilesAsync needs JSDoc: @param {any} files, @param {any} preLoadFunc, @param {any} postLoadFunc, @param {any} esmDecorator, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/nodejs/file-unloader.js",
+      "line": 13,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "unloadFile needs JSDoc: @param {string} file"
+    },
+    {
+      "file": "lib/nodejs/parallel-buffered-runner.js",
+      "line": 94,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'newState' needs a type. Add: @param {unknown} newState"
+    },
+    {
+      "file": "lib/nodejs/parallel-buffered-runner.js",
+      "line": 125,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emitEvent(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/nodejs/parallel-buffered-runner.js",
+      "line": 144,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In linkEvent(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/nodejs/parallel-buffered-runner.js",
+      "line": 417,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In workerReporter(): parameter 'reporter' needs a type. Add: @param {unknown} reporter"
+    },
+    {
+      "file": "lib/nodejs/reporters/parallel-buffered.js",
+      "line": 76,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/nodejs/reporters/parallel-buffered.js",
+      "line": 110,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "listener needs types for 2 parameters: runnable, err: Error"
+    },
+    {
+      "file": "lib/nodejs/reporters/parallel-buffered.js",
+      "line": 128,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "lib/nodejs/reporters/parallel-buffered.js",
+      "line": 131,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 102,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSerializedWorkerResult(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 137,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'originalValue' needs a type. Add: @param {unknown} originalValue"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 197,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _serialize(): parameter 'parent' needs a type. Add: @param {object} parent"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 236,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 237,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, index: number"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 295,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _deserializeError(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 309,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _deserializeObject(): parameter 'parent' needs a type. Add: @param {object} parent"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 325,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _, idx: number"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 374,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "serialize needs JSDoc: @param {any} value, @returns {any}"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 374,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serialize(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 391,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "deserialize needs JSDoc: @param {any} value, @returns {any}"
+    },
+    {
+      "file": "lib/nodejs/serializer.js",
+      "line": 391,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deserialize(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/nodejs/worker.js",
+      "line": 66,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Promise<{failures: number, events: BufferedEvent[]}> → Promise<{ failures: number; events: BufferedEvent[]; }>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 40,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validate(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 50,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In finalize(): parameter 'rootHooks' needs a type. Add: @param {any[]} rootHooks"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 53,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'hook' needs a type. Add: @param {Function} hook"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 59,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc: object, hook: any[] | object"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 86,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validate(): parameter 'value' needs a type. Add: @param {any[]} value"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 89,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 110,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validate(): parameter 'value' needs a type. Add: @param {any[]} value"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 113,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 172,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pluginDef' needs a type. Add: @param {unknown} pluginDef"
+    },
+    {
+      "file": "lib/plugin-loader.js",
+      "line": 229,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In load(): parameter 'requiredModule' needs a type. Add: @param {object} requiredModule"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 122,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "color needs JSDoc: @param {string} type, @param {string} str, @returns {string}"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 176,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "showDiff needs JSDoc: @param {any} err, @returns {boolean}"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 176,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In showDiff(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 185,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringifyDiffObjs(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 204,
+      "column": 44,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "generateDiff needs JSDoc: @param {string} actual, @param {string} expected, @returns {string}"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 293,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "list needs JSDoc: @param {any[]} failures"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 296,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 337,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: str: string, index: number"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 379,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 389,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: test: object, err: Error"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 503,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cleanUp(): parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 518,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notBlank(): parameter 'line' needs a type. Add: @param {unknown} line"
+    },
+    {
+      "file": "lib/reporters/base.js",
+      "line": 544,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/reporters/doc.js",
+      "line": 47,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/doc.js",
+      "line": 58,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/doc.js",
+      "line": 68,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/doc.js",
+      "line": 75,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: test: object, err: Error"
+    },
+    {
+      "file": "lib/reporters/dot.js",
+      "line": 57,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 105,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 116,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 129,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 148,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 160,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 173,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 233,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 242,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appendToStack(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 314,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In suiteURL(): parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 323,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testURL(): parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 364,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 383,
+      "column": 28,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'classname': text → (el: HTMLElement, contents: string) => void. JSDoc declares unknown but TypeScript infers function."
+    },
+    {
+      "file": "lib/reporters/html.js",
+      "line": 420,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 3 parameters: el: object, event: Event, fn: Function"
+    },
+    {
+      "file": "lib/reporters/json-stream.js",
+      "line": 48,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/json-stream.js",
+      "line": 52,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: test: object, err: Error"
+    },
+    {
+      "file": "lib/reporters/json.js",
+      "line": 59,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/json.js",
+      "line": 63,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/json.js",
+      "line": 67,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/json.js",
+      "line": 71,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/json.js",
+      "line": 138,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/reporters/landing.js",
+      "line": 81,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/list.js",
+      "line": 52,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/list.js",
+      "line": 56,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/list.js",
+      "line": 61,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/list.js",
+      "line": 70,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 50,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In title(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 54,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapTOC needs types for 2 parameters: suite: object, obj: object"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 59,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {unknown} suite"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 66,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stringifyTOC needs types for 2 parameters: obj: object, level"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 84,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generateTOC(): parameter 'suite' needs a type. Add: @param {unknown} suite"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 91,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/markdown.js",
+      "line": 102,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/nyan.js",
+      "line": 109,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: type: string, n"
+    },
+    {
+      "file": "lib/reporters/spec.js",
+      "line": 58,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/reporters/spec.js",
+      "line": 70,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/spec.js",
+      "line": 75,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/spec.js",
+      "line": 93,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 66,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 70,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 74,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: test, err: Error"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 204,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeEpilogue(): parameter 'stats' needs a type. Add: @param {object} stats"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 230,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeFail needs types for 3 parameters: n, test, err: Error"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 271,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeFail needs types for 3 parameters: n, test, err: Error"
+    },
+    {
+      "file": "lib/reporters/tap.js",
+      "line": 288,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In indent(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 83,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 87,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 91,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 112,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 131,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In done(): parameter 'failures' needs a type. Add: @param {unknown} failures"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 161,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In test(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 206,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tag needs types for 4 parameters: name: string, attrs: object, close, content"
+    },
+    {
+      "file": "lib/reporters/xunit.js",
+      "line": 224,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "testFilePath needs types for 2 parameters: filepath, options: object"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 181,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In retries(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 193,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In currentRetry(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 285,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In multiple(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 294,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In done(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 365,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callFn(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 376,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'reason' needs a type. Add: @param {unknown} reason"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 393,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callFnAsync(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 394,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runnable.js",
+      "line": 466,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toValueOrError(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 202,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 210,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 218,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unhandled needs types for 2 parameters: reason, promise"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 259,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addEventListener(): parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 363,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 418,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkGlobals(): parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 440,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 494,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In failTestsInSuite(): parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 495,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 592,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 614,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 619,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 639,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {object} test"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 642,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 685,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setHookTitle(): parameter 'hook' needs a type. Add: @param {object} hook"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 719,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'suite' needs a type. Add: @param {unknown} suite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 727,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 801,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 827,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hookErr needs types for 3 parameters: err: Error, errSuite: object, after"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 840,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 863,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err2, errSuite2"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 879,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "next needs types for 2 parameters: err: Error, errSuite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 937,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, errSuite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 950,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: e, eSuite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 959,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1024,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'errSuite' needs a type. Add: @param {unknown} errSuite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1058,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In done(): parameter 'errSuite' needs a type. Add: @param {unknown} errSuite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1073,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1235,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1354,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1378,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ok' needs a type. Add: @param {object} ok"
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1396,
+      "column": 18,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'err': Object → { message: string; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/runner.js",
+      "line": 1408,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In thrown2Error(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/stats-collector.js",
+      "line": 52,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 61,
+      "column": 23,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'parentContext': Context → { (): void; prototype: ...; }. JSDoc declares unknown but TypeScript infers object."
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 110,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doReset(): parameter 'thingToReset' needs a type. Add: @param {object} thingToReset"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 426,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: sum, suite: object"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 442,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 468,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 488,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'onlySuite' needs a type. Add: @param {object} onlySuite"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 497,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'childSuite' needs a type. Add: @param {object} childSuite"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 538,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getHooks(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 546,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'suite' needs a type. Add: @param {object} suite"
+    },
+    {
+      "file": "lib/suite.js",
+      "line": 563,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cleanArrReferences(): parameter 'arr' needs a type. Add: @param {object} arr"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 55,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In retriedTest(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 35,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "escape needs JSDoc: @param {string} html, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 46,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isString needs JSDoc: @param {any} obj, @returns {boolean}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 46,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isString(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 57,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "slug needs JSDoc: @param {string} str, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 71,
+      "column": 17,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clean needs JSDoc: @param {string} str, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 144,
+      "column": 46,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "canonicalType needs JSDoc: @param {any} value, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 144,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canonicalType(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 181,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "type needs JSDoc: @param {any} value, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 181,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In type(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 217,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stringify needs JSDoc: @param {any} value, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 217,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringify(): parameter 'value' needs a type. Add: @param {string} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 233,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: acc: object, char, idx: number"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 264,
+      "column": 32,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'spaces': number= → number. JSDoc declares unknown but TypeScript infers primitive."
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 264,
+      "column": 40,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'depth': number= → number. JSDoc declares unknown but TypeScript infers primitive."
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 279,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "repeat needs types for 2 parameters: s, n"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 283,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _stringify(): parameter 'val' needs a type. Add: @param {number} val"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 363,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "canonicalize needs JSDoc: @param {any} value, @param {any[]} stack, @param {string} typeHint, @returns {any}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 363,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canonicalize(): parameter 'value' needs a type. Add: @param {any[]} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 369,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "withStack needs types for 2 parameters: value, fn: Function"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 389,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 395,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 443,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stackTraceFilter needs JSDoc: @returns {Function}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 457,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMochaInternal(): parameter 'line' needs a type. Add: @param {object} line"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 465,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNodeInternal(): parameter 'line' needs a type. Add: @param {object} line"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 476,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stack' needs a type. Add: @param {object} stack"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 479,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: list: any[], line: string"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 507,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isPromise needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 507,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPromise(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 522,
+      "column": 17,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clamp needs JSDoc: @param {number} value, @param {number[]} range, @returns {number}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 547,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createMap needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 566,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "defineConstants needs JSDoc: @param {any} obj, @returns {any}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 566,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In defineConstants(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 579,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "cwd needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 589,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBrowser needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 604,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "castArray needs JSDoc: @param {any} value, @returns {any[]}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 604,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In castArray(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 633,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "uniqueID needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 641,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "assignNewMochaID needs JSDoc: @param {any} obj, @returns {any}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 641,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assignNewMochaID(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 656,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getMochaID needs JSDoc: @param {any} obj, @returns {string | void}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 656,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMochaID(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 665,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "breakCircularDeps needs JSDoc: @param {any} inputObj, @returns {any}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 665,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In breakCircularDeps(): parameter 'inputObj' needs a type. Add: @param {unknown} inputObj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 668,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _breakCircularDeps(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 697,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNumeric needs JSDoc: @param {any} input, @returns {boolean}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 697,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNumeric(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 711,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isCI needs JSDoc: @returns {boolean}"
+    }
+  ],
+  "typesPackage": "@types/mocha",
+  "typesComparison": {
+    "definitelyTypedVersion": "10.0.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 36092
+}

@@ -1,0 +1,85 @@
+{
+  "name": "clipboard",
+  "downloadedAt": "2026-02-03T22:11:47.422Z",
+  "lintedAt": "2026-02-03T22:11:47.422Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 8,
+  "errors": 0,
+  "warnings": 8,
+  "byRule": {
+    "tjd/no-implicit-any": 8
+  },
+  "issues": [
+    {
+      "file": "src/actions/copy.js",
+      "line": 11,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fakeCopyAction needs types for 2 parameters: value, options: object"
+    },
+    {
+      "file": "src/actions/copy.js",
+      "line": 28,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ClipboardActionCopy(): parameter 'target' needs a type. Add: @param {object} target"
+    },
+    {
+      "file": "src/actions/cut.js",
+      "line": 9,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ClipboardActionCut(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/clipboard.js",
+      "line": 31,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: trigger, options: object"
+    },
+    {
+      "file": "src/clipboard.js",
+      "line": 62,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In listenClick(): parameter 'trigger' needs a type. Add: @param {unknown} trigger"
+    },
+    {
+      "file": "src/clipboard.js",
+      "line": 63,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/clipboard.js",
+      "line": 120,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In copy(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/clipboard.js",
+      "line": 129,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cut(): parameter 'target' needs a type. Add: @param {unknown} target"
+    }
+  ],
+  "typesPackage": "@types/clipboard",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 51125
+}

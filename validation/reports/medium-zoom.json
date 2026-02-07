@@ -1,0 +1,338 @@
+{
+  "name": "medium-zoom",
+  "downloadedAt": "2026-02-03T22:10:53.183Z",
+  "lintedAt": "2026-02-03T22:10:53.183Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 40,
+  "errors": 0,
+  "warnings": 40,
+  "byRule": {
+    "tjd/no-implicit-any": 31,
+    "tjd/require-jsdoc-types": 8,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "src/__tests__/medium-zoom.test.js",
+      "line": 3,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In requestAnimationFrame(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "src/__tests__/medium-zoom.test.js",
+      "line": 20,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "countCallsForEventType needs types for 2 parameters: spy: object, type: string"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 10,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mediumZoom(): parameter 'selector' needs a type. Add: @param {unknown} selector"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 16,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 21,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleClick(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 52,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleKeyUp(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 85,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 101,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: enabled: boolean, register: Function"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 128,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: imagesAccumulator: any[] | object, currentSelector"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 136,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'newImage' needs a type. Add: @param {unknown} newImage"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 137,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'newImage' needs a type. Add: @param {object} newImage"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 143,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 161,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: imagesAccumulator: any[] | object, currentSelector"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 169,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 178,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {unknown} image"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 184,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 185,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 194,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "off needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 195,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 200,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'eventListener' needs a type. Add: @param {object} eventListener"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 211,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateGlobalEvents(): parameter 'enabled' needs a type. Add: @param {boolean} enabled"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 318,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'resolve' needs a type. Add: @param {Function} resolve"
+    },
+    {
+      "file": "src/medium-zoom.js",
+      "line": 473,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'resolve' needs a type. Add: @param {Function} resolve"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 1,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSupported(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 1,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isSupported needs JSDoc: @param {any} node, @returns {boolean}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-prototype-builtins')."
+    },
+    {
+      "file": "src/utils.js",
+      "line": 4,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNodeList(): parameter 'selector' needs a type. Add: @param {unknown} selector"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 4,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNodeList needs JSDoc: @param {any} selector, @returns {any}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 6,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNode(): parameter 'selector' needs a type. Add: @param {object} selector"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 6,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNode needs JSDoc: @param {any} selector, @returns {boolean}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 8,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSvg(): parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 8,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isSvg needs JSDoc: @param {any} image, @returns {boolean}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 13,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getImagesFromSelector(): parameter 'selector' needs a type. Add: @param {any[]} selector"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 13,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getImagesFromSelector needs JSDoc: @param {any} selector, @returns {any}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 45,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createOverlay(): parameter 'background' needs a type. Add: @param {unknown} background"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 45,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createOverlay needs JSDoc: @param {any} background, @returns {any}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 53,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cloneTarget(): parameter 'template' needs a type. Add: @param {object} template"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 53,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "cloneTarget needs JSDoc: @param {any} template, @returns {any}"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 78,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createCustomEvent needs types for 2 parameters: type: string, params: object"
+    },
+    {
+      "file": "src/utils.js",
+      "line": 78,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createCustomEvent needs JSDoc: @param {any} type, @param {any} params, @returns {any}"
+    }
+  ],
+  "typesPackage": "@types/medium-zoom",
+  "duration": 23981
+}

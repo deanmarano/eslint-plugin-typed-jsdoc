@@ -1,0 +1,70 @@
+{
+  "name": "content-disposition",
+  "downloadedAt": "2026-02-03T22:03:43.499Z",
+  "lintedAt": "2026-02-03T22:03:43.499Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 6,
+  "errors": 2,
+  "warnings": 4,
+  "byRule": {
+    "unknown": 4,
+    "tjd/accurate-jsdoc": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 29,
+      "column": 75,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 54,
+      "column": 42,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 88,
+      "column": 184,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 130,
+      "column": 82,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 143,
+      "column": 40,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': object → { type?: string; fallback?: string | boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "index.js",
+      "line": 226,
+      "column": 18,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'obj': object → { type: string; parameters?: any; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    }
+  ],
+  "typesPackage": "@types/content-disposition",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.5.9",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19349
+}

@@ -1,0 +1,778 @@
+{
+  "name": "tesseract.js",
+  "downloadedAt": "2026-02-03T22:10:53.183Z",
+  "lintedAt": "2026-02-03T22:10:53.183Z",
+  "filesAnalyzed": 41,
+  "totalIssues": 95,
+  "errors": 0,
+  "warnings": 95,
+  "byRule": {
+    "tjd/no-implicit-any": 66,
+    "tjd/require-jsdoc-types": 24,
+    "unknown": 5
+  },
+  "issues": [
+    {
+      "file": "src/Tesseract.js",
+      "line": 5,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "recognize needs types for 3 parameters: image, langs, options: object"
+    },
+    {
+      "file": "src/Tesseract.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "detect needs types for 2 parameters: image, options: object"
+    },
+    {
+      "file": "src/createJob.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {{ id: any; action: any; payload: {}; }}"
+    },
+    {
+      "file": "src/createScheduler.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {{ addWorker: (w: any) => any; addJob: (action: any, ...payload: any[]) => Promise<any>; terminate: () => Promise<void>; getQueueLen: () => number; getNumWorkers: () => number; }}"
+    },
+    {
+      "file": "src/createScheduler.js",
+      "line": 32,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "queue needs types for 2 parameters: action, payload: object"
+    },
+    {
+      "file": "src/createScheduler.js",
+      "line": 35,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'w' needs a type. Add: @param {object} w"
+    },
+    {
+      "file": "src/createScheduler.js",
+      "line": 53,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addWorker(): parameter 'w' needs a type. Add: @param {object} w"
+    },
+    {
+      "file": "src/createScheduler.js",
+      "line": 61,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addJob(): parameter 'action' needs a type. Add: @param {unknown} action"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 19,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 44,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In workerError(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 70,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadInternal(): parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 76,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeText needs types for 3 parameters: path: string, text: string, jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 84,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readText needs types for 2 parameters: path: string, jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 92,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeFile needs types for 2 parameters: path: string, jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 100,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "FS needs types for 3 parameters: method, args: any[], jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 108,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadLanguageInternal needs types for 2 parameters: _langs, jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 125,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initializeInternal needs types for 4 parameters: _langs, _oem, _config, jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 160,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setParameters(): parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 168,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "recognize needs types for 2 parameters: image, jobId: string"
+    },
+    {
+      "file": "src/createWorker.js",
+      "line": 178,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "detect needs types for 2 parameters: image, jobId: string"
+    },
+    {
+      "file": "src/utils/getEnvironment.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} key, @returns {any}"
+    },
+    {
+      "file": "src/utils/getEnvironment.js",
+      "line": 3,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/utils/getId.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: prefix: string, cnt"
+    },
+    {
+      "file": "src/utils/getId.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} prefix, @param {any} cnt, @returns {string}"
+    },
+    {
+      "file": "src/utils/log.js",
+      "line": 7,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setLogging needs JSDoc: @param {any} _logging"
+    },
+    {
+      "file": "src/utils/log.js",
+      "line": 7,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLogging(): parameter '_logging' needs a type. Add: @param {unknown} _logging"
+    },
+    {
+      "file": "src/utils/log.js",
+      "line": 11,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "log needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/utils/resolvePaths.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/utils/resolvePaths.js",
+      "line": 7,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/worker-script/browser/cache.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkCache(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "src/worker-script/browser/cache.js",
+      "line": 10,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/worker-script/browser/getCore.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: lstmOnly, corePath: string, res: object"
+    },
+    {
+      "file": "src/worker-script/browser/getCore.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} lstmOnly, @param {any} corePath, @param {any} res, @returns {Promise<any>}"
+    },
+    {
+      "file": "src/worker-script/browser/index.js",
+      "line": 22,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 36,
+      "column": 97,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In load(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 36,
+      "column": 107,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 47,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In TesseractProgress(): parameter 'percent' needs a type. Add: @param {number} percent"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 55,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'tessModule' needs a type. Add: @param {unknown} tessModule"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 65,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In FS(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 84,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadLanguage(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 101,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadAndGunzipFile(): parameter '_lang' needs a type. Add: @param {object} _lang"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 154,
+      "column": 28,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 203,
+      "column": 64,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setParameters(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 235,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 238,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 274,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lang' needs a type. Add: @param {unknown} lang"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 284,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 292,
+      "column": 126,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 296,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lang' needs a type. Add: @param {unknown} lang"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 320,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In processOutput(): parameter 'output' needs a type. Add: @param {object} output"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 347,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In recognize(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 446,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In detect(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 477,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "terminate needs types for 2 parameters: _, res: object"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 500,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "dispatchHandlers needs JSDoc: @param {any} packet, @param {Function} send"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 500,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dispatchHandlers(): parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 501,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "res needs types for 2 parameters: status, data: object"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 530,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 541,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setAdapter needs JSDoc: @param {any} _adapter"
+    },
+    {
+      "file": "src/worker-script/index.js",
+      "line": 541,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setAdapter(): parameter '_adapter' needs a type. Add: @param {unknown} _adapter"
+    },
+    {
+      "file": "src/worker-script/node/cache.js",
+      "line": 9,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deleteCache(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "src/worker-script/node/cache.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkCache(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "src/worker-script/node/getCore.js",
+      "line": 11,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: oem, _, res: object"
+    },
+    {
+      "file": "src/worker-script/node/getCore.js",
+      "line": 11,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} oem, @param {any} _, @param {any} res, @returns {Promise<any>}"
+    },
+    {
+      "file": "src/worker-script/node/index.js",
+      "line": 23,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "src/worker-script/node/index.js",
+      "line": 24,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/worker-script/utils/arrayBufferToBase64.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} arrayBuffer, @returns {string}"
+    },
+    {
+      "file": "src/worker-script/utils/arrayBufferToBase64.js",
+      "line": 7,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'arrayBuffer' needs a type. Add: @param {unknown} arrayBuffer"
+    },
+    {
+      "file": "src/worker-script/utils/dump.js",
+      "line": 25,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deindent(): parameter 'html' needs a type. Add: @param {string} html"
+    },
+    {
+      "file": "src/worker-script/utils/dump.js",
+      "line": 44,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 4 parameters: TessModule: object, api: object, output: object, options: object"
+    },
+    {
+      "file": "src/worker-script/utils/dump.js",
+      "line": 44,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} TessModule, @param {any} api, @param {any} output, @param {any} options, @returns {{ text: any; hocr: any; tsv: any; box: any; unlv: any; osd: any; pdf: any; imageColor: string; imageGrey: string; imageBinary: string; confidence: any; blocks: any; layoutBlocks: any; psm: string; oem: string; version: any; debug: any; }}"
+    },
+    {
+      "file": "src/worker-script/utils/dump.js",
+      "line": 45,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "enumToString needs types for 2 parameters: value, prefix: string"
+    },
+    {
+      "file": "src/worker-script/utils/dump.js",
+      "line": 51,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getImage(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "src/worker-script/utils/dump.js",
+      "line": 59,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPDFInternal needs types for 2 parameters: title: string, textonly"
+    },
+    {
+      "file": "src/worker-script/utils/setImage.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: TessModule: object, api: object, image: any[] | object"
+    },
+    {
+      "file": "src/worker-script/utils/setImage.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} TessModule, @param {any} api, @param {any} image"
+    },
+    {
+      "file": "src/worker/browser/loadImage.js",
+      "line": 10,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readFromBlobOrFile(): parameter 'blob' needs a type. Add: @param {unknown} blob"
+    },
+    {
+      "file": "src/worker/browser/loadImage.js",
+      "line": 30,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadImage(): parameter 'image' needs a type. Add: @param {string} image"
+    },
+    {
+      "file": "src/worker/browser/loadImage.js",
+      "line": 55,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'blob' needs a type. Add: @param {unknown} blob"
+    },
+    {
+      "file": "src/worker/browser/onMessage.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: worker: object, handler: Function"
+    },
+    {
+      "file": "src/worker/browser/onMessage.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} worker, @param {any} handler"
+    },
+    {
+      "file": "src/worker/browser/onMessage.js",
+      "line": 4,
+      "column": 38,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/worker/browser/send.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: worker: object, packet"
+    },
+    {
+      "file": "src/worker/browser/send.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} worker, @param {any} packet, @returns {Promise<void>}"
+    },
+    {
+      "file": "src/worker/browser/spawnWorker.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/worker/browser/terminateWorker.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} worker"
+    },
+    {
+      "file": "src/worker/browser/terminateWorker.js",
+      "line": 10,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'worker' needs a type. Add: @param {object} worker"
+    },
+    {
+      "file": "src/worker/node/loadImage.js",
+      "line": 18,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} image, @returns {Promise<Uint8any[]>}"
+    },
+    {
+      "file": "src/worker/node/loadImage.js",
+      "line": 18,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'image' needs a type. Add: @param {string} image"
+    },
+    {
+      "file": "src/worker/node/onMessage.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: worker: object, handler: Function"
+    },
+    {
+      "file": "src/worker/node/onMessage.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} worker, @param {any} handler"
+    },
+    {
+      "file": "src/worker/node/send.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: worker: object, packet"
+    },
+    {
+      "file": "src/worker/node/send.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} worker, @param {any} packet, @returns {Promise<void>}"
+    },
+    {
+      "file": "src/worker/node/spawnWorker.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {Worker}"
+    },
+    {
+      "file": "src/worker/node/terminateWorker.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} worker"
+    },
+    {
+      "file": "src/worker/node/terminateWorker.js",
+      "line": 10,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'worker' needs a type. Add: @param {object} worker"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 26330
+}

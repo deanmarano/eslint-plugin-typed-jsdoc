@@ -1,0 +1,45 @@
+{
+  "name": "utils-merge",
+  "downloadedAt": "2026-01-30T20:28:45.625Z",
+  "lintedAt": "2026-01-30T20:28:45.625Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 3,
+  "errors": 0,
+  "warnings": 3,
+  "byRule": {
+    "estl/require-jsdoc-types": 1,
+    "estl/no-implicit-any": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 16,
+      "column": 28,
+      "rule": "estl/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Exported function missing JSDoc"
+    },
+    {
+      "file": "index.js",
+      "line": 16,
+      "column": 37,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'a' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 16,
+      "column": 40,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'b' has implicit 'any' type - add JSDoc @param annotation"
+    }
+  ],
+  "typesPackage": "@types/utils-merge",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  }
+}

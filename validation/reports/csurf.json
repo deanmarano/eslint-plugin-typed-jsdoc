@@ -1,0 +1,17 @@
+{
+  "name": "csurf",
+  "downloadedAt": "2026-01-30T20:34:10.575Z",
+  "lintedAt": "2026-01-30T20:34:10.575Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/csurf",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.11.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  }
+}

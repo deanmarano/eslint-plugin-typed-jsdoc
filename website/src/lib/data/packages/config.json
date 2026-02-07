@@ -1,0 +1,357 @@
+{
+  "name": "config",
+  "downloadedAt": "2026-02-03T22:02:54.450Z",
+  "lintedAt": "2026-02-03T22:02:54.450Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 42,
+  "errors": 0,
+  "warnings": 42,
+  "byRule": {
+    "tjd/no-implicit-any": 42
+  },
+  "issues": [
+    {
+      "file": "lib/config.js",
+      "line": 209,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setModuleDefaults(): parameter 'defaultProperties' needs a type. Add: @param {unknown} defaultProperties"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 270,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeImmutable needs types for 2 parameters: object: object, value: any[]"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 306,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 317,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: target: object, receiver"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 340,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 441,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadFileConfigs(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 519,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In attachProtoDeep(): parameter 'toObject' needs a type. Add: @param {object} toObject"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 555,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toObject(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 560,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In runStrictnessChecks(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 566,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'src' needs a type. Add: @param {string} src"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 570,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 572,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'filename' needs a type. Add: @param {string} filename"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 589,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'filename' needs a type. Add: @param {string} filename"
+    },
+    {
+      "file": "lib/config.js",
+      "line": 598,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _warnOrThrow(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 97,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeHidden needs types for 2 parameters: object: object, value"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 130,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getOption needs types for 2 parameters: options: object, defaultValue"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 264,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In locateMatchingFiles(): parameter 'allowedFiles' needs a type. Add: @param {object} allowedFiles"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 280,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 283,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 292,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveDeferredConfigs(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 295,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _iterate(): parameter 'prop' needs a type. Add: @param {object} prop"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 326,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'defer' needs a type. Add: @param {object} defer"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 352,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cloneDeep needs types for 3 parameters: parent: object, circular, prototype"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 368,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_clone needs types for 2 parameters: parent: object, depth: number"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 434,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPath(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 464,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setPath needs types for 2 parameters: object: object, value"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 497,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equalsDeep needs types for 2 parameters: object1: object, object2: object"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 553,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extendDeep(): parameter 'mergeInto' needs a type. Add: @param {object} mergeInto"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 613,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 624,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPromise(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 649,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toObject(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 676,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initParam(): parameter 'defaultValue' needs a type. Add: @param {unknown} defaultValue"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 735,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setEnv(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 800,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initParam(): parameter 'defaultValue' needs a type. Add: @param {unknown} defaultValue"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 846,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setEnv(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 857,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addConfig(): parameter 'values' needs a type. Add: @param {unknown} values"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 968,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'configObj' needs a type. Add: @param {unknown} configObj"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 1012,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setModuleDefaults(): parameter 'defaultProperties' needs a type. Add: @param {unknown} defaultProperties"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 1088,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "substituteDeep needs types for 2 parameters: substitutionMap, variables"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 1091,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_substituteVars needs types for 3 parameters: map: object, vars: object, pathTo: object"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 1194,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _toAbsolutePath(): parameter 'configDir' needs a type. Add: @param {object} configDir"
+    },
+    {
+      "file": "lib/util.js",
+      "line": 1202,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_loadParser needs types for 2 parameters: name: string, dir"
+    }
+  ],
+  "typesPackage": "@types/config",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.3.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19274
+}

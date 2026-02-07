@@ -1,0 +1,142 @@
+{
+  "name": "cross-spawn",
+  "downloadedAt": "2026-02-03T22:02:54.449Z",
+  "lintedAt": "2026-02-03T22:02:54.450Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 15,
+  "errors": 0,
+  "warnings": 15,
+  "byRule": {
+    "tjd/no-implicit-any": 14,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "lib/enoent.js",
+      "line": 5,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notFoundError needs types for 2 parameters: original: object, syscall"
+    },
+    {
+      "file": "lib/enoent.js",
+      "line": 15,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hookChildProcess needs types for 2 parameters: cp: object, parsed"
+    },
+    {
+      "file": "lib/enoent.js",
+      "line": 22,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "emit needs types for 2 parameters: name: string, arg1"
+    },
+    {
+      "file": "lib/enoent.js",
+      "line": 34,
+      "column": 51,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-rest-params')."
+    },
+    {
+      "file": "lib/enoent.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "verifyENOENT needs types for 2 parameters: status, parsed: object"
+    },
+    {
+      "file": "lib/enoent.js",
+      "line": 46,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "verifyENOENTSync needs types for 2 parameters: status, parsed: object"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 12,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In detectShebang(): parameter 'parsed' needs a type. Add: @param {object} parsed"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 27,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseNonShell(): parameter 'parsed' needs a type. Add: @param {object} parsed"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 53,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 65,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 3 parameters: command, args: any[], options: object"
+    },
+    {
+      "file": "lib/util/escape.js",
+      "line": 6,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeCommand(): parameter 'arg' needs a type. Add: @param {string} arg"
+    },
+    {
+      "file": "lib/util/escape.js",
+      "line": 13,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "escapeArgument needs types for 2 parameters: arg: string, doubleEscapeMetaChars"
+    },
+    {
+      "file": "lib/util/readShebang.js",
+      "line": 6,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readShebang(): parameter 'command' needs a type. Add: @param {unknown} command"
+    },
+    {
+      "file": "lib/util/resolveCommand.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resolveCommandAttempt needs types for 2 parameters: parsed: object, withoutPathExt"
+    },
+    {
+      "file": "lib/util/resolveCommand.js",
+      "line": 48,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveCommand(): parameter 'parsed' needs a type. Add: @param {unknown} parsed"
+    }
+  ],
+  "typesPackage": "@types/cross-spawn",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.0.6",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19260
+}

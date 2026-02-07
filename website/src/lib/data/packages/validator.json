@@ -1,0 +1,3351 @@
+{
+  "name": "validator",
+  "downloadedAt": "2026-02-03T21:59:01.152Z",
+  "lintedAt": "2026-02-03T21:59:01.152Z",
+  "filesAnalyzed": 114,
+  "totalIssues": 416,
+  "errors": 0,
+  "warnings": 416,
+  "byRule": {
+    "tjd/no-implicit-any": 292,
+    "tjd/require-jsdoc-types": 110,
+    "unknown": 14
+  },
+  "issues": [
+    {
+      "file": "src/lib/blacklist.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "blacklist needs types for 2 parameters: str: string, chars"
+    },
+    {
+      "file": "src/lib/blacklist.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "blacklist needs JSDoc: @param {any} str, @param {any} chars, @returns {any}"
+    },
+    {
+      "file": "src/lib/contains.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "contains needs types for 3 parameters: str: string, elem, options: object"
+    },
+    {
+      "file": "src/lib/contains.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "contains needs JSDoc: @param {any} str, @param {any} elem, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/equals.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equals needs types for 2 parameters: str: string, comparison"
+    },
+    {
+      "file": "src/lib/equals.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "equals needs JSDoc: @param {any} str, @param {any} comparison, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/escape.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "escape needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/lib/escape.js",
+      "line": 3,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escape(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isAbaRouting.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isAbaRouting needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isAbaRouting.js",
+      "line": 8,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAbaRouting(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isAfter.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isAfter needs types for 2 parameters: date, options: object"
+    },
+    {
+      "file": "src/lib/isAfter.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isAfter needs JSDoc: @param {any} date, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isAlpha.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isAlpha needs JSDoc: @param {any} _str, @returns {any}"
+    },
+    {
+      "file": "src/lib/isAlpha.js",
+      "line": 4,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAlpha(): parameter '_str' needs a type. Add: @param {unknown} _str"
+    },
+    {
+      "file": "src/lib/isAlphanumeric.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isAlphanumeric needs JSDoc: @param {any} _str, @returns {any}"
+    },
+    {
+      "file": "src/lib/isAlphanumeric.js",
+      "line": 4,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAlphanumeric(): parameter '_str' needs a type. Add: @param {unknown} _str"
+    },
+    {
+      "file": "src/lib/isAscii.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "src/lib/isAscii.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isAscii needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isAscii.js",
+      "line": 7,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAscii(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isBIC.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBIC needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isBIC.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBIC(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isBase32.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isBase32 needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isBase32.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBase32 needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isBase58.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBase58 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isBase58.js",
+      "line": 6,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBase58(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isBase64.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isBase64 needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isBase64.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBase64 needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isBefore.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isBefore needs types for 2 parameters: date, options: object"
+    },
+    {
+      "file": "src/lib/isBefore.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBefore needs JSDoc: @param {any} date, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isBoolean.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBoolean needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/lib/isBoolean.js",
+      "line": 8,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBoolean(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isBtcAddress.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isBtcAddress needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isBtcAddress.js",
+      "line": 6,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBtcAddress(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isByteLength.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-rest-params')."
+    },
+    {
+      "file": "src/lib/isByteLength.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isByteLength needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isByteLength.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isByteLength needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isCreditCard.js",
+      "line": 25,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isCreditCard needs JSDoc: @param {any} card, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isCreditCard.js",
+      "line": 25,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isCreditCard(): parameter 'card' needs a type. Add: @param {string} card"
+    },
+    {
+      "file": "src/lib/isCreditCard.js",
+      "line": 37,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cardProvider' needs a type. Add: @param {object} cardProvider"
+    },
+    {
+      "file": "src/lib/isCurrency.js",
+      "line": 4,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In currencyRegex(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/lib/isCurrency.js",
+      "line": 6,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: digit, index: number"
+    },
+    {
+      "file": "src/lib/isCurrency.js",
+      "line": 9,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/lib/isCurrency.js",
+      "line": 75,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isCurrency needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isCurrency.js",
+      "line": 75,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isCurrency needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isDataURI.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDataURI needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isDataURI.js",
+      "line": 9,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDataURI(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isDate.js",
+      "line": 9,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isValidFormat(): parameter 'format' needs a type. Add: @param {string} format"
+    },
+    {
+      "file": "src/lib/isDate.js",
+      "line": 13,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "zip needs types for 2 parameters: date: object, format: string"
+    },
+    {
+      "file": "src/lib/isDate.js",
+      "line": 24,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isDate needs types for 2 parameters: input: object, options: object"
+    },
+    {
+      "file": "src/lib/isDate.js",
+      "line": 24,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDate needs JSDoc: @param {any} input, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isDate.js",
+      "line": 33,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'delimiter' needs a type. Add: @param {string} delimiter"
+    },
+    {
+      "file": "src/lib/isDate.js",
+      "line": 36,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'delimiter' needs a type. Add: @param {string} delimiter"
+    },
+    {
+      "file": "src/lib/isDecimal.js",
+      "line": 6,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In decimalRegExp(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/lib/isDecimal.js",
+      "line": 19,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isDecimal needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isDecimal.js",
+      "line": 19,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDecimal needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isDivisibleBy.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isDivisibleBy needs types for 2 parameters: str: string, num: number"
+    },
+    {
+      "file": "src/lib/isDivisibleBy.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDivisibleBy needs JSDoc: @param {any} str, @param {any} num, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isEmail.js",
+      "line": 21,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isEmail.js",
+      "line": 22,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "src/lib/isEmail.js",
+      "line": 64,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isEmail needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isEmail.js",
+      "line": 64,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isEmail needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isEmpty.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isEmpty needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isEmpty.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isEmpty needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isEthereumAddress.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isEthereumAddress needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isEthereumAddress.js",
+      "line": 5,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEthereumAddress(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isFQDN.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isFQDN needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isFQDN.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFQDN needs JSDoc: @param {any} str, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isFQDN.js",
+      "line": 51,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'part' needs a type. Add: @param {object} part"
+    },
+    {
+      "file": "src/lib/isFloat.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isFloat needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isFloat.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFloat needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isFullWidth.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFullWidth needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isFullWidth.js",
+      "line": 5,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFullWidth(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isHSL.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isHSL needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isHSL.js",
+      "line": 8,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isHSL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isHalfWidth.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isHalfWidth needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isHalfWidth.js",
+      "line": 5,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isHalfWidth(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isHash.js",
+      "line": 19,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isHash needs types for 2 parameters: str: string, algorithm"
+    },
+    {
+      "file": "src/lib/isHash.js",
+      "line": 19,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isHash needs JSDoc: @param {any} str, @param {any} algorithm, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isHexColor.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isHexColor needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isHexColor.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isHexColor needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isHexadecimal.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isHexadecimal needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isHexadecimal.js",
+      "line": 5,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isHexadecimal(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIBAN.js",
+      "line": 102,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'countryCode' needs a type. Add: @param {unknown} countryCode"
+    },
+    {
+      "file": "src/lib/isIBAN.js",
+      "line": 178,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isIBAN needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isIBAN.js",
+      "line": 178,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isIBAN(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIMEI.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isIMEI needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isIMEI.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isIMEI needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isIP.js",
+      "line": 47,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isIP needs JSDoc: @param {any} ipAddress, @returns {any}"
+    },
+    {
+      "file": "src/lib/isIP.js",
+      "line": 47,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isIP(): parameter 'ipAddress' needs a type. Add: @param {unknown} ipAddress"
+    },
+    {
+      "file": "src/lib/isIP.js",
+      "line": 51,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-rest-params')."
+    },
+    {
+      "file": "src/lib/isIPRange.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isIPRange needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isIPRange.js",
+      "line": 8,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isIPRange(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISBN.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isISBN needs types for 2 parameters: isbn: string, options: object"
+    },
+    {
+      "file": "src/lib/isISBN.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISBN needs JSDoc: @param {any} isbn, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isISIN.js",
+      "line": 12,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISIN needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISIN.js",
+      "line": 12,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISIN(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO15924.js",
+      "line": 32,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO15924 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO15924.js",
+      "line": 32,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO15924(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO31661Alpha2.js",
+      "line": 32,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO31661Alpha2 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO31661Alpha2.js",
+      "line": 32,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO31661Alpha2(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO31661Alpha3.js",
+      "line": 23,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO31661Alpha3 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO31661Alpha3.js",
+      "line": 23,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO31661Alpha3(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO31661Numeric.js",
+      "line": 23,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO31661Numeric needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO31661Numeric.js",
+      "line": 23,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO31661Numeric(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO4217.js",
+      "line": 33,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO4217 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO4217.js",
+      "line": 33,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO4217(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO6346.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO6346 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO6346.js",
+      "line": 9,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO6346(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO6391.js",
+      "line": 32,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO6391 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO6391.js",
+      "line": 32,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO6391(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO8601.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isISO8601.js",
+      "line": 9,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isValidDate(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISO8601.js",
+      "line": 39,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISO8601 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISO8601.js",
+      "line": 39,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISO8601(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISRC.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISRC needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISRC.js",
+      "line": 6,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISRC(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isISSN.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isISSN needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isISSN.js",
+      "line": 5,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isISSN(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 6,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 25,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: acc, digit, index: number"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 38,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ES(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 63,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'char' needs a type. Add: @param {unknown} char"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 67,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In FI(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 87,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IN(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 126,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, i: number"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 132,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 151,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 156,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NO(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 174,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In TH(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 184,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LK(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 192,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 213,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 226,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 238,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 281,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkAddressCode(): parameter 'addressCode' needs a type. Add: @param {unknown} addressCode"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 283,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkBirthDayCode(): parameter 'birDayCode' needs a type. Add: @param {string} birDayCode"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 290,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 297,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getParityBit(): parameter 'idCardNo' needs a type. Add: @param {string} idCardNo"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 309,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkParityBit(): parameter 'idCardNo' needs a type. Add: @param {string} idCardNo"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 312,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In check15IdCardNo(): parameter 'idCardNo' needs a type. Add: @param {string} idCardNo"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 324,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In check18IdCardNo(): parameter 'idCardNo' needs a type. Add: @param {string} idCardNo"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 336,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkIdCardNo(): parameter 'idCardNo' needs a type. Add: @param {object} idCardNo"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 346,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 377,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 411,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: sum: number, number: number"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 425,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PK(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 437,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isIdentityCard needs types for 2 parameters: str: string, locale"
+    },
+    {
+      "file": "src/lib/isIdentityCard.js",
+      "line": 437,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isIdentityCard needs JSDoc: @param {any} str, @param {any} locale, @returns {any}"
+    },
+    {
+      "file": "src/lib/isIn.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isIn needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isIn.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isIn needs JSDoc: @param {any} str, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isInt.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isInt needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isInt.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isInt needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isJSON.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isJSON needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isJSON.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isJSON needs JSDoc: @param {any} str, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isJWT.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isJWT needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/lib/isJWT.js",
+      "line": 4,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isJWT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isJWT.js",
+      "line": 14,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc, currElem"
+    },
+    {
+      "file": "src/lib/isLatLong.js",
+      "line": 15,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isLatLong needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isLatLong.js",
+      "line": 15,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLatLong needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isLength.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-rest-params')."
+    },
+    {
+      "file": "src/lib/isLength.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isLength needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isLength.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLength needs JSDoc: @param {any} str, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isLength.js",
+      "line": 23,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'discreteLen' needs a type. Add: @param {unknown} discreteLen"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 4,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 6,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 8,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 9,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 10,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 11,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 12,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 13,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 14,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 16,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 18,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 22,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 25,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isLicensePlate needs types for 2 parameters: str: string, locale"
+    },
+    {
+      "file": "src/lib/isLicensePlate.js",
+      "line": 25,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLicensePlate needs JSDoc: @param {any} str, @param {any} locale, @returns {any}"
+    },
+    {
+      "file": "src/lib/isLocale.js",
+      "line": 108,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLocale needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isLocale.js",
+      "line": 108,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLocale(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLowercase.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLowercase needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isLowercase.js",
+      "line": 3,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLowercase(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isLuhnNumber.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLuhnNumber needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isLuhnNumber.js",
+      "line": 3,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLuhnNumber(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isMACAddress.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isMACAddress needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isMACAddress.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMACAddress needs JSDoc: @param {any} str, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isMD5.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMD5 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isMD5.js",
+      "line": 5,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMD5(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isMagnetURI.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMagnetURI needs JSDoc: @param {any} url, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isMagnetURI.js",
+      "line": 5,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMagnetURI(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "src/lib/isMailtoURI.js",
+      "line": 5,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseMailtoQueryString(): parameter 'queryString' needs a type. Add: @param {string} queryString"
+    },
+    {
+      "file": "src/lib/isMailtoURI.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isMailtoURI needs types for 2 parameters: url: string, options: object"
+    },
+    {
+      "file": "src/lib/isMailtoURI.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMailtoURI needs JSDoc: @param {any} url, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isMimeType.js",
+      "line": 29,
+      "column": 123,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isMimeType.js",
+      "line": 32,
+      "column": 159,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isMimeType.js",
+      "line": 35,
+      "column": 187,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isMimeType.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMimeType needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isMimeType.js",
+      "line": 37,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMimeType(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isMobilePhone.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/lib/isMobilePhone.js",
+      "line": 178,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isMobilePhone needs types for 3 parameters: str: string, locale: any[], options: object"
+    },
+    {
+      "file": "src/lib/isMobilePhone.js",
+      "line": 178,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMobilePhone needs JSDoc: @param {any} str, @param {any} locale, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isMobilePhone.js",
+      "line": 184,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/lib/isMongoId.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMongoId needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isMongoId.js",
+      "line": 5,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMongoId(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isMultibyte.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "src/lib/isMultibyte.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMultibyte needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isMultibyte.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMultibyte(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isNumeric.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isNumeric needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isNumeric.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNumeric needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isOctal.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isOctal needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isOctal.js",
+      "line": 5,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOctal(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isPort.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isPort needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isPort.js",
+      "line": 3,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPort(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isPostalCode.js",
+      "line": 84,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isPostalCode needs types for 2 parameters: str: string, locale"
+    },
+    {
+      "file": "src/lib/isPostalCode.js",
+      "line": 84,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isPostalCode needs JSDoc: @param {any} str, @param {any} locale, @returns {any}"
+    },
+    {
+      "file": "src/lib/isRFC3339.js",
+      "line": 24,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isRFC3339 needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isRFC3339.js",
+      "line": 24,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRFC3339(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isRgbColor.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-rest-params')."
+    },
+    {
+      "file": "src/lib/isRgbColor.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isRgbColor needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "src/lib/isRgbColor.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isRgbColor needs JSDoc: @param {any} str, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isSemVer.js",
+      "line": 16,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isSemVer needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/lib/isSemVer.js",
+      "line": 16,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSemVer(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isSlug.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isSlug needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isSlug.js",
+      "line": 5,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSlug(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isStrongPassword.js",
+      "line": 27,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In countChars(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isStrongPassword.js",
+      "line": 29,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'char' needs a type. Add: @param {unknown} char"
+    },
+    {
+      "file": "src/lib/isStrongPassword.js",
+      "line": 41,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In analyzePassword(): parameter 'password' needs a type. Add: @param {object} password"
+    },
+    {
+      "file": "src/lib/isStrongPassword.js",
+      "line": 66,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scorePassword needs types for 2 parameters: analysis: object, scoringOptions: object"
+    },
+    {
+      "file": "src/lib/isStrongPassword.js",
+      "line": 85,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isStrongPassword needs JSDoc: @param {any} str, @returns {number | boolean}"
+    },
+    {
+      "file": "src/lib/isStrongPassword.js",
+      "line": 85,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStrongPassword(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isSurrogatePair.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isSurrogatePair needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isSurrogatePair.js",
+      "line": 5,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSurrogatePair(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 33,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bgBgCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 51,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 101,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In csCzCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 162,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deAtCheck(): parameter 'tin' needs a type. Add: @param {unknown} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 172,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deDeCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 174,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 213,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dkDkCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 253,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 274,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In elCyCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 276,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 305,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In elGrCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 307,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 327,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In enIeCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 328,
+      "column": 81,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 375,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In enUsCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 387,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In esArCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 409,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In esEsCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 447,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In etEeCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 469,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 503,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fiFiCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 536,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In frBeCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 560,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In frFrCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 572,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In frLuCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 588,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hrHrCheck(): parameter 'tin' needs a type. Add: @param {unknown} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 597,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In huHuCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 599,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 623,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In itItNameCheck(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 656,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In itItCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 774,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lvLvCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 814,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mtMtCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 844,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nlNlCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 845,
+      "column": 73,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 854,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In plPlCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 916,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ptBrCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 995,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ptPtCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 996,
+      "column": 87,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1009,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In roRoCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1036,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1055,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skSkCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1088,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In slSiCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1089,
+      "column": 87,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1099,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In svSeCheck(): parameter 'tin' needs a type. Add: @param {object} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1148,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ukUaCheck(): parameter 'tin' needs a type. Add: @param {string} tin"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1150,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1263,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isTaxID needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/lib/isTaxID.js",
+      "line": 1263,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isTaxID(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isTime.js",
+      "line": 21,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isTime needs types for 2 parameters: input, options: object"
+    },
+    {
+      "file": "src/lib/isTime.js",
+      "line": 21,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isTime needs JSDoc: @param {any} input, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/lib/isULID.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isULID needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isULID.js",
+      "line": 3,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isULID(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isURL.js",
+      "line": 56,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isURL needs types for 2 parameters: url: string, options: object"
+    },
+    {
+      "file": "src/lib/isURL.js",
+      "line": 56,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isURL needs JSDoc: @param {any} url, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isURL.js",
+      "line": 93,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cleanUpProtocol(): parameter 'potential_protocol' needs a type. Add: @param {string} potential_protocol"
+    },
+    {
+      "file": "src/lib/isUUID.js",
+      "line": 21,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isUUID needs types for 2 parameters: str: string, version: string"
+    },
+    {
+      "file": "src/lib/isUUID.js",
+      "line": 21,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUUID needs JSDoc: @param {any} str, @param {any} version, @returns {any}"
+    },
+    {
+      "file": "src/lib/isUppercase.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUppercase needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isUppercase.js",
+      "line": 3,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isUppercase(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 4,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AU(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 20,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CH(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 22,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasValidCheckNumber(): parameter 'digits' needs a type. Add: @param {any[]} digits"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 25,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: acc, el: number, idx: number"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 32,
+      "column": 147,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 35,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 43,
+      "column": 89,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 54,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 55,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 56,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BG(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 57,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In HR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 58,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CY(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 59,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CZ(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 60,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In DK(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 61,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In EE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 62,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In FI(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 63,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In FR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 64,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In DE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 65,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In EL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 66,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In HU(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 67,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 68,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 69,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LV(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 70,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 71,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LU(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 72,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In MT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 73,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 74,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 76,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RO(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 77,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SK(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 78,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SI(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 79,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ES(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 80,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 85,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 86,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In MK(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 88,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BY(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 89,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CA(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 90,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IS(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 91,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IN(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 92,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ID(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 93,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In IL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 94,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In KZ(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 95,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NZ(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 96,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NG(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 97,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NO(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 98,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PH(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 99,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RU(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 100,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SM(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 101,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SA(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 102,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RS(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 104,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In TR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 105,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In UA(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 106,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In GB(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 107,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In UZ(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 112,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 113,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BO(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 114,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 115,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CL(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 116,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CO(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 117,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In CR(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 118,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In EC(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 119,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SV(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 120,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In GT(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 121,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In HN(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 122,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In MX(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 123,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NI(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 124,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PA(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 125,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PY(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 126,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 127,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In DO(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 128,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In UY(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 129,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In VE(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 132,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isVAT needs types for 2 parameters: str: string, countryCode"
+    },
+    {
+      "file": "src/lib/isVAT.js",
+      "line": 132,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isVAT needs JSDoc: @param {any} str, @param {any} countryCode, @returns {any}"
+    },
+    {
+      "file": "src/lib/isVariableWidth.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isVariableWidth needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/isVariableWidth.js",
+      "line": 6,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isVariableWidth(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/isWhitelisted.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isWhitelisted needs types for 2 parameters: str: string, chars: object"
+    },
+    {
+      "file": "src/lib/isWhitelisted.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isWhitelisted needs JSDoc: @param {any} str, @param {any} chars, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/ltrim.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ltrim needs types for 2 parameters: str: string, chars: string"
+    },
+    {
+      "file": "src/lib/ltrim.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "ltrim needs JSDoc: @param {any} str, @param {any} chars, @returns {any}"
+    },
+    {
+      "file": "src/lib/matches.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "matches needs types for 3 parameters: str: string, pattern: string, modifiers"
+    },
+    {
+      "file": "src/lib/matches.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "matches needs JSDoc: @param {any} str, @param {any} pattern, @param {any} modifiers, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/normalizeEmail.js",
+      "line": 165,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dotsReplacer(): parameter 'match' needs a type. Add: @param {object} match"
+    },
+    {
+      "file": "src/lib/normalizeEmail.js",
+      "line": 172,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeEmail needs types for 2 parameters: email: string, options: object"
+    },
+    {
+      "file": "src/lib/normalizeEmail.js",
+      "line": 172,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeEmail needs JSDoc: @param {any} email, @param {any} options, @returns {string | false}"
+    },
+    {
+      "file": "src/lib/rtrim.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rtrim needs types for 2 parameters: str: string, chars: string"
+    },
+    {
+      "file": "src/lib/rtrim.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "rtrim needs JSDoc: @param {any} str, @param {any} chars, @returns {any}"
+    },
+    {
+      "file": "src/lib/stripLow.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stripLow needs types for 2 parameters: str: string, keep_new_lines"
+    },
+    {
+      "file": "src/lib/stripLow.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stripLow needs JSDoc: @param {any} str, @param {any} keep_new_lines, @returns {any}"
+    },
+    {
+      "file": "src/lib/toBoolean.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toBoolean needs types for 2 parameters: str: string, strict: boolean"
+    },
+    {
+      "file": "src/lib/toBoolean.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toBoolean needs JSDoc: @param {any} str, @param {any} strict, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/toDate.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toDate needs JSDoc: @param {any} date, @returns {Date}"
+    },
+    {
+      "file": "src/lib/toDate.js",
+      "line": 3,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toDate(): parameter 'date' needs a type. Add: @param {unknown} date"
+    },
+    {
+      "file": "src/lib/toFloat.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toFloat needs JSDoc: @param {any} str, @returns {number}"
+    },
+    {
+      "file": "src/lib/toFloat.js",
+      "line": 3,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toFloat(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/toInt.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toInt needs types for 2 parameters: str: string, radix"
+    },
+    {
+      "file": "src/lib/toInt.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toInt needs JSDoc: @param {any} str, @param {any} radix, @returns {number}"
+    },
+    {
+      "file": "src/lib/trim.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "trim needs types for 2 parameters: str: string, chars"
+    },
+    {
+      "file": "src/lib/trim.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "trim needs JSDoc: @param {any} str, @param {any} chars, @returns {any}"
+    },
+    {
+      "file": "src/lib/unescape.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "unescape needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/lib/unescape.js",
+      "line": 3,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unescape(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 11,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "iso7064Check needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 11,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In iso7064Check(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "luhnCheck needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 26,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In luhnCheck(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reverseMultiplyAndSum needs types for 2 parameters: digits: object, base: number"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "reverseMultiplyAndSum needs JSDoc: @param {any} digits, @param {any} base, @returns {number}"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 65,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "verhoeffCheck needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/util/algorithms.js",
+      "line": 65,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In verhoeffCheck(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/lib/util/assertString.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "assertString needs JSDoc: @param {any} input"
+    },
+    {
+      "file": "src/lib/util/assertString.js",
+      "line": 1,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertString(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "src/lib/util/checkHost.js",
+      "line": 1,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRegExp(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/lib/util/checkHost.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkHost needs types for 2 parameters: host, matches: object"
+    },
+    {
+      "file": "src/lib/util/checkHost.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "checkHost needs JSDoc: @param {any} host, @param {any} matches, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/util/includesArray.js",
+      "line": 1,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "includes needs types for 2 parameters: arr: any[], val"
+    },
+    {
+      "file": "src/lib/util/includesArray.js",
+      "line": 1,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arrVal' needs a type. Add: @param {unknown} arrVal"
+    },
+    {
+      "file": "src/lib/util/includesString.js",
+      "line": 1,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "includes needs types for 2 parameters: str: string, val"
+    },
+    {
+      "file": "src/lib/util/merge.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "merge needs JSDoc: @param {any} defaults, @returns {{}}"
+    },
+    {
+      "file": "src/lib/util/merge.js",
+      "line": 1,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In merge(): parameter 'defaults' needs a type. Add: @param {object} defaults"
+    },
+    {
+      "file": "src/lib/util/nullUndefinedCheck.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNullOrUndefined needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "src/lib/util/nullUndefinedCheck.js",
+      "line": 1,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNullOrUndefined(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/lib/util/toString.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toString needs JSDoc: @param {any} input, @returns {string}"
+    },
+    {
+      "file": "src/lib/util/toString.js",
+      "line": 1,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toString(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "src/lib/util/typeOf.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "typeOf needs JSDoc: @param {any} input, @returns {string}"
+    },
+    {
+      "file": "src/lib/util/typeOf.js",
+      "line": 5,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In typeOf(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "src/lib/whitelist.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "whitelist needs types for 2 parameters: str: string, chars"
+    },
+    {
+      "file": "src/lib/whitelist.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "whitelist needs JSDoc: @param {any} str, @param {any} chars, @returns {any}"
+    }
+  ],
+  "typesPackage": "@types/validator",
+  "typesComparison": {
+    "definitelyTypedVersion": "13.15.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 28761
+}

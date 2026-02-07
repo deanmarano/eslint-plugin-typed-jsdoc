@@ -1,0 +1,414 @@
+{
+  "name": "isotope",
+  "downloadedAt": "2026-02-03T22:10:24.532Z",
+  "lintedAt": "2026-02-03T22:10:24.532Z",
+  "filesAnalyzed": 25,
+  "totalIssues": 49,
+  "errors": 0,
+  "warnings": 49,
+  "byRule": {
+    "unknown": 3,
+    "tjd/no-implicit-any": 46
+  },
+  "issues": [
+    {
+      "file": "js/isotope.js",
+      "line": 11,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-params')."
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 13,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 29,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 6 parameters: Outlayer, getSize: number, matchesSelector, utils, Item, LayoutMode"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 61,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 7 parameters: window: object, Outlayer: object, getSize: number, matchesSelector: Function, utils: object, Item, LayoutMode: object"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 73,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 76,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 134,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initLayoutMode(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 168,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arrange(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 192,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _hideReveal(): parameter 'filtered' needs a type. Add: @param {object} filtered"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 235,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _filter(): parameter 'items' needs a type. Add: @param {any[]} items"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 274,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getFilterTest(): parameter 'filter' needs a type. Add: @param {Function} filter"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 277,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 283,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 288,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 323,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mngSorter(): parameter 'sorter' needs a type. Add: @param {unknown} sorter"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 338,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 342,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 350,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getValueGetter needs types for 2 parameters: attr, query: object"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 353,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {object} elem"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 359,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {object} elem"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 394,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseInt(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 397,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFloat(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 421,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getIsSameSortBy(): parameter 'sortBys' needs a type. Add: @param {object} sortBys"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 431,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getItemSorter needs types for 2 parameters: sortBys: object, sortAsc: object"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 432,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: itemA: object, itemB: object"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 471,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getItemLayoutPosition(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 475,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _manageStamp(): parameter 'stamp' needs a type. Add: @param {unknown} stamp"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 490,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appended(): parameter 'elems' needs a type. Add: @param {unknown} elems"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 502,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prepended(): parameter 'elems' needs a type. Add: @param {unknown} elems"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 519,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _filterRevealAdded(): parameter 'items' needs a type. Add: @param {any[]} items"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 560,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'elems' needs a type. Add: @param {unknown} elems"
+    },
+    {
+      "file": "js/isotope.js",
+      "line": 616,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/item.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/item.js",
+      "line": 26,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Outlayer' needs a type. Add: @param {object} Outlayer"
+    },
+    {
+      "file": "js/layout-mode.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/layout-mode.js",
+      "line": 29,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: getSize: Function, Outlayer: object"
+    },
+    {
+      "file": "js/layout-mode.js",
+      "line": 33,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LayoutMode(): parameter 'isotope' needs a type. Add: @param {object} isotope"
+    },
+    {
+      "file": "js/layout-mode.js",
+      "line": 133,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 2 parameters: namespace, options: object"
+    },
+    {
+      "file": "js/layout-modes/fit-rows.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/layout-modes/fit-rows.js",
+      "line": 25,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'LayoutMode' needs a type. Add: @param {object} LayoutMode"
+    },
+    {
+      "file": "js/layout-modes/fit-rows.js",
+      "line": 39,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getItemLayoutPosition(): parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/layout-modes/masonry.js",
+      "line": 7,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/layout-modes/masonry.js",
+      "line": 30,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: LayoutMode: object, Masonry: object"
+    },
+    {
+      "file": "js/layout-modes/masonry.js",
+      "line": 63,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getOption(): parameter 'option' needs a type. Add: @param {unknown} option"
+    },
+    {
+      "file": "js/layout-modes/vertical.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/layout-modes/vertical.js",
+      "line": 25,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'LayoutMode' needs a type. Add: @param {object} LayoutMode"
+    },
+    {
+      "file": "js/layout-modes/vertical.js",
+      "line": 38,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getItemLayoutPosition(): parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "sandbox/browserify/jq-main.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'id-length')."
+    },
+    {
+      "file": "sandbox/js/require-js.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'id-length')."
+    }
+  ],
+  "typesPackage": "@types/isotope-layout",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.0.15",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 24423
+}

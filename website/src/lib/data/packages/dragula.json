@@ -1,0 +1,325 @@
+{
+  "name": "dragula",
+  "downloadedAt": "2026-02-03T22:08:49.572Z",
+  "lintedAt": "2026-02-03T22:08:49.572Z",
+  "filesAnalyzed": 18,
+  "totalIssues": 38,
+  "errors": 0,
+  "warnings": 38,
+  "byRule": {
+    "tjd/no-implicit-any": 38
+  },
+  "issues": [
+    {
+      "file": "dragula.js",
+      "line": 9,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dragula needs types for 2 parameters: initialContainers, options: object"
+    },
+    {
+      "file": "dragula.js",
+      "line": 62,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isContainer(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 66,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In events(): parameter 'remove' needs a type. Add: @param {unknown} remove"
+    },
+    {
+      "file": "dragula.js",
+      "line": 72,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In eventualMovements(): parameter 'remove' needs a type. Add: @param {unknown} remove"
+    },
+    {
+      "file": "dragula.js",
+      "line": 77,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In movements(): parameter 'remove' needs a type. Add: @param {unknown} remove"
+    },
+    {
+      "file": "dragula.js",
+      "line": 88,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preventGrabbed(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 94,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In grab(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 118,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In startBecauseMouseMoved(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 157,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canStart(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "dragula.js",
+      "line": 193,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canMove(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "dragula.js",
+      "line": 197,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In manualStart(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "dragula.js",
+      "line": 204,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In start(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "dragula.js",
+      "line": 236,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In release(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 256,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "drop needs types for 2 parameters: item, target"
+    },
+    {
+      "file": "dragula.js",
+      "line": 282,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cancel(): parameter 'revert' needs a type. Add: @param {unknown} revert"
+    },
+    {
+      "file": "dragula.js",
+      "line": 325,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isInitialPlacement needs types for 2 parameters: target, s"
+    },
+    {
+      "file": "dragula.js",
+      "line": 337,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findDropTarget needs types for 3 parameters: elementBehindCursor, clientX, clientY"
+    },
+    {
+      "file": "dragula.js",
+      "line": 360,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In drag(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 412,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moved(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "dragula.js",
+      "line": 417,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In spillOver(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 421,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In spillOut(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 450,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getImmediateChild needs types for 2 parameters: dropTarget, target"
+    },
+    {
+      "file": "dragula.js",
+      "line": 461,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getReference needs types for 4 parameters: dropTarget: object, target: object, x: number, y: number"
+    },
+    {
+      "file": "dragula.js",
+      "line": 488,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolve(): parameter 'after' needs a type. Add: @param {unknown} after"
+    },
+    {
+      "file": "dragula.js",
+      "line": 493,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isCopy needs types for 2 parameters: item, container"
+    },
+    {
+      "file": "dragula.js",
+      "line": 498,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "touchy needs types for 4 parameters: el, op, type: string, fn: Function"
+    },
+    {
+      "file": "dragula.js",
+      "line": 524,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In whichMouseButton(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 534,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getOffset(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 542,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getScroll needs types for 2 parameters: scrollProp, offsetProp"
+    },
+    {
+      "file": "dragula.js",
+      "line": 552,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getElementBehindPoint needs types for 3 parameters: point: object, x: number, y: number"
+    },
+    {
+      "file": "dragula.js",
+      "line": 564,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRectWidth(): parameter 'rect' needs a type. Add: @param {object} rect"
+    },
+    {
+      "file": "dragula.js",
+      "line": 565,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRectHeight(): parameter 'rect' needs a type. Add: @param {object} rect"
+    },
+    {
+      "file": "dragula.js",
+      "line": 566,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getParent(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 567,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isInput(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 568,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEditable(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 575,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nextEl(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "dragula.js",
+      "line": 586,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getEventHost(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "dragula.js",
+      "line": 599,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getCoord needs types for 2 parameters: coord, e"
+    }
+  ],
+  "typesPackage": "@types/dragula",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.7.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19392
+}

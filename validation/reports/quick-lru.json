@@ -1,0 +1,153 @@
+{
+  "name": "quick-lru",
+  "downloadedAt": "2026-02-03T22:05:06.638Z",
+  "lintedAt": "2026-02-03T22:05:06.638Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 17,
+  "errors": 0,
+  "warnings": 17,
+  "byRule": {
+    "tjd/no-implicit-any": 15,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 30,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cache' needs a type. Add: @param {unknown} cache"
+    },
+    {
+      "file": "index.js",
+      "line": 40,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, item: object"
+    },
+    {
+      "file": "index.js",
+      "line": 52,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, item: object"
+    },
+    {
+      "file": "index.js",
+      "line": 59,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, item: object"
+    },
+    {
+      "file": "index.js",
+      "line": 63,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, cache: object"
+    },
+    {
+      "file": "index.js",
+      "line": 68,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "index.js",
+      "line": 80,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, item"
+    },
+    {
+      "file": "index.js",
+      "line": 105,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 120,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "index.js",
+      "line": 137,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 149,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In peek(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 159,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In expiresIn(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 166,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In delete(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 181,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resize(): parameter 'newSize' needs a type. Add: @param {number} newSize"
+    },
+    {
+      "file": "index.js",
+      "line": 312,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In forEach(): parameter 'callbackFunction' needs a type. Add: @param {object} callbackFunction"
+    },
+    {
+      "file": "test.js",
+      "line": 15,
+      "column": 19,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new')."
+    },
+    {
+      "file": "test.js",
+      "line": 21,
+      "column": 43,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new')."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 17168
+}

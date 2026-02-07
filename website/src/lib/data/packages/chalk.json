@@ -1,0 +1,280 @@
+{
+  "name": "chalk",
+  "downloadedAt": "2026-02-03T22:01:06.318Z",
+  "lintedAt": "2026-02-03T22:01:06.318Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 32,
+  "errors": 1,
+  "warnings": 31,
+  "byRule": {
+    "import/order": 1,
+    "tjd/no-implicit-any": 24,
+    "unknown": 4,
+    "tjd/require-jsdoc-types": 3
+  },
+  "issues": [
+    {
+      "file": "source/index.js",
+      "line": 3,
+      "column": 10,
+      "rule": "import/order",
+      "severity": "error",
+      "message": "Definition for rule 'import/order' was not found."
+    },
+    {
+      "file": "source/index.js",
+      "line": 24,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In applyOptions(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "source/index.js",
+      "line": 35,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "source/index.js",
+      "line": 36,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "source/index.js",
+      "line": 41,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In chalkFactory(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "source/index.js",
+      "line": 50,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createChalk(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "source/index.js",
+      "line": 74,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getModelAnsi needs types for 3 parameters: model, level, type: string"
+    },
+    {
+      "file": "source/index.js",
+      "line": 126,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "source/index.js",
+      "line": 132,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createStyler needs types for 3 parameters: open, close, parent: object"
+    },
+    {
+      "file": "source/index.js",
+      "line": 152,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createBuilder needs types for 3 parameters: self, _styler, _isEmpty"
+    },
+    {
+      "file": "source/index.js",
+      "line": 154,
+      "column": 2,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-implicit-coercion')."
+    },
+    {
+      "file": "source/index.js",
+      "line": 168,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyStyle needs types for 2 parameters: self: object, string: string"
+    },
+    {
+      "file": "source/utilities.js",
+      "line": 2,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stringReplaceAll needs types for 3 parameters: string: string, substring: object, replacer"
+    },
+    {
+      "file": "source/utilities.js",
+      "line": 2,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stringReplaceAll needs JSDoc: @param {any} string, @param {any} substring, @param {any} replacer, @returns {any}"
+    },
+    {
+      "file": "source/utilities.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stringEncaseCRLFWithFirstIndex needs types for 4 parameters: string: string, prefix: string, postfix, index: number"
+    },
+    {
+      "file": "source/utilities.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stringEncaseCRLFWithFirstIndex needs JSDoc: @param {any} string, @param {any} prefix, @param {any} postfix, @param {any} index, @returns {string}"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 3,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {unknown} code"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 5,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {unknown} code"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: red, green, blue"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 112,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "value needs types for 3 parameters: red: number, green: number, blue: number"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 135,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'hex' needs a type. Add: @param {object} hex"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 150,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-bitwise')."
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 160,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'hex' needs a type. Add: @param {unknown} hex"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 164,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'code' needs a type. Add: @param {number} code"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 197,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-bitwise')."
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 209,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "value needs types for 3 parameters: red, green, blue"
+    },
+    {
+      "file": "source/vendor/ansi-styles/index.js",
+      "line": 213,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'hex' needs a type. Add: @param {unknown} hex"
+    },
+    {
+      "file": "source/vendor/supports-color/index.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasFlag(): parameter 'flag' needs a type. Add: @param {string} flag"
+    },
+    {
+      "file": "source/vendor/supports-color/index.js",
+      "line": 47,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In translateLevel(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "source/vendor/supports-color/index.js",
+      "line": 60,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _supportsColor(): parameter 'haveStream' needs a type. Add: @param {unknown} haveStream"
+    },
+    {
+      "file": "source/vendor/supports-color/index.js",
+      "line": 176,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createSupportsColor needs JSDoc: @param {any} stream, @returns {false | { level: any; hasBasic: boolean; has256: boolean; has16m: boolean; }}"
+    },
+    {
+      "file": "source/vendor/supports-color/index.js",
+      "line": 176,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createSupportsColor(): parameter 'stream' needs a type. Add: @param {object} stream"
+    }
+  ],
+  "typesPackage": "@types/chalk",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.2.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 23202
+}

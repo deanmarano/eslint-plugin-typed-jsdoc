@@ -1,0 +1,33 @@
+{
+  "name": "escape-string-regexp",
+  "downloadedAt": "2026-02-03T22:04:25.835Z",
+  "lintedAt": "2026-02-03T22:04:25.835Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "escapeStringRegexp needs JSDoc: @param {any} string, @returns {string}"
+    },
+    {
+      "file": "index.js",
+      "line": 1,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeStringRegexp(): parameter 'string' needs a type. Add: @param {string} string"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19241
+}

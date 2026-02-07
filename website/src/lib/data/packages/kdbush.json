@@ -1,0 +1,49 @@
+{
+  "name": "kdbush",
+  "downloadedAt": "2026-02-03T22:06:56.707Z",
+  "lintedAt": "2026-02-03T22:06:56.707Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 4,
+  "errors": 4,
+  "warnings": 0,
+  "byRule": {
+    "tjd/accurate-jsdoc": 3,
+    "@stylistic/comma-spacing": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 238,
+      "column": 15,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'ids': Uint16Array | Uint32Array → Uint16Array<ArrayBufferLike> | Uint32Array<ArrayBufferLike>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "index.js",
+      "line": 262,
+      "column": 17,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'ids': Uint16Array | Uint32Array → Uint16Array<ArrayBufferLike> | Uint32Array<ArrayBufferLike>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "index.js",
+      "line": 308,
+      "column": 19,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'ids': Uint16Array | Uint32Array → Uint16Array<ArrayBufferLike> | Uint32Array<ArrayBufferLike>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "test.js",
+      "line": 5,
+      "column": 1,
+      "rule": "@stylistic/comma-spacing",
+      "severity": "error",
+      "message": "Definition for rule '@stylistic/comma-spacing' was not found."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 21302
+}

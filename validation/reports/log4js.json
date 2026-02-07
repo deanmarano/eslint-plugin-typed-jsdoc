@@ -1,0 +1,1889 @@
+{
+  "name": "log4js",
+  "downloadedAt": "2026-02-03T22:03:19.679Z",
+  "lintedAt": "2026-02-03T22:03:19.679Z",
+  "filesAnalyzed": 27,
+  "totalIssues": 233,
+  "errors": 2,
+  "warnings": 231,
+  "byRule": {
+    "tjd/no-implicit-any": 210,
+    "unknown": 19,
+    "import/no-dynamic-require": 1,
+    "tjd/require-jsdoc-types": 2,
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 23,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canSerialise(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 32,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serialise(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 37,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canDeserialise(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 41,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deserialise(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 62,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: context: object, location: object"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 67,
+      "column": 48,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-object-spread')."
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 77,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 98,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, value: object"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 102,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-object-spread')."
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 116,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deserialise(): parameter 'serialised' needs a type. Add: @param {unknown} serialised"
+    },
+    {
+      "file": "lib/LoggingEvent.js",
+      "line": 119,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, value: object"
+    },
+    {
+      "file": "lib/appenders/adapters.js",
+      "line": 1,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In maxFileSizeUnitTransform(): parameter 'maxLogSize' needs a type. Add: @param {number} maxLogSize"
+    },
+    {
+      "file": "lib/appenders/adapters.js",
+      "line": 22,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "adapter needs types for 2 parameters: configAdapter: object, config: object"
+    },
+    {
+      "file": "lib/appenders/adapters.js",
+      "line": 23,
+      "column": 48,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-object-spread')."
+    },
+    {
+      "file": "lib/appenders/adapters.js",
+      "line": 32,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fileAppenderAdapter(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/adapters.js",
+      "line": 45,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In modifyConfig(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/categoryFilter.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "categoryFilter needs types for 2 parameters: excludes: object, appender: Function"
+    },
+    {
+      "file": "lib/appenders/categoryFilter.js",
+      "line": 5,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'logEvent' needs a type. Add: @param {object} logEvent"
+    },
+    {
+      "file": "lib/appenders/categoryFilter.js",
+      "line": 14,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 3 parameters: config: object, layouts, findAppender: Function"
+    },
+    {
+      "file": "lib/appenders/console.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/appenders/console.js",
+      "line": 4,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "consoleAppender needs types for 2 parameters: layout: Function, timezoneOffset"
+    },
+    {
+      "file": "lib/appenders/console.js",
+      "line": 5,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/console.js",
+      "line": 10,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "openTheStream needs types for 3 parameters: filename, pattern: string, options: object"
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 8,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 9,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 31,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "appender needs types for 5 parameters: filename, pattern: string, layout: Function, options: object, timezoneOffset"
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 38,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In app(): parameter 'logEvent' needs a type. Add: @param {unknown} logEvent"
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 47,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'complete' needs a type. Add: @param {unknown} complete"
+    },
+    {
+      "file": "lib/appenders/dateFile.js",
+      "line": 54,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 11,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'app' needs a type. Add: @param {object} app"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 29,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fileAppender needs types for 6 parameters: file: object, layout: Function, logSize: number, numBackups, options: object, timezoneOffset"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 63,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "openTheStream needs types for 4 parameters: filePath: string, fileSize: number, numFiles, opt"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 70,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 71,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 86,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In app(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 91,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 93,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {string} d"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 114,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'complete' needs a type. Add: @param {unknown} complete"
+    },
+    {
+      "file": "lib/appenders/file.js",
+      "line": 135,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "touchFile needs types for 2 parameters: file, options: object"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mkdir(): parameter 'dir' needs a type. Add: @param {unknown} dir"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 47,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: filename, maxLogSize: number, backups, options: object"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 60,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In currentFileSize(): parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 84,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In roll(): parameter 'filename' needs a type. Add: @param {unknown} filename"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 88,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In justTheseFiles(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 92,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In index(): parameter 'filename_' needs a type. Add: @param {object} filename_"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 98,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "byIndex needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 102,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In increaseFileIndex(): parameter 'fileToRename' needs a type. Add: @param {unknown} fileToRename"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 140,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 141,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "write needs types for 2 parameters: chunk: object, encoding: string"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 174,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fileAppender needs types for 6 parameters: file: object, layout: Function, logSize: number, numBackups, options: object, timezoneOffset"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 208,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "openTheStream needs types for 3 parameters: filePath: string, fileSize: number, numFiles"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 214,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'f' needs a type. Add: @param {unknown} f"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 219,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 231,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/fileSync.js",
+      "line": 236,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 24,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tryLoading needs types for 2 parameters: modulePath: string, config: object"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 35,
+      "column": 5,
+      "rule": "import/no-dynamic-require",
+      "severity": "error",
+      "message": "Definition for rule 'import/no-dynamic-require' was not found."
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 35,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'global-require')."
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 48,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadAppenderModule needs types for 2 parameters: type: string, config: object"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 59,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getAppender needs types for 2 parameters: name: string, config: object"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 67,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 74,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createAppender needs types for 2 parameters: name: string, config: object"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 109,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'global-require')."
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 120,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'appender' needs a type. Add: @param {unknown} appender"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 128,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setup(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 136,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'category' needs a type. Add: @param {object} category"
+    },
+    {
+      "file": "lib/appenders/index.js",
+      "line": 157,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/logLevelFilter.js",
+      "line": 1,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logLevelFilter needs types for 4 parameters: minLevelString, maxLevelString, appender: Function, levels: object"
+    },
+    {
+      "file": "lib/appenders/logLevelFilter.js",
+      "line": 4,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'logEvent' needs a type. Add: @param {object} logEvent"
+    },
+    {
+      "file": "lib/appenders/logLevelFilter.js",
+      "line": 15,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 4 parameters: config: object, layouts, findAppender: Function, levels"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 5,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findFileKey needs types for 2 parameters: property, event: Event"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 8,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 13,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkForTimeout(): parameter 'fileKey' needs a type. Add: @param {unknown} fileKey"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 23,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 35,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appender(): parameter 'logEvent' needs a type. Add: @param {unknown} logEvent"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 68,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 74,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: timer: object, fileKey"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 78,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: app: object, fileKey"
+    },
+    {
+      "file": "lib/appenders/multiFile.js",
+      "line": 80,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 12,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logServer needs types for 3 parameters: config: object, actualAppender: Function, levels: object"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 17,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deserializeLoggingEvent needs types for 2 parameters: clientSocket: object, msg"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 31,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In logTheMessage(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 36,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In chunkReceived(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 49,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleError(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 69,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 76,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In app(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 81,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 89,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In workerAppender(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 95,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 135,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 145,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 161,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createAppender needs types for 3 parameters: config: object, appender, levels"
+    },
+    {
+      "file": "lib/appenders/multiprocess.js",
+      "line": 171,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 4 parameters: config: object, layouts, findAppender: Function, levels"
+    },
+    {
+      "file": "lib/appenders/noLogFilter.js",
+      "line": 21,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'logEvent' needs a type. Add: @param {object} logEvent"
+    },
+    {
+      "file": "lib/appenders/noLogFilter.js",
+      "line": 30,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/appenders/noLogFilter.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 3 parameters: config: object, layouts, findAppender: Function"
+    },
+    {
+      "file": "lib/appenders/recording.js",
+      "line": 5,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/recording.js",
+      "line": 6,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'logEvent' needs a type. Add: @param {unknown} logEvent"
+    },
+    {
+      "file": "lib/appenders/stderr.js",
+      "line": 1,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stderrAppender needs types for 2 parameters: layout: Function, timezoneOffset"
+    },
+    {
+      "file": "lib/appenders/stderr.js",
+      "line": 2,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/stderr.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/stdout.js",
+      "line": 1,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stdoutAppender needs types for 2 parameters: layout: Function, timezoneOffset"
+    },
+    {
+      "file": "lib/appenders/stdout.js",
+      "line": 2,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/stdout.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/tcp-server.js",
+      "line": 8,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "configure needs JSDoc: @param {any} config, @returns {{ shutdown: (cb: any) => void; }}"
+    },
+    {
+      "file": "lib/appenders/tcp-server.js",
+      "line": 8,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/appenders/tcp-server.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In send(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/appenders/tcp-server.js",
+      "line": 44,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/appenders/tcp.js",
+      "line": 4,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "appender needs types for 2 parameters: config: object, layout: Function"
+    },
+    {
+      "file": "lib/appenders/tcp.js",
+      "line": 11,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/tcp.js",
+      "line": 56,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/appenders/tcp.js",
+      "line": 65,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shutdown(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/appenders/tcp.js",
+      "line": 81,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configure needs types for 2 parameters: config: object, layouts: object"
+    },
+    {
+      "file": "lib/appenders/tcp.js",
+      "line": 83,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In layout(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 48,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ap' needs a type. Add: @param {unknown} ap"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 72,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 76,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 121,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'appender' needs a type. Add: @param {unknown} appender"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 144,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setup(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 154,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'appender' needs a type. Add: @param {unknown} appender"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 173,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configForCategory(): parameter 'category' needs a type. Add: @param {object} category"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 197,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appendersForCategory(): parameter 'category' needs a type. Add: @param {unknown} category"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 200,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getLevelForCategory(): parameter 'category' needs a type. Add: @param {unknown} category"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 201,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setLevelForCategory needs types for 2 parameters: category, level"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 205,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getEnableCallStackForCategory(): parameter 'category' needs a type. Add: @param {unknown} category"
+    },
+    {
+      "file": "lib/categories.js",
+      "line": 207,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setEnableCallStackForCategory needs types for 2 parameters: category, useCallStack"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 8,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'global-require')."
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 24,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sendToListeners(): parameter 'logEvent' needs a type. Add: @param {unknown} logEvent"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 25,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {Function} l"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 30,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "receiver needs types for 2 parameters: worker: object, message: string"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 45,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 87,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onlyOnMaster needs types for 2 parameters: fn: Function, notMaster"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 89,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In send(): parameter 'msg' needs a type. Add: @param {object} msg"
+    },
+    {
+      "file": "lib/clustering.js",
+      "line": 102,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onMessage(): parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "lib/clusteringBrowser.js",
+      "line": 8,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sendToListeners(): parameter 'logEvent' needs a type. Add: @param {unknown} logEvent"
+    },
+    {
+      "file": "lib/clusteringBrowser.js",
+      "line": 9,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {Function} l"
+    },
+    {
+      "file": "lib/clusteringBrowser.js",
+      "line": 13,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onlyOnMaster needs types for 2 parameters: fn: Function, notMaster"
+    },
+    {
+      "file": "lib/clusteringBrowser.js",
+      "line": 16,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onMessage(): parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 7,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In not(): parameter 'thing' needs a type. Add: @param {unknown} thing"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 9,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In anObject(): parameter 'thing' needs a type. Add: @param {unknown} thing"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 12,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validIdentifier(): parameter 'thing' needs a type. Add: @param {unknown} thing"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 14,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In anInteger(): parameter 'thing' needs a type. Add: @param {unknown} thing"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 17,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addListener(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 22,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addPreProcessingListener(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 29,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwExceptionIf needs types for 3 parameters: config: object, checks, message: string"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 31,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {unknown} test"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 42,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'candidate' needs a type. Add: @param {unknown} candidate"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 47,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "lib/configuration.js",
+      "line": 51,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 35,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arrayUniqueTokens(): parameter 'array' needs a type. Add: @param {any[]} array"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 40,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'eqeqeq')."
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 42,
+      "column": 29,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-plusplus')."
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 94,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replacement needs types for 2 parameters: _, field: string"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 100,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replacement needs types for 2 parameters: _, field: string"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 166,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'reg' needs a type. Add: @param {object} reg"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 195,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'rule' needs a type. Add: @param {object} rule"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 241,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: logger4js, options: object"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 241,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} logger4js, @param {any} options, @returns {Function}"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 252,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 270,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeHead needs types for 2 parameters: code, headers: object"
+    },
+    {
+      "file": "lib/connect-logger.js",
+      "line": 308,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 27,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In colorizeStart(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 31,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In colorizeEnd(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "colorize needs types for 2 parameters: str: string, style"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 42,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "timestampLevelAndCategory needs types for 2 parameters: loggingEvent: object, colour"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 63,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In basicLayout(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 73,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In colouredLayout(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 80,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In messagePassThroughLayout(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 84,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dummyLayout(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 137,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "patternLayout needs types for 2 parameters: pattern: string, tokens: object"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 144,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "categoryName needs types for 2 parameters: loggingEvent: object, specifier"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 158,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatAsDate needs types for 2 parameters: loggingEvent: object, specifier"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 215,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatMessage needs types for 2 parameters: loggingEvent: object, specifier: string"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 228,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In logLevel(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 232,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In startTime(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 236,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In startColour(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 240,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In endColour(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 248,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pid(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 261,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "userDefined needs types for 2 parameters: loggingEvent, specifier"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 271,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "contextDefined needs types for 2 parameters: loggingEvent: object, specifier"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 281,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fileName needs types for 2 parameters: loggingEvent: object, specifier"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 286,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In convertFileURLToPath(): parameter 'filepath' needs a type. Add: @param {object} filepath"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 325,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lineNumber(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 329,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In columnNumber(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 333,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callStack(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 337,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In className(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 341,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In functionName(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 345,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In functionAlias(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 349,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callerName(): parameter 'loggingEvent' needs a type. Add: @param {object} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 378,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replaceToken needs types for 3 parameters: conversionCharacter, loggingEvent, specifier"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 382,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "truncate needs types for 2 parameters: truncation: object, toTruncate: object"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 393,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pad needs types for 2 parameters: padding: object, toPad: object"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 413,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "truncateAndPad needs types for 3 parameters: toTruncAndPad, truncation, padding"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 420,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'loggingEvent' needs a type. Add: @param {unknown} loggingEvent"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 465,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pattern(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 480,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addLayout needs types for 2 parameters: name: string, serializerGenerator"
+    },
+    {
+      "file": "lib/layouts.js",
+      "line": 483,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "layout needs types for 2 parameters: name: string, config: object"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 16,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: level, levelStr, colour"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 49,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addLevels(): parameter 'customLevels' needs a type. Add: @param {object} customLevels"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 60,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lvl' needs a type. Add: @param {object} lvl"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 68,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 72,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLessThanOrEqualTo(): parameter 'otherLevel' needs a type. Add: @param {object} otherLevel"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 79,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isGreaterThanOrEqualTo(): parameter 'otherLevel' needs a type. Add: @param {object} otherLevel"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 86,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEqualTo(): parameter 'otherLevel' needs a type. Add: @param {object} otherLevel"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 107,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 151,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 36,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sendLogEventToAppender(): parameter 'logEvent' needs a type. Add: @param {object} logEvent"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 42,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'appender' needs a type. Add: @param {Function} appender"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 47,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadConfigurationFile(): parameter 'filename' needs a type. Add: @param {unknown} filename"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 59,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'configurationFileOrObject' needs a type. Add: @param {unknown} configurationFileOrObject"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 61,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 78,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 123,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: accum, next: Function"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 134,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In complete(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 146,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {object} a"
+    },
+    {
+      "file": "lib/log4js.js",
+      "line": 147,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {object} a"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 26,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: import('../types/log4js').CallStack | null → CallStack. JSDoc declares union but TypeScript infers unknown."
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 65,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-else-return')."
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 68,
+      "column": 69,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 72,
+      "column": 72,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 90,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 121,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In useCallStack(): parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 139,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 159,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLevelEnabled(): parameter 'otherLevel' needs a type. Add: @param {unknown} otherLevel"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 163,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_log needs types for 2 parameters: level, data: any[]"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 165,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 198,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addContext needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 202,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeContext(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 210,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setParseCallStackFunction(): parameter 'parseFunction' needs a type. Add: @param {unknown} parseFunction"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 221,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addLevelMethods(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "lib/logger.js",
+      "line": 225,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'g' needs a type. Add: @param {unknown} g"
+    }
+  ],
+  "typesPackage": "@types/log4js",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.3.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21587
+}

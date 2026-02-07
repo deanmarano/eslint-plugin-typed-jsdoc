@@ -1,0 +1,69 @@
+{
+  "name": "proxy-addr",
+  "downloadedAt": "2026-01-30T20:27:25.672Z",
+  "lintedAt": "2026-01-30T20:27:25.672Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 6,
+  "errors": 2,
+  "warnings": 4,
+  "byRule": {
+    "estl/no-implicit-any": 4,
+    "estl/accurate-jsdoc": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 55,
+      "column": 20,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'req' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 55,
+      "column": 25,
+      "rule": "estl/accurate-jsdoc",
+      "severity": "error",
+      "message": "JSDoc @param 'trust' has type 'Function|Array|String', but TypeScript infers 'string | Function | any[]'"
+    },
+    {
+      "file": "index.js",
+      "line": 222,
+      "column": 21,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'req' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 222,
+      "column": 26,
+      "rule": "estl/accurate-jsdoc",
+      "severity": "error",
+      "message": "JSDoc @param 'trust' has type 'Function|Array|String', but TypeScript infers 'string | Function | any[]'"
+    },
+    {
+      "file": "index.js",
+      "line": 255,
+      "column": 26,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'addr' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 307,
+      "column": 26,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'addr' has implicit 'any' type - add JSDoc @param annotation"
+    }
+  ],
+  "typesPackage": "@types/proxy-addr",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  }
+}

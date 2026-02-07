@@ -1,0 +1,1942 @@
+{
+  "name": "d3-shape",
+  "downloadedAt": "2026-02-03T22:06:56.707Z",
+  "lintedAt": "2026-02-03T22:06:56.707Z",
+  "filesAnalyzed": 60,
+  "totalIssues": 240,
+  "errors": 0,
+  "warnings": 240,
+  "byRule": {
+    "tjd/no-implicit-any": 183,
+    "tjd/require-jsdoc-types": 57
+  },
+  "issues": [
+    {
+      "file": "src/arc.js",
+      "line": 5,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arcInnerRadius(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 9,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arcOuterRadius(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 13,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arcStartAngle(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 17,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arcEndAngle(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 21,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arcPadAngle(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 25,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "intersect needs types for 8 parameters: x0: number, y0: number, x1: number, y1: number, x2: number, y2: number, x3: number, y3: number"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 36,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cornerTangents needs types for 7 parameters: x0: number, y0: number, x1: number, y1: number, r1: number, rc: number, cw"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 77,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @returns {{ (...args: any[]): string; centroid(...args: any[]): number[]; innerRadius(_: any, ...args: any[]): ... | ((d: any) => any); outerRadius(_: any, ...args: any[]): ... | ((d: any) => any); cornerRadius(_: any, ...args: any[]): ... | (() => any); ... 4 more ...; context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 235,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In innerRadius(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 239,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In outerRadius(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 243,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cornerRadius(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 247,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In padRadius(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 251,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In startAngle(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 255,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In endAngle(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 259,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In padAngle(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/arc.js",
+      "line": 263,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In context(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: x0: Function, y0: Function, y1: Function"
+    },
+    {
+      "file": "src/area.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} x0, @param {any} y0, @param {any} y1, @returns {{ (data: any): string; x(_: any, ...args: any[]): any; x0(_: any, ...args: any[]): any; x1(_: any, ...args: any[]): any; y(_: any, ...args: any[]): any; y0(_: any, ...args: any[]): any; y1(_: any, ...args: any[]): any; ... 6 more ...; context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/area.js",
+      "line": 20,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In area(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/area.js",
+      "line": 62,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In x(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 66,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In x0(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 70,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In x1(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 74,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In y(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 78,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In y0(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 82,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In y1(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 99,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In defined(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 103,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curve(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/area.js",
+      "line": 107,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In context(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/areaRadial.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @returns {{ (data: any): string; x(_: any, ...args: any[]): any; x0(_: any, ...args: any[]): any; x1(_: any, ...args: any[]): any; y(_: any, ...args: any[]): any; y0(_: any, ...args: any[]): any; y1(_: any, ...args: any[]): any; ... 6 more ...; context(_: any, ...args: any[]): any; } | ((context: any) => Linear)}"
+    },
+    {
+      "file": "src/areaRadial.js",
+      "line": 24,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curve(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/array.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} x, @returns {any}"
+    },
+    {
+      "file": "src/array.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/constant.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} x, @returns {function(): any}"
+    },
+    {
+      "file": "src/constant.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 3 parameters: that: object, x: number, y: number"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "point needs JSDoc: @param {any} that, @param {any} x, @param {any} y"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 12,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Basis needs JSDoc: @param {any} context"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 12,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Basis(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 36,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 49,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {Basis}"
+    },
+    {
+      "file": "src/curve/basis.js",
+      "line": 49,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/basisClosed.js",
+      "line": 4,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BasisClosed(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/basisClosed.js",
+      "line": 37,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/basisClosed.js",
+      "line": 50,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {BasisClosed}"
+    },
+    {
+      "file": "src/curve/basisClosed.js",
+      "line": 50,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/basisOpen.js",
+      "line": 3,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In BasisOpen(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/basisOpen.js",
+      "line": 23,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/basisOpen.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {BasisOpen}"
+    },
+    {
+      "file": "src/curve/basisOpen.js",
+      "line": 37,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 4,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: context: object, x: number"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 42,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 49,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 65,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bumpX needs JSDoc: @param {any} context, @returns {Bump}"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 65,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bumpX(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 69,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bumpY needs JSDoc: @param {any} context, @returns {Bump}"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 69,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bumpY(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 73,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bumpRadial needs JSDoc: @param {any} context, @returns {BumpRadial}"
+    },
+    {
+      "file": "src/curve/bump.js",
+      "line": 73,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bumpRadial(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/bundle.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Bundle needs types for 2 parameters: context: object, beta"
+    },
+    {
+      "file": "src/curve/bundle.js",
+      "line": 39,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/bundle.js",
+      "line": 47,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bundle(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/bundle.js",
+      "line": 51,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In beta(): parameter 'beta' needs a type. Add: @param {unknown} beta"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 3 parameters: that: object, x: number, y: number"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "point needs JSDoc: @param {any} that, @param {any} x, @param {any} y"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 12,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Cardinal needs types for 2 parameters: context: object, tension: number"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 12,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Cardinal needs JSDoc: @param {any} context, @param {any} tension"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 37,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 52,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cardinal(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/cardinal.js",
+      "line": 56,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tension(): parameter 'tension' needs a type. Add: @param {unknown} tension"
+    },
+    {
+      "file": "src/curve/cardinalClosed.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "CardinalClosed needs types for 2 parameters: context: object, tension: number"
+    },
+    {
+      "file": "src/curve/cardinalClosed.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "CardinalClosed needs JSDoc: @param {any} context, @param {any} tension"
+    },
+    {
+      "file": "src/curve/cardinalClosed.js",
+      "line": 37,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/cardinalClosed.js",
+      "line": 52,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cardinal(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/cardinalClosed.js",
+      "line": 56,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tension(): parameter 'tension' needs a type. Add: @param {unknown} tension"
+    },
+    {
+      "file": "src/curve/cardinalOpen.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "CardinalOpen needs types for 2 parameters: context: object, tension: number"
+    },
+    {
+      "file": "src/curve/cardinalOpen.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "CardinalOpen needs JSDoc: @param {any} context, @param {any} tension"
+    },
+    {
+      "file": "src/curve/cardinalOpen.js",
+      "line": 24,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/cardinalOpen.js",
+      "line": 40,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cardinal(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/cardinalOpen.js",
+      "line": 44,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tension(): parameter 'tension' needs a type. Add: @param {unknown} tension"
+    },
+    {
+      "file": "src/curve/catmullRom.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 3 parameters: that: object, x: number, y: number"
+    },
+    {
+      "file": "src/curve/catmullRom.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "point needs JSDoc: @param {any} that, @param {any} x, @param {any} y"
+    },
+    {
+      "file": "src/curve/catmullRom.js",
+      "line": 27,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "CatmullRom needs types for 2 parameters: context: object, alpha"
+    },
+    {
+      "file": "src/curve/catmullRom.js",
+      "line": 54,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/catmullRom.js",
+      "line": 79,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In catmullRom(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/catmullRom.js",
+      "line": 83,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In alpha(): parameter 'alpha' needs a type. Add: @param {unknown} alpha"
+    },
+    {
+      "file": "src/curve/catmullRomClosed.js",
+      "line": 5,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "CatmullRomClosed needs types for 2 parameters: context: object, alpha"
+    },
+    {
+      "file": "src/curve/catmullRomClosed.js",
+      "line": 40,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/catmullRomClosed.js",
+      "line": 65,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In catmullRom(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/catmullRomClosed.js",
+      "line": 69,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In alpha(): parameter 'alpha' needs a type. Add: @param {unknown} alpha"
+    },
+    {
+      "file": "src/curve/catmullRomOpen.js",
+      "line": 4,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "CatmullRomOpen needs types for 2 parameters: context: object, alpha"
+    },
+    {
+      "file": "src/curve/catmullRomOpen.js",
+      "line": 27,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/catmullRomOpen.js",
+      "line": 53,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In catmullRom(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/catmullRomOpen.js",
+      "line": 57,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In alpha(): parameter 'alpha' needs a type. Add: @param {unknown} alpha"
+    },
+    {
+      "file": "src/curve/linear.js",
+      "line": 1,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Linear(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/linear.js",
+      "line": 19,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/linear.js",
+      "line": 29,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {Linear}"
+    },
+    {
+      "file": "src/curve/linear.js",
+      "line": 29,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/linearClosed.js",
+      "line": 3,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LinearClosed(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/linearClosed.js",
+      "line": 16,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/linearClosed.js",
+      "line": 23,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {LinearClosed}"
+    },
+    {
+      "file": "src/curve/linearClosed.js",
+      "line": 23,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 1,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sign(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 9,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slope3 needs types for 3 parameters: that: object, x2: number, y2: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 19,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slope2 needs types for 2 parameters: that: object, t: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 27,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 3 parameters: that: object, t0: number, t1: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 36,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In MonotoneX(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 61,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 79,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In MonotoneY(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 83,
+      "column": 68,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 87,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ReflectContext(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 92,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveTo needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 94,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lineTo needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 95,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezierCurveTo needs types for 6 parameters: x1, y1, x2, y2, x: number, y: number"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 98,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "monotoneX needs JSDoc: @param {any} context, @returns {MonotoneX}"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 98,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In monotoneX(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 102,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "monotoneY needs JSDoc: @param {any} context, @returns {MonotoneY}"
+    },
+    {
+      "file": "src/curve/monotone.js",
+      "line": 102,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In monotoneY(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/natural.js",
+      "line": 1,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Natural(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/natural.js",
+      "line": 38,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/natural.js",
+      "line": 45,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In controlPoints(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/curve/natural.js",
+      "line": 63,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {Natural}"
+    },
+    {
+      "file": "src/curve/natural.js",
+      "line": 63,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/radial.js",
+      "line": 5,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Radial(): parameter 'curve' needs a type. Add: @param {unknown} curve"
+    },
+    {
+      "file": "src/curve/radial.js",
+      "line": 22,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: a, r: number"
+    },
+    {
+      "file": "src/curve/radial.js",
+      "line": 27,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "curveRadial needs JSDoc: @param {any} curve, @returns {{ (context: any): Radial; _curve: any; }}"
+    },
+    {
+      "file": "src/curve/radial.js",
+      "line": 27,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curveRadial(): parameter 'curve' needs a type. Add: @param {Function} curve"
+    },
+    {
+      "file": "src/curve/radial.js",
+      "line": 29,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In radial(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 1,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Step needs types for 2 parameters: context: object, t"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 22,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 43,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} context, @returns {Step}"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 43,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stepBefore needs JSDoc: @param {any} context, @returns {Step}"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 47,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stepBefore(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 51,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stepAfter needs JSDoc: @param {any} context, @returns {Step}"
+    },
+    {
+      "file": "src/curve/step.js",
+      "line": 51,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stepAfter(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/descending.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/descending.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} a, @param {any} b, @returns {number}"
+    },
+    {
+      "file": "src/identity.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} d, @returns {any}"
+    },
+    {
+      "file": "src/identity.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/line.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: x: Function, y: Function"
+    },
+    {
+      "file": "src/line.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} x, @param {any} y, @returns {{ (data: any): string; x(_: any, ...args: any[]): any; y(_: any, ...args: any[]): any; defined(_: any, ...args: any[]): (() => any) | ...; curve(_: any, ...args: any[]): ((context: any) => Linear) | ...; context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/line.js",
+      "line": 17,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In line(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/line.js",
+      "line": 37,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In x(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/line.js",
+      "line": 41,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In y(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/line.js",
+      "line": 45,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In defined(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/line.js",
+      "line": 49,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curve(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/line.js",
+      "line": 53,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In context(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/lineRadial.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "lineRadial needs JSDoc: @param {any} l, @returns {any}"
+    },
+    {
+      "file": "src/lineRadial.js",
+      "line": 4,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lineRadial(): parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/lineRadial.js",
+      "line": 10,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curve(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/lineRadial.js",
+      "line": 17,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/link.js",
+      "line": 7,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In linkSource(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/link.js",
+      "line": 11,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In linkTarget(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/link.js",
+      "line": 15,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "link needs JSDoc: @param {any} curve, @returns {{ (...args: any[]): string; source(_: any, ...args: any[]): ... | ((d: any) => any); target(_: any, ...args: any[]): ... | ((d: any) => any); x(_: any, ...args: any[]): ... | ((p: any) => any); y(_: any, ...args: any[]): ... | ((p: any) => any); context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/link.js",
+      "line": 15,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In link(): parameter 'curve' needs a type. Add: @param {Function} curve"
+    },
+    {
+      "file": "src/link.js",
+      "line": 37,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In source(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/link.js",
+      "line": 41,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In target(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/link.js",
+      "line": 45,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In x(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/link.js",
+      "line": 49,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In y(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/link.js",
+      "line": 53,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In context(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/link.js",
+      "line": 60,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "linkHorizontal needs JSDoc: @returns {{ (...args: any[]): string; source(_: any, ...args: any[]): ... | ((d: any) => any); target(_: any, ...args: any[]): ... | ((d: any) => any); x(_: any, ...args: any[]): ... | ((p: any) => any); y(_: any, ...args: any[]): ... | ((p: any) => any); context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/link.js",
+      "line": 64,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "linkVertical needs JSDoc: @returns {{ (...args: any[]): string; source(_: any, ...args: any[]): ... | ((d: any) => any); target(_: any, ...args: any[]): ... | ((d: any) => any); x(_: any, ...args: any[]): ... | ((p: any) => any); y(_: any, ...args: any[]): ... | ((p: any) => any); context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/link.js",
+      "line": 68,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "linkRadial needs JSDoc: @returns {{ (...args: any[]): string; source(_: any, ...args: any[]): ... | ((d: any) => any); target(_: any, ...args: any[]): ... | ((d: any) => any); x(_: any, ...args: any[]): ... | ((p: any) => any); y(_: any, ...args: any[]): ... | ((p: any) => any); context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/math.js",
+      "line": 14,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "acos needs JSDoc: @param {any} x, @returns {number}"
+    },
+    {
+      "file": "src/math.js",
+      "line": 14,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In acos(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/math.js",
+      "line": 18,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "asin needs JSDoc: @param {any} x, @returns {number}"
+    },
+    {
+      "file": "src/math.js",
+      "line": 18,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In asin(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/offset/diverging.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: series: object, order: object"
+    },
+    {
+      "file": "src/offset/diverging.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @param {any} order"
+    },
+    {
+      "file": "src/offset/expand.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: series: object, order"
+    },
+    {
+      "file": "src/offset/expand.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @param {any} order"
+    },
+    {
+      "file": "src/offset/none.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: series: object, order: object"
+    },
+    {
+      "file": "src/offset/none.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @param {any} order"
+    },
+    {
+      "file": "src/offset/silhouette.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: series: object, order"
+    },
+    {
+      "file": "src/offset/silhouette.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @param {any} order"
+    },
+    {
+      "file": "src/offset/wiggle.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: series: object, order: object"
+    },
+    {
+      "file": "src/offset/wiggle.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @param {any} order"
+    },
+    {
+      "file": "src/order/appearance.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @returns {any[]}"
+    },
+    {
+      "file": "src/order/appearance.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'series' needs a type. Add: @param {any[]} series"
+    },
+    {
+      "file": "src/order/appearance.js",
+      "line": 5,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/order/appearance.js",
+      "line": 8,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In peak(): parameter 'series' needs a type. Add: @param {object} series"
+    },
+    {
+      "file": "src/order/ascending.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @returns {any[]}"
+    },
+    {
+      "file": "src/order/ascending.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'series' needs a type. Add: @param {any[]} series"
+    },
+    {
+      "file": "src/order/ascending.js",
+      "line": 5,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/order/ascending.js",
+      "line": 8,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sum needs JSDoc: @param {any} series, @returns {number}"
+    },
+    {
+      "file": "src/order/ascending.js",
+      "line": 8,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sum(): parameter 'series' needs a type. Add: @param {object} series"
+    },
+    {
+      "file": "src/order/descending.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @returns {any[]}"
+    },
+    {
+      "file": "src/order/descending.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'series' needs a type. Add: @param {unknown} series"
+    },
+    {
+      "file": "src/order/insideOut.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @returns {any[]}"
+    },
+    {
+      "file": "src/order/insideOut.js",
+      "line": 4,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'series' needs a type. Add: @param {any[]} series"
+    },
+    {
+      "file": "src/order/none.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @returns {any[]}"
+    },
+    {
+      "file": "src/order/none.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'series' needs a type. Add: @param {object} series"
+    },
+    {
+      "file": "src/order/reverse.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} series, @returns {any[]}"
+    },
+    {
+      "file": "src/order/reverse.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'series' needs a type. Add: @param {unknown} series"
+    },
+    {
+      "file": "src/path.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "withPath needs JSDoc: @param {any} shape, @returns {function(): any}"
+    },
+    {
+      "file": "src/path.js",
+      "line": 3,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In withPath(): parameter 'shape' needs a type. Add: @param {object} shape"
+    },
+    {
+      "file": "src/path.js",
+      "line": 6,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In digits(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @returns {{ (data: any, ...args: any[]): any[]; value(_: any, ...args: any[]): ... | ((d: any) => any); sortValues(_: any, ...args: any[]): ... | ((a: any, b: any) => number); sort(_: any, ...args: any[]): any; startAngle(_: any, ...args: any[]): (() => any) | ...; endAngle(_: any, ...args: any[]): (() => any) | ...; padAngle...}"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 15,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pie(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 37,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: i, j"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 38,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: i, j"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 55,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 59,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sortValues(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 63,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sort(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 67,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In startAngle(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 71,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In endAngle(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/pie.js",
+      "line": 75,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In padAngle(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/point.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "x needs JSDoc: @param {any} p, @returns {any}"
+    },
+    {
+      "file": "src/point.js",
+      "line": 1,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In x(): parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "src/point.js",
+      "line": 5,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "y needs JSDoc: @param {any} p, @returns {any}"
+    },
+    {
+      "file": "src/point.js",
+      "line": 5,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In y(): parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "src/pointRadial.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/pointRadial.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} x, @param {any} y, @returns {number[]}"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stackValue needs types for 2 parameters: d: object, key: string"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 10,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stackSeries(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 16,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @returns {{ (data: any, ...args: any[]): any[][]; keys(_: any, ...args: any[]): (() => any) | ...; value(_: any, ...args: any[]): ... | ((d: any, key: any) => any); order(_: any, ...args: any[]): ((series: any) => any[]) | ...; offset(_: any, ...args: any[]): ((series: any, order: any) => void) | ...; }}"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 22,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stack(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 41,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keys(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 45,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 49,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In order(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/stack.js",
+      "line": 53,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In offset(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/symbol.js",
+      "line": 39,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Symbol needs types for 2 parameters: type: string, size: number"
+    },
+    {
+      "file": "src/symbol.js",
+      "line": 39,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Symbol needs JSDoc: @param {any} type, @param {any} size, @returns {{ (...args: any[]): string; type(_: any, ...args: any[]): any; size(_: any, ...args: any[]): any; context(_: any, ...args: any[]): any; }}"
+    },
+    {
+      "file": "src/symbol.js",
+      "line": 53,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In type(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/symbol.js",
+      "line": 57,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In size(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/symbol.js",
+      "line": 61,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In context(): parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "src/symbol/asterisk.js",
+      "line": 6,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/circle.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/cross.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/diamond.js",
+      "line": 7,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/diamond2.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/plus.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/square.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/square2.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/star.js",
+      "line": 9,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/times.js",
+      "line": 4,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/triangle.js",
+      "line": 6,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/triangle2.js",
+      "line": 6,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    },
+    {
+      "file": "src/symbol/wye.js",
+      "line": 9,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "draw needs types for 2 parameters: context: object, size: number"
+    }
+  ],
+  "typesPackage": "@types/d3-shape",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.1.8",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22560
+}

@@ -1,0 +1,49 @@
+{
+  "name": "nanoevents",
+  "downloadedAt": "2026-02-03T22:05:24.073Z",
+  "lintedAt": "2026-02-03T22:05:24.073Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 3
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 1,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createNanoEvents needs JSDoc: @returns {{ emit(event: any, ...args: any[]): void; events: {}; on(event: any, cb: any): () => void; }}"
+    },
+    {
+      "file": "index.js",
+      "line": 2,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emit(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "index.js",
+      "line": 14,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 2 parameters: event: Event, cb: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 17,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {unknown} i"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 15972
+}

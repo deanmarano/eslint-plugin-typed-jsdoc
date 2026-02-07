@@ -1,0 +1,422 @@
+{
+  "name": "viewerjs",
+  "downloadedAt": "2026-02-03T22:10:53.183Z",
+  "lintedAt": "2026-02-03T22:10:53.183Z",
+  "filesAnalyzed": 11,
+  "totalIssues": 50,
+  "errors": 0,
+  "warnings": 50,
+  "byRule": {
+    "tjd/no-implicit-any": 49,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "src/js/handlers.js",
+      "line": 34,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In click(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 126,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dblclick(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 194,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadImage(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 201,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: naturalWidth: number, naturalHeight: number"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 228,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keydown(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 317,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-fallthrough')."
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 330,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dragstart(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 336,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pointerdown(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 368,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'touch' needs a type. Add: @param {object} touch"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 390,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pointermove(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 400,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'touch' needs a type. Add: @param {object} touch"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 410,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pointerup(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 415,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'touch' needs a type. Add: @param {object} touch"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 512,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {unknown} image"
+    },
+    {
+      "file": "src/js/handlers.js",
+      "line": 521,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wheel(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/methods.js",
+      "line": 167,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onViewerTransitionEnd(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/methods.js",
+      "line": 245,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/js/methods.js",
+      "line": 859,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: item: object, i"
+    },
+    {
+      "file": "src/js/methods.js",
+      "line": 935,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {unknown} image"
+    },
+    {
+      "file": "src/js/methods.js",
+      "line": 1153,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {unknown} image"
+    },
+    {
+      "file": "src/js/methods.js",
+      "line": 1173,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: item: object, i"
+    },
+    {
+      "file": "src/js/others.js",
+      "line": 25,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getImageURL(): parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/js/others.js",
+      "line": 41,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onFocusin(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/others.js",
+      "line": 152,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In requestFullscreen(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/js/others.js",
+      "line": 203,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In change(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/others.js",
+      "line": 252,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {object} p"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 83,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: image: object, index: number"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 92,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 122,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 133,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 197,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initImage(): parameter 'done' needs a type. Add: @param {Function} done"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 211,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: naturalWidth: number, naturalHeight: number"
+    },
+    {
+      "file": "src/js/render.js",
+      "line": 268,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderImage(): parameter 'done' needs a type. Add: @param {Function} done"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 115,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 117,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {object} arg"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 139,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, property"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 189,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 220,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 248,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 553,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 613,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: pointer: object, pointerId: string"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 616,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pointer2' needs a type. Add: @param {object} pointer2"
+    },
+    {
+      "file": "src/js/utilities.js",
+      "line": 629,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 109,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {unknown} image"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 154,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 163,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'image' needs a type. Add: @param {object} image"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 245,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'className' needs a type. Add: @param {string} className"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 261,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value: object, index: number"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 316,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'rotate' needs a type. Add: @param {unknown} rotate"
+    },
+    {
+      "file": "src/js/viewer.js",
+      "line": 394,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setDefaults(): parameter 'options' needs a type. Add: @param {object} options"
+    }
+  ],
+  "typesPackage": "@types/viewerjs",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 25666
+}

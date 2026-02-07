@@ -1,0 +1,751 @@
+{
+  "name": "chai",
+  "downloadedAt": "2026-02-03T22:00:08.067Z",
+  "lintedAt": "2026-02-03T22:00:08.067Z",
+  "filesAnalyzed": 33,
+  "totalIssues": 91,
+  "errors": 1,
+  "warnings": 90,
+  "byRule": {
+    "tjd/no-implicit-any": 89,
+    "tjd/accurate-jsdoc": 1,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 548,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 555,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 565,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 1668,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: start: number, finish: object, msg"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 1979,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val1, val2"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2356,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: str: string, msg"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2495,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, key: string"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2522,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2535,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val1, val2"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2545,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expectedKey' needs a type. Add: @param {unknown} expectedKey"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2546,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'actualKey' needs a type. Add: @param {unknown} actualKey"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2554,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expectedKey' needs a type. Add: @param {unknown} expectedKey"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2555,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'actualKey' needs a type. Add: @param {unknown} actualKey"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 2567,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3152,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In abs(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3156,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strip(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3184,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3196,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem2' needs a type. Add: @param {unknown} elem2"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3274,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: subset, msg"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3332,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3393,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'possibility' needs a type. Add: @param {unknown} possibility"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 3404,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'possibility' needs a type. Add: @param {unknown} possibility"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 4061,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_msg' needs a type. Add: @param {unknown} _msg"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 4096,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'exp' needs a type. Add: @param {unknown} exp"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 4097,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'act' needs a type. Add: @param {unknown} act"
+    },
+    {
+      "file": "lib/chai/core/assertions.js",
+      "line": 4196,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expected' needs a type. Add: @param {unknown} expected"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 869,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "instanceOf needs types for 2 parameters: val, type: string"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 890,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notInstanceOf needs types for 2 parameters: val, type: string"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1033,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nestedInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1057,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notNestedInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1083,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deepNestedInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1109,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notDeepNestedInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1134,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ownInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1155,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notOwnInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1175,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deepOwnInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1195,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notDeepOwnInclude needs types for 2 parameters: exp, inc"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1253,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In property(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1272,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notProperty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1293,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In propertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1315,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1338,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deepPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1363,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notDeepPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1386,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ownProperty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1405,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notOwnProperty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1427,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ownPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1451,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notOwnPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1476,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deepOwnPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1504,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notDeepOwnPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1529,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nestedProperty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1551,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notNestedProperty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1577,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nestedPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1604,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notNestedPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1630,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deepNestedPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1658,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In notDeepNestedPropertyVal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1707,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasAnyKeys(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1836,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasAnyDeepKeys(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1863,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasAllDeepKeys(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1890,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In containsAllDeepKeys(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1920,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doesNotHaveAnyDeepKeys(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 1950,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doesNotHaveAllDeepKeys(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2541,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In oneOf(): parameter 'inList' needs a type. Add: @param {unknown} inList"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2585,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In changes(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2612,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In changesBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2643,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doesNotChange(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2673,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In changesButNotBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2706,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In increases(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2733,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In increasesBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2766,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doesNotIncrease(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2796,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In increasesButNotBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2829,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In decreases(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2856,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In decreasesBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2889,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doesNotDecrease(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2920,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In doesNotDecreaseBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2953,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In decreasesButNotBy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 2983,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ifError(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3003,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isExtensible(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3027,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNotExtensible(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3050,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSealed(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3068,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNotSealed(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3088,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFrozen(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3106,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNotFrozen(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3131,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEmpty(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/chai/interface/assert.js",
+      "line": 3156,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNotEmpty(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/chai/utils/addChainableMethod.js",
+      "line": 41,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: type: string, name: string, fn: Function, chainingBehavior"
+    },
+    {
+      "file": "lib/chai/utils/events.js",
+      "line": 11,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: type: string, name: string, fn: Function"
+    },
+    {
+      "file": "lib/chai/utils/expectTypes.js",
+      "line": 31,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {string} t"
+    },
+    {
+      "file": "lib/chai/utils/expectTypes.js",
+      "line": 38,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {string} t"
+    },
+    {
+      "file": "lib/chai/utils/expectTypes.js",
+      "line": 48,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expected' needs a type. Add: @param {unknown} expected"
+    },
+    {
+      "file": "lib/chai/utils/flag.js",
+      "line": 27,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: unknown | undefined → unknown. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/chai/utils/proxify.js",
+      "line": 66,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'prop' needs a type. Add: @param {unknown} prop"
+    },
+    {
+      "file": "lib/chai/utils/proxify.js",
+      "line": 69,
+      "column": 13,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-prototype-builtins')."
+    }
+  ],
+  "typesPackage": "@types/chai",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.2.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 34954
+}

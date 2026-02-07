@@ -1,0 +1,13 @@
+{
+  "name": "fast-deep-equal",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/fast-deep-equal",
+  "duration": 17095
+}

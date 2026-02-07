@@ -1,0 +1,137 @@
+{
+  "name": "pify",
+  "downloadedAt": "2026-02-03T22:06:31.727Z",
+  "lintedAt": "2026-02-03T22:06:31.727Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 14,
+  "errors": 2,
+  "warnings": 12,
+  "byRule": {
+    "tjd/no-implicit-any": 10,
+    "tjd/require-jsdoc-types": 1,
+    "no-use-extend-native/no-use-extend-native": 1,
+    "unknown": 1,
+    "unicorn/no-process-exit": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processFunction needs types for 4 parameters: function_, options: object, proxy, unwrapped"
+    },
+    {
+      "file": "index.js",
+      "line": 4,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve: Function, reject: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 19,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: error: Error, result"
+    },
+    {
+      "file": "index.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pify needs types for 2 parameters: input, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pify needs JSDoc: @param {any} input, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "index.js",
+      "line": 50,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filter needs types for 2 parameters: target, key: string"
+    },
+    {
+      "file": "index.js",
+      "line": 62,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In match(): parameter 'pattern' needs a type. Add: @param {string} pattern"
+    },
+    {
+      "file": "index.js",
+      "line": 65,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "index.js",
+      "line": 65,
+      "column": 110,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "index.js",
+      "line": 74,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "apply needs types for 2 parameters: target, thisArg"
+    },
+    {
+      "file": "index.js",
+      "line": 86,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'target' needs a type. Add: @param {object} target"
+    },
+    {
+      "file": "index.js",
+      "line": 89,
+      "column": 4,
+      "rule": "no-use-extend-native/no-use-extend-native",
+      "severity": "error",
+      "message": "Definition for rule 'no-use-extend-native/no-use-extend-native' was not found."
+    },
+    {
+      "file": "optimization-test.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-fallthrough')."
+    },
+    {
+      "file": "optimization-test.js",
+      "line": 42,
+      "column": 19,
+      "rule": "unicorn/no-process-exit",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/no-process-exit' was not found."
+    }
+  ],
+  "typesPackage": "@types/pify",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.1.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 17048
+}

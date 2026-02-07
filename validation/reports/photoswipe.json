@@ -1,0 +1,192 @@
+{
+  "name": "photoswipe",
+  "downloadedAt": "2026-02-03T22:10:53.183Z",
+  "lintedAt": "2026-02-03T22:10:53.183Z",
+  "filesAnalyzed": 33,
+  "totalIssues": 21,
+  "errors": 7,
+  "warnings": 14,
+  "byRule": {
+    "tjd/no-implicit-any": 8,
+    "unknown": 5,
+    "tjd/accurate-jsdoc": 7,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "src/js/gestures/gestures.js",
+      "line": 484,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updatePoints(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/js/gestures/gestures.js",
+      "line": 588,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _convertEventPosToPoint(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/lightbox/lightbox.js",
+      "line": 255,
+      "column": 44,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/js/lightbox/lightbox.js",
+      "line": 256,
+      "column": 37,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/js/lightbox/lightbox.js",
+      "line": 264,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/js/lightbox/lightbox.js",
+      "line": 272,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'filter' needs a type. Add: @param {object} filter"
+    },
+    {
+      "file": "src/js/slide/get-thumb-bounds.js",
+      "line": 71,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Bounds | undefined → Bounds. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "src/js/slide/loader.js",
+      "line": 69,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Content | undefined → Content. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "src/js/ui/button-zoom.js",
+      "line": 9,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/js/ui/loading-indicator.js",
+      "line": 8,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/js/ui/ui-element.js",
+      "line": 150,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onclick(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/js/util/dom-events.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/js/util/dom-events.js",
+      "line": 39,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/js/util/dom-events.js",
+      "line": 51,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/js/util/dom-events.js",
+      "line": 83,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _toggleListener(): parameter 'target' needs a type. Add: @param {object} target"
+    },
+    {
+      "file": "src/js/util/util.js",
+      "line": 10,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: HTMLElementTagNameMap[T] → HTMLElementTagNameMap. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "src/js/util/util.js",
+      "line": 151,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Promise<HTMLImageElement | void> → Promise<any>. JSDoc declares union but TypeScript infers generic."
+    },
+    {
+      "file": "src/js/util/util.js",
+      "line": 195,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getElementsFromOption needs JSDoc: @returns {HTMLElement[]}"
+    },
+    {
+      "file": "src/js/util/viewport-size.js",
+      "line": 11,
+      "column": 33,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': PhotoSwipeOptions → Partial<PreparedPhotoSwipeOptions>. JSDoc declares unknown but TypeScript infers generic."
+    },
+    {
+      "file": "src/js/util/viewport-size.js",
+      "line": 65,
+      "column": 42,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': PhotoSwipeOptions → Partial<PreparedPhotoSwipeOptions>. JSDoc declares unknown but TypeScript infers generic."
+    },
+    {
+      "file": "src/js/util/viewport-size.js",
+      "line": 91,
+      "column": 32,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': PhotoSwipeOptions → Partial<PreparedPhotoSwipeOptions>. JSDoc declares unknown but TypeScript infers generic."
+    }
+  ],
+  "typesPackage": "@types/photoswipe",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.2.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22897
+}

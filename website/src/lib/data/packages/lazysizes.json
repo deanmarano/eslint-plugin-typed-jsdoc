@@ -1,0 +1,200 @@
+{
+  "name": "lazysizes",
+  "downloadedAt": "2026-02-03T22:10:24.532Z",
+  "lintedAt": "2026-02-03T22:10:24.532Z",
+  "filesAnalyzed": 60,
+  "totalIssues": 23,
+  "errors": 0,
+  "warnings": 23,
+  "byRule": {
+    "tjd/no-implicit-any": 23
+  },
+  "issues": [
+    {
+      "file": "lazysizes.js",
+      "line": 1,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 12,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: window: object, document: object, Date: object"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 133,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addRemoveLoadEvents needs types for 3 parameters: dom: object, fn: Function, add"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 151,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In triggerEvent(): parameter 'detail' needs a type. Add: @param {object} detail"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 168,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updatePolyfill needs types for 2 parameters: el: object, full: object"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 180,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getCSS needs types for 2 parameters: elem, style"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 223,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rafBatch needs types for 2 parameters: fn: Function, queue"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 241,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rAFIt needs types for 2 parameters: fn: Function, simple"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 256,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throttle(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 279,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'isPriority' needs a type. Add: @param {boolean} isPriority"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 307,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In debounce(): parameter 'func' needs a type. Add: @param {Function} func"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 349,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resetPreloading(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 356,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isVisible(): parameter 'elem' needs a type. Add: @param {object} elem"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 364,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isNestedVisible needs types for 2 parameters: elem, elemExpand"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 467,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In switchLoadingClass(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 482,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rafSwitchLoadingClass(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 486,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "changeIframeSrc needs types for 2 parameters: elem: object, src: string"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 497,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleSources(): parameter 'source' needs a type. Add: @param {object} source"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 511,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 5 parameters: elem: object, detail: object, isAuto: boolean, sizes, isImg: boolean"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 658,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 664,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'img' needs a type. Add: @param {object} img"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 714,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: elem: object, parent: object, event: Event, width: number"
+    },
+    {
+      "file": "lazysizes.js",
+      "line": 738,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSizeElement(): parameter 'dataAttr' needs a type. Add: @param {unknown} dataAttr"
+    }
+  ],
+  "typesPackage": "@types/lazysizes",
+  "duration": 26142
+}

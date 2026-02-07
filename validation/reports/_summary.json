@@ -1,0 +1,2611 @@
+{
+  "generatedAt": "2026-02-03T22:12:51.996Z",
+  "packages": [
+    {
+      "name": "lodash",
+      "filesAnalyzed": 55,
+      "errors": 10,
+      "warnings": 209,
+      "totalIssues": 219,
+      "typesPackage": "@types/lodash",
+      "duration": 29832
+    },
+    {
+      "name": "express",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 42,
+      "totalIssues": 42,
+      "typesPackage": "@types/express",
+      "duration": 30231
+    },
+    {
+      "name": "debug",
+      "filesAnalyzed": 4,
+      "errors": 1,
+      "warnings": 16,
+      "totalIssues": 17,
+      "typesPackage": "@types/debug",
+      "duration": 30643
+    },
+    {
+      "name": "commander",
+      "filesAnalyzed": 6,
+      "errors": 4,
+      "warnings": 87,
+      "totalIssues": 91,
+      "typesPackage": "@types/commander",
+      "duration": 31046
+    },
+    {
+      "name": "axios",
+      "filesAnalyzed": 62,
+      "errors": 2,
+      "warnings": 271,
+      "totalIssues": 273,
+      "typesPackage": null,
+      "duration": 31629
+    },
+    {
+      "name": "minimist",
+      "filesAnalyzed": 18,
+      "errors": 1,
+      "warnings": 19,
+      "totalIssues": 20,
+      "typesPackage": "@types/minimist",
+      "duration": 31362
+    },
+    {
+      "name": "semver",
+      "filesAnalyzed": 122,
+      "errors": 0,
+      "warnings": 115,
+      "totalIssues": 115,
+      "typesPackage": "@types/semver",
+      "duration": 31801
+    },
+    {
+      "name": "async",
+      "filesAnalyzed": 102,
+      "errors": 0,
+      "warnings": 227,
+      "totalIssues": 227,
+      "typesPackage": "@types/async",
+      "duration": 32288
+    },
+    {
+      "name": "underscore",
+      "filesAnalyzed": 161,
+      "errors": 0,
+      "warnings": 260,
+      "totalIssues": 260,
+      "typesPackage": "@types/underscore",
+      "duration": 19967
+    },
+    {
+      "name": "cookie",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/cookie",
+      "duration": 20377
+    },
+    {
+      "name": "qs",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 43,
+      "totalIssues": 43,
+      "typesPackage": "@types/qs",
+      "duration": 20789
+    },
+    {
+      "name": "body-parser",
+      "filesAnalyzed": 6,
+      "errors": 3,
+      "warnings": 12,
+      "totalIssues": 15,
+      "typesPackage": "@types/body-parser",
+      "duration": 21163
+    },
+    {
+      "name": "morgan",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 19,
+      "totalIssues": 19,
+      "typesPackage": "@types/morgan",
+      "duration": 21555
+    },
+    {
+      "name": "cors",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 16,
+      "totalIssues": 16,
+      "typesPackage": "@types/cors",
+      "duration": 22142
+    },
+    {
+      "name": "dotenv",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 19,
+      "totalIssues": 19,
+      "typesPackage": "@types/dotenv",
+      "duration": 22560
+    },
+    {
+      "name": "request",
+      "filesAnalyzed": 11,
+      "errors": 0,
+      "warnings": 77,
+      "totalIssues": 77,
+      "typesPackage": "@types/request",
+      "duration": 23078
+    },
+    {
+      "name": "on-finished",
+      "filesAnalyzed": 2,
+      "errors": 1,
+      "warnings": 7,
+      "totalIssues": 8,
+      "typesPackage": "@types/on-finished",
+      "duration": 19170
+    },
+    {
+      "name": "serve-static",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": "@types/serve-static",
+      "duration": 19681
+    },
+    {
+      "name": "send",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 6,
+      "totalIssues": 6,
+      "typesPackage": "@types/send",
+      "duration": 20100
+    },
+    {
+      "name": "depd",
+      "filesAnalyzed": 18,
+      "errors": 0,
+      "warnings": 29,
+      "totalIssues": 29,
+      "typesPackage": "@types/depd",
+      "duration": 20587
+    },
+    {
+      "name": "escape-html",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/escape-html",
+      "duration": 21164
+    },
+    {
+      "name": "fresh",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/fresh",
+      "duration": 21666
+    },
+    {
+      "name": "methods",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/methods",
+      "duration": 22283
+    },
+    {
+      "name": "statuses",
+      "filesAnalyzed": 9,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": "@types/statuses",
+      "duration": 22937
+    },
+    {
+      "name": "vary",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/vary",
+      "duration": 27321
+    },
+    {
+      "name": "encodeurl",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/encodeurl",
+      "duration": 27643
+    },
+    {
+      "name": "iconv-lite",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 28,
+      "totalIssues": 28,
+      "typesPackage": "@types/iconv-lite",
+      "duration": 28268
+    },
+    {
+      "name": "destroy",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": "@types/destroy",
+      "duration": 28737
+    },
+    {
+      "name": "negotiator",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 45,
+      "totalIssues": 45,
+      "typesPackage": "@types/negotiator",
+      "duration": 29248
+    },
+    {
+      "name": "moment",
+      "filesAnalyzed": 446,
+      "errors": 0,
+      "warnings": 3834,
+      "totalIssues": 3834,
+      "typesPackage": "@types/moment",
+      "duration": 29793
+    },
+    {
+      "name": "winston",
+      "filesAnalyzed": 17,
+      "errors": 3,
+      "warnings": 114,
+      "totalIssues": 117,
+      "typesPackage": "@types/winston",
+      "duration": 30354
+    },
+    {
+      "name": "passport",
+      "filesAnalyzed": 9,
+      "errors": 1,
+      "warnings": 39,
+      "totalIssues": 40,
+      "typesPackage": "@types/passport",
+      "duration": 30872
+    },
+    {
+      "name": "mongoose",
+      "filesAnalyzed": 260,
+      "errors": 15,
+      "warnings": 1272,
+      "totalIssues": 1287,
+      "typesPackage": "@types/mongoose",
+      "duration": 26718
+    },
+    {
+      "name": "jsonwebtoken",
+      "filesAnalyzed": 8,
+      "errors": 0,
+      "warnings": 7,
+      "totalIssues": 7,
+      "typesPackage": "@types/jsonwebtoken",
+      "duration": 27360
+    },
+    {
+      "name": "bcrypt",
+      "filesAnalyzed": 9,
+      "errors": 0,
+      "warnings": 8,
+      "totalIssues": 8,
+      "typesPackage": "@types/bcrypt",
+      "duration": 28179
+    },
+    {
+      "name": "validator",
+      "filesAnalyzed": 114,
+      "errors": 0,
+      "warnings": 416,
+      "totalIssues": 416,
+      "typesPackage": "@types/validator",
+      "duration": 28761
+    },
+    {
+      "name": "nodemailer",
+      "filesAnalyzed": 34,
+      "errors": 1,
+      "warnings": 330,
+      "totalIssues": 331,
+      "typesPackage": "@types/nodemailer",
+      "duration": 29150
+    },
+    {
+      "name": "handlebars",
+      "filesAnalyzed": 27,
+      "errors": 0,
+      "warnings": 231,
+      "totalIssues": 231,
+      "typesPackage": "@types/handlebars",
+      "duration": 29605
+    },
+    {
+      "name": "pug",
+      "filesAnalyzed": 1,
+      "errors": 1,
+      "warnings": 25,
+      "totalIssues": 26,
+      "typesPackage": "@types/pug",
+      "duration": 30072
+    },
+    {
+      "name": "ejs",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 20,
+      "totalIssues": 20,
+      "typesPackage": "@types/ejs",
+      "duration": 30623
+    },
+    {
+      "name": "multer",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 25,
+      "totalIssues": 25,
+      "typesPackage": "@types/multer",
+      "duration": 21113
+    },
+    {
+      "name": "compression",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 11,
+      "totalIssues": 11,
+      "typesPackage": "@types/compression",
+      "duration": 21529
+    },
+    {
+      "name": "cookie-parser",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 1,
+      "totalIssues": 1,
+      "typesPackage": "@types/cookie-parser",
+      "duration": 22004
+    },
+    {
+      "name": "express-session",
+      "filesAnalyzed": 13,
+      "errors": 1,
+      "warnings": 21,
+      "totalIssues": 22,
+      "typesPackage": "@types/express-session",
+      "duration": 22397
+    },
+    {
+      "name": "connect",
+      "filesAnalyzed": 7,
+      "errors": 0,
+      "warnings": 7,
+      "totalIssues": 7,
+      "typesPackage": "@types/connect",
+      "duration": 22845
+    },
+    {
+      "name": "koa",
+      "filesAnalyzed": 7,
+      "errors": 0,
+      "warnings": 22,
+      "totalIssues": 22,
+      "typesPackage": "@types/koa",
+      "duration": 23316
+    },
+    {
+      "name": "hapi",
+      "filesAnalyzed": 19,
+      "errors": 0,
+      "warnings": 263,
+      "totalIssues": 263,
+      "typesPackage": "@types/hapi",
+      "duration": 23770
+    },
+    {
+      "name": "restify",
+      "filesAnalyzed": 56,
+      "errors": 25,
+      "warnings": 128,
+      "totalIssues": 153,
+      "typesPackage": "@types/restify",
+      "duration": 24120
+    },
+    {
+      "name": "superagent",
+      "filesAnalyzed": 16,
+      "errors": 0,
+      "warnings": 143,
+      "totalIssues": 143,
+      "typesPackage": "@types/superagent",
+      "duration": 33924
+    },
+    {
+      "name": "supertest",
+      "filesAnalyzed": 4,
+      "errors": 2,
+      "warnings": 62,
+      "totalIssues": 64,
+      "typesPackage": "@types/supertest",
+      "duration": 34456
+    },
+    {
+      "name": "chai",
+      "filesAnalyzed": 33,
+      "errors": 1,
+      "warnings": 90,
+      "totalIssues": 91,
+      "typesPackage": "@types/chai",
+      "duration": 34954
+    },
+    {
+      "name": "sinon",
+      "filesAnalyzed": 40,
+      "errors": 10,
+      "warnings": 270,
+      "totalIssues": 280,
+      "typesPackage": "@types/sinon",
+      "duration": 35631
+    },
+    {
+      "name": "mocha",
+      "filesAnalyzed": 58,
+      "errors": 6,
+      "warnings": 311,
+      "totalIssues": 317,
+      "typesPackage": "@types/mocha",
+      "duration": 36092
+    },
+    {
+      "name": "tape",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 68,
+      "totalIssues": 68,
+      "typesPackage": "@types/tape",
+      "duration": 36606
+    },
+    {
+      "name": "webpack",
+      "filesAnalyzed": 577,
+      "errors": 73,
+      "warnings": 1407,
+      "totalIssues": 1480,
+      "typesPackage": "@types/webpack",
+      "duration": 37153
+    },
+    {
+      "name": "browserify",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/browserify",
+      "duration": 37571
+    },
+    {
+      "name": "mysql",
+      "filesAnalyzed": 56,
+      "errors": 0,
+      "warnings": 250,
+      "totalIssues": 250,
+      "typesPackage": "@types/mysql",
+      "duration": 25872
+    },
+    {
+      "name": "pg",
+      "filesAnalyzed": 18,
+      "errors": 1,
+      "warnings": 178,
+      "totalIssues": 179,
+      "typesPackage": "@types/pg",
+      "duration": 26316
+    },
+    {
+      "name": "knex",
+      "filesAnalyzed": 141,
+      "errors": 0,
+      "warnings": 1612,
+      "totalIssues": 1612,
+      "typesPackage": "@types/knex",
+      "duration": 26731
+    },
+    {
+      "name": "ramda",
+      "filesAnalyzed": 369,
+      "errors": 0,
+      "warnings": 594,
+      "totalIssues": 594,
+      "typesPackage": "@types/ramda",
+      "duration": 27262
+    },
+    {
+      "name": "dayjs",
+      "filesAnalyzed": 184,
+      "errors": 1,
+      "warnings": 508,
+      "totalIssues": 509,
+      "typesPackage": null,
+      "duration": 27652
+    },
+    {
+      "name": "shortid",
+      "filesAnalyzed": 10,
+      "errors": 0,
+      "warnings": 14,
+      "totalIssues": 14,
+      "typesPackage": "@types/shortid",
+      "duration": 27361
+    },
+    {
+      "name": "slugify",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": "@types/slugify",
+      "duration": 27842
+    },
+    {
+      "name": "pluralize",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 5,
+      "totalIssues": 5,
+      "typesPackage": "@types/pluralize",
+      "duration": 28247
+    },
+    {
+      "name": "highlight.js",
+      "filesAnalyzed": 212,
+      "errors": 2,
+      "warnings": 467,
+      "totalIssues": 469,
+      "typesPackage": "@types/highlight.js",
+      "duration": 21266
+    },
+    {
+      "name": "prismjs",
+      "filesAnalyzed": 299,
+      "errors": 39,
+      "warnings": 81,
+      "totalIssues": 120,
+      "typesPackage": "@types/prismjs",
+      "duration": 21842
+    },
+    {
+      "name": "mime-types",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 3,
+      "totalIssues": 3,
+      "typesPackage": "@types/mime-types",
+      "duration": 22169
+    },
+    {
+      "name": "url-parse",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": "@types/url-parse",
+      "duration": 22665
+    },
+    {
+      "name": "chalk",
+      "filesAnalyzed": 5,
+      "errors": 1,
+      "warnings": 31,
+      "totalIssues": 32,
+      "typesPackage": "@types/chalk",
+      "duration": 23202
+    },
+    {
+      "name": "glob",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/glob",
+      "duration": 23719
+    },
+    {
+      "name": "rimraf",
+      "filesAnalyzed": 8,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": "@types/rimraf",
+      "duration": 24151
+    },
+    {
+      "name": "mkdirp",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/mkdirp",
+      "duration": 24704
+    },
+    {
+      "name": "yargs",
+      "filesAnalyzed": 0,
+      "errors": 1,
+      "warnings": 4,
+      "totalIssues": 5,
+      "typesPackage": "@types/yargs",
+      "duration": 17826
+    },
+    {
+      "name": "inquirer",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/inquirer",
+      "duration": 18116
+    },
+    {
+      "name": "ora",
+      "filesAnalyzed": 5,
+      "errors": 3,
+      "warnings": 24,
+      "totalIssues": 27,
+      "typesPackage": "@types/ora",
+      "duration": 18397
+    },
+    {
+      "name": "got",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/got",
+      "duration": 18891
+    },
+    {
+      "name": "node-fetch",
+      "filesAnalyzed": 13,
+      "errors": 2,
+      "warnings": 66,
+      "totalIssues": 68,
+      "typesPackage": "@types/node-fetch",
+      "duration": 19412
+    },
+    {
+      "name": "cheerio",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/cheerio",
+      "duration": 19810
+    },
+    {
+      "name": "jsdom",
+      "filesAnalyzed": 277,
+      "errors": 2,
+      "warnings": 1338,
+      "totalIssues": 1340,
+      "typesPackage": "@types/jsdom",
+      "duration": 20364
+    },
+    {
+      "name": "puppeteer-core",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 20696
+    },
+    {
+      "name": "socket.io",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/socket.io",
+      "duration": 11239
+    },
+    {
+      "name": "redis",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/redis",
+      "duration": 11718
+    },
+    {
+      "name": "ioredis",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/ioredis",
+      "duration": 12231
+    },
+    {
+      "name": "mongodb",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/mongodb",
+      "duration": 12760
+    },
+    {
+      "name": "sequelize",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 12977
+    },
+    {
+      "name": "sharp",
+      "filesAnalyzed": 13,
+      "errors": 39,
+      "warnings": 62,
+      "totalIssues": 101,
+      "typesPackage": "@types/sharp",
+      "duration": 12673
+    },
+    {
+      "name": "jimp",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/jimp",
+      "duration": 13213
+    },
+    {
+      "name": "uuid",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/uuid",
+      "duration": 13766
+    },
+    {
+      "name": "nanoid",
+      "filesAnalyzed": 14,
+      "errors": 0,
+      "warnings": 11,
+      "totalIssues": 11,
+      "typesPackage": null,
+      "duration": 16809
+    },
+    {
+      "name": "crypto-js",
+      "filesAnalyzed": 105,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": "@types/crypto-js",
+      "duration": 16505
+    },
+    {
+      "name": "jwt-decode",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/jwt-decode",
+      "duration": 16838
+    },
+    {
+      "name": "marked",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/marked",
+      "duration": 17449
+    },
+    {
+      "name": "markdown-it",
+      "filesAnalyzed": 0,
+      "errors": 2,
+      "warnings": 3,
+      "totalIssues": 5,
+      "typesPackage": "@types/markdown-it",
+      "duration": 17994
+    },
+    {
+      "name": "showdown",
+      "filesAnalyzed": 61,
+      "errors": 1,
+      "warnings": 170,
+      "totalIssues": 171,
+      "typesPackage": "@types/showdown",
+      "duration": 18438
+    },
+    {
+      "name": "yaml",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 18900
+    },
+    {
+      "name": "js-yaml",
+      "filesAnalyzed": 24,
+      "errors": 0,
+      "warnings": 141,
+      "totalIssues": 141,
+      "typesPackage": "@types/js-yaml",
+      "duration": 18649
+    },
+    {
+      "name": "xml2js",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 40,
+      "totalIssues": 40,
+      "typesPackage": "@types/xml2js",
+      "duration": 18888
+    },
+    {
+      "name": "fast-xml-parser",
+      "filesAnalyzed": 40,
+      "errors": 0,
+      "warnings": 214,
+      "totalIssues": 214,
+      "typesPackage": null,
+      "duration": 19351
+    },
+    {
+      "name": "csv-parse",
+      "filesAnalyzed": 11,
+      "errors": 0,
+      "warnings": 43,
+      "totalIssues": 43,
+      "typesPackage": "@types/csv-parse",
+      "duration": 19121
+    },
+    {
+      "name": "papaparse",
+      "filesAnalyzed": 17,
+      "errors": 2,
+      "warnings": 62,
+      "totalIssues": 64,
+      "typesPackage": "@types/papaparse",
+      "duration": 19576
+    },
+    {
+      "name": "archiver",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 37,
+      "totalIssues": 37,
+      "typesPackage": "@types/archiver",
+      "duration": 20058
+    },
+    {
+      "name": "unzipper",
+      "filesAnalyzed": 13,
+      "errors": 0,
+      "warnings": 93,
+      "totalIssues": 93,
+      "typesPackage": "@types/unzipper",
+      "duration": 20612
+    },
+    {
+      "name": "tar",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/tar",
+      "duration": 21161
+    },
+    {
+      "name": "chokidar",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/chokidar",
+      "duration": 21640
+    },
+    {
+      "name": "fs-extra",
+      "filesAnalyzed": 107,
+      "errors": 0,
+      "warnings": 758,
+      "totalIssues": 758,
+      "typesPackage": "@types/fs-extra",
+      "duration": 18755
+    },
+    {
+      "name": "cross-spawn",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 15,
+      "totalIssues": 15,
+      "typesPackage": "@types/cross-spawn",
+      "duration": 19260
+    },
+    {
+      "name": "execa",
+      "filesAnalyzed": 105,
+      "errors": 3,
+      "warnings": 623,
+      "totalIssues": 626,
+      "typesPackage": null,
+      "duration": 19768
+    },
+    {
+      "name": "dotenv-expand",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 3,
+      "totalIssues": 3,
+      "typesPackage": null,
+      "duration": 19511
+    },
+    {
+      "name": "config",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 42,
+      "totalIssues": 42,
+      "typesPackage": "@types/config",
+      "duration": 19274
+    },
+    {
+      "name": "convict",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/convict",
+      "duration": 19836
+    },
+    {
+      "name": "cron",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/cron",
+      "duration": 20381
+    },
+    {
+      "name": "node-schedule",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 31,
+      "totalIssues": 31,
+      "typesPackage": "@types/node-schedule",
+      "duration": 20906
+    },
+    {
+      "name": "bull",
+      "filesAnalyzed": 14,
+      "errors": 0,
+      "warnings": 214,
+      "totalIssues": 214,
+      "typesPackage": "@types/bull",
+      "duration": 19817
+    },
+    {
+      "name": "pino",
+      "filesAnalyzed": 14,
+      "errors": 4,
+      "warnings": 72,
+      "totalIssues": 76,
+      "typesPackage": "@types/pino",
+      "duration": 20675
+    },
+    {
+      "name": "bunyan",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 40,
+      "totalIssues": 40,
+      "typesPackage": "@types/bunyan",
+      "duration": 21150
+    },
+    {
+      "name": "log4js",
+      "filesAnalyzed": 27,
+      "errors": 2,
+      "warnings": 231,
+      "totalIssues": 233,
+      "typesPackage": "@types/log4js",
+      "duration": 21587
+    },
+    {
+      "name": "http-errors",
+      "filesAnalyzed": 4,
+      "errors": 5,
+      "warnings": 11,
+      "totalIssues": 16,
+      "typesPackage": "@types/http-errors",
+      "duration": 22228
+    },
+    {
+      "name": "http-proxy",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 38,
+      "totalIssues": 38,
+      "typesPackage": "@types/http-proxy",
+      "duration": 22561
+    },
+    {
+      "name": "http-proxy-middleware",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 22966
+    },
+    {
+      "name": "finalhandler",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 1,
+      "totalIssues": 1,
+      "typesPackage": "@types/finalhandler",
+      "duration": 22721
+    },
+    {
+      "name": "path-to-regexp",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/path-to-regexp",
+      "duration": 17686
+    },
+    {
+      "name": "accepts",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": "@types/accepts",
+      "duration": 18364
+    },
+    {
+      "name": "content-type",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 5,
+      "totalIssues": 5,
+      "typesPackage": "@types/content-type",
+      "duration": 18879
+    },
+    {
+      "name": "content-disposition",
+      "filesAnalyzed": 2,
+      "errors": 2,
+      "warnings": 4,
+      "totalIssues": 6,
+      "typesPackage": "@types/content-disposition",
+      "duration": 19349
+    },
+    {
+      "name": "etag",
+      "filesAnalyzed": 9,
+      "errors": 1,
+      "warnings": 0,
+      "totalIssues": 1,
+      "typesPackage": "@types/etag",
+      "duration": 19806
+    },
+    {
+      "name": "range-parser",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 6,
+      "totalIssues": 6,
+      "typesPackage": "@types/range-parser",
+      "duration": 20348
+    },
+    {
+      "name": "type-is",
+      "filesAnalyzed": 2,
+      "errors": 4,
+      "warnings": 3,
+      "totalIssues": 7,
+      "typesPackage": "@types/type-is",
+      "duration": 20707
+    },
+    {
+      "name": "raw-body",
+      "filesAnalyzed": 8,
+      "errors": 0,
+      "warnings": 6,
+      "totalIssues": 6,
+      "typesPackage": "@types/raw-body",
+      "duration": 21155
+    },
+    {
+      "name": "bytes",
+      "filesAnalyzed": 4,
+      "errors": 4,
+      "warnings": 0,
+      "totalIssues": 4,
+      "typesPackage": "@types/bytes",
+      "duration": 18490
+    },
+    {
+      "name": "ms",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/ms",
+      "duration": 19008
+    },
+    {
+      "name": "pretty-bytes",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 8,
+      "totalIssues": 8,
+      "typesPackage": null,
+      "duration": 19398
+    },
+    {
+      "name": "filesize",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 1,
+      "totalIssues": 1,
+      "typesPackage": "@types/filesize",
+      "duration": 19158
+    },
+    {
+      "name": "humanize-duration",
+      "filesAnalyzed": 7,
+      "errors": 1,
+      "warnings": 1,
+      "totalIssues": 2,
+      "typesPackage": "@types/humanize-duration",
+      "duration": 19677
+    },
+    {
+      "name": "date-fns",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 20203
+    },
+    {
+      "name": "luxon",
+      "filesAnalyzed": 24,
+      "errors": 0,
+      "warnings": 327,
+      "totalIssues": 327,
+      "typesPackage": null,
+      "duration": 19956
+    },
+    {
+      "name": "numeral",
+      "filesAnalyzed": 42,
+      "errors": 0,
+      "warnings": 112,
+      "totalIssues": 112,
+      "typesPackage": "@types/numeral",
+      "duration": 19719
+    },
+    {
+      "name": "decimal.js",
+      "filesAnalyzed": 64,
+      "errors": 6,
+      "warnings": 95,
+      "totalIssues": 101,
+      "typesPackage": null,
+      "duration": 19426
+    },
+    {
+      "name": "accounting",
+      "filesAnalyzed": 14,
+      "errors": 0,
+      "warnings": 18,
+      "totalIssues": 18,
+      "typesPackage": "@types/accounting",
+      "duration": 19186
+    },
+    {
+      "name": "change-case",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 19721
+    },
+    {
+      "name": "camelcase",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 17,
+      "totalIssues": 17,
+      "typesPackage": null,
+      "duration": 19484
+    },
+    {
+      "name": "escape-string-regexp",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": null,
+      "duration": 19241
+    },
+    {
+      "name": "strip-ansi",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": null,
+      "duration": 18998
+    },
+    {
+      "name": "ansi-styles",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 11,
+      "totalIssues": 11,
+      "typesPackage": null,
+      "duration": 18733
+    },
+    {
+      "name": "supports-color",
+      "filesAnalyzed": 3,
+      "errors": 1,
+      "warnings": 5,
+      "totalIssues": 6,
+      "typesPackage": null,
+      "duration": 18482
+    },
+    {
+      "name": "cli-table3",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 82,
+      "totalIssues": 82,
+      "typesPackage": "@types/cli-table3",
+      "duration": 19436
+    },
+    {
+      "name": "cli-progress",
+      "filesAnalyzed": 10,
+      "errors": 0,
+      "warnings": 34,
+      "totalIssues": 34,
+      "typesPackage": "@types/cli-progress",
+      "duration": 19907
+    },
+    {
+      "name": "boxen",
+      "filesAnalyzed": 13,
+      "errors": 0,
+      "warnings": 22,
+      "totalIssues": 22,
+      "typesPackage": null,
+      "duration": 20264
+    },
+    {
+      "name": "figures",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": null,
+      "duration": 20022
+    },
+    {
+      "name": "log-symbols",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 19767
+    },
+    {
+      "name": "prompts",
+      "filesAnalyzed": 32,
+      "errors": 0,
+      "warnings": 127,
+      "totalIssues": 127,
+      "typesPackage": "@types/prompts",
+      "duration": 19520
+    },
+    {
+      "name": "enquirer",
+      "filesAnalyzed": 42,
+      "errors": 0,
+      "warnings": 337,
+      "totalIssues": 337,
+      "typesPackage": "@types/enquirer",
+      "duration": 19989
+    },
+    {
+      "name": "meow",
+      "filesAnalyzed": 36,
+      "errors": 3,
+      "warnings": 0,
+      "totalIssues": 3,
+      "typesPackage": null,
+      "duration": 20336
+    },
+    {
+      "name": "update-notifier",
+      "filesAnalyzed": 7,
+      "errors": 1,
+      "warnings": 4,
+      "totalIssues": 5,
+      "typesPackage": "@types/update-notifier",
+      "duration": 16519
+    },
+    {
+      "name": "open",
+      "filesAnalyzed": 2,
+      "errors": 1,
+      "warnings": 11,
+      "totalIssues": 12,
+      "typesPackage": null,
+      "duration": 17081
+    },
+    {
+      "name": "clipboardy",
+      "filesAnalyzed": 10,
+      "errors": 1,
+      "warnings": 5,
+      "totalIssues": 6,
+      "typesPackage": null,
+      "duration": 16855
+    },
+    {
+      "name": "conf",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 16588
+    },
+    {
+      "name": "keyv",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/keyv",
+      "duration": 16318
+    },
+    {
+      "name": "lru-cache",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/lru-cache",
+      "duration": 16688
+    },
+    {
+      "name": "quick-lru",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 17,
+      "totalIssues": 17,
+      "typesPackage": null,
+      "duration": 17168
+    },
+    {
+      "name": "p-limit",
+      "filesAnalyzed": 4,
+      "errors": 5,
+      "warnings": 15,
+      "totalIssues": 20,
+      "typesPackage": null,
+      "duration": 16781
+    },
+    {
+      "name": "p-queue",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 15936
+    },
+    {
+      "name": "p-retry",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 12,
+      "totalIssues": 12,
+      "typesPackage": null,
+      "duration": 15708
+    },
+    {
+      "name": "p-map",
+      "filesAnalyzed": 4,
+      "errors": 1,
+      "warnings": 11,
+      "totalIssues": 12,
+      "typesPackage": null,
+      "duration": 15488
+    },
+    {
+      "name": "eventemitter3",
+      "filesAnalyzed": 12,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": "@types/eventemitter3",
+      "duration": 15229
+    },
+    {
+      "name": "events",
+      "filesAnalyzed": 24,
+      "errors": 0,
+      "warnings": 31,
+      "totalIssues": 31,
+      "typesPackage": "@types/events",
+      "duration": 15735
+    },
+    {
+      "name": "mitt",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 16226
+    },
+    {
+      "name": "nanoevents",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": null,
+      "duration": 15972
+    },
+    {
+      "name": "rxjs",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 15734
+    },
+    {
+      "name": "immer",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 19817
+    },
+    {
+      "name": "immutable",
+      "filesAnalyzed": 31,
+      "errors": 21,
+      "warnings": 513,
+      "totalIssues": 534,
+      "typesPackage": null,
+      "duration": 19521
+    },
+    {
+      "name": "memoize-one",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 19249
+    },
+    {
+      "name": "fast-memoize",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 11,
+      "totalIssues": 11,
+      "typesPackage": "@types/fast-memoize",
+      "duration": 18990
+    },
+    {
+      "name": "deepmerge",
+      "filesAnalyzed": 7,
+      "errors": 0,
+      "warnings": 13,
+      "totalIssues": 13,
+      "typesPackage": "@types/deepmerge",
+      "duration": 19434
+    },
+    {
+      "name": "merge-deep",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 6,
+      "totalIssues": 6,
+      "typesPackage": "@types/merge-deep",
+      "duration": 20021
+    },
+    {
+      "name": "object-assign",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": "@types/object-assign",
+      "duration": 20523
+    },
+    {
+      "name": "clone-deep",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 3,
+      "totalIssues": 3,
+      "typesPackage": "@types/clone-deep",
+      "duration": 21044
+    },
+    {
+      "name": "fast-deep-equal",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/fast-deep-equal",
+      "duration": 17095
+    },
+    {
+      "name": "deep-equal",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 44,
+      "totalIssues": 44,
+      "typesPackage": "@types/deep-equal",
+      "duration": 17539
+    },
+    {
+      "name": "is-plain-object",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/is-plain-object",
+      "duration": 17998
+    },
+    {
+      "name": "kind-of",
+      "filesAnalyzed": 34,
+      "errors": 0,
+      "warnings": 11,
+      "totalIssues": 11,
+      "typesPackage": "@types/kind-of",
+      "duration": 18507
+    },
+    {
+      "name": "is-number",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": "@types/is-number",
+      "duration": 19011
+    },
+    {
+      "name": "is-buffer",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 2,
+      "totalIssues": 2,
+      "typesPackage": "@types/is-buffer",
+      "duration": 19554
+    },
+    {
+      "name": "is-stream",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 11,
+      "totalIssues": 11,
+      "typesPackage": null,
+      "duration": 20117
+    },
+    {
+      "name": "is-promise",
+      "filesAnalyzed": 3,
+      "errors": 0,
+      "warnings": 1,
+      "totalIssues": 1,
+      "typesPackage": "@types/is-promise",
+      "duration": 19884
+    },
+    {
+      "name": "throat",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 12,
+      "totalIssues": 12,
+      "typesPackage": "@types/throat",
+      "duration": 16943
+    },
+    {
+      "name": "delay",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 6,
+      "totalIssues": 6,
+      "typesPackage": null,
+      "duration": 17323
+    },
+    {
+      "name": "pify",
+      "filesAnalyzed": 3,
+      "errors": 2,
+      "warnings": 12,
+      "totalIssues": 14,
+      "typesPackage": "@types/pify",
+      "duration": 17048
+    },
+    {
+      "name": "bluebird",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/bluebird",
+      "duration": 17669
+    },
+    {
+      "name": "yallist",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/yallist",
+      "duration": 18150
+    },
+    {
+      "name": "denque",
+      "filesAnalyzed": 11,
+      "errors": 0,
+      "warnings": 10,
+      "totalIssues": 10,
+      "typesPackage": "@types/denque",
+      "duration": 18607
+    },
+    {
+      "name": "heap",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/heap",
+      "duration": 19117
+    },
+    {
+      "name": "tinyqueue",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 4,
+      "totalIssues": 4,
+      "typesPackage": null,
+      "duration": 19657
+    },
+    {
+      "name": "flatbush",
+      "filesAnalyzed": 4,
+      "errors": 6,
+      "warnings": 2,
+      "totalIssues": 8,
+      "typesPackage": null,
+      "duration": 21011
+    },
+    {
+      "name": "rbush",
+      "filesAnalyzed": 11,
+      "errors": 2,
+      "warnings": 34,
+      "totalIssues": 36,
+      "typesPackage": "@types/rbush",
+      "duration": 20761
+    },
+    {
+      "name": "kdbush",
+      "filesAnalyzed": 5,
+      "errors": 4,
+      "warnings": 0,
+      "totalIssues": 4,
+      "typesPackage": null,
+      "duration": 21302
+    },
+    {
+      "name": "d3",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/d3",
+      "duration": 21042
+    },
+    {
+      "name": "d3-array",
+      "filesAnalyzed": 61,
+      "errors": 0,
+      "warnings": 200,
+      "totalIssues": 200,
+      "typesPackage": "@types/d3-array",
+      "duration": 21503
+    },
+    {
+      "name": "d3-scale",
+      "filesAnalyzed": 24,
+      "errors": 0,
+      "warnings": 179,
+      "totalIssues": 179,
+      "typesPackage": "@types/d3-scale",
+      "duration": 21847
+    },
+    {
+      "name": "d3-selection",
+      "filesAnalyzed": 54,
+      "errors": 0,
+      "warnings": 155,
+      "totalIssues": 155,
+      "typesPackage": "@types/d3-selection",
+      "duration": 22193
+    },
+    {
+      "name": "d3-shape",
+      "filesAnalyzed": 60,
+      "errors": 0,
+      "warnings": 240,
+      "totalIssues": 240,
+      "typesPackage": "@types/d3-shape",
+      "duration": 22560
+    },
+    {
+      "name": "chart.js",
+      "filesAnalyzed": 57,
+      "errors": 28,
+      "warnings": 616,
+      "totalIssues": 644,
+      "typesPackage": "@types/chart.js",
+      "duration": 52714
+    },
+    {
+      "name": "three",
+      "filesAnalyzed": 721,
+      "errors": 5,
+      "warnings": 1451,
+      "totalIssues": 1456,
+      "typesPackage": "@types/three",
+      "duration": 53191
+    },
+    {
+      "name": "leaflet",
+      "filesAnalyzed": 82,
+      "errors": 0,
+      "warnings": 588,
+      "totalIssues": 588,
+      "typesPackage": "@types/leaflet",
+      "duration": 53715
+    },
+    {
+      "name": "openlayers",
+      "filesAnalyzed": 366,
+      "errors": 447,
+      "warnings": 325,
+      "totalIssues": 772,
+      "typesPackage": "@types/ol",
+      "duration": 54276
+    },
+    {
+      "name": "video.js",
+      "filesAnalyzed": 123,
+      "errors": 8,
+      "warnings": 417,
+      "totalIssues": 425,
+      "typesPackage": "@types/video.js",
+      "duration": 54704
+    },
+    {
+      "name": "quill",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/quill",
+      "duration": 55158
+    },
+    {
+      "name": "codemirror5",
+      "filesAnalyzed": 67,
+      "errors": 0,
+      "warnings": 1045,
+      "totalIssues": 1045,
+      "typesPackage": "@types/codemirror",
+      "duration": 55614
+    },
+    {
+      "name": "ace",
+      "filesAnalyzed": 853,
+      "errors": 1,
+      "warnings": 3587,
+      "totalIssues": 3588,
+      "typesPackage": "@types/ace",
+      "duration": 56076
+    },
+    {
+      "name": "fabric.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 7,
+      "totalIssues": 7,
+      "typesPackage": "@types/fabric",
+      "duration": 26578
+    },
+    {
+      "name": "konva",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 27071
+    },
+    {
+      "name": "pixi.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 26828
+    },
+    {
+      "name": "paper.js",
+      "filesAnalyzed": 73,
+      "errors": 0,
+      "warnings": 792,
+      "totalIssues": 792,
+      "typesPackage": "@types/paper",
+      "duration": 26559
+    },
+    {
+      "name": "p5.js",
+      "filesAnalyzed": 85,
+      "errors": 4,
+      "warnings": 688,
+      "totalIssues": 692,
+      "typesPackage": "@types/p5",
+      "duration": 27092
+    },
+    {
+      "name": "raphael",
+      "filesAnalyzed": 13,
+      "errors": 0,
+      "warnings": 299,
+      "totalIssues": 299,
+      "typesPackage": "@types/raphael",
+      "duration": 27683
+    },
+    {
+      "name": "snap.svg",
+      "filesAnalyzed": 19,
+      "errors": 2,
+      "warnings": 339,
+      "totalIssues": 341,
+      "typesPackage": "@types/snapsvg",
+      "duration": 28235
+    },
+    {
+      "name": "matter-js",
+      "filesAnalyzed": 32,
+      "errors": 0,
+      "warnings": 233,
+      "totalIssues": 233,
+      "typesPackage": "@types/matter-js",
+      "duration": 28737
+    },
+    {
+      "name": "howler.js",
+      "filesAnalyzed": 2,
+      "errors": 0,
+      "warnings": 18,
+      "totalIssues": 18,
+      "typesPackage": "@types/howler",
+      "duration": 18050
+    },
+    {
+      "name": "tone.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 18591
+    },
+    {
+      "name": "wavesurfer.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 18345
+    },
+    {
+      "name": "hammer.js",
+      "filesAnalyzed": 62,
+      "errors": 2,
+      "warnings": 69,
+      "totalIssues": 71,
+      "typesPackage": "@types/hammerjs",
+      "duration": 18023
+    },
+    {
+      "name": "interact.js",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 1,
+      "totalIssues": 1,
+      "typesPackage": "@types/interactjs",
+      "duration": 18557
+    },
+    {
+      "name": "sortablejs",
+      "filesAnalyzed": 35,
+      "errors": 1,
+      "warnings": 158,
+      "totalIssues": 159,
+      "typesPackage": "@types/sortablejs",
+      "duration": 18944
+    },
+    {
+      "name": "dragula",
+      "filesAnalyzed": 18,
+      "errors": 0,
+      "warnings": 38,
+      "totalIssues": 38,
+      "typesPackage": "@types/dragula",
+      "duration": 19392
+    },
+    {
+      "name": "fullcalendar",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/fullcalendar",
+      "duration": 19912
+    },
+    {
+      "name": "flatpickr",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/flatpickr",
+      "duration": 32177
+    },
+    {
+      "name": "nouislider",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/nouislider",
+      "duration": 32757
+    },
+    {
+      "name": "cleave.js",
+      "filesAnalyzed": 257,
+      "errors": 0,
+      "warnings": 11200,
+      "totalIssues": 11200,
+      "typesPackage": "@types/cleave.js",
+      "duration": 33421
+    },
+    {
+      "name": "inputmask",
+      "filesAnalyzed": 35,
+      "errors": 1,
+      "warnings": 261,
+      "totalIssues": 262,
+      "typesPackage": "@types/inputmask",
+      "duration": 34018
+    },
+    {
+      "name": "imask",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 34509
+    },
+    {
+      "name": "tippy.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/tippy.js",
+      "duration": 34279
+    },
+    {
+      "name": "popper.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/popperjs",
+      "duration": 34814
+    },
+    {
+      "name": "swiper",
+      "filesAnalyzed": 0,
+      "errors": 2,
+      "warnings": 42,
+      "totalIssues": 44,
+      "typesPackage": null,
+      "duration": 35309
+    },
+    {
+      "name": "glide.js",
+      "filesAnalyzed": 38,
+      "errors": 0,
+      "warnings": 84,
+      "totalIssues": 84,
+      "typesPackage": "@types/glidejs__glide",
+      "duration": 23986
+    },
+    {
+      "name": "scrollreveal",
+      "filesAnalyzed": 27,
+      "errors": 0,
+      "warnings": 75,
+      "totalIssues": 75,
+      "typesPackage": "@types/scrollreveal",
+      "duration": 24481
+    },
+    {
+      "name": "aos",
+      "filesAnalyzed": 8,
+      "errors": 0,
+      "warnings": 13,
+      "totalIssues": 13,
+      "typesPackage": null,
+      "duration": 25161
+    },
+    {
+      "name": "lottie-web",
+      "filesAnalyzed": 177,
+      "errors": 1,
+      "warnings": 903,
+      "totalIssues": 904,
+      "typesPackage": "@types/lottie-web",
+      "duration": 24864
+    },
+    {
+      "name": "anime.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/animejs",
+      "duration": 25332
+    },
+    {
+      "name": "velocity",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 6,
+      "totalIssues": 6,
+      "typesPackage": "@types/velocity-animate",
+      "duration": 25877
+    },
+    {
+      "name": "gsap",
+      "filesAnalyzed": 33,
+      "errors": 0,
+      "warnings": 25,
+      "totalIssues": 25,
+      "typesPackage": "@types/gsap",
+      "duration": 26566
+    },
+    {
+      "name": "popmotion",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 27161
+    },
+    {
+      "name": "scrollmagic",
+      "filesAnalyzed": 10,
+      "errors": 5,
+      "warnings": 100,
+      "totalIssues": 105,
+      "typesPackage": "@types/scrollmagic",
+      "duration": 23289
+    },
+    {
+      "name": "masonry",
+      "filesAnalyzed": 16,
+      "errors": 0,
+      "warnings": 7,
+      "totalIssues": 7,
+      "typesPackage": "@types/masonry-layout",
+      "duration": 23813
+    },
+    {
+      "name": "isotope",
+      "filesAnalyzed": 25,
+      "errors": 0,
+      "warnings": 49,
+      "totalIssues": 49,
+      "typesPackage": "@types/isotope-layout",
+      "duration": 24423
+    },
+    {
+      "name": "packery",
+      "filesAnalyzed": 33,
+      "errors": 0,
+      "warnings": 38,
+      "totalIssues": 38,
+      "typesPackage": "@types/packery",
+      "duration": 25004
+    },
+    {
+      "name": "infinite-scroll",
+      "filesAnalyzed": 32,
+      "errors": 0,
+      "warnings": 59,
+      "totalIssues": 59,
+      "typesPackage": "@types/infinite-scroll",
+      "duration": 25482
+    },
+    {
+      "name": "lazysizes",
+      "filesAnalyzed": 60,
+      "errors": 0,
+      "warnings": 23,
+      "totalIssues": 23,
+      "typesPackage": "@types/lazysizes",
+      "duration": 26142
+    },
+    {
+      "name": "lozad.js",
+      "filesAnalyzed": 9,
+      "errors": 0,
+      "warnings": 13,
+      "totalIssues": 13,
+      "typesPackage": "@types/lozad",
+      "duration": 26596
+    },
+    {
+      "name": "vanilla-lazyload",
+      "filesAnalyzed": 25,
+      "errors": 0,
+      "warnings": 203,
+      "totalIssues": 203,
+      "typesPackage": null,
+      "duration": 27194
+    },
+    {
+      "name": "photoswipe",
+      "filesAnalyzed": 33,
+      "errors": 7,
+      "warnings": 14,
+      "totalIssues": 21,
+      "typesPackage": "@types/photoswipe",
+      "duration": 22897
+    },
+    {
+      "name": "lightgallery",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/lightgallery",
+      "duration": 23418
+    },
+    {
+      "name": "medium-zoom",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 40,
+      "totalIssues": 40,
+      "typesPackage": "@types/medium-zoom",
+      "duration": 23981
+    },
+    {
+      "name": "cropper.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/cropperjs",
+      "duration": 24438
+    },
+    {
+      "name": "compressorjs",
+      "filesAnalyzed": 4,
+      "errors": 0,
+      "warnings": 9,
+      "totalIssues": 9,
+      "typesPackage": "@types/compressorjs",
+      "duration": 25164
+    },
+    {
+      "name": "viewerjs",
+      "filesAnalyzed": 11,
+      "errors": 0,
+      "warnings": 50,
+      "totalIssues": 50,
+      "typesPackage": "@types/viewerjs",
+      "duration": 25666
+    },
+    {
+      "name": "tesseract.js",
+      "filesAnalyzed": 41,
+      "errors": 0,
+      "warnings": 95,
+      "totalIssues": 95,
+      "typesPackage": null,
+      "duration": 26330
+    },
+    {
+      "name": "jspdf",
+      "filesAnalyzed": 52,
+      "errors": 2,
+      "warnings": 898,
+      "totalIssues": 900,
+      "typesPackage": "@types/jspdf",
+      "duration": 26073
+    },
+    {
+      "name": "pdfmake",
+      "filesAnalyzed": 42,
+      "errors": 1,
+      "warnings": 496,
+      "totalIssues": 497,
+      "typesPackage": "@types/pdfmake",
+      "duration": 48896
+    },
+    {
+      "name": "exceljs",
+      "filesAnalyzed": 171,
+      "errors": 4,
+      "warnings": 1292,
+      "totalIssues": 1296,
+      "typesPackage": null,
+      "duration": 49343
+    },
+    {
+      "name": "sheetjs",
+      "filesAnalyzed": 202,
+      "errors": 7,
+      "warnings": 1355,
+      "totalIssues": 1362,
+      "typesPackage": "@types/xlsx",
+      "duration": 49071
+    },
+    {
+      "name": "docxtemplater",
+      "filesAnalyzed": 75,
+      "errors": 0,
+      "warnings": 643,
+      "totalIssues": 643,
+      "typesPackage": "@types/docxtemplater",
+      "duration": 49547
+    },
+    {
+      "name": "jszip",
+      "filesAnalyzed": 36,
+      "errors": 11,
+      "warnings": 127,
+      "totalIssues": 138,
+      "typesPackage": "@types/jszip",
+      "duration": 49966
+    },
+    {
+      "name": "qrcode",
+      "filesAnalyzed": 35,
+      "errors": 7,
+      "warnings": 151,
+      "totalIssues": 158,
+      "typesPackage": "@types/qrcode",
+      "duration": 50521
+    },
+    {
+      "name": "clipboard",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 8,
+      "totalIssues": 8,
+      "typesPackage": "@types/clipboard",
+      "duration": 51125
+    },
+    {
+      "name": "localforage",
+      "filesAnalyzed": 17,
+      "errors": 0,
+      "warnings": 153,
+      "totalIssues": 153,
+      "typesPackage": "@types/localforage",
+      "duration": 51634
+    },
+    {
+      "name": "dexie",
+      "filesAnalyzed": 5,
+      "errors": 0,
+      "warnings": 112,
+      "totalIssues": 112,
+      "typesPackage": null,
+      "duration": 24460
+    },
+    {
+      "name": "sql.js",
+      "filesAnalyzed": 4,
+      "errors": 2,
+      "warnings": 33,
+      "totalIssues": 35,
+      "typesPackage": "@types/sql.js",
+      "duration": 24190
+    },
+    {
+      "name": "pouchdb",
+      "filesAnalyzed": 10,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/pouchdb",
+      "duration": 24777
+    },
+    {
+      "name": "lowdb",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/lowdb",
+      "duration": 25353
+    },
+    {
+      "name": "nedb",
+      "filesAnalyzed": 8,
+      "errors": 0,
+      "warnings": 128,
+      "totalIssues": 128,
+      "typesPackage": "@types/nedb",
+      "duration": 26195
+    },
+    {
+      "name": "reveal.js",
+      "filesAnalyzed": 28,
+      "errors": 3,
+      "warnings": 278,
+      "totalIssues": 281,
+      "typesPackage": "@types/reveal.js",
+      "duration": 26715
+    },
+    {
+      "name": "impress.js",
+      "filesAnalyzed": 27,
+      "errors": 0,
+      "warnings": 214,
+      "totalIssues": 214,
+      "typesPackage": "@types/impress",
+      "duration": 27401
+    },
+    {
+      "name": "mermaid",
+      "filesAnalyzed": 108,
+      "errors": 3,
+      "warnings": 796,
+      "totalIssues": 799,
+      "typesPackage": null,
+      "duration": 28034
+    },
+    {
+      "name": "cytoscape",
+      "filesAnalyzed": 1,
+      "errors": 0,
+      "warnings": 39,
+      "totalIssues": 39,
+      "typesPackage": null,
+      "duration": 24592
+    },
+    {
+      "name": "vis-network",
+      "filesAnalyzed": 58,
+      "errors": 1,
+      "warnings": 275,
+      "totalIssues": 276,
+      "typesPackage": "@types/vis-network",
+      "duration": 24323
+    },
+    {
+      "name": "sigma.js",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/sigma",
+      "duration": 24702
+    },
+    {
+      "name": "force-graph",
+      "filesAnalyzed": 6,
+      "errors": 0,
+      "warnings": 108,
+      "totalIssues": 108,
+      "typesPackage": null,
+      "duration": 25100
+    },
+    {
+      "name": "echarts",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": null,
+      "duration": 24828
+    },
+    {
+      "name": "apexcharts",
+      "filesAnalyzed": 78,
+      "errors": 0,
+      "warnings": 901,
+      "totalIssues": 901,
+      "typesPackage": null,
+      "duration": 24563
+    },
+    {
+      "name": "frappe-charts",
+      "filesAnalyzed": 26,
+      "errors": 0,
+      "warnings": 419,
+      "totalIssues": 419,
+      "typesPackage": "@types/frappe-charts",
+      "duration": 24291
+    },
+    {
+      "name": "roughjs",
+      "filesAnalyzed": 0,
+      "errors": 0,
+      "warnings": 0,
+      "totalIssues": 0,
+      "typesPackage": "@types/roughjs",
+      "duration": 24776
+    },
+    {
+      "name": "two.js",
+      "filesAnalyzed": 49,
+      "errors": 0,
+      "warnings": 406,
+      "totalIssues": 406,
+      "typesPackage": null,
+      "duration": 7239
+    },
+    {
+      "name": "zdog",
+      "filesAnalyzed": 19,
+      "errors": 0,
+      "warnings": 162,
+      "totalIssues": 162,
+      "typesPackage": null,
+      "duration": 6993
+    }
+  ],
+  "totals": {
+    "packages": 282,
+    "files": 9947,
+    "errors": 892,
+    "warnings": 54616,
+    "duration": 6813491
+  },
+  "byRule": {
+    "unknown": 916,
+    "tjd/no-implicit-any": 50525,
+    "tjd/accurate-jsdoc": 711,
+    "tjd/require-jsdoc-types": 3157,
+    "import/no-extraneous-dependencies": 2,
+    "@typescript-eslint/no-this-alias": 6,
+    "node/no-deprecated-api": 6,
+    "valid-jsdoc": 3,
+    "tjd/no-redundant-jsdoc": 36,
+    "jsdoc/check-param-names": 5,
+    "jsdoc/require-jsdoc": 6,
+    "@sinonjs/no-prototype-methods/no-prototype-methods": 4,
+    "jsdoc/ts-no-empty-object-type": 1,
+    "jsdoc/type-formatting": 2,
+    "n/no-unsupported-features/node-builtins": 5,
+    "unicorn/prefer-spread": 4,
+    "n/no-unsupported-features/es-builtins": 3,
+    "n/no-unsupported-features/es-syntax": 3,
+    "unicorn/error-message": 4,
+    "n/exports-style": 2,
+    "unicorn/no-array-for-each": 1,
+    "unicorn/no-array-method-this-argument": 4,
+    "n/no-deprecated-api": 1,
+    "unicorn/text-encoding-identifier-case": 3,
+    "import/prefer-default-export": 1,
+    "regexp/sort-alternatives": 1,
+    "regexp/strict": 18,
+    "regexp/no-useless-lazy": 1,
+    "regexp/no-dupe-characters-character-class": 2,
+    "regexp/no-super-linear-backtracking": 11,
+    "import/order": 2,
+    "n/no-process-exit": 1,
+    "n/prefer-global/buffer": 2,
+    "promise/prefer-await-to-then": 2,
+    "func-name": 2,
+    "unicorn/prefer-event-target": 2,
+    "unicorn/prefer-top-level-await": 1,
+    "import/no-dynamic-require": 1,
+    "import-x/no-anonymous-default-export": 1,
+    "ava/no-ignored-test-files": 2,
+    "unicorn/no-process-exit": 2,
+    "promise/param-names": 1,
+    "@typescript-eslint/no-unused-expressions": 15,
+    "@typescript-eslint/no-unused-vars": 2,
+    "no-buffer-constructor": 1,
+    "new-cap": 12,
+    "no-use-extend-native/no-use-extend-native": 1,
+    "@stylistic/js/key-spacing": 1,
+    "@stylistic/js/comma-spacing": 1,
+    "@stylistic/comma-spacing": 1,
+    "compat/compat": 1,
+    "prettier/prettier": 2,
+    "import/no-unresolved": 1,
+    "import/no-cycle": 1,
+    "node/no-unpublished-require": 1,
+    "node/no-unsupported-features/node-builtins": 2,
+    "@typescript-eslint/restrict-template-expressions": 1,
+    "@typescript-eslint/restrict-plus-operands": 1,
+    "@typescript-eslint/prefer-regexp-exec": 1
+  }
+}

@@ -1,0 +1,5029 @@
+{
+  "name": "execa",
+  "downloadedAt": "2026-02-03T22:02:54.450Z",
+  "lintedAt": "2026-02-03T22:02:54.450Z",
+  "filesAnalyzed": 105,
+  "totalIssues": 626,
+  "errors": 3,
+  "warnings": 623,
+  "byRule": {
+    "tjd/no-implicit-any": 401,
+    "tjd/require-jsdoc-types": 214,
+    "unicorn/text-encoding-identifier-case": 1,
+    "unknown": 8,
+    "unicorn/prefer-event-target": 1,
+    "unicorn/prefer-top-level-await": 1
+  },
+  "issues": [
+    {
+      "file": "lib/arguments/command.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleCommand needs types for 3 parameters: filePath: string, rawArguments, rawOptions: object"
+    },
+    {
+      "file": "lib/arguments/command.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleCommand needs JSDoc: @param {any} filePath, @param {any} rawArguments, @param {any} rawOptions, @returns {{ command: string; escapedCommand: string; startTime: bigint; verboseInfo: { verbose: any; escapedCommand: any; commandId: bigint; rawOptions: any; }; }}"
+    },
+    {
+      "file": "lib/arguments/cwd.js",
+      "line": 7,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeCwd needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "lib/arguments/cwd.js",
+      "line": 22,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fixCwdError needs types for 2 parameters: originalMessage, cwd"
+    },
+    {
+      "file": "lib/arguments/cwd.js",
+      "line": 22,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fixCwdError needs JSDoc: @param {any} originalMessage, @param {any} cwd, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/encoding-option.js",
+      "line": 22,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCorrectEncoding(): parameter 'encoding' needs a type. Add: @param {string} encoding"
+    },
+    {
+      "file": "lib/arguments/encoding-option.js",
+      "line": 42,
+      "column": 2,
+      "rule": "unicorn/text-encoding-identifier-case",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/text-encoding-identifier-case' was not found."
+    },
+    {
+      "file": "lib/arguments/encoding-option.js",
+      "line": 50,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeEncoding(): parameter 'encoding' needs a type. Add: @param {string} encoding"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 5,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "joinCommand needs types for 2 parameters: filePath: string, rawArguments: any[] | object"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 5,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "joinCommand needs JSDoc: @param {any} filePath, @param {any} rawArguments, @returns {{ command: string; escapedCommand: string; }}"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fileAndArgument' needs a type. Add: @param {unknown} fileAndArgument"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeLines(): parameter 'lines' needs a type. Add: @param {any[]} lines"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "escapeLines needs JSDoc: @param {any} lines, @returns {string}"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 20,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeControlCharacters(): parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 20,
+      "column": 78,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'character' needs a type. Add: @param {unknown} character"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 22,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeControlCharacter(): parameter 'character' needs a type. Add: @param {string} character"
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 45,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-regex-literals')."
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 52,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "lib/arguments/escape.js",
+      "line": 78,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In quoteString(): parameter 'escapedArgument' needs a type. Add: @param {string} escapedArgument"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 4,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getToStream needs JSDoc: @param {any} destination, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 4,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getToStream(): parameter 'destination' needs a type. Add: @param {object} destination"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 18,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getFromStream needs JSDoc: @param {any} source, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 18,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFromStream(): parameter 'source' needs a type. Add: @param {object} source"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 34,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFdNumber needs types for 3 parameters: fileDescriptors, fdName: string, isWritable: boolean"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 40,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseFdNumber needs types for 2 parameters: fdName: string, isWritable: boolean"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 54,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateFdNumber needs types for 4 parameters: fdNumber, fdName: string, isWritable: boolean, fileDescriptors"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 70,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getInvalidStdioOptionMessage needs types for 4 parameters: fdNumber, fdName: string, options: object, isWritable: boolean"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 80,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInvalidStdioOption(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 98,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getUsedDescriptor(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 100,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getOptionName(): parameter 'isWritable' needs a type. Add: @param {boolean} isWritable"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 102,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeOptionValue(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/arguments/fd-options.js",
+      "line": 102,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "serializeOptionValue needs JSDoc: @param {any} value, @returns {string}"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 4,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "safeNormalizeFileUrl needs types for 2 parameters: file, name: string"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 4,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "safeNormalizeFileUrl needs JSDoc: @param {any} file, @param {any} name, @returns {string}"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 16,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeDenoExecPath(): parameter 'file' needs a type. Add: @param {object} file"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 20,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDenoExecPath(): parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 20,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDenoExecPath needs JSDoc: @param {any} file, @returns {boolean}"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 25,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeFileUrl(): parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/arguments/file-url.js",
+      "line": 25,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeFileUrl needs JSDoc: @param {any} file, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/options.js",
+      "line": 19,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeOptions needs types for 3 parameters: filePath: string, rawArguments, rawOptions: object"
+    },
+    {
+      "file": "lib/arguments/options.js",
+      "line": 19,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeOptions needs JSDoc: @param {any} filePath, @param {any} rawArguments, @param {any} rawOptions, @returns {{ file: any; commandArguments: any; options: { extendEnv: boolean; preferLocal: boolean; cwd: any; localDirectory: any; encoding: string; reject: boolean; cleanup: boolean; all: boolean; windowsHide: boolean; ... 6 more ...; __proto__: any; }; }}"
+    },
+    {
+      "file": "lib/arguments/options.js",
+      "line": 38,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: lines: any[], fdNumber"
+    },
+    {
+      "file": "lib/arguments/shell.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "concatenateShell needs types for 3 parameters: file, commandArguments: any[] | object, options: object"
+    },
+    {
+      "file": "lib/arguments/shell.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "concatenateShell needs JSDoc: @param {any} file, @param {any} commandArguments, @param {any} options, @returns {any[]}"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 8,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeFdSpecificOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 8,
+      "column": 43,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeFdSpecificOptions needs JSDoc: @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 18,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeFdSpecificOption needs types for 2 parameters: options: object, optionName: string"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 18,
+      "column": 42,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeFdSpecificOption needs JSDoc: @param {any} options, @param {any} optionName, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 28,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeFdSpecificValue needs types for 3 parameters: optionValue, optionArray: any[], optionName: string"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 32,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeOptionObject needs types for 3 parameters: optionValue: object, optionArray: object, optionName: string"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 43,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compareFdName needs types for 2 parameters: fdNameA, fdNameB"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 45,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFdNameOrder(): parameter 'fdName' needs a type. Add: @param {string} fdName"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 53,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseFdName needs types for 3 parameters: fdName: string, optionName: string, optionArray: object"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 73,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFd(): parameter 'fdName' needs a type. Add: @param {string} fdName"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 73,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseFd needs JSDoc: @param {any} fdName, @returns {any}"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 90,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addDefaultValue needs types for 2 parameters: optionArray: any[], optionName: string"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 90,
+      "column": 70,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'optionValue' needs a type. Add: @param {unknown} optionValue"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 109,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFdSpecificValue needs types for 2 parameters: optionArray: object, fdNumber"
+    },
+    {
+      "file": "lib/arguments/specific.js",
+      "line": 109,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getFdSpecificValue needs JSDoc: @param {any} optionArray, @param {any} fdNumber, @returns {any}"
+    },
+    {
+      "file": "lib/convert/add.js",
+      "line": 8,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addConvertedStreams needs JSDoc: @param {any} subprocess"
+    },
+    {
+      "file": "lib/convert/add.js",
+      "line": 8,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addConvertedStreams(): parameter 'subprocess' needs a type. Add: @param {object} subprocess"
+    },
+    {
+      "file": "lib/convert/concurrent.js",
+      "line": 4,
+      "column": 44,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "initializeConcurrentStreams needs JSDoc: @returns {{ readableDestroy: WeakMap<object, any>; writableFinal: WeakMap<object, any>; writableDestroy: WeakMap<object, any>; }}"
+    },
+    {
+      "file": "lib/convert/concurrent.js",
+      "line": 12,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addConcurrentStream needs types for 3 parameters: concurrentStreams: object, stream, waitName: string"
+    },
+    {
+      "file": "lib/convert/concurrent.js",
+      "line": 12,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addConcurrentStream needs JSDoc: @param {any} concurrentStreams, @param {any} stream, @param {any} waitName, @returns {{ resolve: any; promises: any; }}"
+    },
+    {
+      "file": "lib/convert/concurrent.js",
+      "line": 26,
+      "column": 41,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForConcurrentStreams needs JSDoc: @param {any} subprocess, @returns {Promise<boolean>}"
+    },
+    {
+      "file": "lib/convert/concurrent.js",
+      "line": 26,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForConcurrentStreams(): parameter 'subprocess' needs a type. Add: @param {unknown} subprocess"
+    },
+    {
+      "file": "lib/convert/duplex.js",
+      "line": 19,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createDuplex needs JSDoc: @returns {Duplex}"
+    },
+    {
+      "file": "lib/convert/duplex.js",
+      "line": 59,
+      "column": 142,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onDuplexDestroy(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/convert/iterable.js",
+      "line": 6,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createIterable needs types for 2 parameters: subprocess, encoding: string"
+    },
+    {
+      "file": "lib/convert/iterable.js",
+      "line": 6,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createIterable needs JSDoc: @param {any} subprocess, @param {any} encoding, @returns {AsyncGenerator<any, void, any>}"
+    },
+    {
+      "file": "lib/convert/iterable.js",
+      "line": 24,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateOnStdoutData needs types for 3 parameters: onStdoutData, subprocessStdout: object, subprocess: Promise<unknown>"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 16,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createReadable needs JSDoc: @returns {Readable}"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 44,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSubprocessStdout needs types for 3 parameters: subprocess, from: number, concurrentStreams"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 44,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSubprocessStdout needs JSDoc: @param {any} subprocess, @param {any} from, @param {any} concurrentStreams, @returns {{ subprocessStdout: any; waitReadableDestroy: { resolve: any; promises: any; }; }}"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 50,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getReadableOptions needs JSDoc: @param {any} binary, @returns {{ readableEncoding: any; readableObjectMode: any; readableHighWaterMark: any; }}"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 50,
+      "column": 99,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getReadableOptions(): parameter 'binary' needs a type. Add: @param {unknown} binary"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 54,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getReadableMethods needs JSDoc: @returns {{ read(): void; onStdoutDataDone: Promise<any>; }}"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 74,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onRead needs types for 3 parameters: readable: any[], onStdoutData: object, onStdoutDataDone: object"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 87,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onStdoutFinished needs JSDoc: @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 104,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onReadableDestroy needs JSDoc: @param {any} error, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 104,
+      "column": 94,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onReadableDestroy(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/convert/readable.js",
+      "line": 111,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "destroyOtherReadable needs types for 2 parameters: stream: object, error: Error"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 4,
+      "column": 43,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "safeWaitForSubprocessStdin needs JSDoc: @param {any} subprocessStdin, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 4,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In safeWaitForSubprocessStdin(): parameter 'subprocessStdin' needs a type. Add: @param {unknown} subprocessStdin"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 14,
+      "column": 44,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "safeWaitForSubprocessStdout needs JSDoc: @param {any} subprocessStdout, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 14,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In safeWaitForSubprocessStdout(): parameter 'subprocessStdout' needs a type. Add: @param {unknown} subprocessStdout"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 24,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForSubprocessStdin needs JSDoc: @param {any} subprocessStdin, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 24,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForSubprocessStdin(): parameter 'subprocessStdin' needs a type. Add: @param {unknown} subprocessStdin"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 28,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForSubprocessStdout needs JSDoc: @param {any} subprocessStdout, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 28,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForSubprocessStdout(): parameter 'subprocessStdout' needs a type. Add: @param {unknown} subprocessStdout"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 33,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForSubprocess needs types for 2 parameters: subprocess: Promise<unknown>, error: Error"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 33,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForSubprocess needs JSDoc: @param {any} subprocess, @param {any} error, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 40,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "destroyOtherStream needs types for 3 parameters: stream: object, isOpen: boolean, error: Error"
+    },
+    {
+      "file": "lib/convert/shared.js",
+      "line": 40,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "destroyOtherStream needs JSDoc: @param {any} stream, @param {any} isOpen, @param {any} error"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 13,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createWritable needs JSDoc: @returns {Writable}"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 31,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSubprocessStdin needs types for 3 parameters: subprocess, to: number, concurrentStreams"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 31,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSubprocessStdin needs JSDoc: @param {any} subprocess, @param {any} to, @param {any} concurrentStreams, @returns {{ subprocessStdin: any; waitWritableFinal: { resolve: any; promises: any; }; waitWritableDestroy: { resolve: any; promises: any; }; }}"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 38,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getWritableMethods needs types for 3 parameters: subprocessStdin, subprocess, waitWritableFinal"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 38,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getWritableMethods needs JSDoc: @param {any} subprocessStdin, @param {any} subprocess, @param {any} waitWritableFinal, @returns {{ write: any; final: (callback: (err: ErrnoException) => void) => void; }}"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 44,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onWrite needs types for 4 parameters: subprocessStdin: object, chunk, encoding: string, done: Function"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 56,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onWritableFinal needs types for 3 parameters: subprocessStdin: object, subprocess: Promise<unknown>, waitWritableFinal"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 67,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onStdinFinished needs types for 3 parameters: subprocessStdin, writable: object, subprocessStdout"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 67,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onStdinFinished needs JSDoc: @param {any} subprocessStdin, @param {any} writable, @param {any} subprocessStdout, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 80,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onWritableDestroy needs JSDoc: @param {any} error, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 80,
+      "column": 112,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onWritableDestroy(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/convert/writable.js",
+      "line": 88,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "destroyOtherWritable needs types for 2 parameters: stream: object, error: Error"
+    },
+    {
+      "file": "lib/io/contents.js",
+      "line": 10,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStreamOutput needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/io/contents.js",
+      "line": 72,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resumeStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/io/contents.js",
+      "line": 105,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBufferedData needs JSDoc: @param {any} streamPromise, @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/io/contents.js",
+      "line": 105,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBufferedData(): parameter 'streamPromise' needs a type. Add: @param {Promise<unknown>} streamPromise"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 6,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addInputOptionsSync needs types for 2 parameters: fileDescriptors, options: object"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 6,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addInputOptionsSync needs JSDoc: @param {any} fileDescriptors, @param {any} options"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 12,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInputFdNumbers(): parameter 'fileDescriptors' needs a type. Add: @param {unknown} fileDescriptors"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 16,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addInputOptionSync needs types for 3 parameters: fileDescriptors: object, fdNumber, options: object"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 29,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'contents' needs a type. Add: @param {unknown} contents"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 33,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applySingleInputGeneratorsSync needs types for 2 parameters: contents, stdioItems"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 39,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateSerializable(): parameter 'newContents' needs a type. Add: @param {any[]} newContents"
+    },
+    {
+      "file": "lib/io/input-sync.js",
+      "line": 40,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/io/iterate.js",
+      "line": 8,
+      "column": 42,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "iterateOnSubprocessStream needs JSDoc: @returns {AsyncGenerator<any, void, any>}"
+    },
+    {
+      "file": "lib/io/iterate.js",
+      "line": 22,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stopReadingOnExit needs types for 2 parameters: subprocess: Promise<unknown>, controller: object"
+    },
+    {
+      "file": "lib/io/iterate.js",
+      "line": 32,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "iterateForResult needs JSDoc: @returns {AsyncGenerator<any, void, any>}"
+    },
+    {
+      "file": "lib/io/iterate.js",
+      "line": 47,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stopReadingOnStreamEnd needs types for 3 parameters: onStreamEnd: Promise<unknown>, controller: object, stream: object"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 7,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleMaxBuffer needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 22,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMaxBufferUnit needs types for 3 parameters: readableObjectMode, lines: any[], encoding: string"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 39,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkIpcMaxBuffer needs types for 3 parameters: subprocess, ipcOutput: object, maxBuffer"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 39,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "checkIpcMaxBuffer needs JSDoc: @param {any} subprocess, @param {any} ipcOutput, @param {any} maxBuffer"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 50,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMaxBufferMessage needs types for 2 parameters: error: Error, maxBuffer"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 50,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getMaxBufferMessage needs JSDoc: @param {any} error, @param {any} maxBuffer, @returns {string}"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 55,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMaxBufferInfo needs types for 2 parameters: error: Error, maxBuffer"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 74,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isMaxBufferSync needs types for 3 parameters: resultError: object, output: any[], maxBuffer"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 74,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMaxBufferSync needs JSDoc: @param {any} resultError, @param {any} output, @param {any} maxBuffer, @returns {any}"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 76,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {object} result"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 79,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "truncateMaxBufferSync needs types for 3 parameters: result: object, isMaxBuffer: boolean, maxBuffer"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 79,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "truncateMaxBufferSync needs JSDoc: @param {any} result, @param {any} isMaxBuffer, @param {any} maxBuffer, @returns {any}"
+    },
+    {
+      "file": "lib/io/max-buffer.js",
+      "line": 89,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getMaxBufferSync needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/io/output-async.js",
+      "line": 9,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pipeOutputAsync needs types for 3 parameters: subprocess, fileDescriptors, controller"
+    },
+    {
+      "file": "lib/io/output-async.js",
+      "line": 9,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pipeOutputAsync needs JSDoc: @param {any} subprocess, @param {any} fileDescriptors, @param {any} controller"
+    },
+    {
+      "file": "lib/io/output-async.js",
+      "line": 36,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pipeTransform needs types for 4 parameters: subprocess: object, stream, direction, fdNumber"
+    },
+    {
+      "file": "lib/io/output-async.js",
+      "line": 71,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStandardStreamMaxListeners(): parameter 'stream' needs a type. Add: @param {unknown} stream"
+    },
+    {
+      "file": "lib/io/output-sync.js",
+      "line": 10,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "transformOutputSync needs JSDoc: @returns {{ output: any; }}"
+    },
+    {
+      "file": "lib/io/output-sync.js",
+      "line": 17,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: result, fdNumber"
+    },
+    {
+      "file": "lib/io/output-sync.js",
+      "line": 76,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "runOutputGeneratorsSync needs types for 4 parameters: chunks: any[], stdioItems, encoding: string, state: object"
+    },
+    {
+      "file": "lib/io/output-sync.js",
+      "line": 125,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeToFiles needs types for 3 parameters: serializedResult, stdioItems: any[], outputFiles: object"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 5,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pipeStreams needs types for 2 parameters: source: object, destination"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 5,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pipeStreams needs JSDoc: @param {any} source, @param {any} destination"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 13,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onSourceFinish needs types for 2 parameters: source, destination"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 25,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In endDestinationStream(): parameter 'destination' needs a type. Add: @param {object} destination"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 25,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "endDestinationStream needs JSDoc: @param {any} destination"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 32,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onDestinationFinish needs types for 2 parameters: source, destination"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 44,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In abortSourceStream(): parameter 'source' needs a type. Add: @param {object} source"
+    },
+    {
+      "file": "lib/io/pipeline.js",
+      "line": 44,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "abortSourceStream needs JSDoc: @param {any} source"
+    },
+    {
+      "file": "lib/io/strip-newline.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stripNewline needs types for 2 parameters: value, fdNumber"
+    },
+    {
+      "file": "lib/io/strip-newline.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stripNewline needs JSDoc: @param {any} value, @param {any} fdNumber, @returns {any}"
+    },
+    {
+      "file": "lib/io/strip-newline.js",
+      "line": 10,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getStripFinalNewline needs types for 2 parameters: stripFinalNewline: object, fdNumber"
+    },
+    {
+      "file": "lib/io/strip-newline.js",
+      "line": 10,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStripFinalNewline needs JSDoc: @param {any} stripFinalNewline, @param {any} fdNumber, @returns {any}"
+    },
+    {
+      "file": "lib/ipc/array.js",
+      "line": 2,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeIpcStdioArray needs types for 2 parameters: stdioArray: any[] | object, ipc"
+    },
+    {
+      "file": "lib/ipc/array.js",
+      "line": 2,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeIpcStdioArray needs JSDoc: @param {any} stdioArray, @param {any} ipc, @returns {any}"
+    },
+    {
+      "file": "lib/ipc/buffer-messages.js",
+      "line": 7,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForIpcOutput needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/ipc/buffer-messages.js",
+      "line": 44,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBufferedIpcOutput needs types for 2 parameters: ipcOutputPromise, ipcOutput"
+    },
+    {
+      "file": "lib/ipc/buffer-messages.js",
+      "line": 44,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBufferedIpcOutput needs JSDoc: @param {any} ipcOutputPromise, @param {any} ipcOutput, @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/ipc/forward.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getIpcEmitter needs types for 3 parameters: anyProcess, channel, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/forward.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getIpcEmitter needs JSDoc: @param {any} anyProcess, @param {any} channel, @param {any} isSubprocess, @returns {any}"
+    },
+    {
+      "file": "lib/ipc/forward.js",
+      "line": 14,
+      "column": 2,
+      "rule": "unicorn/prefer-event-target",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/prefer-event-target' was not found."
+    },
+    {
+      "file": "lib/ipc/forward.js",
+      "line": 51,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isConnected(): parameter 'anyProcess' needs a type. Add: @param {object} anyProcess"
+    },
+    {
+      "file": "lib/ipc/forward.js",
+      "line": 51,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isConnected needs JSDoc: @param {any} anyProcess, @returns {any}"
+    },
+    {
+      "file": "lib/ipc/get-each.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getEachMessage needs JSDoc: @returns {AsyncGenerator<any, void, unknown>}"
+    },
+    {
+      "file": "lib/ipc/get-each.js",
+      "line": 17,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "loopOnMessages needs JSDoc: @returns {AsyncGenerator<any, void, unknown>}"
+    },
+    {
+      "file": "lib/ipc/get-each.js",
+      "line": 48,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stopOnDisconnect needs types for 3 parameters: anyProcess, ipcEmitter, controller: object"
+    },
+    {
+      "file": "lib/ipc/get-one.js",
+      "line": 12,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getOneMessage needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/ipc/get-one.js",
+      "line": 48,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMessage needs types for 2 parameters: ipcEmitter, filter: Function"
+    },
+    {
+      "file": "lib/ipc/get-one.js",
+      "line": 61,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwOnDisconnect needs types for 2 parameters: ipcEmitter, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/get-one.js",
+      "line": 66,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwOnStrictError needs types for 2 parameters: ipcEmitter, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/graceful.js",
+      "line": 7,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sendAbort needs types for 2 parameters: subprocess: object, message: string"
+    },
+    {
+      "file": "lib/ipc/graceful.js",
+      "line": 7,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sendAbort needs JSDoc: @param {any} subprocess, @param {any} message, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/graceful.js",
+      "line": 21,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getCancelSignal needs JSDoc: @returns {Promise<AbortSignal>}"
+    },
+    {
+      "file": "lib/ipc/graceful.js",
+      "line": 55,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleAbort(): parameter 'wrappedMessage' needs a type. Add: @param {object} wrappedMessage"
+    },
+    {
+      "file": "lib/ipc/graceful.js",
+      "line": 55,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleAbort needs JSDoc: @param {any} wrappedMessage, @returns {boolean}"
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 26,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onMessage needs JSDoc: @param {any} wrappedMessage, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 26,
+      "column": 82,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onMessage(): parameter 'wrappedMessage' needs a type. Add: @param {unknown} wrappedMessage"
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 43,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 45,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 48,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 64,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onDisconnect needs JSDoc: @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/incoming.js",
+      "line": 69,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "lib/ipc/ipc-input.js",
+      "line": 16,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateAdvancedInput(): parameter 'ipcInput' needs a type. Add: @param {unknown} ipcInput"
+    },
+    {
+      "file": "lib/ipc/ipc-input.js",
+      "line": 24,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateJsonInput(): parameter 'ipcInput' needs a type. Add: @param {unknown} ipcInput"
+    },
+    {
+      "file": "lib/ipc/ipc-input.js",
+      "line": 38,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sendIpcInput needs types for 2 parameters: subprocess: object, ipcInput"
+    },
+    {
+      "file": "lib/ipc/ipc-input.js",
+      "line": 38,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sendIpcInput needs JSDoc: @param {any} subprocess, @param {any} ipcInput, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/methods.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addIpcMethods needs JSDoc: @param {any} subprocess"
+    },
+    {
+      "file": "lib/ipc/methods.js",
+      "line": 8,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addIpcMethods(): parameter 'subprocess' needs a type. Add: @param {unknown} subprocess"
+    },
+    {
+      "file": "lib/ipc/methods.js",
+      "line": 13,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getIpcExport needs JSDoc: @returns {{ getCancelSignal: any; sendMessage: any; getOneMessage: any; getEachMessage: any; }}"
+    },
+    {
+      "file": "lib/ipc/methods.js",
+      "line": 30,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getIpcMethods needs types for 3 parameters: anyProcess: object, isSubprocess: boolean, ipc"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "startSendMessage needs types for 3 parameters: anyProcess, wrappedMessage: object, strict: boolean"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "startSendMessage needs JSDoc: @param {any} anyProcess, @param {any} wrappedMessage, @param {any} strict, @returns {{ outgoingMessages: any; outgoingMessage: { onMessageSent: Promise<any>; id: any; }; }}"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 28,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForOutgoingMessages needs types for 3 parameters: anyProcess, ipcEmitter, wrappedMessage"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 28,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForOutgoingMessages needs JSDoc: @param {any} anyProcess, @param {any} ipcEmitter, @param {any} wrappedMessage, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 32,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 40,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hasMessageListeners needs types for 2 parameters: anyProcess, ipcEmitter: object"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 40,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasMessageListeners needs JSDoc: @param {any} anyProcess, @param {any} ipcEmitter, @returns {boolean}"
+    },
+    {
+      "file": "lib/ipc/outgoing.js",
+      "line": 44,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMinListenerCount(): parameter 'anyProcess' needs a type. Add: @param {unknown} anyProcess"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 8,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addReference needs types for 2 parameters: channel, reference"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 8,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addReference needs JSDoc: @param {any} channel, @param {any} reference"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 14,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addReferenceCount(): parameter 'channel' needs a type. Add: @param {object} channel"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 18,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeReference needs types for 2 parameters: channel, reference"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 18,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "removeReference needs JSDoc: @param {any} channel, @param {any} reference"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 24,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeReferenceCount(): parameter 'channel' needs a type. Add: @param {object} channel"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 31,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "undoAddedReferences needs types for 2 parameters: channel, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 31,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "undoAddedReferences needs JSDoc: @param {any} channel, @param {any} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 39,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "redoAddedReferences needs types for 2 parameters: channel, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/reference.js",
+      "line": 39,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "redoAddedReferences needs JSDoc: @param {any} channel, @param {any} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/send.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sendMessage needs JSDoc: @param {any} message, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/send.js",
+      "line": 15,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sendMessage(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "lib/ipc/send.js",
+      "line": 60,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sendOneMessage needs JSDoc: @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/send.js",
+      "line": 81,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSendMethod(): parameter 'anyProcess' needs a type. Add: @param {object} anyProcess"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 10,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleSendStrict needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 29,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateStrictDeadlock needs types for 2 parameters: outgoingMessages, wrappedMessage: object"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 29,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "validateStrictDeadlock needs JSDoc: @param {any} outgoingMessages, @param {any} wrappedMessage"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 42,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleStrictRequest needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 65,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleStrictResponse(): parameter 'wrappedMessage' needs a type. Add: @param {object} wrappedMessage"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 65,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleStrictResponse needs JSDoc: @param {any} wrappedMessage, @returns {boolean}"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 76,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForStrictResponse needs types for 3 parameters: wrappedMessage: object, anyProcess, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 76,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForStrictResponse needs JSDoc: @param {any} wrappedMessage, @param {any} anyProcess, @param {any} isSubprocess, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/ipc/strict.js",
+      "line": 106,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwOnDisconnect needs types for 2 parameters: anyProcess, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 8,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateIpcOption needs types for 3 parameters: methodName: string, isSubprocess: boolean, ipc"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 17,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateConnection needs types for 3 parameters: methodName: string, isSubprocess: boolean, isConnected: boolean"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 17,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "validateConnection needs JSDoc: @param {any} methodName, @param {any} isSubprocess, @param {any} isConnected"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 24,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwOnEarlyDisconnect(): parameter 'isSubprocess' needs a type. Add: @param {boolean} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 24,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnEarlyDisconnect needs JSDoc: @param {any} isSubprocess, @returns {never}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 29,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwOnStrictDeadlockError(): parameter 'isSubprocess' needs a type. Add: @param {boolean} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 29,
+      "column": 43,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnStrictDeadlockError needs JSDoc: @param {any} isSubprocess, @returns {never}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 40,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getStrictResponseError needs types for 2 parameters: error: Error, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 40,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStrictResponseError needs JSDoc: @param {any} error, @param {any} isSubprocess, @returns {Error}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 43,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwOnMissingStrict(): parameter 'isSubprocess' needs a type. Add: @param {boolean} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 43,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnMissingStrict needs JSDoc: @param {any} isSubprocess, @returns {never}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 48,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwOnStrictDisconnect(): parameter 'isSubprocess' needs a type. Add: @param {boolean} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 48,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnStrictDisconnect needs JSDoc: @param {any} isSubprocess, @returns {never}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 53,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getAbortDisconnectError needs JSDoc: @returns {Error}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 56,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnMissingParent needs JSDoc: @returns {never}"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 96,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMethodName needs types for 2 parameters: methodName: string, isSubprocess: boolean"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 100,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNamespaceName(): parameter 'isSubprocess' needs a type. Add: @param {boolean} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 102,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getOtherProcessName(): parameter 'isSubprocess' needs a type. Add: @param {boolean} isSubprocess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 107,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In disconnect(): parameter 'anyProcess' needs a type. Add: @param {object} anyProcess"
+    },
+    {
+      "file": "lib/ipc/validation.js",
+      "line": 107,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "disconnect needs JSDoc: @param {any} anyProcess"
+    },
+    {
+      "file": "lib/methods/bind.js",
+      "line": 6,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeOptions needs types for 2 parameters: boundOptions: object, options: object"
+    },
+    {
+      "file": "lib/methods/bind.js",
+      "line": 6,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeOptions needs JSDoc: @param {any} boundOptions, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/methods/bind.js",
+      "line": 17,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeOption needs types for 3 parameters: optionName: string, boundOptionValue: any[] | object, optionValue: any[] | object"
+    },
+    {
+      "file": "lib/methods/command.js",
+      "line": 2,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mapCommandAsync needs JSDoc: @returns {{ file: string; commandArguments: string[]; }}"
+    },
+    {
+      "file": "lib/methods/command.js",
+      "line": 5,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mapCommandSync needs JSDoc: @returns {{ isSync: boolean; file: string; commandArguments: string[]; }}"
+    },
+    {
+      "file": "lib/methods/command.js",
+      "line": 8,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseCommand needs types for 2 parameters: command, unusedArguments: object"
+    },
+    {
+      "file": "lib/methods/command.js",
+      "line": 18,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseCommandString(): parameter 'command' needs a type. Add: @param {string} command"
+    },
+    {
+      "file": "lib/methods/command.js",
+      "line": 18,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseCommandString needs JSDoc: @param {any} command, @returns {string[]}"
+    },
+    {
+      "file": "lib/methods/create.js",
+      "line": 13,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createExeca needs types for 4 parameters: mapArguments, boundOptions: object, deepOptions: object, setBoundExeca: Function"
+    },
+    {
+      "file": "lib/methods/create.js",
+      "line": 13,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createExeca needs JSDoc: @param {any} mapArguments, @param {any} boundOptions, @param {any} deepOptions, @param {any} setBoundExeca, @returns {function(any[]): any}"
+    },
+    {
+      "file": "lib/methods/create.js",
+      "line": 14,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createNested needs types for 3 parameters: mapArguments, boundOptions: object, setBoundExeca"
+    },
+    {
+      "file": "lib/methods/create.js",
+      "line": 30,
+      "column": 107,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callBoundExeca(): parameter 'firstArgument' needs a type. Add: @param {unknown} firstArgument"
+    },
+    {
+      "file": "lib/methods/main-async.js",
+      "line": 25,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "execaCoreAsync needs types for 4 parameters: rawFile, rawArguments, rawOptions: object, createNested"
+    },
+    {
+      "file": "lib/methods/main-async.js",
+      "line": 25,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "execaCoreAsync needs JSDoc: @param {any} rawFile, @param {any} rawArguments, @param {any} rawOptions, @param {any} createNested, @returns {ChildProcess}"
+    },
+    {
+      "file": "lib/methods/main-async.js",
+      "line": 49,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleAsyncArguments needs types for 3 parameters: rawFile, rawArguments, rawOptions: object"
+    },
+    {
+      "file": "lib/methods/main-async.js",
+      "line": 149,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stdioResult, fdNumber"
+    },
+    {
+      "file": "lib/methods/main-sync.js",
+      "line": 16,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "execaCoreSync needs types for 3 parameters: rawFile, rawArguments, rawOptions: object"
+    },
+    {
+      "file": "lib/methods/main-sync.js",
+      "line": 16,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "execaCoreSync needs JSDoc: @param {any} rawFile, @param {any} rawArguments, @param {any} rawOptions, @returns {any}"
+    },
+    {
+      "file": "lib/methods/main-sync.js",
+      "line": 32,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleSyncArguments needs types for 3 parameters: rawFile, rawArguments, rawOptions: object"
+    },
+    {
+      "file": "lib/methods/main-sync.js",
+      "line": 51,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeSyncOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/methods/main-sync.js",
+      "line": 72,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwInvalidSyncOption(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/methods/main-sync.js",
+      "line": 98,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stdioOutput, fdNumber"
+    },
+    {
+      "file": "lib/methods/node.js",
+      "line": 6,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mapNode needs JSDoc: @returns {{ options: any; }}"
+    },
+    {
+      "file": "lib/methods/node.js",
+      "line": 17,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleNodeOption needs types for 2 parameters: file, commandArguments: any[] | object"
+    },
+    {
+      "file": "lib/methods/node.js",
+      "line": 17,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleNodeOption needs JSDoc: @param {any} file, @param {any} commandArguments, @returns {any[]}"
+    },
+    {
+      "file": "lib/methods/parameters.js",
+      "line": 6,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeParameters needs JSDoc: @param {any} rawFile, @returns {(string | string[] | { __proto__: any; })[]}"
+    },
+    {
+      "file": "lib/methods/parameters.js",
+      "line": 6,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeParameters(): parameter 'rawFile' needs a type. Add: @param {unknown} rawFile"
+    },
+    {
+      "file": "lib/methods/parameters.js",
+      "line": 16,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'commandArgument' needs a type. Add: @param {unknown} commandArgument"
+    },
+    {
+      "file": "lib/methods/promise.js",
+      "line": 2,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergePromise needs types for 2 parameters: subprocess, promise"
+    },
+    {
+      "file": "lib/methods/promise.js",
+      "line": 2,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergePromise needs JSDoc: @param {any} subprocess, @param {any} promise"
+    },
+    {
+      "file": "lib/methods/promise.js",
+      "line": 9,
+      "column": 1,
+      "rule": "unicorn/prefer-top-level-await",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/prefer-top-level-await' was not found."
+    },
+    {
+      "file": "lib/methods/script.js",
+      "line": 2,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setScriptSync needs types for 3 parameters: boundExeca: object, createNested: Function, boundOptions: object"
+    },
+    {
+      "file": "lib/methods/script.js",
+      "line": 2,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setScriptSync needs JSDoc: @param {any} boundExeca, @param {any} createNested, @param {any} boundOptions"
+    },
+    {
+      "file": "lib/methods/script.js",
+      "line": 8,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mapScriptAsync needs JSDoc: @returns {{ options: any; }}"
+    },
+    {
+      "file": "lib/methods/script.js",
+      "line": 14,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getScriptOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 6,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isTemplateString(): parameter 'templates' needs a type. Add: @param {object} templates"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 6,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isTemplateString needs JSDoc: @param {any} templates, @returns {boolean}"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 9,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseTemplates needs types for 2 parameters: templates: any[], expressions"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 9,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseTemplates needs JSDoc: @param {any} templates, @param {any} expressions, @returns {any[]}"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 44,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expression' needs a type. Add: @param {unknown} expression"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 55,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splitByWhitespaces needs types for 2 parameters: template: object, rawTemplate: object"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 105,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "concatTokens needs types for 3 parameters: tokens: any[] | object, nextTokens: any[] | object, isSeparated: boolean"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 116,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseExpression(): parameter 'expression' needs a type. Add: @param {unknown} expression"
+    },
+    {
+      "file": "lib/methods/template.js",
+      "line": 132,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-template-curly-in-string')."
+    },
+    {
+      "file": "lib/pipe/abort.js",
+      "line": 6,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unpipeOnAbort needs types for 2 parameters: unpipeSignal, unpipeContext"
+    },
+    {
+      "file": "lib/pipe/abort.js",
+      "line": 6,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "unpipeOnAbort needs JSDoc: @param {any} unpipeSignal, @param {any} unpipeContext, @returns {Promise<never>[]}"
+    },
+    {
+      "file": "lib/pipe/abort.js",
+      "line": 10,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unpipeOnSignalAbort(): parameter 'unpipeSignal' needs a type. Add: @param {unknown} unpipeSignal"
+    },
+    {
+      "file": "lib/pipe/pipe-arguments.js",
+      "line": 7,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizePipeArguments needs JSDoc: @returns {{ sourcePromise: any; sourceStream: any; sourceOptions: any; sourceError: any; destination: any; destinationStream: any; destinationError: any; unpipeSignal: any; fileDescriptors: any; startTime: bigint; }}"
+    },
+    {
+      "file": "lib/pipe/pipe-arguments.js",
+      "line": 32,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDestinationStream needs types for 3 parameters: boundOptions: object, createNested, pipeArguments: any[] | object"
+    },
+    {
+      "file": "lib/pipe/pipe-arguments.js",
+      "line": 54,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDestination needs types for 3 parameters: boundOptions: object, createNested: Function, firstArgument"
+    },
+    {
+      "file": "lib/pipe/pipe-arguments.js",
+      "line": 84,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSourceStream needs types for 2 parameters: source, from: number"
+    },
+    {
+      "file": "lib/pipe/sequence.js",
+      "line": 5,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForBothSubprocesses needs JSDoc: @param {any} subprocessPromises, @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/pipe/sequence.js",
+      "line": 5,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForBothSubprocesses(): parameter 'subprocessPromises' needs a type. Add: @param {Promise<unknown>} subprocessPromises"
+    },
+    {
+      "file": "lib/pipe/setup.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pipeToSubprocess needs JSDoc: @param {any} sourceInfo, @returns {any}"
+    },
+    {
+      "file": "lib/pipe/setup.js",
+      "line": 9,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pipeToSubprocess(): parameter 'sourceInfo' needs a type. Add: @param {any[] | object} sourceInfo"
+    },
+    {
+      "file": "lib/pipe/setup.js",
+      "line": 72,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSubprocessPromises needs types for 2 parameters: sourcePromise, destination"
+    },
+    {
+      "file": "lib/pipe/streaming.js",
+      "line": 12,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pipeSubprocessStream needs types for 3 parameters: sourceStream, destinationStream, maxListenersController: object"
+    },
+    {
+      "file": "lib/pipe/streaming.js",
+      "line": 12,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pipeSubprocessStream needs JSDoc: @param {any} sourceStream, @param {any} destinationStream, @param {any} maxListenersController, @returns {any}"
+    },
+    {
+      "file": "lib/pipe/streaming.js",
+      "line": 23,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pipeFirstSubprocessStream needs types for 2 parameters: sourceStream, destinationStream"
+    },
+    {
+      "file": "lib/pipe/streaming.js",
+      "line": 30,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pipeMoreSubprocessStream needs types for 2 parameters: sourceStream, destinationStream"
+    },
+    {
+      "file": "lib/pipe/streaming.js",
+      "line": 36,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cleanupMergedStreamsMap(): parameter 'destinationStream' needs a type. Add: @param {unknown} destinationStream"
+    },
+    {
+      "file": "lib/pipe/throw.js",
+      "line": 48,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createNonCommandError needs JSDoc: @returns {ExecaSyncError}"
+    },
+    {
+      "file": "lib/resolve/all-async.js",
+      "line": 5,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeAllStream needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/resolve/all-async.js",
+      "line": 10,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForAllStream needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/resolve/all-sync.js",
+      "line": 5,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getAllSync needs JSDoc: @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/resolve/all-sync.js",
+      "line": 5,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getAllSync(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 11,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForExit needs types for 2 parameters: subprocess, context: object"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 11,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForExit needs JSDoc: @param {any} subprocess, @param {any} context, @returns {Promise<any[]>}"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 17,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForExitOrError(): parameter 'subprocess' needs a type. Add: @param {unknown} subprocess"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 32,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForSubprocessExit(): parameter 'subprocess' needs a type. Add: @param {unknown} subprocess"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 41,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForSuccessfulExit needs JSDoc: @param {any} exitPromise, @returns {Promise<any[]>}"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 41,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In waitForSuccessfulExit(): parameter 'exitPromise' needs a type. Add: @param {Promise<unknown>} exitPromise"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 52,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isSubprocessErrorExit needs types for 2 parameters: exitCode, signal"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 54,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isFailedExit needs types for 2 parameters: exitCode, signal"
+    },
+    {
+      "file": "lib/resolve/exit-async.js",
+      "line": 54,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFailedExit needs JSDoc: @param {any} exitCode, @param {any} signal, @returns {boolean}"
+    },
+    {
+      "file": "lib/resolve/exit-sync.js",
+      "line": 6,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getExitResultSync needs JSDoc: @returns {{ resultError: any; exitCode: any; signal: any; timedOut: boolean; isMaxBuffer: any; }}"
+    },
+    {
+      "file": "lib/resolve/exit-sync.js",
+      "line": 19,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getResultError needs types for 3 parameters: error: Error, exitCode, signal"
+    },
+    {
+      "file": "lib/resolve/stdio.js",
+      "line": 5,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForStdioStreams needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/resolve/stdio.js",
+      "line": 5,
+      "column": 155,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stream, fdNumber"
+    },
+    {
+      "file": "lib/resolve/stdio.js",
+      "line": 19,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForSubprocessStream needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 6,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForStream needs types for 3 parameters: stream, fdNumber, streamInfo: object"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 6,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForStream needs JSDoc: @param {any} stream, @param {any} fdNumber, @param {any} streamInfo, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 34,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleStdinDestroy(): parameter 'stream' needs a type. Add: @param {unknown} stream"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 43,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "spyOnStdinDestroy needs types for 3 parameters: subprocessStdin: object, subprocess, state: object"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 51,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStdinCleanedUp(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 62,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleStreamError needs types for 4 parameters: error: Error, fdNumber, streamInfo, isSameDirection: boolean"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 68,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shouldIgnoreStreamError needs types for 3 parameters: error: Error, fdNumber, streamInfo: object"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 84,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isInputFileDescriptor needs JSDoc: @param {any} fdNumber, @returns {boolean}"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 84,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isInputFileDescriptor(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 89,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStreamAbort(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 89,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isStreamAbort needs JSDoc: @param {any} error, @returns {boolean}"
+    },
+    {
+      "file": "lib/resolve/wait-stream.js",
+      "line": 96,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStreamEpipe(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 17,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "waitForSubprocessResult needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 116,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioPromise' needs a type. Add: @param {unknown} stdioPromise"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 127,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForOriginalStreams needs types for 3 parameters: originalStreams: any[], subprocess: object, streamInfo"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 128,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stream, fdNumber"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 135,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "waitForCustomStreamsEnd needs types for 2 parameters: fileDescriptors: any[], streamInfo"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 135,
+      "column": 105,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/resolve/wait-subprocess.js",
+      "line": 143,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwOnSubprocessError(): parameter 'subprocess' needs a type. Add: @param {unknown} subprocess"
+    },
+    {
+      "file": "lib/return/duration.js",
+      "line": 4,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStartTime needs JSDoc: @returns {bigint}"
+    },
+    {
+      "file": "lib/return/duration.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getDurationMs(): parameter 'startTime' needs a type. Add: @param {number} startTime"
+    },
+    {
+      "file": "lib/return/duration.js",
+      "line": 8,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getDurationMs needs JSDoc: @param {any} startTime, @returns {number}"
+    },
+    {
+      "file": "lib/return/early-error.js",
+      "line": 14,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleEarlyError needs JSDoc: @returns {{ subprocess: ChildProcess; promise: Promise<any>; }}"
+    },
+    {
+      "file": "lib/return/early-error.js",
+      "line": 34,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createDummyStreams needs types for 2 parameters: subprocess, fileDescriptors: object"
+    },
+    {
+      "file": "lib/return/early-error.js",
+      "line": 60,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleDummyPromise needs types for 3 parameters: error: Error, verboseInfo, options: object"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 3,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFinalError needs types for 3 parameters: originalError, message: string, isSync: boolean"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 3,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getFinalError needs JSDoc: @param {any} originalError, @param {any} message, @param {any} isSync, @returns {ExecaSyncError}"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 13,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setErrorName needs types for 2 parameters: ErrorClass: object, value"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 29,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isExecaError(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 29,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isExecaError needs JSDoc: @param {any} error, @returns {boolean}"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 33,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isErrorInstance(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/return/final-error.js",
+      "line": 33,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isErrorInstance needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 11,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createMessages needs JSDoc: @returns {{ originalMessage: string; shortMessage: string; message: string; }}"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 56,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ipcMessage' needs a type. Add: @param {unknown} ipcMessage"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 58,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'messagePart' needs a type. Add: @param {unknown} messagePart"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 123,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getForcefulSuffix needs types for 2 parameters: isForcefullyTerminated: boolean, forceKillAfterDelay"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 127,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getOriginalMessage needs types for 2 parameters: originalError: object, cwd"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 139,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeIpcMessage(): parameter 'ipcMessage' needs a type. Add: @param {unknown} ipcMessage"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 143,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeMessagePart(): parameter 'messagePart' needs a type. Add: @param {any[]} messagePart"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 144,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'messageItem' needs a type. Add: @param {unknown} messageItem"
+    },
+    {
+      "file": "lib/return/message.js",
+      "line": 147,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeMessageItem(): parameter 'messageItem' needs a type. Add: @param {unknown} messageItem"
+    },
+    {
+      "file": "lib/return/reject.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleResult needs types for 2 parameters: result: object, verboseInfo"
+    },
+    {
+      "file": "lib/return/reject.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleResult needs JSDoc: @param {any} result, @param {any} verboseInfo, @returns {any}"
+    },
+    {
+      "file": "lib/return/result.js",
+      "line": 7,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeSuccessResult needs JSDoc: @returns {{ [k: string]: any; }}"
+    },
+    {
+      "file": "lib/return/result.js",
+      "line": 37,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeEarlyError needs JSDoc: @returns {ExecaSyncError}"
+    },
+    {
+      "file": "lib/return/result.js",
+      "line": 62,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeError needs JSDoc: @returns {ExecaSyncError}"
+    },
+    {
+      "file": "lib/return/result.js",
+      "line": 177,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In omitUndefinedProperties(): parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/return/result.js",
+      "line": 181,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeExitPayload needs types for 2 parameters: rawExitCode, rawSignal"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 13,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getStreamDirection needs types for 3 parameters: stdioItems: any[], fdNumber, optionName: string"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 13,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStreamDirection needs JSDoc: @param {any} stdioItems, @param {any} fdNumber, @param {any} optionName, @returns {any}"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 14,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {unknown} stdioItem"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 23,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getStdioItemDirection(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 40,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In webStream(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 41,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nodeStream(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 50,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In native(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/direction.js",
+      "line": 62,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getStandardStreamDirection(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 10,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In filterDuplicates(): parameter 'stdioItems' needs a type. Add: @param {any[]} stdioItems"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 10,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "filterDuplicates needs JSDoc: @param {any} stdioItems, @returns {any}"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 10,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stdioItemOne: object, indexOne"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 11,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stdioItemTwo: object, indexTwo"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 18,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getDuplicateStream needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 56,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getOtherStdioItems needs types for 2 parameters: fileDescriptors: any[], type: string"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 58,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {object} stdioItem"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 59,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {any[] | object} stdioItem"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 80,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {unknown} stdioItem"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 85,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {object} stdioItem"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 91,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasSameValue(): parameter 'secondValue' needs a type. Add: @param {object} secondValue"
+    },
+    {
+      "file": "lib/stdio/duplicate.js",
+      "line": 112,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwOnDuplicateStream needs types for 3 parameters: stdioItem: object, optionName: string, type: string"
+    },
+    {
+      "file": "lib/stdio/handle-async.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleStdioAsync needs types for 2 parameters: options: object, verboseInfo"
+    },
+    {
+      "file": "lib/stdio/handle-async.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleStdioAsync needs JSDoc: @param {any} options, @param {any} verboseInfo, @returns {{ direction: any; objectMode: any; stdioItems: any; }[]}"
+    },
+    {
+      "file": "lib/stdio/handle-sync.js",
+      "line": 7,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleStdioSync needs types for 2 parameters: options: object, verboseInfo"
+    },
+    {
+      "file": "lib/stdio/handle-sync.js",
+      "line": 7,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleStdioSync needs JSDoc: @param {any} options, @param {any} verboseInfo, @returns {{ direction: any; objectMode: any; stdioItems: any; }[]}"
+    },
+    {
+      "file": "lib/stdio/handle-sync.js",
+      "line": 21,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwInvalidSyncValue needs types for 2 parameters: optionName: string, value"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 19,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleStdio needs types for 4 parameters: addProperties, options: object, verboseInfo, isSync: boolean"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 19,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleStdio needs JSDoc: @param {any} addProperties, @param {any} options, @param {any} verboseInfo, @param {any} isSync, @returns {{ direction: any; objectMode: any; stdioItems: any; }[]}"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 21,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stdioOption, fdNumber"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 46,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {unknown} stdioItem"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 65,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 76,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initializeStdioItem needs types for 2 parameters: value, optionName: string"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 82,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateStdioArray needs types for 3 parameters: stdioItems: object, isStdioArray: boolean, optionName: string"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 102,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateStreams(): parameter 'stdioItems' needs a type. Add: @param {unknown} stdioItems"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 119,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateFileObjectMode needs types for 2 parameters: stdioItems: any[], objectMode"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 161,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioItem' needs a type. Add: @param {unknown} stdioItem"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 194,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cleanupCustomStreams(): parameter 'fileDescriptors' needs a type. Add: @param {unknown} fileDescriptors"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 194,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "cleanupCustomStreams needs JSDoc: @param {any} fileDescriptors"
+    },
+    {
+      "file": "lib/stdio/handle.js",
+      "line": 207,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In forwardStdio(): parameter 'stdioItems' needs a type. Add: @param {any[]} stdioItems"
+    },
+    {
+      "file": "lib/stdio/input-option.js",
+      "line": 6,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleInputOptions needs JSDoc: @param {any} fdNumber, @returns {{ type: string; value: any; optionName: string; }[]}"
+    },
+    {
+      "file": "lib/stdio/input-option.js",
+      "line": 6,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleInputOptions(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/stdio/input-option.js",
+      "line": 13,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleInputOption(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "lib/stdio/input-option.js",
+      "line": 19,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInputType(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "lib/stdio/input-option.js",
+      "line": 35,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleInputFileOption(): parameter 'inputFile' needs a type. Add: @param {unknown} inputFile"
+    },
+    {
+      "file": "lib/stdio/input-option.js",
+      "line": 40,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInputFileType(): parameter 'inputFile' needs a type. Add: @param {unknown} inputFile"
+    },
+    {
+      "file": "lib/stdio/native.js",
+      "line": 15,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "handleNativeStream needs JSDoc: @returns {{ type: any; } | { value: any; optionName: any; }}"
+    },
+    {
+      "file": "lib/stdio/native.js",
+      "line": 62,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTargetFdNumber needs types for 2 parameters: value, fdNumber"
+    },
+    {
+      "file": "lib/stdio/native.js",
+      "line": 98,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getStandardStream needs types for 3 parameters: fdNumber, value, optionName: string"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeStdioOption needs types for 2 parameters: verboseInfo, isSync: boolean"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeStdioOption needs JSDoc: @param {any} verboseInfo, @param {any} isSync, @returns {any}"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 8,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stdioOption' needs a type. Add: @param {unknown} stdioOption"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 14,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getStdioArray needs types for 2 parameters: stdio: object, options: object"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 32,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_' needs a type. Add: @param {unknown} _"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 35,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasAlias(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 37,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addDefaultValue needs types for 2 parameters: stdioOption: any[], fdNumber"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 39,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 51,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeStdioSync needs types for 3 parameters: stdioArray: any[], buffer: object, verboseInfo"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 51,
+      "column": 80,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: stdioOption, fdNumber"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 59,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOutputPipeOnly(): parameter 'stdioOption' needs a type. Add: @param {any[]} stdioOption"
+    },
+    {
+      "file": "lib/stdio/stdio-option.js",
+      "line": 60,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 6,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getStdioItemType needs types for 2 parameters: value, optionName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 6,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStdioItemType needs JSDoc: @param {any} value, @param {any} optionName, @returns {string}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 54,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTransformObjectType needs types for 2 parameters: value: object, optionName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 66,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDuplexType needs types for 2 parameters: value, optionName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 71,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTransformStreamType needs types for 2 parameters: value, optionName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 76,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateNonGeneratorType needs types for 2 parameters: optionName: string, typeName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 82,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkUndefinedOption needs types for 3 parameters: value, optionName: string, typeName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 88,
+      "column": 73,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getGeneratorObjectType(): parameter 'optionName' needs a type. Add: @param {string} optionName"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 111,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkBooleanOption needs types for 2 parameters: value, optionName: string"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 117,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isGenerator(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 118,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAsyncGenerator(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 118,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isAsyncGenerator needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 119,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSyncGenerator(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 120,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isTransformOptions(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 123,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isUrl(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 123,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUrl needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 124,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRegularUrl(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 124,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isRegularUrl needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 126,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFilePathObject(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 131,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFilePathString(): parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 131,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFilePathString needs JSDoc: @param {any} file, @returns {boolean}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 133,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isUnknownStdioString needs types for 2 parameters: type: string, value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 133,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUnknownStdioString needs JSDoc: @param {any} type, @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 138,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isReadableStream(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 139,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isWritableStream(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 139,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isWritableStream needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 140,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isWebStream(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 141,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isTransformStream(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 143,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAsyncIterableObject(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 144,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isIterableObject(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stdio/type.js",
+      "line": 145,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isObject(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/terminate/cancel.js",
+      "line": 11,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnCancel needs JSDoc: @returns {Promise<never>[]}"
+    },
+    {
+      "file": "lib/terminate/cancel.js",
+      "line": 15,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "terminateOnCancel needs types for 3 parameters: subprocess: object, cancelSignal: object, context: object"
+    },
+    {
+      "file": "lib/terminate/cleanup.js",
+      "line": 5,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "cleanupOnExit needs JSDoc: @param {any} subprocess"
+    },
+    {
+      "file": "lib/terminate/cleanup.js",
+      "line": 5,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cleanupOnExit(): parameter 'subprocess' needs a type. Add: @param {object} subprocess"
+    },
+    {
+      "file": "lib/terminate/graceful.js",
+      "line": 25,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnGracefulCancel needs JSDoc: @returns {Promise<never>[]}"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 6,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeForceKillAfterDelay(): parameter 'forceKillAfterDelay' needs a type. Add: @param {unknown} forceKillAfterDelay"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 6,
+      "column": 45,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeForceKillAfterDelay needs JSDoc: @param {any} forceKillAfterDelay, @returns {any}"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 25,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "subprocessKill needs types for 2 parameters: signalOrError, errorArgument"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 25,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "subprocessKill needs JSDoc: @param {any} signalOrError, @param {any} errorArgument, @returns {any}"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 45,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseKillArguments needs types for 3 parameters: signalOrError, errorArgument, killSignal"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 64,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "emitKillError needs types for 2 parameters: error: Error, onInternalError: object"
+    },
+    {
+      "file": "lib/terminate/kill.js",
+      "line": 82,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "killOnTimeout needs JSDoc: @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 6,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeKillSignal(): parameter 'killSignal' needs a type. Add: @param {unknown} killSignal"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 6,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeKillSignal needs JSDoc: @param {any} killSignal, @returns {any}"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 15,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeSignalArgument(): parameter 'signal' needs a type. Add: @param {unknown} signal"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 15,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeSignalArgument needs JSDoc: @param {any} signal, @returns {any}"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 19,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeSignal needs types for 2 parameters: signalNameOrInteger, optionName: string"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 31,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeSignalInteger needs types for 2 parameters: signalInteger, optionName: string"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 45,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeSignalName needs types for 2 parameters: signalName: string, optionName: string"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 70,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSignalDescription(): parameter 'signal' needs a type. Add: @param {unknown} signal"
+    },
+    {
+      "file": "lib/terminate/signal.js",
+      "line": 70,
+      "column": 37,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSignalDescription needs JSDoc: @param {any} signal, @returns {any}"
+    },
+    {
+      "file": "lib/terminate/timeout.js",
+      "line": 12,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwOnTimeout needs types for 4 parameters: subprocess, timeout: number, context: object, controller"
+    },
+    {
+      "file": "lib/terminate/timeout.js",
+      "line": 12,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throwOnTimeout needs JSDoc: @param {any} subprocess, @param {any} timeout, @param {any} context, @param {any} controller, @returns {Promise<never>[]}"
+    },
+    {
+      "file": "lib/terminate/timeout.js",
+      "line": 16,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "killAfterTimeout needs types for 3 parameters: subprocess: object, timeout: number, context: object"
+    },
+    {
+      "file": "lib/transform/encoding-transform.js",
+      "line": 16,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getEncodingTransformGenerator needs types for 3 parameters: binary, encoding: string, skipped"
+    },
+    {
+      "file": "lib/transform/encoding-transform.js",
+      "line": 16,
+      "column": 46,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getEncodingTransformGenerator needs JSDoc: @param {any} binary, @param {any} encoding, @param {any} skipped, @returns {{ transform: any; final?: undefined; } | { transform: any; final: any; }}"
+    },
+    {
+      "file": "lib/transform/encoding-transform.js",
+      "line": 32,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encodingUint8ArrayGenerator needs types for 2 parameters: textEncoder: object, chunk"
+    },
+    {
+      "file": "lib/transform/encoding-transform.js",
+      "line": 42,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encodingStringGenerator needs types for 2 parameters: stringDecoder: object, chunk"
+    },
+    {
+      "file": "lib/transform/encoding-transform.js",
+      "line": 46,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In encodingStringFinal(): parameter 'stringDecoder' needs a type. Add: @param {object} stringDecoder"
+    },
+    {
+      "file": "lib/transform/generator.js",
+      "line": 38,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "generatorToStream needs JSDoc: @returns {{ stream: Transform; }}"
+    },
+    {
+      "file": "lib/transform/generator.js",
+      "line": 63,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transform(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/transform/generator.js",
+      "line": 75,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "runGeneratorsSync needs types for 4 parameters: chunks: any[], stdioItems: any[], encoding: string, isInput: boolean"
+    },
+    {
+      "file": "lib/transform/generator.js",
+      "line": 75,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "runGeneratorsSync needs JSDoc: @param {any} chunks, @param {any} stdioItems, @param {any} encoding, @param {any} isInput, @returns {any}"
+    },
+    {
+      "file": "lib/transform/generator.js",
+      "line": 88,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addInternalGenerators needs types for 2 parameters: encoding: string, optionName: string"
+    },
+    {
+      "file": "lib/transform/normalize.js",
+      "line": 8,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeTransforms needs types for 4 parameters: stdioItems: any[], optionName: string, direction, options: object"
+    },
+    {
+      "file": "lib/transform/normalize.js",
+      "line": 8,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeTransforms needs JSDoc: @param {any} stdioItems, @param {any} optionName, @param {any} direction, @param {any} options, @returns {any[]}"
+    },
+    {
+      "file": "lib/transform/normalize.js",
+      "line": 13,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTransforms needs types for 3 parameters: stdioItems: any[], optionName: string, direction"
+    },
+    {
+      "file": "lib/transform/normalize.js",
+      "line": 111,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sortTransforms needs types for 2 parameters: newTransforms: any[], direction"
+    },
+    {
+      "file": "lib/transform/object-mode.js",
+      "line": 13,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTransformObjectModes needs types for 4 parameters: objectMode, index: number, newTransforms, direction"
+    },
+    {
+      "file": "lib/transform/object-mode.js",
+      "line": 13,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getTransformObjectModes needs JSDoc: @param {any} objectMode, @param {any} index, @param {any} newTransforms, @param {any} direction, @returns {{ writableObjectMode: any; readableObjectMode: any; }}"
+    },
+    {
+      "file": "lib/transform/object-mode.js",
+      "line": 17,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getOutputObjectModes needs types for 3 parameters: objectMode, index: number, newTransforms"
+    },
+    {
+      "file": "lib/transform/object-mode.js",
+      "line": 23,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getInputObjectModes needs types for 3 parameters: objectMode, index: number, newTransforms: object"
+    },
+    {
+      "file": "lib/transform/object-mode.js",
+      "line": 32,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFdObjectMode needs types for 2 parameters: stdioItems: object, direction"
+    },
+    {
+      "file": "lib/transform/object-mode.js",
+      "line": 32,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getFdObjectMode needs JSDoc: @param {any} stdioItems, @param {any} direction, @returns {any}"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 4,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: getChunks: Function, state: object, getChunksArguments: any[] | object, transformStream: any[]"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 17,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transformChunk needs types for 3 parameters: chunk, generators: object, index: number"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 17,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "transformChunk needs JSDoc: @param {any} chunk, @param {any} generators, @param {any} index, @returns {any}"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 30,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "finalChunks needs JSDoc: @param {any} generators, @returns {AsyncGenerator<any, void, any>}"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 30,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In finalChunks(): parameter 'generators' needs a type. Add: @param {unknown} generators"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 36,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "generatorFinalChunks needs types for 3 parameters: final: Function, index: number, generators"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 47,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/transform/run-async.js",
+      "line": 58,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In identityGenerator(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 2,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pushChunksSync needs types for 4 parameters: getChunksSync: Function, getChunksArguments: any[] | object, transformStream: any[], done: Function"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 2,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pushChunksSync needs JSDoc: @param {any} getChunksSync, @param {any} getChunksArguments, @param {any} transformStream, @param {any} done"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 15,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "runTransformSync needs types for 2 parameters: generators, chunks: any[]"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 15,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "runTransformSync needs JSDoc: @param {any} generators, @param {any} chunks, @returns {any[]}"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 16,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 20,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transformChunkSync needs types for 3 parameters: chunk, generators: object, index: number"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 20,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "transformChunkSync needs JSDoc: @param {any} chunk, @param {any} generators, @param {any} index, @returns {any}"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 32,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "finalChunksSync needs JSDoc: @param {any} generators, @returns {Generator<any, void, any>}"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 32,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In finalChunksSync(): parameter 'generators' needs a type. Add: @param {unknown} generators"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 38,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "generatorFinalChunksSync needs types for 3 parameters: final: Function, index: number, generators"
+    },
+    {
+      "file": "lib/transform/run-sync.js",
+      "line": 48,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In identityGenerator(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 2,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSplitLinesGenerator needs types for 4 parameters: binary, preserveNewlines, skipped, state: object"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 2,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSplitLinesGenerator needs JSDoc: @param {any} binary, @param {any} preserveNewlines, @param {any} skipped, @param {any} state, @returns {{ transform: any; final: any; }}"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splitLinesSync needs types for 3 parameters: chunk: any[], preserveNewlines, objectMode"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "splitLinesSync needs JSDoc: @param {any} chunk, @param {any} preserveNewlines, @param {any} objectMode, @returns {any}"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 8,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 11,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splitLinesItemSync needs types for 2 parameters: chunk, preserveNewlines"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 16,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initializeSplitLines needs types for 2 parameters: preserveNewlines, state: object"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 25,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splitGenerator needs types for 3 parameters: state: object, preserveNewlines, chunk: object"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 56,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getNewlineLength needs types for 4 parameters: chunk, end: number, preserveNewlines, state: object"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 73,
+      "column": 42,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getAppendNewlineGenerator needs JSDoc: @returns {{ transform: any; }}"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 77,
+      "column": 72,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appendNewlineGenerator(): parameter 'chunk' needs a type. Add: @param {object} chunk"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 89,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "concatString needs types for 2 parameters: firstChunk, secondChunk"
+    },
+    {
+      "file": "lib/transform/split.js",
+      "line": 98,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "concatUint8Array needs types for 2 parameters: firstChunk: object, secondChunk: object"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 5,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getValidateTransformInput needs types for 2 parameters: writableObjectMode, optionName: string"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 5,
+      "column": 42,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getValidateTransformInput needs JSDoc: @param {any} writableObjectMode, @param {any} optionName, @returns {any}"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 9,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateStringTransformInput needs types for 2 parameters: optionName: string, chunk"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 18,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getValidateTransformReturn needs types for 2 parameters: readableObjectMode, optionName: string"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 18,
+      "column": 43,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getValidateTransformReturn needs JSDoc: @param {any} readableObjectMode, @param {any} optionName, @returns {any}"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 22,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateObjectTransformReturn needs types for 2 parameters: optionName: string, chunk"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 27,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateStringTransformReturn needs types for 2 parameters: optionName: string, chunk"
+    },
+    {
+      "file": "lib/transform/validate.js",
+      "line": 37,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateEmptyReturn needs types for 2 parameters: optionName: string, chunk"
+    },
+    {
+      "file": "lib/utils/abort-signal.js",
+      "line": 4,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onAbortedSignal needs types for 2 parameters: mainSignal: object, stopSignal"
+    },
+    {
+      "file": "lib/utils/abort-signal.js",
+      "line": 4,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onAbortedSignal needs JSDoc: @param {any} mainSignal, @param {any} stopSignal, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/utils/deferred.js",
+      "line": 1,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createDeferred needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/utils/max-listeners.js",
+      "line": 4,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "incrementMaxListeners needs types for 3 parameters: eventEmitter: object, maxListenersIncrement: number, signal"
+    },
+    {
+      "file": "lib/utils/max-listeners.js",
+      "line": 4,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "incrementMaxListeners needs JSDoc: @param {any} eventEmitter, @param {any} maxListenersIncrement, @param {any} signal"
+    },
+    {
+      "file": "lib/utils/standard-stream.js",
+      "line": 3,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStandardStream(): parameter 'stream' needs a type. Add: @param {unknown} stream"
+    },
+    {
+      "file": "lib/utils/standard-stream.js",
+      "line": 3,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isStandardStream needs JSDoc: @param {any} stream, @returns {boolean}"
+    },
+    {
+      "file": "lib/utils/standard-stream.js",
+      "line": 6,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getStreamName(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/utils/standard-stream.js",
+      "line": 6,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStreamName needs JSDoc: @param {any} fdNumber, @returns {string}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 5,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isArrayBuffer(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 5,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isArrayBuffer needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 8,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isUint8Array(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 8,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUint8Array needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 10,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bufferToUint8Array(): parameter 'buffer' needs a type. Add: @param {object} buffer"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 10,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bufferToUint8Array needs JSDoc: @param {any} buffer, @returns {Uint8any[]}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 13,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringToUint8Array(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 16,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In uint8ArrayToString(): parameter 'uint8Array' needs a type. Add: @param {unknown} uint8Array"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 16,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "uint8ArrayToString needs JSDoc: @param {any} uint8Array, @returns {string}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 18,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "joinToString needs types for 2 parameters: uint8ArraysOrStrings, encoding: string"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 18,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "joinToString needs JSDoc: @param {any} uint8ArraysOrStrings, @param {any} encoding, @returns {any}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 23,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "uint8ArraysToStrings needs types for 2 parameters: uint8ArraysOrStrings: any[], encoding: string"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 24,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'uint8ArrayOrString' needs a type. Add: @param {unknown} uint8ArrayOrString"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'uint8ArrayOrString' needs a type. Add: @param {unknown} uint8ArrayOrString"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 33,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'uint8Array' needs a type. Add: @param {unknown} uint8Array"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 38,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In joinToUint8Array(): parameter 'uint8ArraysOrStrings' needs a type. Add: @param {object} uint8ArraysOrStrings"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 38,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "joinToUint8Array needs JSDoc: @param {any} uint8ArraysOrStrings, @returns {any}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 46,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringsToUint8Arrays(): parameter 'uint8ArraysOrStrings' needs a type. Add: @param {any[]} uint8ArraysOrStrings"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 46,
+      "column": 79,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'uint8ArrayOrString' needs a type. Add: @param {unknown} uint8ArrayOrString"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 50,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In concatUint8Arrays(): parameter 'uint8Arrays' needs a type. Add: @param {unknown} uint8Arrays"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 50,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "concatUint8Arrays needs JSDoc: @param {any} uint8Arrays, @returns {Uint8ArrayBuffer[]}"
+    },
+    {
+      "file": "lib/utils/uint-array.js",
+      "line": 62,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getJoinLength(): parameter 'uint8Arrays' needs a type. Add: @param {unknown} uint8Arrays"
+    },
+    {
+      "file": "lib/verbose/complete.js",
+      "line": 7,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logResult needs types for 2 parameters: result, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/complete.js",
+      "line": 7,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logResult needs JSDoc: @param {any} result, @param {any} verboseInfo"
+    },
+    {
+      "file": "lib/verbose/complete.js",
+      "line": 16,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logDuration needs types for 2 parameters: result: object, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/custom.js",
+      "line": 4,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyVerboseOnLines needs types for 3 parameters: printedLines: any[], verboseInfo, fdNumber"
+    },
+    {
+      "file": "lib/verbose/custom.js",
+      "line": 4,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "applyVerboseOnLines needs JSDoc: @param {any} printedLines, @param {any} verboseInfo, @param {any} fdNumber, @returns {any}"
+    },
+    {
+      "file": "lib/verbose/custom.js",
+      "line": 8,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'printedLine' needs a type. Add: @param {unknown} printedLine"
+    },
+    {
+      "file": "lib/verbose/custom.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'printedLine' needs a type. Add: @param {unknown} printedLine"
+    },
+    {
+      "file": "lib/verbose/custom.js",
+      "line": 13,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyVerboseFunction needs types for 3 parameters: verboseLine, verboseObject, verboseFunction: Function"
+    },
+    {
+      "file": "lib/verbose/custom.js",
+      "line": 24,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appendNewline(): parameter 'printedLine' needs a type. Add: @param {string} printedLine"
+    },
+    {
+      "file": "lib/verbose/default.js",
+      "line": 10,
+      "column": 39,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "defaultVerboseFunction needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "lib/verbose/default.js",
+      "line": 26,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeTimestamp(): parameter 'timestamp' needs a type. Add: @param {object} timestamp"
+    },
+    {
+      "file": "lib/verbose/default.js",
+      "line": 28,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "padField needs types for 2 parameters: field, padding"
+    },
+    {
+      "file": "lib/verbose/default.js",
+      "line": 46,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In identity(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/verbose/error.js",
+      "line": 4,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logError needs types for 2 parameters: result: object, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/error.js",
+      "line": 4,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logError needs JSDoc: @param {any} result, @param {any} verboseInfo"
+    },
+    {
+      "file": "lib/verbose/info.js",
+      "line": 4,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getVerboseInfo needs types for 3 parameters: verbose: boolean, escapedCommand, rawOptions: object"
+    },
+    {
+      "file": "lib/verbose/info.js",
+      "line": 4,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getVerboseInfo needs JSDoc: @param {any} verbose, @param {any} escapedCommand, @param {any} rawOptions, @returns {{ verbose: any; escapedCommand: any; commandId: bigint; rawOptions: any; }}"
+    },
+    {
+      "file": "lib/verbose/info.js",
+      "line": 15,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCommandId(): parameter 'verbose' needs a type. Add: @param {boolean} verbose"
+    },
+    {
+      "file": "lib/verbose/info.js",
+      "line": 24,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateVerbose(): parameter 'verbose' needs a type. Add: @param {boolean} verbose"
+    },
+    {
+      "file": "lib/verbose/ipc.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shouldLogIpc(): parameter 'verboseInfo' needs a type. Add: @param {unknown} verboseInfo"
+    },
+    {
+      "file": "lib/verbose/ipc.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "shouldLogIpc needs JSDoc: @param {any} verboseInfo, @returns {boolean}"
+    },
+    {
+      "file": "lib/verbose/ipc.js",
+      "line": 7,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logIpcOutput needs types for 2 parameters: message: string, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/ipc.js",
+      "line": 7,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logIpcOutput needs JSDoc: @param {any} message, @param {any} verboseInfo"
+    },
+    {
+      "file": "lib/verbose/log.js",
+      "line": 37,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPrintedLines needs types for 2 parameters: verboseMessage: string, verboseObject: any[] | object"
+    },
+    {
+      "file": "lib/verbose/log.js",
+      "line": 39,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "lib/verbose/log.js",
+      "line": 41,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPrintedLine(): parameter 'verboseObject' needs a type. Add: @param {unknown} verboseObject"
+    },
+    {
+      "file": "lib/verbose/log.js",
+      "line": 47,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeVerboseMessage(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "lib/verbose/log.js",
+      "line": 47,
+      "column": 40,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "serializeVerboseMessage needs JSDoc: @param {any} message, @returns {string}"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 11,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "shouldLogOutput needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 22,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fdUsesVerbose(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 27,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logLines needs types for 4 parameters: linesIterable, stream, fdNumber, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 27,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logLines needs JSDoc: @param {any} linesIterable, @param {any} stream, @param {any} fdNumber, @param {any} verboseInfo, @returns {Promise<void>}"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 36,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logLinesSync needs types for 3 parameters: linesArray, fdNumber, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 36,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logLinesSync needs JSDoc: @param {any} linesArray, @param {any} fdNumber, @param {any} verboseInfo"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 49,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPipingStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/verbose/output.js",
+      "line": 52,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logLine needs types for 3 parameters: line, fdNumber, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/start.js",
+      "line": 5,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logCommand needs types for 2 parameters: escapedCommand, verboseInfo"
+    },
+    {
+      "file": "lib/verbose/start.js",
+      "line": 5,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logCommand needs JSDoc: @param {any} escapedCommand, @param {any} verboseInfo"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 4,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isVerbose needs JSDoc: @param {any} fdNumber, @returns {boolean}"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 4,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isVerbose(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 7,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFullVerbose needs JSDoc: @param {any} fdNumber, @returns {boolean}"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 7,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFullVerbose(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 10,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getVerboseFunction needs JSDoc: @param {any} fdNumber, @returns {any}"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 10,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getVerboseFunction(): parameter 'fdNumber' needs a type. Add: @param {unknown} fdNumber"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 19,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFdVerbose needs types for 2 parameters: verbose: boolean, fdNumber"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 27,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFdGenericVerbose(): parameter 'verbose' needs a type. Add: @param {boolean} verbose"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 27,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fdVerbose' needs a type. Add: @param {unknown} fdVerbose"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 28,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fdVerbose' needs a type. Add: @param {unknown} fdVerbose"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 31,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isVerboseFunction(): parameter 'fdVerbose' needs a type. Add: @param {unknown} fdVerbose"
+    },
+    {
+      "file": "lib/verbose/values.js",
+      "line": 31,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isVerboseFunction needs JSDoc: @param {any} fdVerbose, @returns {boolean}"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19768
+}

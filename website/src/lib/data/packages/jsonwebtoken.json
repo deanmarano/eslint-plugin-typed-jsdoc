@@ -1,0 +1,78 @@
+{
+  "name": "jsonwebtoken",
+  "downloadedAt": "2026-02-03T21:59:01.152Z",
+  "lintedAt": "2026-02-03T21:59:01.152Z",
+  "filesAnalyzed": 8,
+  "totalIssues": 7,
+  "errors": 0,
+  "warnings": 7,
+  "byRule": {
+    "tjd/no-implicit-any": 5,
+    "tjd/require-jsdoc-types": 2
+  },
+  "issues": [
+    {
+      "file": "lib/JsonWebTokenError.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "JsonWebTokenError needs types for 2 parameters: message: string, error: Error"
+    },
+    {
+      "file": "lib/NotBeforeError.js",
+      "line": 3,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "NotBeforeError needs types for 2 parameters: message: string, date"
+    },
+    {
+      "file": "lib/TokenExpiredError.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "TokenExpiredError needs types for 2 parameters: message: string, expiredAt"
+    },
+    {
+      "file": "lib/timespan.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: time, iat"
+    },
+    {
+      "file": "lib/timespan.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} time, @param {any} iat, @returns {any}"
+    },
+    {
+      "file": "lib/validateAsymmetricKey.js",
+      "line": 16,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: algorithm: object, key: string"
+    },
+    {
+      "file": "lib/validateAsymmetricKey.js",
+      "line": 16,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} algorithm, @param {any} key"
+    }
+  ],
+  "typesPackage": "@types/jsonwebtoken",
+  "typesComparison": {
+    "definitelyTypedVersion": "9.0.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 27360
+}

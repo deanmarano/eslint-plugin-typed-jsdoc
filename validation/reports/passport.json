@@ -1,0 +1,343 @@
+{
+  "name": "passport",
+  "downloadedAt": "2026-02-03T21:58:27.864Z",
+  "lintedAt": "2026-02-03T21:58:27.865Z",
+  "filesAnalyzed": 9,
+  "totalIssues": 40,
+  "errors": 1,
+  "warnings": 39,
+  "byRule": {
+    "tjd/no-implicit-any": 36,
+    "tjd/require-jsdoc-types": 3,
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "lib/authenticator.js",
+      "line": 98,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In framework(): parameter 'fw' needs a type. Add: @param {unknown} fw"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 171,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In authenticate(): parameter 'strategy' needs a type. Add: @param {unknown} strategy"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 203,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "authorize needs types for 2 parameters: strategy, options: object"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 247,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In session(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 270,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "serializeUser needs types for 3 parameters: fn: Function, req: object, done: Function"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 286,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, obj: object"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 300,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "serialized needs types for 2 parameters: e, o"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 330,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deserializeUser needs types for 3 parameters: fn: Function, req: object, done: Function"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 346,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, user"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 363,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deserialized needs types for 2 parameters: e, u"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 418,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transformAuthInfo needs types for 3 parameters: fn: Function, req: object, done: Function"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 434,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, tinfo"
+    },
+    {
+      "file": "lib/authenticator.js",
+      "line": 450,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transformed needs types for 2 parameters: e, t"
+    },
+    {
+      "file": "lib/errors/authenticationerror.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "AuthenticationError needs types for 2 parameters: message: string, status"
+    },
+    {
+      "file": "lib/framework/connect.js",
+      "line": 16,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/http/request.js",
+      "line": 24,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In logIn(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/http/request.js",
+      "line": 39,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/http/request.js",
+      "line": 54,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logOut needs types for 2 parameters: options: object, done: Function"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 70,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: passport: object, name: string, options: object"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 70,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} passport, @param {any} name, @param {any} options, @param {Function} callback, @returns {Function}"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 94,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 112,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'f' needs a type. Add: @param {object} f"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 113,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'f' needs a type. Add: @param {object} f"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 220,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "success needs types for 2 parameters: user, info: object"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 254,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, tinfo"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 265,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/middleware/authenticate.js",
+      "line": 284,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, tinfo"
+    },
+    {
+      "file": "lib/middleware/initialize.js",
+      "line": 48,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: passport: object, options: object"
+    },
+    {
+      "file": "lib/middleware/initialize.js",
+      "line": 48,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} passport, @param {any} options, @returns {Function}"
+    },
+    {
+      "file": "lib/middleware/initialize.js",
+      "line": 51,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "SessionManager needs types for 2 parameters: options: object, serializeUser"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 14,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logIn needs types for 4 parameters: req: object, user, options: object, cb: Function"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 28,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 33,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, obj: object"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 47,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 57,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "logOut needs types for 3 parameters: req: object, options: object, cb: Function"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 76,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/sessionmanager.js",
+      "line": 83,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/strategies/session.js",
+      "line": 42,
+      "column": 26,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { key?: string; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/strategies/session.js",
+      "line": 112,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, user"
+    }
+  ],
+  "typesPackage": "@types/passport",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.17",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 30872
+}

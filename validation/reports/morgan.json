@@ -1,0 +1,174 @@
+{
+  "name": "morgan",
+  "downloadedAt": "2026-02-03T21:57:29.203Z",
+  "lintedAt": "2026-02-03T21:57:29.203Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 19,
+  "errors": 0,
+  "warnings": 19,
+  "byRule": {
+    "tjd/no-implicit-any": 17,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 103,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 183,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: tokens, req: object, res: object"
+    },
+    {
+      "file": "index.js",
+      "line": 212,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 220,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 228,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, digits"
+    },
+    {
+      "file": "index.js",
+      "line": 246,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, digits"
+    },
+    {
+      "file": "index.js",
+      "line": 266,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, format: string"
+    },
+    {
+      "file": "index.js",
+      "line": 283,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "index.js",
+      "line": 293,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 307,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 321,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 329,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 337,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 345,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, field: string"
+    },
+    {
+      "file": "index.js",
+      "line": 358,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, field"
+    },
+    {
+      "file": "index.js",
+      "line": 407,
+      "column": 88,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: name: string, arg"
+    },
+    {
+      "file": "index.js",
+      "line": 418,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new-func')."
+    },
+    {
+      "file": "index.js",
+      "line": 442,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "test/morgan.js",
+      "line": 1660,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    }
+  ],
+  "typesPackage": "@types/morgan",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.9.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21555
+}

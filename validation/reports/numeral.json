@@ -1,0 +1,917 @@
+{
+  "name": "numeral",
+  "downloadedAt": "2026-02-03T22:04:05.615Z",
+  "lintedAt": "2026-02-03T22:04:05.615Z",
+  "filesAnalyzed": 42,
+  "totalIssues": 112,
+  "errors": 0,
+  "warnings": 112,
+  "byRule": {
+    "tjd/no-implicit-any": 112
+  },
+  "issues": [
+    {
+      "file": "src/formats/bps.js",
+      "line": 14,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/bps.js",
+      "line": 20,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value: number, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/bps.js",
+      "line": 43,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unformat(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/formats/bytes.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/bytes.js",
+      "line": 35,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value: number, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/bytes.js",
+      "line": 65,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unformat(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/formats/currency.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/currency.js",
+      "line": 18,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/exponential.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/exponential.js",
+      "line": 19,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value: object, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/exponential.js",
+      "line": 30,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unformat(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/formats/exponential.js",
+      "line": 37,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cback needs types for 4 parameters: accum: number, curr: number, currI, O: string"
+    },
+    {
+      "file": "src/formats/ordinal.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/ordinal.js",
+      "line": 18,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/percentage.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/percentage.js",
+      "line": 19,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value: number, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/percentage.js",
+      "line": 44,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unformat(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/formats/time.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/formats/time.js",
+      "line": 19,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 3 parameters: value: number, format: string, roundingFunction"
+    },
+    {
+      "file": "src/formats/time.js",
+      "line": 26,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unformat(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/locales/bg.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/bg.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/chs.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/chs.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/cs.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/da-dk.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/da-dk.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/de-ch.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/de-ch.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/de.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/de.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/en-au.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/en-au.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/en-gb.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/en-gb.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/en-za.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/en-za.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/es-es.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/es-es.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/es.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/es.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/et.js",
+      "line": 14,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/et.js",
+      "line": 26,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/fi.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/fi.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/fr-ca.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/fr-ca.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/fr-ch.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/fr-ch.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/fr.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/fr.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/hu.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/hu.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/it.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/it.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/ja.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/ja.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/lv.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/lv.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/nl-be.js",
+      "line": 14,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/nl-be.js",
+      "line": 26,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/nl-nl.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/nl-nl.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/no.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/no.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/pl.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/pl.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/pt-br.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/pt-br.js",
+      "line": 25,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/pt-pt.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/pt-pt.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/ru-ua.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/ru.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/sk.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/sl.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/th.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/th.js",
+      "line": 27,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/tr.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/tr.js",
+      "line": 51,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "src/locales/uk-ua.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/locales/vi.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'numeral' needs a type. Add: @param {object} numeral"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 48,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Numeral needs types for 2 parameters: input, number: number"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 54,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'input' needs a type. Add: @param {string} input"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 97,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNumeral(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 104,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "numberToFormat needs types for 3 parameters: value: number, format: string, roundingFunction"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 263,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringToNumber(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 308,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNaN(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 311,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "includes needs types for 2 parameters: string: string, search"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 314,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "insert needs types for 3 parameters: string: string, subString, start: number"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 317,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reduce needs types for 2 parameters: array: any[], callback: Function"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 356,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In multiplier(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 369,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: accum, next: Function"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 380,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toFixed needs types for 4 parameters: value: object, maxDecimals: number, roundingFunction: Function, optionals: number"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 421,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In locale(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 432,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In localeData(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 452,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zeroFormat(): parameter 'format' needs a type. Add: @param {string} format"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 456,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nullFormat(): parameter 'format' needs a type. Add: @param {string} format"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 460,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In defaultFormat(): parameter 'format' needs a type. Add: @param {string} format"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 464,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "register needs types for 3 parameters: type: string, name: string, format: string"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 477,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validate needs types for 2 parameters: val: object, culture"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 576,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 2 parameters: inputString, roundingFunction"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 613,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 618,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 621,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cback needs types for 4 parameters: accum, curr: number, currI, O: string"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 629,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In subtract(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 632,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cback needs types for 4 parameters: accum: number, curr: number, currI, O: string"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 640,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In multiply(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 641,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cback needs types for 4 parameters: accum: number, curr: number, currI, O: string"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 650,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In divide(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 651,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cback needs types for 4 parameters: accum: number, curr: number, currI, O: string"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 660,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In difference(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/numeral.js",
+      "line": 680,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinal(): parameter 'number' needs a type. Add: @param {number} number"
+    }
+  ],
+  "typesPackage": "@types/numeral",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19719
+}

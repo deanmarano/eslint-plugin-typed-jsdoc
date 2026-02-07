@@ -1,0 +1,1038 @@
+{
+  "name": "prompts",
+  "downloadedAt": "2026-02-03T22:04:47.944Z",
+  "lintedAt": "2026-02-03T22:04:47.944Z",
+  "filesAnalyzed": 32,
+  "totalIssues": 127,
+  "errors": 0,
+  "warnings": 127,
+  "byRule": {
+    "tjd/no-implicit-any": 121,
+    "tjd/require-jsdoc-types": 6
+  },
+  "issues": [
+    {
+      "file": "lib/dateparts/datepart.js",
+      "line": 17,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: part, idx: number"
+    },
+    {
+      "file": "lib/dateparts/datepart.js",
+      "line": 20,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/dateparts/datepart.js",
+      "line": 25,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'part' needs a type. Add: @param {unknown} part"
+    },
+    {
+      "file": "lib/dateparts/day.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pos(): parameter 'n' needs a type. Add: @param {number} n"
+    },
+    {
+      "file": "lib/dateparts/day.js",
+      "line": 26,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/dateparts/hours.js",
+      "line": 18,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/dateparts/milliseconds.js",
+      "line": 18,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/dateparts/minutes.js",
+      "line": 18,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/dateparts/month.js",
+      "line": 18,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/dateparts/seconds.js",
+      "line": 18,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/dateparts/year.js",
+      "line": 18,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTo(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getVal needs types for 2 parameters: arr: object, i"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTitle needs types for 2 parameters: arr: object, i"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getIndex needs types for 2 parameters: arr: any[], valOrTitle"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 11,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 57,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fallback(): parameter 'fb' needs a type. Add: @param {unknown} fb"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 70,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveSelect(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 78,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In complete(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 84,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: s: object, i, arr"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 132,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 217,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderOption needs types for 4 parameters: v: string, hovered, isStart: boolean, isEnd: boolean"
+    },
+    {
+      "file": "lib/elements/autocomplete.js",
+      "line": 252,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 62,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 77,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 93,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 104,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 112,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleInputChange(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 117,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 146,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderOption needs types for 4 parameters: cursor, v: string, i, arrowIndicator"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 157,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/autocompleteMultiselect.js",
+      "line": 158,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/confirm.js",
+      "line": 59,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c: string, key: string"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 12,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 13,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 14,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 15,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 16,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 17,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 18,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 19,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 65,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In date(): parameter 'date' needs a type. Add: @param {object} date"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 69,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mask(): parameter 'mask' needs a type. Add: @param {unknown} mask"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 80,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: arr: any[], i"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 92,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveCursor(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 99,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 172,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'part' needs a type. Add: @param {unknown} part"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 176,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 195,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: arr: object, p: object"
+    },
+    {
+      "file": "lib/elements/date.js",
+      "line": 202,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: a, l, i"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 34,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: ch: object, idx: number"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 52,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 59,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 76,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 128,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 139,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 153,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 153,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 157,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 181,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderOption needs types for 4 parameters: cursor, v: string, i, arrowIndicator"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 202,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In paginateOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 225,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 235,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "lib/elements/multiselect.js",
+      "line": 236,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 7,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDef(): parameter 'any' needs a type. Add: @param {unknown} any"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 8,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "round needs types for 2 parameters: number: number, precision"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 49,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 66,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 70,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In valid(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 166,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/elements/number.js",
+      "line": 206,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: a, l, i"
+    },
+    {
+      "file": "lib/elements/prompt.js",
+      "line": 27,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "keypress needs types for 2 parameters: str: string, key: string"
+    },
+    {
+      "file": "lib/elements/select.js",
+      "line": 26,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: ch: object, idx: number"
+    },
+    {
+      "file": "lib/elements/select.js",
+      "line": 43,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveCursor(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/elements/select.js",
+      "line": 112,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/elements/text.js",
+      "line": 33,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/elements/text.js",
+      "line": 108,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveCursor(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/elements/text.js",
+      "line": 114,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/elements/text.js",
+      "line": 201,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: a, l, i"
+    },
+    {
+      "file": "lib/elements/toggle.js",
+      "line": 88,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_ needs types for 2 parameters: c, key: string"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 21,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFormattedAnswer needs types for 2 parameters: question: object, answer"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 81,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getInjectedAnswer needs types for 2 parameters: injected: any[], deafultValue"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 90,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In inject(): parameter 'answers' needs a type. Add: @param {unknown} answers"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 94,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In override(): parameter 'answers' needs a type. Add: @param {unknown} answers"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 4,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In noop(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toPrompt needs types for 2 parameters: type: string, args: any[]"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 13,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 14,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 15,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 30,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In text(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 42,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In password(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 57,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In invisible(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 78,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In number(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 96,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In date(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 107,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In confirm(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 120,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In list(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 123,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onSubmit(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 123,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {string} s"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 138,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toggle(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 151,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In select(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 165,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In multiselect(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 167,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toSelected(): parameter 'items' needs a type. Add: @param {any[]} items"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 167,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 167,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 174,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In autocompleteMultiselect(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 176,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toSelected(): parameter 'items' needs a type. Add: @param {any[]} items"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 176,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 176,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 183,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "byTitle needs types for 2 parameters: input: string, choices: any[]"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 184,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "lib/prompts.js",
+      "line": 202,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In autocomplete(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/util/action.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: key: string, isSelect: boolean"
+    },
+    {
+      "file": "lib/util/action.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} key, @param {any} isSelect, @returns {false | \"submit\" | \"exit\" | \"abort\" | \"first\" | \"last\" | \"reset\" | \"down\" | \"up\" | \"delete\" | \"deleteForward\" | \"next\" | \"nextPage\" | \"prevPage\" | \"home\" | \"end\" | \"right\" | \"left\"}"
+    },
+    {
+      "file": "lib/util/clear.js",
+      "line": 6,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In width(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/util/clear.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string} prompt, @param {number} perLine, @returns {any}"
+    },
+    {
+      "file": "lib/util/entriesToDisplay.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {number} cursor, @param {number} total, @param {number} maxVisible, @returns {{ startIndex: number; endIndex: number; }}"
+    },
+    {
+      "file": "lib/util/lines.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string} msg, @param {number} perLine, @returns {number}"
+    },
+    {
+      "file": "lib/util/strip.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/util/strip.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 8,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 9,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 10,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 11,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 23,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "symbol needs types for 3 parameters: done: Function, aborted, exited"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 27,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In delimiter(): parameter 'completing' needs a type. Add: @param {unknown} completing"
+    },
+    {
+      "file": "lib/util/style.js",
+      "line": 30,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "item needs types for 2 parameters: expandable, expanded"
+    },
+    {
+      "file": "lib/util/wrap.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string} msg, @returns {string}"
+    }
+  ],
+  "typesPackage": "@types/prompts",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.4.9",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19520
+}

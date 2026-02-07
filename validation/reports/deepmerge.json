@@ -1,0 +1,125 @@
+{
+  "name": "deepmerge",
+  "downloadedAt": "2026-02-03T22:05:47.722Z",
+  "lintedAt": "2026-02-03T22:05:47.722Z",
+  "filesAnalyzed": 7,
+  "totalIssues": 13,
+  "errors": 0,
+  "warnings": 13,
+  "byRule": {
+    "tjd/no-implicit-any": 13
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emptyTarget(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "index.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cloneUnlessOtherwiseSpecified needs types for 2 parameters: value, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 13,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "defaultArrayMerge needs types for 3 parameters: target: object, source, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 14,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "index.js",
+      "line": 19,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMergeFunction needs types for 2 parameters: key: string, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 27,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getEnumerableOwnPropertySymbols(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "index.js",
+      "line": 35,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getKeys(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "index.js",
+      "line": 39,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "propertyIsOnObject needs types for 2 parameters: object: object, property"
+    },
+    {
+      "file": "index.js",
+      "line": 48,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "propertyIsUnsafe needs types for 2 parameters: target, key: string"
+    },
+    {
+      "file": "index.js",
+      "line": 54,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeObject needs types for 3 parameters: target: object, source: object, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 75,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deepmerge needs types for 3 parameters: target, source, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 96,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "all needs types for 2 parameters: array: any[], options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 101,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: prev, next: Function"
+    }
+  ],
+  "typesPackage": "@types/deepmerge",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.2.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19434
+}

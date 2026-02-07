@@ -1,0 +1,365 @@
+{
+  "name": "csv-parse",
+  "downloadedAt": "2026-02-03T22:02:31.081Z",
+  "lintedAt": "2026-02-03T22:02:31.081Z",
+  "filesAnalyzed": 11,
+  "totalIssues": 43,
+  "errors": 0,
+  "warnings": 43,
+  "byRule": {
+    "tjd/no-implicit-any": 43
+  },
+  "issues": [
+    {
+      "file": "packages/csv-parse/lib/api/CsvError.js",
+      "line": 2,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: code, message: any[], options: object"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 6,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRecordEmpty(): parameter 'record' needs a type. Add: @param {any[]} record"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 8,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'field' needs a type. Add: @param {object} field"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 44,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__needMoreData needs types for 3 parameters: i: number, bufLen: number, end: number"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 69,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 4 parameters: nextBuf, end: number, push, close: Function"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 466,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __onRecord(): parameter 'push' needs a type. Add: @param {unknown} push"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 626,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __firstLineToColumns(): parameter 'record' needs a type. Add: @param {unknown} record"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 694,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__push needs types for 2 parameters: record, push: Function"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 711,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __cast(): parameter 'field' needs a type. Add: @param {unknown} field"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 741,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__isCharTrimable needs types for 2 parameters: buf, pos"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 742,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isTrim needs types for 2 parameters: buf, pos"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 761,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __isFloat(): parameter 'value' needs a type. Add: @param {number} value"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 764,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__compareBytes needs types for 4 parameters: sourceBuf: object, targetBuf, targetPos, firstByte"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 772,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__isDelimiter needs types for 3 parameters: buf, pos, chr"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 797,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__isRecordDelimiter needs types for 3 parameters: chr, buf, pos"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 815,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__isEscape needs types for 3 parameters: buf, pos, chr"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 829,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__isQuote needs types for 2 parameters: buf, pos"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 840,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__autoDiscoverRecordDelimiter needs types for 2 parameters: buf, pos"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/index.js",
+      "line": 864,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __error(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/init_state.js",
+      "line": 13,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init_state(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/init_state.js",
+      "line": 37,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'delimiter' needs a type. Add: @param {string} delimiter"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/init_state.js",
+      "line": 51,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/normalize_columns_array.js",
+      "line": 4,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalize_columns_array(): parameter 'columns' needs a type. Add: @param {object} columns"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/normalize_options.js",
+      "line": 5,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalize_options(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/normalize_options.js",
+      "line": 82,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cast_date(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/normalize_options.js",
+      "line": 208,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'delimiter' needs a type. Add: @param {string} delimiter"
+    },
+    {
+      "file": "packages/csv-parse/lib/api/normalize_options.js",
+      "line": 485,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: rd: object, i"
+    },
+    {
+      "file": "packages/csv-parse/lib/index.js",
+      "line": 18,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on_skip needs types for 2 parameters: err: Error, chunk"
+    },
+    {
+      "file": "packages/csv-parse/lib/index.js",
+      "line": 29,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: buf, _, callback: Function"
+    },
+    {
+      "file": "packages/csv-parse/lib/index.js",
+      "line": 36,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'record' needs a type. Add: @param {unknown} record"
+    },
+    {
+      "file": "packages/csv-parse/lib/index.js",
+      "line": 60,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _flush(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "packages/csv-parse/lib/index.js",
+      "line": 67,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'record' needs a type. Add: @param {unknown} record"
+    },
+    {
+      "file": "packages/csv-parse/lib/stream.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "packages/csv-parse/lib/stream.js",
+      "line": 7,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In enqueue(): parameter 'record' needs a type. Add: @param {unknown} record"
+    },
+    {
+      "file": "packages/csv-parse/lib/stream.js",
+      "line": 18,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transform(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "packages/csv-parse/lib/sync.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "packages/csv-parse/lib/sync.js",
+      "line": 9,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'record' needs a type. Add: @param {unknown} record"
+    },
+    {
+      "file": "packages/csv-parse/lib/utils/ResizeableBuffer.js",
+      "line": 7,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prepend(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "packages/csv-parse/lib/utils/ResizeableBuffer.js",
+      "line": 31,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In append(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "packages/csv-parse/lib/utils/ResizeableBuffer.js",
+      "line": 48,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toString(): parameter 'encoding' needs a type. Add: @param {string} encoding"
+    },
+    {
+      "file": "packages/csv-parse/lib/utils/is_object.js",
+      "line": 1,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In is_object(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "packages/csv-parse/lib/utils/underscore.js",
+      "line": 1,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In underscore(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "packages/csv-parse/lib/utils/underscore.js",
+      "line": 2,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _, match: string"
+    }
+  ],
+  "typesPackage": "@types/csv-parse",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.2.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19121
+}

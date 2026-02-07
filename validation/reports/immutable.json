@@ -1,0 +1,4294 @@
+{
+  "name": "immutable",
+  "downloadedAt": "2026-02-03T22:05:47.722Z",
+  "lintedAt": "2026-02-03T22:05:47.722Z",
+  "filesAnalyzed": 31,
+  "totalIssues": 534,
+  "errors": 21,
+  "warnings": 513,
+  "byRule": {
+    "tjd/no-implicit-any": 442,
+    "unknown": 24,
+    "@typescript-eslint/no-unused-expressions": 15,
+    "@typescript-eslint/no-this-alias": 3,
+    "import/order": 1,
+    "tjd/require-jsdoc-types": 47,
+    "@typescript-eslint/no-unused-vars": 2
+  },
+  "issues": [
+    {
+      "file": "src/Collection.js",
+      "line": 8,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 9,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 15,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 16,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 22,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 23,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 29,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Collection.js",
+      "line": 30,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 89,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 158,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__toString needs types for 2 parameters: head, tail"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 177,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 178,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 185,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "every needs types for 2 parameters: predicate: object, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 188,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 197,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filter needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 201,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "partition needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 205,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "find needs types for 3 parameters: predicate, context: object, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 210,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "forEach needs types for 2 parameters: sideEffect: object, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 215,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In join(): parameter 'separator' needs a type. Add: @param {string} separator"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 220,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 221,
+      "column": 7,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 232,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "map needs types for 2 parameters: mapper, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 236,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reduce needs types for 3 parameters: reducer, initialReduction, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 247,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reduceRight needs types for 3 parameters: reducer, initialReduction, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 262,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: begin, end: number"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 266,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "some needs types for 2 parameters: predicate: object, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 269,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 278,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sort(): parameter 'comparator' needs a type. Add: @param {string} comparator"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 296,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "count needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 302,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "countBy needs types for 2 parameters: grouper, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 306,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'other' needs a type. Add: @param {unknown} other"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 311,
+      "column": 5,
+      "rule": "@typescript-eslint/no-this-alias",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 322,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filterNot needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 326,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findEntry needs types for 3 parameters: predicate: object, context: object, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 328,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 337,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findKey needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 342,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findLast needs types for 3 parameters: predicate, context: object, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 346,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findLastEntry needs types for 3 parameters: predicate, context: object, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 352,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findLastKey needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 356,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In first(): parameter 'notSetValue' needs a type. Add: @param {unknown} notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 360,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flatMap needs types for 2 parameters: mapper, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 364,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In flatten(): parameter 'depth' needs a type. Add: @param {unknown} depth"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 372,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: searchKey, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 373,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _, key: string"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 378,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "groupBy needs types for 2 parameters: grouper, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 382,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'searchKey' needs a type. Add: @param {unknown} searchKey"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 388,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSubset(): parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 390,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 393,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSuperset(): parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 398,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keyOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 399,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 406,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In last(): parameter 'notSetValue' needs a type. Add: @param {unknown} notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 410,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lastKeyOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 414,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In max(): parameter 'comparator' needs a type. Add: @param {string} comparator"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 418,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "maxBy needs types for 2 parameters: mapper, comparator: string"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 422,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In min(): parameter 'comparator' needs a type. Add: @param {string} comparator"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 429,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "minBy needs types for 2 parameters: mapper, comparator: string"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 441,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skip(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 445,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skipLast(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 449,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipWhile needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 453,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipUntil needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 457,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sortBy needs types for 2 parameters: mapper, comparator: string"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 461,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In take(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 465,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In takeLast(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 469,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "takeWhile needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 473,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "takeUntil needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 477,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 516,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapEntries needs types for 2 parameters: mapper: object, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 521,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 526,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapKeys needs types for 2 parameters: mapper: object, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 531,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: k, v: string"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 541,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__toStringMapper needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 553,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filter needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 557,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findIndex needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 562,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In indexOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 567,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lastIndexOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 576,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: begin, end: number"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 580,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splice needs types for 2 parameters: index: number, removeNum"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 601,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findLastIndex needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 606,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In first(): parameter 'notSetValue' needs a type. Add: @param {unknown} notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 610,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In flatten(): parameter 'depth' needs a type. Add: @param {unknown} depth"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 614,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 620,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _, key: string"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 623,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 633,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In interpose(): parameter 'separator' needs a type. Add: @param {string} separator"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 651,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In last(): parameter 'notSetValue' needs a type. Add: @param {unknown} notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 655,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipWhile needs types for 2 parameters: predicate, context: object"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 669,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zipWith(): parameter 'zipper' needs a type. Add: @param {unknown} zipper"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 683,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: value, notSetValue"
+    },
+    {
+      "file": "src/CollectionImpl.js",
+      "line": 687,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Immutable.js",
+      "line": 1,
+      "column": 1,
+      "rule": "import/order",
+      "severity": "error",
+      "message": "Definition for rule 'import/order' was not found."
+    },
+    {
+      "file": "src/List.js",
+      "line": 32,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/List.js",
+      "line": 35,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/List.js",
+      "line": 39,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/List.js",
+      "line": 45,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/List.js",
+      "line": 50,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/List.js",
+      "line": 53,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/List.js",
+      "line": 54,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "src/List.js",
+      "line": 56,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, i"
+    },
+    {
+      "file": "src/List.js",
+      "line": 70,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/List.js",
+      "line": 82,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: index: number, value"
+    },
+    {
+      "file": "src/List.js",
+      "line": 86,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/List.js",
+      "line": 96,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "insert needs types for 2 parameters: index: number, value"
+    },
+    {
+      "file": "src/List.js",
+      "line": 117,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "src/List.js",
+      "line": 131,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "src/List.js",
+      "line": 144,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'mutable' needs a type. Add: @param {object} mutable"
+    },
+    {
+      "file": "src/List.js",
+      "line": 181,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "src/List.js",
+      "line": 182,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'seq' needs a type. Add: @param {any[]} seq"
+    },
+    {
+      "file": "src/List.js",
+      "line": 182,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/List.js",
+      "line": 186,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setSize(): parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "src/List.js",
+      "line": 190,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "map needs types for 2 parameters: mapper: object, context: object"
+    },
+    {
+      "file": "src/List.js",
+      "line": 191,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "src/List.js",
+      "line": 200,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: begin, end: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 212,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/List.js",
+      "line": 223,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/List.js",
+      "line": 235,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __ensureOwner(): parameter 'ownerID' needs a type. Add: @param {unknown} ownerID"
+    },
+    {
+      "file": "src/List.js",
+      "line": 275,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: result: any[], arr"
+    },
+    {
+      "file": "src/List.js",
+      "line": 278,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/List.js",
+      "line": 283,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: array: any[], ownerID"
+    },
+    {
+      "file": "src/List.js",
+      "line": 290,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeBefore needs types for 3 parameters: ownerID, level: number, index: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 326,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeAfter needs types for 3 parameters: ownerID, level: number, index: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 359,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateList needs types for 2 parameters: list: any[], reverse"
+    },
+    {
+      "file": "src/List.js",
+      "line": 367,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateNodeOrLeaf needs types for 3 parameters: node, level, offset: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 373,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateLeaf needs types for 2 parameters: node: object, offset: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 389,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateNode needs types for 3 parameters: node: object, level: number, offset: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 420,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeList needs types for 7 parameters: origin: number, capacity: number, level, root, tail, ownerID, hash"
+    },
+    {
+      "file": "src/List.js",
+      "line": 434,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "emptyList needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/List.js",
+      "line": 438,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateList needs types for 3 parameters: list: any[], index: number, value"
+    },
+    {
+      "file": "src/List.js",
+      "line": 446,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "src/List.js",
+      "line": 447,
+      "column": 7,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/List.js",
+      "line": 486,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateVNode needs types for 6 parameters: node: object, ownerID, level: number, index: number, value, didAlter"
+    },
+    {
+      "file": "src/List.js",
+      "line": 530,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "editableVNode needs types for 2 parameters: node: object, ownerID"
+    },
+    {
+      "file": "src/List.js",
+      "line": 537,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "listNodeFor needs types for 2 parameters: list: any[], rawIndex: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 552,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setListBounds needs types for 3 parameters: list: any[], begin, end: number"
+    },
+    {
+      "file": "src/List.js",
+      "line": 698,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTailOffset(): parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 37,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 38,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 43,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 46,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 56,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: k, notSetValue"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 64,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: k, v: string"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 68,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 72,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deleteAll(): parameter 'keys' needs a type. Add: @param {any[]} keys"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 79,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 80,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 100,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sort(): parameter 'comparator' needs a type. Add: @param {string} comparator"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 105,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sortBy needs types for 2 parameters: mapper, comparator: string"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 110,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "map needs types for 2 parameters: mapper: object, context: object"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 111,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'map' needs a type. Add: @param {any[]} map"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 112,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, key: string"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 120,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 124,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 126,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 128,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {unknown} entry"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 135,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __ensureOwner(): parameter 'ownerID' needs a type. Add: @param {unknown} ownerID"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 171,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: result: object, arr"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 174,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 181,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: ownerID, entries: any[]"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 186,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 4 parameters: shift, keyHash, key: string, notSetValue"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 196,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 7 parameters: ownerID, shift, keyHash, key: string, value, didChangeSize: number, didAlter"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 214,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 230,
+      "column": 9,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 251,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: ownerID, bitmap, nodes"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 257,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 4 parameters: shift, keyHash, key: string, notSetValue"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 273,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 7 parameters: ownerID, shift, keyHash, key: string, value, didChangeSize: number, didAlter"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 340,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: ownerID, count: number, nodes"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 346,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 4 parameters: shift, keyHash, key: string, notSetValue"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 357,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 7 parameters: ownerID, shift, keyHash, key: string, value, didChangeSize: number, didAlter"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 408,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: ownerID, keyHash, entries: any[]"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 414,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 4 parameters: shift, keyHash, key: string, notSetValue"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 424,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 7 parameters: ownerID, shift, keyHash, key: string, value, didChangeSize: number, didAlter"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 455,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 467,
+      "column": 9,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 488,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: ownerID, keyHash, entry"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 494,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 4 parameters: shift, keyHash, key: string, notSetValue"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 498,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 7 parameters: ownerID, shift, keyHash, key: string, value, didChangeSize: number, didAlter"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 528,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 538,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 548,
+      "column": 1,
+      "rule": "@typescript-eslint/no-unused-vars",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-vars' was not found."
+    },
+    {
+      "file": "src/Map.js",
+      "line": 549,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 554,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: map: object, type: string, reverse"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 598,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapIteratorValue needs types for 2 parameters: type: string, entry"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 602,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapIteratorFrame needs types for 2 parameters: node, prev"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 610,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeMap needs types for 4 parameters: size: number, root, ownerID, hash"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 621,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "emptyMap needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 625,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateMap needs types for 3 parameters: map: object, k, v: string"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 662,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateNode needs types for 8 parameters: node: object, ownerID, shift, keyHash, key: string, value, didChangeSize: number, didAlter"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 691,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLeafNode(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 697,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeIntoNode needs types for 5 parameters: node: object, ownerID, shift, keyHash, entry"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 715,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createNodes needs types for 4 parameters: ownerID, entries: any[], key: string, value"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 727,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "packNodes needs types for 4 parameters: ownerID, nodes: object, count: number, excluding"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 741,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "expandNodes needs types for 5 parameters: ownerID, nodes, bitmap, including, node"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 751,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In popCount(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 760,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setAt needs types for 4 parameters: array: any[], idx: number, val, canEdit: boolean"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 766,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "spliceIn needs types for 4 parameters: array: any[], idx: number, val, canEdit: boolean"
+    },
+    {
+      "file": "src/Map.js",
+      "line": 785,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "spliceOut needs types for 3 parameters: array: any[], idx: number, canEdit: boolean"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 42,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: indexed: object, useKeys"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 48,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: key: string, notSetValue"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 52,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 68,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "map needs types for 2 parameters: mapper, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 76,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 77,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 80,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 87,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 92,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 96,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 98,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 101,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 106,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 109,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 126,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 131,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 135,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 136,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 139,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 151,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'entries' needs a type. Add: @param {any[]} entries"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 160,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 161,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 176,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 208,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "flipFactory needs JSDoc: @param {any} collection, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 208,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In flipFactory(): parameter 'collection' needs a type. Add: @param {object} collection"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 218,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 219,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 221,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 222,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 224,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 245,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapFactory needs types for 3 parameters: collection: object, mapper: object, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 245,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mapFactory needs JSDoc: @param {any} collection, @param {any} mapper, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 248,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 249,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: key: string, notSetValue"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 255,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 257,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 261,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 281,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reverseFactory needs types for 2 parameters: collection: object, useKeys"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 281,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "reverseFactory needs JSDoc: @param {any} collection, @param {any} useKeys, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 293,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: key: number, notSetValue"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 295,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {number} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 296,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 298,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 300,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 303,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 307,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 309,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 329,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filterFactory needs types for 4 parameters: collection: object, predicate: object, context: object, useKeys"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 329,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "filterFactory needs JSDoc: @param {any} collection, @param {any} predicate, @param {any} context, @param {any} useKeys, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 332,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 336,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: key: string, notSetValue"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 343,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 345,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 353,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 374,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "countByFactory needs types for 3 parameters: collection: object, grouper: object, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 374,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "countByFactory needs JSDoc: @param {any} collection, @param {any} grouper, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 376,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 377,
+      "column": 64,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 382,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "groupByFactory needs types for 3 parameters: collection: object, grouper: object, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 382,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "groupByFactory needs JSDoc: @param {any} collection, @param {any} grouper, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 385,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 388,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {any[]} a"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 392,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arr' needs a type. Add: @param {unknown} arr"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 395,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "partitionFactory needs types for 3 parameters: collection: object, predicate: object, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 395,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "partitionFactory needs JSDoc: @param {any} collection, @param {any} predicate, @param {any} context, @returns {any[]}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 398,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 407,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sliceFactory needs types for 4 parameters: collection: object, begin, end: number, useKeys"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 407,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sliceFactory needs JSDoc: @param {any} collection, @param {any} begin, @param {any} end, @param {any} useKeys, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 442,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 450,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 460,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 472,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 504,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "takeWhileFactory needs types for 3 parameters: collection: object, predicate: object, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 504,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "takeWhileFactory needs JSDoc: @param {any} collection, @param {any} predicate, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 506,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 512,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 517,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 544,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipWhileFactory needs types for 4 parameters: collection: object, predicate: object, context: object, useKeys"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 544,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "skipWhileFactory needs JSDoc: @param {any} collection, @param {any} predicate, @param {any} context, @param {any} useKeys, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 546,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 552,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, c"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 560,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 585,
+      "column": 9,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 595,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'iterables' needs a type. Add: @param {any[]} iterables"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 596,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'iterable' needs a type. Add: @param {object} iterable"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 602,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: sum, iterable: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 615,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 656,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 688,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "concatFactory needs types for 2 parameters: collection, values"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 688,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "concatFactory needs JSDoc: @param {any} collection, @param {any} values, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 692,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 702,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 722,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flattenFactory needs types for 3 parameters: collection: object, depth, useKeys"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 722,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "flattenFactory needs JSDoc: @param {any} collection, @param {any} depth, @param {any} useKeys, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 724,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 730,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flatDeep needs types for 2 parameters: iter: object, currentDepth"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 731,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 746,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 777,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flatMapFactory needs types for 3 parameters: collection: object, mapper: object, context: object"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 777,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "flatMapFactory needs JSDoc: @param {any} collection, @param {any} mapper, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 781,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 785,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "interposeFactory needs types for 2 parameters: collection: object, separator: string"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 785,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "interposeFactory needs JSDoc: @param {any} collection, @param {any} separator, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 788,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 791,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 798,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 817,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sortFactory needs types for 3 parameters: collection: object, comparator: Function, mapper: Function"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 817,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sortFactory needs JSDoc: @param {any} collection, @param {any} comparator, @param {any} mapper, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 825,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 829,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 832,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, i"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 835,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, i"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 846,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "maxFactory needs types for 3 parameters: collection: any[], comparator: string, mapper: Function"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 846,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "maxFactory needs JSDoc: @param {any} collection, @param {any} comparator, @param {any} mapper, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 853,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 854,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 857,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 860,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "maxCompare needs types for 3 parameters: comparator: Function, a, b"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 870,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "zipWithFactory needs types for 4 parameters: keyIter, zipper: object, iters: any[], zipAll"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 870,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "zipWithFactory needs JSDoc: @param {any} keyIter, @param {any} zipper, @param {any} iters, @param {any} zipAll, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 872,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {object} i"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 876,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 900,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 902,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {any[]} i"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 909,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {object} i"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 911,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 912,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 922,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 932,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reify needs types for 2 parameters: iter: object, seq"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 932,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "reify needs JSDoc: @param {any} iter, @param {any} seq, @returns {any}"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 936,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateEntry(): parameter 'entry' needs a type. Add: @param {unknown} entry"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 942,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In collectionClass(): parameter 'collection' needs a type. Add: @param {unknown} collection"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 950,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeSequence(): parameter 'collection' needs a type. Add: @param {unknown} collection"
+    },
+    {
+      "file": "src/Operations.js",
+      "line": 970,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "defaultComparator needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 13,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 18,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 21,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 35,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: k, notSetValue"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 56,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: k, v: string"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 60,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 64,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 66,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {unknown} entry"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 71,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 75,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __ensureOwner(): parameter 'ownerID' needs a type. Add: @param {unknown} ownerID"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 100,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeOrderedMap needs types for 4 parameters: map: object, list: any[], ownerID, hash"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 112,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "emptyOrderedMap needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 119,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateOrderedMap needs types for 3 parameters: omap: object, k, v: string"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 132,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: entry, idx: number"
+    },
+    {
+      "file": "src/OrderedMap.js",
+      "line": 135,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {unknown} entry"
+    },
+    {
+      "file": "src/OrderedSet.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/OrderedSet.js",
+      "line": 13,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/OrderedSet.js",
+      "line": 18,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'set' needs a type. Add: @param {object} set"
+    },
+    {
+      "file": "src/OrderedSet.js",
+      "line": 21,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/OrderedSet.js",
+      "line": 29,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromKeys(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/OrderedSet.js",
+      "line": 49,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeOrderedSet needs types for 2 parameters: map: object, ownerID"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 14,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 16,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Range.js",
+      "line": 39,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Range.js",
+      "line": 42,
+      "column": 7,
+      "rule": "@typescript-eslint/no-this-alias",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+    },
+    {
+      "file": "src/Range.js",
+      "line": 53,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 59,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'searchValue' needs a type. Add: @param {number} searchValue"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 68,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: begin, end: number"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 84,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In indexOf(): parameter 'searchValue' needs a type. Add: @param {number} searchValue"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 95,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lastIndexOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 99,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 113,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Range.js",
+      "line": 128,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'other' needs a type. Add: @param {object} other"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 26,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwOnInvalidDefaultValues(): parameter 'defaultValues' needs a type. Add: @param {unknown} defaultValues"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 47,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: defaultValues, name: string"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 52,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RecordType(): parameter 'values' needs a type. Add: @param {unknown} values"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 73,
+      "column": 13,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "src/Record.js",
+      "line": 74,
+      "column": 13,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/Record.js",
+      "line": 91,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 93,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 108,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Record.js",
+      "line": 123,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'other' needs a type. Add: @param {unknown} other"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 136,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 140,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: k, notSetValue"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 151,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: k, v: string"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 164,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 190,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 194,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 198,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __ensureOwner(): parameter 'ownerID' needs a type. Add: @param {unknown} ownerID"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 239,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeRecord needs types for 3 parameters: likeRecord, values, ownerID"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 246,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In recordName(): parameter 'record' needs a type. Add: @param {object} record"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 250,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In recordSeq(): parameter 'record' needs a type. Add: @param {object} record"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 251,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 254,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setProp needs types for 2 parameters: prototype, name: string"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 260,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Record.js",
+      "line": 265,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-vars",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-vars' was not found."
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 13,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: value, times"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 15,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 22,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 25,
+      "column": 7,
+      "rule": "@typescript-eslint/no-this-alias",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 37,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 41,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In includes(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 45,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: begin, end: number"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 59,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In indexOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 66,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lastIndexOf(): parameter 'searchValue' needs a type. Add: @param {unknown} searchValue"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 73,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 84,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Repeat.js",
+      "line": 94,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'other' needs a type. Add: @param {object} other"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 25,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 26,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 52,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 70,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 88,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 89,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 107,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 108,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 134,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 135,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 160,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'array' needs a type. Add: @param {any[]} array"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 165,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 169,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 182,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 197,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 206,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: key: string, notSetValue"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 213,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 217,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 231,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 248,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'collection' needs a type. Add: @param {object} collection"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 253,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterateUncached needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 271,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iteratorUncached needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 296,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "keyedSeqFromValue needs JSDoc: @param {any} value, @returns {any}"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 296,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keyedSeqFromValue(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 310,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "indexedSeqFromValue needs JSDoc: @param {any} value, @returns {ArraySeq | CollectionSeq}"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 310,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In indexedSeqFromValue(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 320,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In seqFromValue(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Seq.js",
+      "line": 337,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In maybeIndexedSeqFromValue(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 16,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 17,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Set.js",
+      "line": 22,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'set' needs a type. Add: @param {object} set"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 25,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 33,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromKeys(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 37,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In intersect(): parameter 'sets' needs a type. Add: @param {any[]} sets"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 44,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In union(): parameter 'sets' needs a type. Add: @param {any[]} sets"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 57,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 63,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 67,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 77,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "map needs types for 2 parameters: mapper: object, context: object"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 98,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 105,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'set' needs a type. Add: @param {object} set"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 110,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 120,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'iter' needs a type. Add: @param {unknown} iter"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 122,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 123,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 127,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'set' needs a type. Add: @param {object} set"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 128,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 138,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'iter' needs a type. Add: @param {unknown} iter"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 140,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 141,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 145,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'set' needs a type. Add: @param {object} set"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 146,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 152,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sort(): parameter 'comparator' needs a type. Add: @param {string} comparator"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 157,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sortBy needs types for 2 parameters: mapper, comparator: string"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 166,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 167,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 170,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 174,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __ensureOwner(): parameter 'ownerID' needs a type. Add: @param {unknown} ownerID"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 200,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: result: object, arr"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 203,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 210,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateSet needs types for 2 parameters: set: object, newMap: object"
+    },
+    {
+      "file": "src/Set.js",
+      "line": 223,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeSet needs types for 2 parameters: map: object, ownerID"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 15,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 16,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 34,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: index: number, notSetValue"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 71,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pushAll(): parameter 'iter' needs a type. Add: @param {object} iter"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 82,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: begin, end: number"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 144,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In __ensureOwner(): parameter 'ownerID' needs a type. Add: @param {unknown} ownerID"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 161,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterate needs types for 2 parameters: fn: Function, reverse"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 164,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 179,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__iterator needs types for 2 parameters: type: string, reverse"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 207,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: result: any[], arr"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 210,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/Stack.js",
+      "line": 214,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeStack needs types for 4 parameters: size: number, head, ownerID, hash"
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromJS needs types for 2 parameters: value, converter: object"
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fromJS needs JSDoc: @param {any} value, @param {any} converter, @returns {any}"
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 20,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromJSWith needs types for 6 parameters: stack: object, converter: object, value, key: string, keyPath: string, parentValue"
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 30,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 35,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 41,
+      "column": 5,
+      "rule": "@typescript-eslint/no-unused-expressions",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-unused-expressions' was not found."
+    },
+    {
+      "file": "src/fromJS.js",
+      "line": 48,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "defaultConverter needs types for 2 parameters: k, v: string"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 10,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "merge needs JSDoc: @param {any} collection, @returns {any}"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 10,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In merge(): parameter 'collection' needs a type. Add: @param {unknown} collection"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 14,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeWith needs types for 2 parameters: merger, collection"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 14,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeWith needs JSDoc: @param {any} merger, @param {any} collection, @returns {any}"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 18,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeDeep needs JSDoc: @param {any} collection, @returns {any}"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 18,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mergeDeep(): parameter 'collection' needs a type. Add: @param {unknown} collection"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 22,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeDeepWith needs types for 2 parameters: merger, collection"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 22,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeDeepWith needs JSDoc: @param {any} merger, @param {any} collection, @returns {any}"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeDeepWithSources needs types for 3 parameters: collection, sources, merger"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeDeepWithSources needs JSDoc: @param {any} collection, @param {any} sources, @param {any} merger, @returns {any}"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeWithSources needs types for 3 parameters: collection: object, sources: any[] | object, merger: Function"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeWithSources needs JSDoc: @param {any} collection, @param {any} sources, @param {any} merger, @returns {any}"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 54,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, key: string"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 72,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deepMergerWith(): parameter 'merger' needs a type. Add: @param {Function} merger"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 73,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deepMerger needs types for 3 parameters: oldValue, newValue, key: string"
+    },
+    {
+      "file": "src/functional/merge.js",
+      "line": 90,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "areMergeable needs types for 2 parameters: oldDataStructure, newDataStructure"
+    },
+    {
+      "file": "src/methods/asImmutable.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "asImmutable needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/methods/asMutable.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "asMutable needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/methods/deleteIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "deleteIn needs JSDoc: @param {any} keyPath, @returns {any}"
+    },
+    {
+      "file": "src/methods/deleteIn.js",
+      "line": 3,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deleteIn(): parameter 'keyPath' needs a type. Add: @param {string} keyPath"
+    },
+    {
+      "file": "src/methods/getIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getIn needs types for 2 parameters: searchKeyPath: string, notSetValue"
+    },
+    {
+      "file": "src/methods/getIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getIn needs JSDoc: @param {any} searchKeyPath, @param {any} notSetValue, @returns {unknown}"
+    },
+    {
+      "file": "src/methods/hasIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasIn needs JSDoc: @param {any} searchKeyPath, @returns {boolean}"
+    },
+    {
+      "file": "src/methods/hasIn.js",
+      "line": 3,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasIn(): parameter 'searchKeyPath' needs a type. Add: @param {string} searchKeyPath"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 6,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "merge needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 10,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeWith needs JSDoc: @param {any} merger, @returns {any}"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 10,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mergeWith(): parameter 'merger' needs a type. Add: @param {unknown} merger"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 17,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeIntoKeyedWith needs types for 3 parameters: collection: object, collections: object, merger: Function"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 37,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'collection' needs a type. Add: @param {object} collection"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 39,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, key: string"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 40,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'oldVal' needs a type. Add: @param {unknown} oldVal"
+    },
+    {
+      "file": "src/methods/merge.js",
+      "line": 44,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, key: string"
+    },
+    {
+      "file": "src/methods/mergeDeep.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeDeep needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/methods/mergeDeep.js",
+      "line": 7,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeDeepWith needs JSDoc: @param {any} merger, @returns {any}"
+    },
+    {
+      "file": "src/methods/mergeDeep.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mergeDeepWith(): parameter 'merger' needs a type. Add: @param {unknown} merger"
+    },
+    {
+      "file": "src/methods/mergeDeepIn.js",
+      "line": 5,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeDeepIn needs JSDoc: @param {any} keyPath, @returns {any}"
+    },
+    {
+      "file": "src/methods/mergeDeepIn.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mergeDeepIn(): parameter 'keyPath' needs a type. Add: @param {string} keyPath"
+    },
+    {
+      "file": "src/methods/mergeDeepIn.js",
+      "line": 6,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/methods/mergeIn.js",
+      "line": 5,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mergeIn needs JSDoc: @param {any} keyPath, @returns {any}"
+    },
+    {
+      "file": "src/methods/mergeIn.js",
+      "line": 5,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mergeIn(): parameter 'keyPath' needs a type. Add: @param {string} keyPath"
+    },
+    {
+      "file": "src/methods/mergeIn.js",
+      "line": 6,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/methods/setIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setIn needs types for 2 parameters: keyPath: string, v: string"
+    },
+    {
+      "file": "src/methods/setIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setIn needs JSDoc: @param {any} keyPath, @param {any} v, @returns {any}"
+    },
+    {
+      "file": "src/methods/toObject.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toObject needs JSDoc: @returns {{}}"
+    },
+    {
+      "file": "src/methods/toObject.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, k"
+    },
+    {
+      "file": "src/methods/update.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 3 parameters: key: Function, notSetValue, updater"
+    },
+    {
+      "file": "src/methods/update.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "update needs JSDoc: @param {any} key, @param {any} notSetValue, @param {any} updater, @returns {any}"
+    },
+    {
+      "file": "src/methods/updateIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateIn needs types for 3 parameters: keyPath: string, notSetValue, updater"
+    },
+    {
+      "file": "src/methods/updateIn.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "updateIn needs JSDoc: @param {any} keyPath, @param {any} notSetValue, @param {any} updater, @returns {any}"
+    },
+    {
+      "file": "src/methods/wasAltered.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "wasAltered needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/methods/withMutations.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "withMutations needs JSDoc: @param {any} fn, @returns {any}"
+    },
+    {
+      "file": "src/methods/withMutations.js",
+      "line": 1,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In withMutations(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19521
+}

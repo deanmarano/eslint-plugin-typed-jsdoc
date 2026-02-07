@@ -1,0 +1,62 @@
+{
+  "name": "content-type",
+  "downloadedAt": "2026-02-03T22:03:43.499Z",
+  "lintedAt": "2026-02-03T22:03:43.499Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 5,
+  "errors": 0,
+  "warnings": 5,
+  "byRule": {
+    "unknown": 3,
+    "tjd/no-implicit-any": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 23,
+      "column": 199,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 25,
+      "column": 59,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 34,
+      "column": 48,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "index.js",
+      "line": 178,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getcontenttype(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "index.js",
+      "line": 223,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ContentType(): parameter 'type' needs a type. Add: @param {string} type"
+    }
+  ],
+  "typesPackage": "@types/content-type",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.1.9",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18879
+}

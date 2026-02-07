@@ -1,0 +1,126 @@
+{
+  "name": "lozad.js",
+  "downloadedAt": "2026-02-03T22:10:24.532Z",
+  "lintedAt": "2026-02-03T22:10:24.532Z",
+  "filesAnalyzed": 9,
+  "totalIssues": 13,
+  "errors": 0,
+  "warnings": 13,
+  "byRule": {
+    "tjd/no-implicit-any": 12,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "src/lozad.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In load(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 96,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In markAsLoaded(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 100,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preLoad(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 106,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLoaded(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 108,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onIntersection needs types for 2 parameters: load: Function, loaded: Function"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 108,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: entries: any[], observer: object"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 109,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 122,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onMutation(): parameter 'load' needs a type. Add: @param {Function} load"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 122,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entries' needs a type. Add: @param {any[]} entries"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 123,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 130,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getElements(): parameter 'selector' needs a type. Add: @param {unknown} selector"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 142,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @returns {{ observe(): void; triggerLoad(element: any): void; observer: any; mutationObserver: any; }}"
+    },
+    {
+      "file": "src/lozad.js",
+      "line": 186,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In triggerLoad(): parameter 'element' needs a type. Add: @param {unknown} element"
+    }
+  ],
+  "typesPackage": "@types/lozad",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.16.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 26596
+}

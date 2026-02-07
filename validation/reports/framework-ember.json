@@ -1,0 +1,33 @@
+{
+  "name": "ember",
+  "displayName": "Ember.js",
+  "generatedAt": "2026-01-31T15:20:00.012Z",
+  "lintedAt": "2026-01-31T15:21:36.400Z",
+  "generatorVersion": "unknown",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "duration": 118193,
+  "success": false,
+  "verification": {
+    "passed": false,
+    "expectedViolations": [
+      {
+        "rule": "tjd/no-implicit-any",
+        "expectedCount": 2,
+        "actualCount": 0,
+        "passed": false
+      },
+      {
+        "rule": "tjd/no-redundant-jsdoc",
+        "expectedCount": 2,
+        "actualCount": 0,
+        "passed": false
+      }
+    ],
+    "unexpectedIssues": 0
+  }
+}

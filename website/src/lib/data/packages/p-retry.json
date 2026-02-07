@@ -1,0 +1,114 @@
+{
+  "name": "p-retry",
+  "downloadedAt": "2026-02-03T22:05:24.073Z",
+  "lintedAt": "2026-02-03T22:05:24.073Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 12,
+  "errors": 0,
+  "warnings": 12,
+  "byRule": {
+    "tjd/no-implicit-any": 7,
+    "tjd/require-jsdoc-types": 2,
+    "unknown": 3
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateRetries(): parameter 'retries' needs a type. Add: @param {unknown} retries"
+    },
+    {
+      "file": "index.js",
+      "line": 17,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateNumberOption needs types for 2 parameters: name: string, value"
+    },
+    {
+      "file": "index.js",
+      "line": 36,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "index.js",
+      "line": 52,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calculateDelay needs types for 2 parameters: retriesConsumed, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 62,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calculateRemainingTime needs types for 2 parameters: start: number, max: number"
+    },
+    {
+      "file": "index.js",
+      "line": 155,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pRetry needs JSDoc: @param {any} input, @returns {Promise<any>}"
+    },
+    {
+      "file": "index.js",
+      "line": 155,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pRetry(): parameter 'input' needs a type. Add: @param {Function} input"
+    },
+    {
+      "file": "index.js",
+      "line": 219,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeRetriable needs types for 2 parameters: function_: object, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 219,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeRetriable needs JSDoc: @param {any} function_, @param {any} options, @returns {function(any[]): Promise<any>}"
+    },
+    {
+      "file": "test.js",
+      "line": 51,
+      "column": 16,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-throw-literal')."
+    },
+    {
+      "file": "test.js",
+      "line": 1005,
+      "column": 45,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'prefer-promise-reject-errors')."
+    },
+    {
+      "file": "test.js",
+      "line": 1219,
+      "column": 16,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-throw-literal')."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 15708
+}

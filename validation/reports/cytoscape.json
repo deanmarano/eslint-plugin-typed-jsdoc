@@ -1,0 +1,329 @@
+{
+  "name": "cytoscape",
+  "downloadedAt": "2026-02-03T22:12:44.721Z",
+  "lintedAt": "2026-02-03T22:12:44.721Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 39,
+  "errors": 0,
+  "warnings": 39,
+  "byRule": {
+    "unknown": 36,
+    "tjd/no-implicit-any": 3
+  },
+  "issues": [
+    {
+      "file": "src/collection/algorithms/affinity-propagation.mjs",
+      "line": 39,
+      "column": 46,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console' or 'no-unused-vars')."
+    },
+    {
+      "file": "src/collection/algorithms/hierarchical-clustering.mjs",
+      "line": 222,
+      "column": 46,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console' or 'no-unused-vars')."
+    },
+    {
+      "file": "src/collection/algorithms/k-clustering.mjs",
+      "line": 25,
+      "column": 46,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console' or 'no-unused-vars')."
+    },
+    {
+      "file": "src/collection/algorithms/markov-clustering.mjs",
+      "line": 9,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/collection/algorithms/markov-clustering.mjs",
+      "line": 25,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars' or 'no-console')."
+    },
+    {
+      "file": "src/extensions/layout/breadthfirst.mjs",
+      "line": 5,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/layout/cose.mjs",
+      "line": 545,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "src/extensions/layout/null.mjs",
+      "line": 23,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/renderer/base/images.mjs",
+      "line": 17,
+      "column": 44,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/index.mjs",
+      "line": 202,
+      "column": 52,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 9,
+      "column": 71,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 303,
+      "column": 65,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 323,
+      "column": 70,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 333,
+      "column": 57,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 339,
+      "column": 61,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 342,
+      "column": 54,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 573,
+      "column": 100,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 841,
+      "column": 80,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 1197,
+      "column": 78,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 1450,
+      "column": 84,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 1853,
+      "column": 90,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/renderer/base/load-listeners.mjs",
+      "line": 1864,
+      "column": 84,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/drawing-images.mjs",
+      "line": 45,
+      "column": 39,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/drawing-images.mjs",
+      "line": 50,
+      "column": 39,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/drawing-redraw.mjs",
+      "line": 26,
+      "column": 66,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/export-image.mjs",
+      "line": 9,
+      "column": 52,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/export-image.mjs",
+      "line": 56,
+      "column": 56,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/index.mjs",
+      "line": 67,
+      "column": 61,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/index.mjs",
+      "line": 92,
+      "column": 78,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/index.mjs",
+      "line": 118,
+      "column": 71,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/index.mjs",
+      "line": 366,
+      "column": 48,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/texture-cache-defs.mjs",
+      "line": 38,
+      "column": 24,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constant-condition')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/webgl/drawing-redraw-webgl.mjs",
+      "line": 504,
+      "column": 32,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/webgl/drawing-redraw-webgl.mjs",
+      "line": 562,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/extensions/renderer/canvas/webgl/misc-upscaler.js",
+      "line": 17,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "init needs types for 2 parameters: inputCanvas, outputCanvas"
+    },
+    {
+      "file": "src/extensions/renderer/canvas/webgl/misc-upscaler.js",
+      "line": 95,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createShader needs types for 2 parameters: type: string, source"
+    },
+    {
+      "file": "src/extensions/renderer/canvas/webgl/misc-upscaler.js",
+      "line": 109,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createProgram needs types for 2 parameters: vertexShader, fragmentShader"
+    },
+    {
+      "file": "src/promise.mjs",
+      "line": 211,
+      "column": 64,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/window.mjs",
+      "line": 1,
+      "column": 67,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 24592
+}

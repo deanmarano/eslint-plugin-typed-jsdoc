@@ -1,0 +1,18 @@
+{
+  "name": "pouchdb",
+  "downloadedAt": "2026-02-03T22:12:17.269Z",
+  "lintedAt": "2026-02-03T22:12:17.269Z",
+  "filesAnalyzed": 10,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/pouchdb",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.4.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 24777
+}

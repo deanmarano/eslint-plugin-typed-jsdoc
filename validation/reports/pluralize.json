@@ -1,0 +1,61 @@
+{
+  "name": "pluralize",
+  "downloadedAt": "2026-02-03T22:00:39.002Z",
+  "lintedAt": "2026-02-03T22:00:39.002Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 5,
+  "errors": 0,
+  "warnings": 5,
+  "byRule": {
+    "tjd/no-implicit-any": 5
+  },
+  "issues": [
+    {
+      "file": "pluralize.js",
+      "line": 75,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "pluralize.js",
+      "line": 88,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "pluralize.js",
+      "line": 134,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'word' needs a type. Add: @param {string} word"
+    },
+    {
+      "file": "pluralize.js",
+      "line": 156,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkWord needs types for 4 parameters: replaceMap: object, keepMap: object, rules, bool"
+    },
+    {
+      "file": "pluralize.js",
+      "line": 157,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'word' needs a type. Add: @param {string} word"
+    }
+  ],
+  "typesPackage": "@types/pluralize",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.0.33",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 28247
+}

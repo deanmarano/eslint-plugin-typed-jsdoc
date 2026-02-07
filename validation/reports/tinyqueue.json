@@ -1,0 +1,48 @@
+{
+  "name": "tinyqueue",
+  "downloadedAt": "2026-02-03T22:06:31.727Z",
+  "lintedAt": "2026-02-03T22:06:31.727Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "tjd/no-implicit-any": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "index.js",
+      "line": 13,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "index.js",
+      "line": 36,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _up(): parameter 'pos' needs a type. Add: @param {number} pos"
+    },
+    {
+      "file": "index.js",
+      "line": 51,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _down(): parameter 'pos' needs a type. Add: @param {unknown} pos"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19657
+}

@@ -1,0 +1,913 @@
+{
+  "name": "dexie",
+  "downloadedAt": "2026-02-03T22:12:17.269Z",
+  "lintedAt": "2026-02-03T22:12:17.269Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 112,
+  "errors": 0,
+  "warnings": 112,
+  "byRule": {
+    "tjd/no-implicit-any": 87,
+    "tjd/require-jsdoc-types": 25
+  },
+  "issues": [
+    {
+      "file": "src/errors/errors.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "DexieError needs types for 2 parameters: name: string, msg"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "DexieError needs JSDoc: @param {any} name, @param {any} msg"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 66,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMultiErrorMessage needs types for 2 parameters: msg, failures: object"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 69,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 77,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ModifyError needs types for 4 parameters: msg, failures, successCount: number, failedKeys"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 77,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "ModifyError needs JSDoc: @param {any} msg, @param {any} failures, @param {any} successCount, @param {any} failedKeys"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 85,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "BulkError needs types for 2 parameters: msg, failures: object"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 85,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "BulkError needs JSDoc: @param {any} msg, @param {any} failures"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 114,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "DexieError needs types for 2 parameters: msgOrInner: object, inner"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 142,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapError needs types for 2 parameters: domError: object, message: string"
+    },
+    {
+      "file": "src/errors/errors.js",
+      "line": 142,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mapError needs JSDoc: @param {any} domError, @param {any} message, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mirror needs JSDoc: @param {any} val, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 4,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mirror(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 5,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pureFunctionChain needs types for 2 parameters: f1: Function, f2: Function"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 5,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pureFunctionChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 9,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 14,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "callBoth needs types for 2 parameters: on1: object, on2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 14,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "callBoth needs JSDoc: @param {any} on1, @param {any} on2, @returns {function(any[]): void}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hookCreatingChain needs types for 2 parameters: f1: object, f2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hookCreatingChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 39,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hookDeletingChain needs types for 2 parameters: f1: object, f2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 39,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hookDeletingChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hookUpdatingChain needs types for 2 parameters: f1: object, f2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hookUpdatingChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 54,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'modifications' needs a type. Add: @param {unknown} modifications"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 70,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reverseStoppableEventChain needs types for 2 parameters: f1: object, f2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 70,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "reverseStoppableEventChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 78,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nonStoppableEventChain needs types for 2 parameters: f1: object, f2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 78,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "nonStoppableEventChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 86,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "promisableChain needs types for 2 parameters: f1: object, f2: object"
+    },
+    {
+      "file": "src/functions/chaining-functions.js",
+      "line": 86,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "promisableChain needs JSDoc: @param {any} f1, @param {any} f2, @returns {any}"
+    },
+    {
+      "file": "src/functions/stringify-key.js",
+      "line": 7,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stringifyKey needs JSDoc: @param {any} key, @returns {any}"
+    },
+    {
+      "file": "src/functions/stringify-key.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringifyKey(): parameter 'key' needs a type. Add: @param {any[]} key"
+    },
+    {
+      "file": "src/functions/stringify-key.js",
+      "line": 35,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "unstringifyKey needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/functions/stringify-key.js",
+      "line": 35,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unstringifyKey(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Events needs JSDoc: @param {any} ctx, @returns {{ (eventName: any, subscriber: any, ...args: any[]): any; addEventType: (eventName: any, chainFunction: any, defaultFunction: any) => void | { subscribers: any[]; fire: any; subscribe: (cb: any) => void; unsubscribe: (cb: any) => void; }; }}"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 5,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Events(): parameter 'ctx' needs a type. Add: @param {object} ctx"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 7,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rv needs types for 2 parameters: eventName: string, subscriber"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 27,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 3 parameters: eventName: string, chainFunction: Function, defaultFunction"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 35,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In subscribe(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 41,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unsubscribe(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 42,
+      "column": 76,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 50,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addConfiguredEvents(): parameter 'cfg' needs a type. Add: @param {object} cfg"
+    },
+    {
+      "file": "src/helpers/Events.js",
+      "line": 64,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 75,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "asap needs types for 2 parameters: callback: Function, args: any[]"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 106,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "DexiePromise needs JSDoc: @param {any} fn"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 106,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In DexiePromise(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 142,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "then needs types for 2 parameters: onFulfilled, onRejected"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 145,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve, reject"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 163,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 178,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_then needs types for 2 parameters: onFulfilled, onRejected"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 183,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In catch(): parameter 'onRejected' needs a type. Add: @param {unknown} onRejected"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 188,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 192,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 199,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In finally(): parameter 'onFinally' needs a type. Add: @param {Function} onFinally"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 200,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 202,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 207,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "timeout needs types for 2 parameters: ms, msg"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 209,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve, reject: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 223,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Listener needs types for 5 parameters: onFulfilled, onRejected, resolve, reject, zone"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 236,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve: Function, reject"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 239,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, i"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 239,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 246,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolve(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 248,
+      "column": 80,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve, reject"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 259,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve, reject"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 260,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 266,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 279,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 284,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 287,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "follow needs types for 2 parameters: fn: Function, zoneProps"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 288,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve: Function, reject: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 289,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve: Function, reject: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 310,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'resolve' needs a type. Add: @param {Function} resolve"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 314,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: p, i"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 315,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 316,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'reason' needs a type. Add: @param {unknown} reason"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 322,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve: Function, reject: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 326,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: p, i"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 327,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 328,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'failure' needs a type. Add: @param {unknown} failure"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 344,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "executePromiseTask needs types for 2 parameters: promise: object, fn: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 348,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 353,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: resolve, reject"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 370,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleRejection needs types for 2 parameters: promise: object, reason"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 383,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In propagateAllListeners(): parameter 'promise' needs a type. Add: @param {object} promise"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 405,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "propagateToListener needs types for 2 parameters: promise: object, listener: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 421,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "callListener needs types for 3 parameters: cb: Function, promise: object, listener: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 453,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "beginMicroTickScope needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 488,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {object} p"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 496,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In run_at_end_of_this_or_next_physical_tick(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 508,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addPossiblyUnhandledError(): parameter 'promise' needs a type. Add: @param {object} promise"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 512,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {object} p"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 516,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In markErrorAsHandled(): parameter 'promise' needs a type. Add: @param {object} promise"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 529,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PromiseReject(): parameter 'reason' needs a type. Add: @param {unknown} reason"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 533,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrap needs types for 2 parameters: fn: Function, errorCatcher: Function"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 533,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "wrap needs JSDoc: @param {any} fn, @param {any} errorCatcher, @returns {function(any[]): any}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 563,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "newScope needs types for 4 parameters: fn: Function, props: object, a1, a2"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 563,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "newScope needs JSDoc: @param {any} fn, @param {any} props, @param {any} a1, @param {any} a2, @returns {any}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 599,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "incrementExpectedAwaits needs JSDoc: @returns {number}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 609,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "decrementExpectedAwaits needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 623,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onPossibleParallellAsync needs JSDoc: @param {any} possiblePromise, @returns {any}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 623,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onPossibleParallellAsync(): parameter 'possiblePromise' needs a type. Add: @param {object} possiblePromise"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 626,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 629,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 637,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zoneEnterEcho(): parameter 'targetZone' needs a type. Add: @param {unknown} targetZone"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 655,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "switchToZone needs types for 2 parameters: targetZone: object, bEnteringZone"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 707,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "usePSD needs types for 5 parameters: psd, fn: Function, a1, a2, a3"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 707,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "usePSD needs JSDoc: @param {any} psd, @param {any} fn, @param {any} a1, @param {any} a2, @param {any} a3, @returns {any}"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 717,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nativeAwaitCompatibleWrap needs types for 4 parameters: fn: Function, zone, possibleAwait, cleanup"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 732,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "execInGlobalContext needs JSDoc: @param {any} cb"
+    },
+    {
+      "file": "src/helpers/promise.js",
+      "line": 732,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In execInGlobalContext(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 24460
+}

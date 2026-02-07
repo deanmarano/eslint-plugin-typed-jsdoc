@@ -1,0 +1,1838 @@
+{
+  "name": "async",
+  "downloadedAt": "2026-02-03T21:57:03.722Z",
+  "lintedAt": "2026-02-03T21:57:03.722Z",
+  "filesAnalyzed": 102,
+  "totalIssues": 227,
+  "errors": 0,
+  "warnings": 227,
+  "byRule": {
+    "tjd/no-implicit-any": 206,
+    "tjd/require-jsdoc-types": 21
+  },
+  "issues": [
+    {
+      "file": "lib/asyncify.js",
+      "line": 70,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: args: any[], callback: Function"
+    },
+    {
+      "file": "lib/asyncify.js",
+      "line": 86,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handlePromise needs types for 2 parameters: promise: object, callback: Function"
+    },
+    {
+      "file": "lib/asyncify.js",
+      "line": 87,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/asyncify.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/asyncify.js",
+      "line": 94,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "invokeCallback needs types for 3 parameters: callback: Function, error: Error, value"
+    },
+    {
+      "file": "lib/asyncify.js",
+      "line": 98,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 151,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In auto(): parameter 'tasks' needs a type. Add: @param {object} tasks"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 198,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dependencyName' needs a type. Add: @param {string} dependencyName"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 217,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "enqueueTask needs types for 2 parameters: key: string, task"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 233,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addListener needs types for 2 parameters: taskName: string, fn: Function"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 242,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In taskComplete(): parameter 'taskName' needs a type. Add: @param {string} taskName"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 244,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 249,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "runTask needs types for 2 parameters: key: string, task: object"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 252,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 295,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dependent' needs a type. Add: @param {unknown} dependent"
+    },
+    {
+      "file": "lib/auto.js",
+      "line": 309,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getDependents(): parameter 'taskName' needs a type. Add: @param {string} taskName"
+    },
+    {
+      "file": "lib/autoInject.js",
+      "line": 10,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripComments(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/autoInject.js",
+      "line": 37,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseParams(): parameter 'func' needs a type. Add: @param {Function} func"
+    },
+    {
+      "file": "lib/autoInject.js",
+      "line": 134,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In autoInject(): parameter 'tasks' needs a type. Add: @param {object} tasks"
+    },
+    {
+      "file": "lib/autoInject.js",
+      "line": 165,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "newTask needs types for 2 parameters: results: any[], taskCb"
+    },
+    {
+      "file": "lib/autoInject.js",
+      "line": 166,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/concatLimit.js",
+      "line": 27,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, iterCb: Function"
+    },
+    {
+      "file": "lib/concatLimit.js",
+      "line": 28,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/concatLimit.js",
+      "line": 32,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, mapResults: object"
+    },
+    {
+      "file": "lib/detect.js",
+      "line": 77,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/detect.js",
+      "line": 77,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: res: object, item"
+    },
+    {
+      "file": "lib/detectLimit.js",
+      "line": 29,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/detectLimit.js",
+      "line": 29,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: res: object, item"
+    },
+    {
+      "file": "lib/detectSeries.js",
+      "line": 27,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/detectSeries.js",
+      "line": 27,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: res: object, item"
+    },
+    {
+      "file": "lib/doUntil.js",
+      "line": 29,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, truth"
+    },
+    {
+      "file": "lib/doWhilst.js",
+      "line": 34,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/doWhilst.js",
+      "line": 41,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "check needs types for 2 parameters: err: Error, truth"
+    },
+    {
+      "file": "lib/eachOf.js",
+      "line": 10,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eachOfArrayLike needs types for 3 parameters: coll: object, iteratee: Function, callback: Function"
+    },
+    {
+      "file": "lib/eachOf.js",
+      "line": 20,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iteratorCallback needs types for 2 parameters: err: Error, value"
+    },
+    {
+      "file": "lib/eachOf.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eachOfGeneric needs types for 3 parameters: coll, iteratee, callback: Function"
+    },
+    {
+      "file": "lib/every.js",
+      "line": 100,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/every.js",
+      "line": 100,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/everyLimit.js",
+      "line": 27,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/everyLimit.js",
+      "line": 27,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/everySeries.js",
+      "line": 26,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bool' needs a type. Add: @param {unknown} bool"
+    },
+    {
+      "file": "lib/everySeries.js",
+      "line": 26,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/forever.js",
+      "line": 41,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/groupBy.js",
+      "line": 94,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In groupBy(): parameter 'coll' needs a type. Add: @param {unknown} coll"
+    },
+    {
+      "file": "lib/groupByLimit.js",
+      "line": 27,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, iterCb: Function"
+    },
+    {
+      "file": "lib/groupByLimit.js",
+      "line": 28,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, key: string"
+    },
+    {
+      "file": "lib/groupByLimit.js",
+      "line": 32,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, mapResults: object"
+    },
+    {
+      "file": "lib/groupBySeries.js",
+      "line": 22,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In groupBySeries(): parameter 'coll' needs a type. Add: @param {unknown} coll"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeLink(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 27,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "insertAfter needs types for 2 parameters: node: object, newNode: object"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 36,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "insertBefore needs types for 2 parameters: node: object, newNode: object"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 45,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unshift(): parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 50,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 75,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'testFn' needs a type. Add: @param {Function} testFn"
+    },
+    {
+      "file": "lib/internal/DoublyLinkedList.js",
+      "line": 88,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setInitial needs types for 2 parameters: dll: object, node"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 18,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In percUp(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 30,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In percDown(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 50,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 56,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unshift(): parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 80,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'testFn' needs a type. Add: @param {Function} testFn"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 99,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In leftChi(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 103,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parent(): parameter 'i' needs a type. Add: @param {number} i"
+    },
+    {
+      "file": "lib/internal/Heap.js",
+      "line": 107,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "smaller needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "lib/internal/applyEach.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} eachfn, @returns {function(any, any[]): (...args: any[]) => any}"
+    },
+    {
+      "file": "lib/internal/applyEach.js",
+      "line": 4,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'eachfn' needs a type. Add: @param {Function} eachfn"
+    },
+    {
+      "file": "lib/internal/applyEach.js",
+      "line": 5,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fns' needs a type. Add: @param {unknown} fns"
+    },
+    {
+      "file": "lib/internal/applyEach.js",
+      "line": 6,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/internal/applyEach.js",
+      "line": 8,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: fn: Function, cb: Function"
+    },
+    {
+      "file": "lib/internal/asyncEachOfLimit.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "asyncEachOfLimit needs types for 4 parameters: generator: object, limit: number, iteratee: Function, callback: Function"
+    },
+    {
+      "file": "lib/internal/asyncEachOfLimit.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "asyncEachOfLimit needs JSDoc: @param {any} generator, @param {any} limit, @param {any} iteratee, @param {any} callback"
+    },
+    {
+      "file": "lib/internal/asyncEachOfLimit.js",
+      "line": 35,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateeCallback needs types for 2 parameters: err: Error, result"
+    },
+    {
+      "file": "lib/internal/asyncEachOfLimit.js",
+      "line": 55,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/awaitify.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "awaitify needs types for 2 parameters: asyncFn: Function, arity: number"
+    },
+    {
+      "file": "lib/internal/awaitify.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "awaitify needs JSDoc: @param {any} asyncFn, @param {any} arity, @returns {function(any[]): any}"
+    },
+    {
+      "file": "lib/internal/awaitify.js",
+      "line": 12,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/consoleFunc.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "consoleFunc needs JSDoc: @param {any} name, @returns {function(any, any[]): any}"
+    },
+    {
+      "file": "lib/internal/consoleFunc.js",
+      "line": 3,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In consoleFunc(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/internal/consoleFunc.js",
+      "line": 4,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/consoleFunc.js",
+      "line": 4,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/consoleFunc.js",
+      "line": 14,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/internal/createTester.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createTester needs types for 2 parameters: check: Function, getResult: Function"
+    },
+    {
+      "file": "lib/internal/createTester.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_createTester needs JSDoc: @param {any} check, @param {any} getResult, @returns {function(any, any, any, any): void}"
+    },
+    {
+      "file": "lib/internal/createTester.js",
+      "line": 5,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: eachfn: Function, arr, _iteratee, cb: Function"
+    },
+    {
+      "file": "lib/internal/createTester.js",
+      "line": 9,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: value, _, callback: Function"
+    },
+    {
+      "file": "lib/internal/createTester.js",
+      "line": 10,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, result"
+    },
+    {
+      "file": "lib/internal/createTester.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/eachOfLimit.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} limit, @returns {function(any, any, any): any}"
+    },
+    {
+      "file": "lib/internal/eachOfLimit.js",
+      "line": 8,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'limit' needs a type. Add: @param {number} limit"
+    },
+    {
+      "file": "lib/internal/eachOfLimit.js",
+      "line": 9,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: obj: object, iteratee: Function, callback: Function"
+    },
+    {
+      "file": "lib/internal/eachOfLimit.js",
+      "line": 29,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateeCallback needs types for 2 parameters: err: Error, value"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 4,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filterArray needs types for 4 parameters: eachfn: Function, arr: object, iteratee: Function, callback: Function"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 6,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: x: number, index: number, iterCb: Function"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 7,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, v: string"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 11,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 21,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filterGeneric needs types for 4 parameters: eachfn: Function, coll, iteratee: Function, callback: Function"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 23,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: x: number, index: number, iterCb: Function"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 24,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, v: string"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 31,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 34,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 35,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 39,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_filter needs types for 4 parameters: eachfn: Function, coll, iteratee, callback: Function"
+    },
+    {
+      "file": "lib/internal/filter.js",
+      "line": 39,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_filter needs JSDoc: @param {any} eachfn, @param {any} coll, @param {any} iteratee, @param {any} callback"
+    },
+    {
+      "file": "lib/internal/getIterator.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} coll, @returns {any}"
+    },
+    {
+      "file": "lib/internal/getIterator.js",
+      "line": 1,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'coll' needs a type. Add: @param {unknown} coll"
+    },
+    {
+      "file": "lib/internal/initialParams.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} fn, @returns {function(any[]): any}"
+    },
+    {
+      "file": "lib/internal/initialParams.js",
+      "line": 1,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/isArrayLike.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isArrayLike needs JSDoc: @param {any} value, @returns {boolean}"
+    },
+    {
+      "file": "lib/internal/isArrayLike.js",
+      "line": 1,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isArrayLike(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/internal/iterator.js",
+      "line": 4,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createArrayIterator(): parameter 'coll' needs a type. Add: @param {object} coll"
+    },
+    {
+      "file": "lib/internal/iterator.js",
+      "line": 12,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createES2015Iterator(): parameter 'iterator' needs a type. Add: @param {object} iterator"
+    },
+    {
+      "file": "lib/internal/iterator.js",
+      "line": 23,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createObjectIterator(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/internal/iterator.js",
+      "line": 36,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createIterator needs JSDoc: @param {any} coll, @returns {function((): { value: any; key: number; }) | (() => { value: any; key: string; })}"
+    },
+    {
+      "file": "lib/internal/iterator.js",
+      "line": 36,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createIterator(): parameter 'coll' needs a type. Add: @param {unknown} coll"
+    },
+    {
+      "file": "lib/internal/map.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_asyncMap needs types for 4 parameters: eachfn: Function, arr, iteratee, callback: Function"
+    },
+    {
+      "file": "lib/internal/map.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_asyncMap needs JSDoc: @param {any} eachfn, @param {any} arr, @param {any} iteratee, @param {any} callback, @returns {any}"
+    },
+    {
+      "file": "lib/internal/map.js",
+      "line": 9,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: value, _, iterCb: Function"
+    },
+    {
+      "file": "lib/internal/map.js",
+      "line": 11,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, v: string"
+    },
+    {
+      "file": "lib/internal/map.js",
+      "line": 15,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/once.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "once needs JSDoc: @param {any} fn, @returns {function(any[]): void}"
+    },
+    {
+      "file": "lib/internal/once.js",
+      "line": 1,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In once(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/onlyOnce.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "onlyOnce needs JSDoc: @param {any} fn, @returns {function(any[]): void}"
+    },
+    {
+      "file": "lib/internal/onlyOnce.js",
+      "line": 1,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onlyOnce(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/parallel.js",
+      "line": 5,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: eachfn: Function, tasks, callback: Function"
+    },
+    {
+      "file": "lib/internal/parallel.js",
+      "line": 8,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: task, key: string, taskCb: Function"
+    },
+    {
+      "file": "lib/internal/parallel.js",
+      "line": 9,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/parallel.js",
+      "line": 16,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/promiseCallback.js",
+      "line": 5,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callback(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "queue needs types for 3 parameters: worker, concurrency: number, payload: object"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "queue needs JSDoc: @param {any} worker, @param {any} concurrency, @param {any} payload, @returns {{ _tasks: DLL; _createTaskItem(data: any, callback: any): { data: any; callback: any; }; [Symbol.iterator](): Generator<any, void, unknown>; concurrency: any; ... 16 more ...; resume(): void; }}"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 25,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 2 parameters: event: Event, handler: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 29,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "once needs types for 2 parameters: event: Event, handler: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 37,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "off needs types for 2 parameters: event: Event, handler: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 40,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ev' needs a type. Add: @param {unknown} ev"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 43,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In trigger(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 44,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 48,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_insert needs types for 4 parameters: data: object, insertAtFront, rejectOnError, callback: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 55,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In promiseCallback(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 91,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createCB(): parameter 'tasks' needs a type. Add: @param {object} tasks"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 92,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 123,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _maybeDrain(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 132,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In eventMethod(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 132,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 135,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, data: object"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 149,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createTaskItem needs types for 2 parameters: data: object, callback: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 163,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "push needs types for 2 parameters: data: any[], callback: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 166,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'datum' needs a type. Add: @param {unknown} datum"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 170,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pushAsync needs types for 2 parameters: data: any[], callback: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 173,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'datum' needs a type. Add: @param {unknown} datum"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 181,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unshift needs types for 2 parameters: data: any[], callback: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 184,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'datum' needs a type. Add: @param {unknown} datum"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 188,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unshiftAsync needs types for 2 parameters: data: any[], callback: Function"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 191,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'datum' needs a type. Add: @param {unknown} datum"
+    },
+    {
+      "file": "lib/internal/queue.js",
+      "line": 195,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'testFn' needs a type. Add: @param {Function} testFn"
+    },
+    {
+      "file": "lib/internal/range.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "range needs JSDoc: @param {any} size, @returns {any[]}"
+    },
+    {
+      "file": "lib/internal/range.js",
+      "line": 1,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In range(): parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "lib/internal/reject.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "reject needs types for 4 parameters: eachfn: Function, arr, _iteratee, callback: Function"
+    },
+    {
+      "file": "lib/internal/reject.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "reject needs JSDoc: @param {any} eachfn, @param {any} arr, @param {any} _iteratee, @param {any} callback"
+    },
+    {
+      "file": "lib/internal/reject.js",
+      "line": 6,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, cb: Function"
+    },
+    {
+      "file": "lib/internal/reject.js",
+      "line": 7,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, v: string"
+    },
+    {
+      "file": "lib/internal/setImmediate.js",
+      "line": 7,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fallback needs JSDoc: @param {any} fn"
+    },
+    {
+      "file": "lib/internal/setImmediate.js",
+      "line": 7,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fallback(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/setImmediate.js",
+      "line": 11,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "wrap needs JSDoc: @param {any} defer, @returns {function(any, any[]): any}"
+    },
+    {
+      "file": "lib/internal/setImmediate.js",
+      "line": 11,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrap(): parameter 'defer' needs a type. Add: @param {Function} defer"
+    },
+    {
+      "file": "lib/internal/setImmediate.js",
+      "line": 12,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/withoutIndex.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_withoutIndex needs JSDoc: @param {any} iteratee, @returns {function(any, any, any): any}"
+    },
+    {
+      "file": "lib/internal/withoutIndex.js",
+      "line": 1,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _withoutIndex(): parameter 'iteratee' needs a type. Add: @param {Function} iteratee"
+    },
+    {
+      "file": "lib/internal/withoutIndex.js",
+      "line": 2,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: value, index: number, callback: Function"
+    },
+    {
+      "file": "lib/internal/wrapAsync.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAsync(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/wrapAsync.js",
+      "line": 7,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAsyncGenerator(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/internal/wrapAsync.js",
+      "line": 11,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAsyncIterable(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/internal/wrapAsync.js",
+      "line": 15,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapAsync(): parameter 'asyncFn' needs a type. Add: @param {Function} asyncFn"
+    },
+    {
+      "file": "lib/mapValues.js",
+      "line": 138,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapValues(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/mapValuesLimit.js",
+      "line": 32,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: val, key: string, next: Function"
+    },
+    {
+      "file": "lib/mapValuesLimit.js",
+      "line": 33,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, result"
+    },
+    {
+      "file": "lib/mapValuesLimit.js",
+      "line": 38,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/mapValuesSeries.js",
+      "line": 23,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapValuesSeries(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/memoize.js",
+      "line": 45,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/memoize.js",
+      "line": 49,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: args: any[], callback: Function"
+    },
+    {
+      "file": "lib/memoize.js",
+      "line": 57,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/parallel.js",
+      "line": 163,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parallel(): parameter 'tasks' needs a type. Add: @param {unknown} tasks"
+    },
+    {
+      "file": "lib/parallelLimit.js",
+      "line": 24,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parallelLimit(): parameter 'tasks' needs a type. Add: @param {unknown} tasks"
+    },
+    {
+      "file": "lib/priorityQueue.js",
+      "line": 39,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createTaskItem(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/priorityQueue.js",
+      "line": 47,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createDataItems needs types for 2 parameters: tasks: any[], priority"
+    },
+    {
+      "file": "lib/priorityQueue.js",
+      "line": 51,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/priorityQueue.js",
+      "line": 55,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "push needs types for 2 parameters: data: object, callback: Function"
+    },
+    {
+      "file": "lib/priorityQueue.js",
+      "line": 59,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pushAsync needs types for 2 parameters: data: object, callback: Function"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 148,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: items: any[], cb: Function"
+    },
+    {
+      "file": "lib/reduce.js",
+      "line": 126,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: x: number, i, iterCb: Function"
+    },
+    {
+      "file": "lib/reduce.js",
+      "line": 127,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, v: string"
+    },
+    {
+      "file": "lib/reduce.js",
+      "line": 131,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/reduceRight.js",
+      "line": 26,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reduceRight(): parameter 'memo' needs a type. Add: @param {unknown} memo"
+    },
+    {
+      "file": "lib/reflect.js",
+      "line": 45,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: args: any[], reflectCallback: Function"
+    },
+    {
+      "file": "lib/reflect.js",
+      "line": 46,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/reflectAll.js",
+      "line": 70,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reflectAll(): parameter 'tasks' needs a type. Add: @param {any[]} tasks"
+    },
+    {
+      "file": "lib/retry.js",
+      "line": 4,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constant(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/retry.js",
+      "line": 98,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "retry needs types for 3 parameters: opts, task, callback: Function"
+    },
+    {
+      "file": "lib/retry.js",
+      "line": 98,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "retry needs JSDoc: @param {any} opts, @param {any} task, @param {any} callback, @returns {any}"
+    },
+    {
+      "file": "lib/retry.js",
+      "line": 120,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/retry.js",
+      "line": 136,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseTimes needs types for 2 parameters: acc: object, t: object"
+    },
+    {
+      "file": "lib/retryable.js",
+      "line": 35,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In retryable(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/retryable.js",
+      "line": 45,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: args: any[], callback: Function"
+    },
+    {
+      "file": "lib/retryable.js",
+      "line": 50,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In taskFn(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/seq.js",
+      "line": 55,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: newargs: object, fn: Function, iterCb: Function"
+    },
+    {
+      "file": "lib/seq.js",
+      "line": 56,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/seq.js",
+      "line": 60,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, results: any[]"
+    },
+    {
+      "file": "lib/series.js",
+      "line": 169,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In series(): parameter 'tasks' needs a type. Add: @param {unknown} tasks"
+    },
+    {
+      "file": "lib/some.js",
+      "line": 103,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/someLimit.js",
+      "line": 28,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/someSeries.js",
+      "line": 27,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/sortBy.js",
+      "line": 157,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: x: number, iterCb: Function"
+    },
+    {
+      "file": "lib/sortBy.js",
+      "line": 158,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, criteria"
+    },
+    {
+      "file": "lib/sortBy.js",
+      "line": 162,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, results: any[]"
+    },
+    {
+      "file": "lib/sortBy.js",
+      "line": 164,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/sortBy.js",
+      "line": 167,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "comparator needs types for 2 parameters: left: object, right: object"
+    },
+    {
+      "file": "lib/timeout.js",
+      "line": 45,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In timeout(): parameter 'info' needs a type. Add: @param {unknown} info"
+    },
+    {
+      "file": "lib/timeout.js",
+      "line": 48,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: args: any[], callback: Function"
+    },
+    {
+      "file": "lib/transform.js",
+      "line": 141,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 2 parameters: coll, accumulator"
+    },
+    {
+      "file": "lib/transform.js",
+      "line": 150,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: v: string, k, cb: Function"
+    },
+    {
+      "file": "lib/transform.js",
+      "line": 152,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/tryEach.js",
+      "line": 46,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: task, taskCb: Function"
+    },
+    {
+      "file": "lib/tryEach.js",
+      "line": 47,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/until.js",
+      "line": 45,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/until.js",
+      "line": 45,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, truth"
+    },
+    {
+      "file": "lib/waterfall.js",
+      "line": 69,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nextTask(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/waterfall.js",
+      "line": 74,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/whilst.js",
+      "line": 45,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/whilst.js",
+      "line": 52,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "check needs types for 2 parameters: err: Error, truth"
+    }
+  ],
+  "typesPackage": "@types/async",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.2.25",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 32288
+}

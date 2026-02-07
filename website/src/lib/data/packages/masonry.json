@@ -1,0 +1,77 @@
+{
+  "name": "masonry",
+  "downloadedAt": "2026-02-03T22:10:24.532Z",
+  "lintedAt": "2026-02-03T22:10:24.532Z",
+  "filesAnalyzed": 16,
+  "totalIssues": 7,
+  "errors": 0,
+  "warnings": 7,
+  "byRule": {
+    "tjd/no-implicit-any": 7
+  },
+  "issues": [
+    {
+      "file": "masonry.js",
+      "line": 9,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "masonry.js",
+      "line": 33,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Outlayer: object, getSize: Function"
+    },
+    {
+      "file": "masonry.js",
+      "line": 97,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getItemLayoutPosition(): parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "masonry.js",
+      "line": 124,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getTopColPosition(): parameter 'colSpan' needs a type. Add: @param {unknown} colSpan"
+    },
+    {
+      "file": "masonry.js",
+      "line": 155,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getColGroupY needs types for 2 parameters: col, colSpan"
+    },
+    {
+      "file": "masonry.js",
+      "line": 166,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getHorizontalColPosition needs types for 2 parameters: colSpan, item: object"
+    },
+    {
+      "file": "masonry.js",
+      "line": 181,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _manageStamp(): parameter 'stamp' needs a type. Add: @param {unknown} stamp"
+    }
+  ],
+  "typesPackage": "@types/masonry-layout",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.2.8",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 23813
+}

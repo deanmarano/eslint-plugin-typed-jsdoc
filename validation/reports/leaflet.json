@@ -1,0 +1,4727 @@
+{
+  "name": "leaflet",
+  "downloadedAt": "2026-02-03T22:07:55.621Z",
+  "lintedAt": "2026-02-03T22:07:55.621Z",
+  "filesAnalyzed": 82,
+  "totalIssues": 588,
+  "errors": 0,
+  "warnings": 588,
+  "byRule": {
+    "tjd/no-implicit-any": 538,
+    "tjd/require-jsdoc-types": 44,
+    "unknown": 6
+  },
+  "issues": [
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 37,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 43,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 62,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 66,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addAttribution(): parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 75,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setPrefix(): parameter 'prefix' needs a type. Add: @param {string} prefix"
+    },
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 83,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addAttribution(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/control/AttributionControl.js",
+      "line": 98,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeAttribution(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 29,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 45,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setPosition(): parameter 'position' needs a type. Add: @param {unknown} position"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 65,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addTo(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 105,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _refocusOnMap(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 132,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addControl(): parameter 'control' needs a type. Add: @param {object} control"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 139,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeControl(): parameter 'control' needs a type. Add: @param {object} control"
+    },
+    {
+      "file": "src/control/Control.js",
+      "line": 150,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createCorner needs types for 2 parameters: vSide, hSide"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 82,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sortFunction needs types for 4 parameters: layerA, layerB, nameA, nameB"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 88,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 3 parameters: baseLayers, overlays, options: object"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 106,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 125,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addTo(): parameter 'map' needs a type. Add: @param {unknown} map"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 143,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addBaseLayer needs types for 2 parameters: layer, name: string"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 150,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addOverlay needs types for 2 parameters: layer, name: string"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 157,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeLayer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 187,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In collapse(): parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 231,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keydown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 237,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In click(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 254,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getLayer(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 262,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addLayer needs types for 3 parameters: layer: object, name: string, overlay"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 274,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 312,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onLayerChange(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 337,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addItem(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/control/LayersControl.js",
+      "line": 372,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onInputClick(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 49,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 62,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 66,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addScales needs types for 3 parameters: options: object, className: string, container"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 86,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateScales(): parameter 'maxMeters' needs a type. Add: @param {unknown} maxMeters"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 95,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateMetric(): parameter 'maxMeters' needs a type. Add: @param {number} maxMeters"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 102,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateImperial(): parameter 'maxMeters' needs a type. Add: @param {number} maxMeters"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 117,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_updateScale needs types for 3 parameters: scale: object, text: string, ratio: number"
+    },
+    {
+      "file": "src/control/ScaleControl.js",
+      "line": 122,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getRoundNum(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/control/ZoomControl.js",
+      "line": 46,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/ZoomControl.js",
+      "line": 62,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/control/ZoomControl.js",
+      "line": 78,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _zoomIn(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/control/ZoomControl.js",
+      "line": 84,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _zoomOut(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/control/ZoomControl.js",
+      "line": 90,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createButton needs types for 5 parameters: html, title: string, className: string, container, fn: Function"
+    },
+    {
+      "file": "src/core/Browser.js",
+      "line": 50,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In userAgentContains(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/core/Class.js",
+      "line": 13,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In include(): parameter 'props' needs a type. Add: @param {object} props"
+    },
+    {
+      "file": "src/core/Class.js",
+      "line": 24,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getAllMethodNames(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/core/Class.js",
+      "line": 38,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setDefaultOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/core/Class.js",
+      "line": 45,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mergeOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/core/Class.js",
+      "line": 53,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addInitHook(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 36,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 3 parameters: types, fn: Function, context: object"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 67,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "off needs types for 3 parameters: types, fn: Function, context: object"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 95,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_on needs types for 4 parameters: type: string, fn: Function, context: object, _once"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 126,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_off needs types for 3 parameters: type: string, fn: Function, context: object"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 173,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fire needs types for 3 parameters: type: string, data: object, propagate"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 212,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "listens needs types for 4 parameters: type: string, fn: Function, context: object, propagate"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 243,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_listens needs types for 3 parameters: type: string, fn: Function, context: object"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 258,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 265,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "once needs types for 3 parameters: types, fn: Function, context: object"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 287,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addEventParent(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 295,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeEventParent(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/core/Events.js",
+      "line": 302,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _propagateEvent(): parameter 'e' needs a type. Add: @param {any[] | object} e"
+    },
+    {
+      "file": "src/core/Handler.js",
+      "line": 12,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'map' needs a type. Add: @param {unknown} map"
+    },
+    {
+      "file": "src/core/Handler.js",
+      "line": 53,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addTo needs types for 2 parameters: map: object, name: string"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 13,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stamp needs JSDoc: @param {any} obj, @returns {any}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 13,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stamp(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throttle needs types for 3 parameters: fn: Function, time, context: object"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "throttle needs JSDoc: @param {any} fn, @param {any} time, @param {any} context, @returns {function(any[]): void}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 58,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrapNum needs types for 3 parameters: x: number, range: string, includeMax"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 58,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "wrapNum needs JSDoc: @param {any} x, @param {any} range, @param {any} includeMax, @returns {any}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 67,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "falseFn needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 73,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatNum needs types for 2 parameters: num: number, precision"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 73,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "formatNum needs JSDoc: @param {any} num, @param {any} precision, @returns {any}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "splitWords needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 81,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In splitWords(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 87,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setOptions needs types for 2 parameters: obj: object, options: object"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 87,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setOptions needs JSDoc: @param {any} obj, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 106,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "template needs types for 2 parameters: str: string, data: object"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 106,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "template needs JSDoc: @param {any} str, @param {any} data, @returns {any}"
+    },
+    {
+      "file": "src/core/Util.js",
+      "line": 107,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: str: string, key: string"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 10,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeDblclick(): parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 61,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addDoubleTapListener needs types for 2 parameters: obj: object, handler: Function"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 61,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addDoubleTapListener needs JSDoc: @param {any} obj, @param {any} handler, @returns {{ dblclick: any; simDblclick: (ev: any) => void; }}"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 70,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In simDblclick(): parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 88,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 89,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeDoubleTapListener needs types for 2 parameters: obj: object, handlers: object"
+    },
+    {
+      "file": "src/dom/DomEvent.DoubleTap.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "removeDoubleTapListener needs JSDoc: @param {any} obj, @param {any} handlers"
+    },
+    {
+      "file": "src/dom/DomEvent.PointerEvents.js",
+      "line": 34,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onSet(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/DomEvent.PointerEvents.js",
+      "line": 38,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onUpdate(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/DomEvent.PointerEvents.js",
+      "line": 44,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDelete(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 4 parameters: obj: object, types, fn: Function, context: object"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "on needs JSDoc: @param {any} obj, @param {any} types, @param {any} fn, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 59,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "off needs types for 4 parameters: obj: object, types: object, fn: Function, context: object"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 59,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "off needs JSDoc: @param {any} obj, @param {any} types, @param {any} fn, @param {any} context, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 74,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 85,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "batchRemove needs types for 2 parameters: obj: object, filterFn: Function"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 100,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addOne needs types for 4 parameters: obj: object, type: string, fn: Function, context: object"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 105,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handler(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 119,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 139,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeOne needs types for 5 parameters: obj: object, type: string, fn: Function, context: object, id: string"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 164,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stopPropagation needs JSDoc: @param {any} e, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 164,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stopPropagation(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 179,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "disableScrollPropagation needs JSDoc: @param {any} el, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 179,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In disableScrollPropagation(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 187,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "disableClickPropagation needs JSDoc: @param {any} el, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 187,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In disableClickPropagation(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 198,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "preventDefault needs JSDoc: @param {any} e, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 198,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preventDefault(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 205,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stop needs JSDoc: @param {any} e, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 205,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stop(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 214,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPropagationPath needs JSDoc: @param {any} ev, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 214,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPropagationPath(): parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 222,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPointerPosition needs types for 2 parameters: e: object, container: object"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 222,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPointerPosition needs JSDoc: @param {any} e, @param {any} container, @returns {Point}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 240,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getWheelPxFactor needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 254,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getWheelDelta needs JSDoc: @param {any} e, @returns {number}"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 254,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getWheelDelta(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 263,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isExternalTarget needs types for 2 parameters: el, e: object"
+    },
+    {
+      "file": "src/dom/DomEvent.js",
+      "line": 263,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isExternalTarget needs JSDoc: @param {any} el, @param {any} e, @returns {boolean}"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 18,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "get needs JSDoc: @param {any} id, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 18,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 24,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 3 parameters: tagName: string, className: string, container: object"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 24,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "create needs JSDoc: @param {any} tagName, @param {any} className, @param {any} container, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 34,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toFront needs JSDoc: @param {any} el"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 34,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toFront(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 43,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toBack needs JSDoc: @param {any} el"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 43,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toBack(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 54,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setTransform needs types for 3 parameters: el: object, offset: number, scale"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 54,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setTransform needs JSDoc: @param {any} el, @param {any} offset, @param {any} scale"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 66,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setPosition needs types for 2 parameters: el, point"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 66,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setPosition needs JSDoc: @param {any} el, @param {any} point"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 73,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPosition needs JSDoc: @param {any} el, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 73,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPosition(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 128,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "preventOutline needs JSDoc: @param {any} element"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 128,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preventOutline(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 152,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSizedParentNode needs JSDoc: @param {any} element, @returns {any}"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 152,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSizedParentNode(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 163,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getScale needs JSDoc: @param {any} element, @returns {{ x: number; y: number; boundingClientRect: any; }}"
+    },
+    {
+      "file": "src/dom/DomUtil.js",
+      "line": 163,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getScale(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/dom/Draggable.js",
+      "line": 37,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 4 parameters: element, dragStartTarget, preventOutline, options: object"
+    },
+    {
+      "file": "src/dom/Draggable.js",
+      "line": 72,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/Draggable.js",
+      "line": 113,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onMove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/Draggable.js",
+      "line": 172,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In finishDrag(): parameter 'noInertia' needs a type. Add: @param {unknown} noInertia"
+    },
+    {
+      "file": "src/dom/PosAnimation.js",
+      "line": 41,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "run needs types for 4 parameters: el, newPos: object, duration: number, easeLinearity"
+    },
+    {
+      "file": "src/dom/PosAnimation.js",
+      "line": 75,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _step(): parameter 'round' needs a type. Add: @param {unknown} round"
+    },
+    {
+      "file": "src/dom/PosAnimation.js",
+      "line": 87,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_runFrame needs types for 2 parameters: progress, round"
+    },
+    {
+      "file": "src/dom/PosAnimation.js",
+      "line": 108,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _easeOut(): parameter 't' needs a type. Add: @param {number} t"
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 41,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: lat: object, lng, alt"
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 50,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 102,
+      "column": 2,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 103,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validate needs types for 3 parameters: lat: object, lng, alt"
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 120,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equals needs types for 2 parameters: obj: object, maxMargin"
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 134,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toString(): parameter 'precision' needs a type. Add: @param {unknown} precision"
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 140,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In distanceTo(): parameter 'other' needs a type. Add: @param {unknown} other"
+    },
+    {
+      "file": "src/geo/LatLng.js",
+      "line": 152,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toBounds(): parameter 'sizeInMeters' needs a type. Add: @param {number} sizeInMeters"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 41,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: corner1, corner2"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 46,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 63,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extend(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 105,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pad(): parameter 'bufferRatio' needs a type. Add: @param {number} bufferRatio"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 178,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In contains(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 202,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In intersects(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 218,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In overlaps(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/geo/LatLngBounds.js",
+      "line": 240,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equals needs types for 2 parameters: bounds: object, maxMargin"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 30,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "latLngToPoint needs types for 2 parameters: latlng, zoom"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 40,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pointToLatLng needs types for 2 parameters: point, zoom"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 50,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In project(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 57,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unproject(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 65,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scale(): parameter 'zoom' needs a type. Add: @param {number} zoom"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 72,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zoom(): parameter 'scale' needs a type. Add: @param {number} scale"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 78,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getProjectedBounds(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 113,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapLatLng(): parameter 'latlng' needs a type. Add: @param {object} latlng"
+    },
+    {
+      "file": "src/geo/crs/CRS.js",
+      "line": 125,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapLatLngBounds(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/geo/crs/EarthCRS.js",
+      "line": 22,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "distance needs types for 2 parameters: latlng1: object, latlng2: object"
+    },
+    {
+      "file": "src/geo/crs/SimpleCRS.js",
+      "line": 19,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scale(): parameter 'zoom' needs a type. Add: @param {number} zoom"
+    },
+    {
+      "file": "src/geo/crs/SimpleCRS.js",
+      "line": 23,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zoom(): parameter 'scale' needs a type. Add: @param {unknown} scale"
+    },
+    {
+      "file": "src/geo/crs/SimpleCRS.js",
+      "line": 27,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "distance needs types for 2 parameters: latlng1: object, latlng2: object"
+    },
+    {
+      "file": "src/geo/projection/Projection.LonLat.js",
+      "line": 19,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In project(): parameter 'latlng' needs a type. Add: @param {object} latlng"
+    },
+    {
+      "file": "src/geo/projection/Projection.LonLat.js",
+      "line": 24,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unproject(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geo/projection/Projection.Mercator.js",
+      "line": 20,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In project(): parameter 'latlng' needs a type. Add: @param {object} latlng"
+    },
+    {
+      "file": "src/geo/projection/Projection.Mercator.js",
+      "line": 35,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unproject(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geo/projection/Projection.SphericalMercator.js",
+      "line": 21,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In project(): parameter 'latlng' needs a type. Add: @param {object} latlng"
+    },
+    {
+      "file": "src/geo/projection/Projection.SphericalMercator.js",
+      "line": 33,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unproject(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 34,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 39,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 55,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extend(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 87,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCenter(): parameter 'round' needs a type. Add: @param {unknown} round"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 128,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In contains(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 153,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In intersects(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 169,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In overlaps(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 193,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pad(): parameter 'bufferRatio' needs a type. Add: @param {number} bufferRatio"
+    },
+    {
+      "file": "src/geometry/Bounds.js",
+      "line": 208,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 24,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "simplify needs types for 2 parameters: points: object, tolerance: number"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 24,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "simplify needs JSDoc: @param {any} points, @param {any} tolerance, @returns {any}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 42,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pointToSegmentDistance needs types for 3 parameters: p, p1, p2"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 42,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pointToSegmentDistance needs JSDoc: @param {any} p, @param {any} p1, @param {any} p2, @returns {number}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 48,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "closestPointOnSegment needs types for 3 parameters: p, p1, p2"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 48,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "closestPointOnSegment needs JSDoc: @param {any} p, @param {any} p1, @param {any} p2, @returns {number | Point}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 53,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_simplifyDP needs types for 2 parameters: points: object, sqTolerance"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 73,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_simplifyDPStep needs types for 5 parameters: points: object, markers: object, sqTolerance, first, last: number"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 96,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_reducePoints needs types for 2 parameters: points: object, sqTolerance"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 119,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clipSegment needs types for 5 parameters: a, b, bounds, useLastCode, round"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 119,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clipSegment needs JSDoc: @param {any} a, @param {any} b, @param {any} bounds, @param {any} useLastCode, @param {any} round, @returns {false | any[]}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 154,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getEdgeIntersection needs types for 5 parameters: a: object, b: object, code, bounds: object, round"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 154,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_getEdgeIntersection needs JSDoc: @param {any} a, @param {any} b, @param {any} code, @param {any} bounds, @param {any} round, @returns {Point}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 181,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getBitCode needs types for 2 parameters: p: object, bounds: object"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 181,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_getBitCode needs JSDoc: @param {any} p, @param {any} bounds, @returns {number}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 200,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_sqDist needs types for 2 parameters: p1: object, p2: object"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 207,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_sqClosestPointOnSegment needs types for 4 parameters: p: object, p1: object, p2: object, sqDist"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 207,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "_sqClosestPointOnSegment needs JSDoc: @param {any} p, @param {any} p1, @param {any} p2, @param {any} sqDist, @returns {number | Point}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 236,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isFlat needs JSDoc: @param {any} latlngs, @returns {boolean}"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 236,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFlat(): parameter 'latlngs' needs a type. Add: @param {unknown} latlngs"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 243,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "polylineCenter needs types for 2 parameters: latlngs: object, crs: object"
+    },
+    {
+      "file": "src/geometry/LineUtil.js",
+      "line": 243,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "polylineCenter needs JSDoc: @param {any} latlngs, @param {any} crs, @returns {LatLng}"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 37,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: x: number, y: number, round"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 47,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 79,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validate needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 102,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 107,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _add(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 116,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In subtract(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 120,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _subtract(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 128,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In divideBy(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 132,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _divideBy(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 140,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In multiplyBy(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 144,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _multiplyBy(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 155,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scaleBy(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 162,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unscaleBy(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 214,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In distanceTo(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 225,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/Point.js",
+      "line": 234,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In contains(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "src/geometry/PolyUtil.js",
+      "line": 16,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clipPolygon needs types for 3 parameters: points: object, bounds, round"
+    },
+    {
+      "file": "src/geometry/PolyUtil.js",
+      "line": 16,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clipPolygon needs JSDoc: @param {any} points, @param {any} bounds, @param {any} round, @returns {any}"
+    },
+    {
+      "file": "src/geometry/PolyUtil.js",
+      "line": 62,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "polygonCenter needs types for 2 parameters: latlngs: object, crs: object"
+    },
+    {
+      "file": "src/geometry/PolyUtil.js",
+      "line": 62,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "polygonCenter needs JSDoc: @param {any} latlngs, @param {any} crs, @returns {LatLng}"
+    },
+    {
+      "file": "src/geometry/PolyUtil.js",
+      "line": 118,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "centroid needs JSDoc: @param {any} coords, @returns {LatLng}"
+    },
+    {
+      "file": "src/geometry/PolyUtil.js",
+      "line": 118,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In centroid(): parameter 'coords' needs a type. Add: @param {unknown} coords"
+    },
+    {
+      "file": "src/geometry/Transformation.js",
+      "line": 28,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: a, b, c, d"
+    },
+    {
+      "file": "src/geometry/Transformation.js",
+      "line": 46,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 2 parameters: point: object, scale"
+    },
+    {
+      "file": "src/geometry/Transformation.js",
+      "line": 51,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 2 parameters: point: object, scale: number"
+    },
+    {
+      "file": "src/geometry/Transformation.js",
+      "line": 61,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "untransform needs types for 2 parameters: point: object, scale: number"
+    },
+    {
+      "file": "src/layer/BlanketOverlay.js",
+      "line": 38,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/BlanketOverlay.js",
+      "line": 76,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onAnimZoom(): parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/layer/BlanketOverlay.js",
+      "line": 84,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_updateTransform needs types for 2 parameters: center, zoom"
+    },
+    {
+      "file": "src/layer/BlanketOverlay.js",
+      "line": 95,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onMoveEnd(): parameter 'ev' needs a type. Add: @param {unknown} ev"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 45,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: options: object, source"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 61,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In openOn(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 82,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toggle(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 99,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 126,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 149,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLatLng(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 167,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setContent(): parameter 'content' needs a type. Add: @param {unknown} content"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 232,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _prepareOpen(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 321,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_initOverlay needs types for 4 parameters: OverlayClass, content, latlng, options: object"
+    },
+    {
+      "file": "src/layer/DivOverlay.js",
+      "line": 335,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_initOverlay needs types for 4 parameters: OverlayClass, old, content, options: object"
+    },
+    {
+      "file": "src/layer/FeatureGroup.js",
+      "line": 29,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addLayer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/FeatureGroup.js",
+      "line": 43,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeLayer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/FeatureGroup.js",
+      "line": 62,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStyle(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "src/layer/FeatureGroup.js",
+      "line": 63,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/layer/FeatureGroup.js",
+      "line": 69,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/layer/FeatureGroup.js",
+      "line": 75,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 90,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: geojson, options: object"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 100,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addData(): parameter 'geojson' needs a type. Add: @param {object} geojson"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 136,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resetStyle(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 148,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStyle(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 149,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 152,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setLayerStyle needs types for 2 parameters: layer: object, style: Function"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 168,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "geometryToLayer needs types for 2 parameters: geojson: object, options: object"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 232,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_pointToLayer needs types for 4 parameters: pointToLayerFn: Function, geojson, latlng, options: object"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 241,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In coordsToLatLng(): parameter 'coords' needs a type. Add: @param {unknown} coords"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 249,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "coordsToLatLngs needs types for 3 parameters: coords: any[], levelsDeep: number, _coordsToLatLng"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 250,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'coord' needs a type. Add: @param {unknown} coord"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 258,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "latLngToCoords needs types for 2 parameters: latlng: object, precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 269,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "latLngsToCoords needs types for 4 parameters: latlngs: any[], levelsDeep: number, close, precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 271,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 284,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFeature needs types for 2 parameters: layer: object, newGeometry"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 292,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In asFeature(): parameter 'geojson' needs a type. Add: @param {object} geojson"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 307,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toGeoJSON(): parameter 'precision' needs a type. Add: @param {unknown} precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 335,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toGeoJSON(): parameter 'precision' needs a type. Add: @param {unknown} precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 352,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toGeoJSON(): parameter 'precision' needs a type. Add: @param {unknown} precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 372,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toMultiPoint(): parameter 'precision' needs a type. Add: @param {unknown} precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 375,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 388,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toGeoJSON(): parameter 'precision' needs a type. Add: @param {unknown} precision"
+    },
+    {
+      "file": "src/layer/GeoJSON.js",
+      "line": 399,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 70,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 3 parameters: url: string, bounds, options: object"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 104,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOpacity(): parameter 'opacity' needs a type. Add: @param {unknown} opacity"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 113,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStyle(): parameter 'styleOpts' needs a type. Add: @param {object} styleOpts"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 140,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setUrl(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 151,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setBounds(): parameter 'bounds' needs a type. Add: @param {unknown} bounds"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 175,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setZIndex(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/layer/ImageOverlay.js",
+      "line": 229,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateZoom(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 53,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addTo(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 70,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeFrom(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 77,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPane(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 81,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addInteractiveTarget(): parameter 'targetEl' needs a type. Add: @param {unknown} targetEl"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 86,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeInteractiveTarget(): parameter 'targetEl' needs a type. Add: @param {unknown} targetEl"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 97,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _layerAdd(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 155,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addLayer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 177,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeLayer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 200,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasLayer(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 212,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eachLayer needs types for 2 parameters: method: object, context: object"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 219,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addLayers(): parameter 'layers' needs a type. Add: @param {unknown} layers"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 227,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addZoomLimit(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/Layer.js",
+      "line": 234,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeZoomLimit(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 26,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: layers, options: object"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 38,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addLayer(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 53,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeLayer(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 70,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasLayer(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 85,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 94,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eachLayer needs types for 2 parameters: method: object, context: object"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 103,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getLayer(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 117,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setZIndex(): parameter 'zIndex' needs a type. Add: @param {number} zIndex"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 118,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'l' needs a type. Add: @param {object} l"
+    },
+    {
+      "file": "src/layer/LayerGroup.js",
+      "line": 123,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getLayerId(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 138,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In openOn(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 149,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 172,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 229,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ev' needs a type. Add: @param {object} ev"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 237,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entries' needs a type. Add: @param {any[]} entries"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 273,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateZoom(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 361,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "openPopup needs types for 3 parameters: popup, latlng, options: object"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 370,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In closePopup(): parameter 'popup' needs a type. Add: @param {object} popup"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 399,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindPopup needs types for 2 parameters: content, options: object"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 432,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In openPopup(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 467,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setPopupContent(): parameter 'content' needs a type. Add: @param {unknown} content"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 478,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _openPopup(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 500,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _movePopup(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Popup.js",
+      "line": 504,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onKeyPress(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 110,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 154,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setPosition(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 207,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOpacity(): parameter 'opacity' needs a type. Add: @param {unknown} opacity"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 215,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateZoom(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 236,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "openTooltip needs types for 3 parameters: tooltip, latlng, options: object"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 245,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In closeTooltip(): parameter 'tooltip' needs a type. Add: @param {object} tooltip"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 272,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindTooltip needs types for 2 parameters: content, options: object"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 299,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initTooltipInteractions(): parameter 'remove' needs a type. Add: @param {unknown} remove"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 327,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In openTooltip(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 369,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTooltipContent(): parameter 'content' needs a type. Add: @param {unknown} content"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 380,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addFocusListeners(): parameter 'remove' needs a type. Add: @param {unknown} remove"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 384,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 388,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addFocusListenersOnLayer needs types for 2 parameters: layer: object, remove"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 396,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'camelcase')."
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 414,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setAriaDescribedByOnLayer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 420,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _openTooltip(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/Tooltip.js",
+      "line": 442,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _moveTooltip(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/VideoOverlay.js",
+      "line": 68,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/layer/VideoOverlay.js",
+      "line": 81,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/marker/DefaultIcon.js",
+      "line": 34,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getIconUrl(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/layer/marker/DefaultIcon.js",
+      "line": 52,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _stripUrl(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "src/layer/marker/DefaultIcon.js",
+      "line": 53,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "strip needs types for 3 parameters: str: string, re: object, idx: number"
+    },
+    {
+      "file": "src/layer/marker/DivIcon.js",
+      "line": 48,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createIcon(): parameter 'oldIcon' needs a type. Add: @param {object} oldIcon"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 89,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 96,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createIcon(): parameter 'oldIcon' needs a type. Add: @param {unknown} oldIcon"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 102,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createShadow(): parameter 'oldIcon' needs a type. Add: @param {unknown} oldIcon"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 106,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createIcon needs types for 2 parameters: name: string, oldIcon: object"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 126,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setIconStyles needs types for 2 parameters: img: object, name: string"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 152,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createImg needs types for 2 parameters: src: string, el: object"
+    },
+    {
+      "file": "src/layer/marker/Icon.js",
+      "line": 158,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getIconUrl(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/layer/marker/Marker.Drag.js",
+      "line": 26,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'marker' needs a type. Add: @param {object} marker"
+    },
+    {
+      "file": "src/layer/marker/Marker.Drag.js",
+      "line": 63,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _adjustPan(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/layer/marker/Marker.Drag.js",
+      "line": 117,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPreDrag(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/layer/marker/Marker.Drag.js",
+      "line": 124,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDrag(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/marker/Marker.Drag.js",
+      "line": 146,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDragEnd(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 113,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: latlng, options: object"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 118,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 129,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 159,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLatLng(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 171,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setZIndexOffset(): parameter 'offset' needs a type. Add: @param {number} offset"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 184,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setIcon(): parameter 'icon' needs a type. Add: @param {unknown} icon"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 312,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setPos(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 327,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateZIndex(): parameter 'offset' needs a type. Add: @param {number} offset"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 333,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateZoom(): parameter 'opt' needs a type. Add: @param {object} opt"
+    },
+    {
+      "file": "src/layer/marker/Marker.js",
+      "line": 364,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOpacity(): parameter 'opacity' needs a type. Add: @param {unknown} opacity"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 155,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 168,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In beforeAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 172,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onRemove(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 209,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOpacity(): parameter 'opacity' needs a type. Add: @param {unknown} opacity"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 217,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setZIndex(): parameter 'zIndex' needs a type. Add: @param {number} zIndex"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 293,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setAutoZIndex(): parameter 'compare' needs a type. Add: @param {Function} compare"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 446,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeTilesAtZoom(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 471,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_retainParent needs types for 4 parameters: x: number, y: number, z: number, minZoom"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 496,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_retainChildren needs types for 4 parameters: x: number, y: number, z: number, maxZoom"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 522,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _resetView(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 527,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateZoom(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 531,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _clampZoom(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 545,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setView needs types for 4 parameters: center, zoom, noPrune, noUpdate"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 583,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setZoomTransforms needs types for 2 parameters: center, zoom"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 589,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setZoomTransform needs types for 3 parameters: level: object, center, zoom"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 624,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getTiledPixelBounds(): parameter 'center' needs a type. Add: @param {unknown} center"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 635,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _update(): parameter 'center' needs a type. Add: @param {unknown} center"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 708,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _isValidTile(): parameter 'coords' needs a type. Add: @param {object} coords"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 725,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _keyToBounds(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 729,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _tileCoordsToNwSe(): parameter 'coords' needs a type. Add: @param {object} coords"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 740,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _tileCoordsToBounds(): parameter 'coords' needs a type. Add: @param {unknown} coords"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 750,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _tileCoordsToKey(): parameter 'coords' needs a type. Add: @param {object} coords"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 755,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _keyToTileCoords(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 762,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeTile(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 778,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initTile(): parameter 'tile' needs a type. Add: @param {object} tile"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 789,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addTile needs types for 2 parameters: coords, container: object"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 822,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_tileReady needs types for 3 parameters: coords, err: Error, tile: object"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 875,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getTilePos(): parameter 'coords' needs a type. Add: @param {object} coords"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 879,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _wrapCoords(): parameter 'coords' needs a type. Add: @param {object} coords"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 887,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _pxBoundsToTileRange(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/layer/tile/GridLayer.js",
+      "line": 895,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 91,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: url: string, options: object"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 140,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setUrl needs types for 2 parameters: url: string, noRedraw"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 157,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createTile needs types for 2 parameters: coords, done: Function"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 190,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTileUrl(): parameter 'coords' needs a type. Add: @param {object} coords"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 210,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_tileOnLoad needs types for 2 parameters: done: Function, tile"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 214,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_tileOnError needs types for 3 parameters: done: Function, tile: object, e"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 222,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onTileRemove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 239,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getSubdomain(): parameter 'tilePoint' needs a type. Add: @param {object} tilePoint"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 270,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeTile(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 280,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_tileReady needs types for 3 parameters: coords, err: Error, tile: object"
+    },
+    {
+      "file": "src/layer/tile/TileLayer.js",
+      "line": 288,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _clampZoom(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/layer/tile/WMSTileLayer.js",
+      "line": 70,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: url: string, options: object"
+    },
+    {
+      "file": "src/layer/tile/WMSTileLayer.js",
+      "line": 91,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/tile/WMSTileLayer.js",
+      "line": 102,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTileUrl(): parameter 'coords' needs a type. Add: @param {unknown} coords"
+    },
+    {
+      "file": "src/layer/tile/WMSTileLayer.js",
+      "line": 121,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setParams needs types for 2 parameters: params: object, noRedraw"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 58,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {unknown} map"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 134,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initPath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 148,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addPath(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 152,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removePath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 175,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updatePath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 186,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateStyle(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 191,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateDashArray(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 195,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 195,
+      "column": 64,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 201,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _requestRedraw(): parameter 'layer' needs a type. Add: @param {unknown} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 208,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _extendRedrawBounds(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 269,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_updatePoly needs types for 2 parameters: layer: object, closed"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 279,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p0' needs a type. Add: @param {any[]} p0"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 280,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: p: object, j"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 293,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateCircle(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 317,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_fillStroke needs types for 2 parameters: ctx: any[], layer: object"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 343,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onClick(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 358,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPointerMove(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 366,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handlePointerOut(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 377,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_handlePointerHover needs types for 2 parameters: e, point"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 409,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_fireEvent needs types for 3 parameters: layers, e: object, type: string"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 413,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _bringToFront(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Canvas.js",
+      "line": 444,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _bringToBack(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Circle.js",
+      "line": 27,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: latlng, options: object"
+    },
+    {
+      "file": "src/layer/vector/Circle.js",
+      "line": 40,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setRadius(): parameter 'radius' needs a type. Add: @param {unknown} radius"
+    },
+    {
+      "file": "src/layer/vector/Circle.js",
+      "line": 61,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStyle(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/vector/CircleMarker.js",
+      "line": 30,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: latlng, options: object"
+    },
+    {
+      "file": "src/layer/vector/CircleMarker.js",
+      "line": 38,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLatLng(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/vector/CircleMarker.js",
+      "line": 56,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setRadius(): parameter 'radius' needs a type. Add: @param {unknown} radius"
+    },
+    {
+      "file": "src/layer/vector/CircleMarker.js",
+      "line": 67,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStyle(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/vector/CircleMarker.js",
+      "line": 103,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _containsPoint(): parameter 'p' needs a type. Add: @param {object} p"
+    },
+    {
+      "file": "src/layer/vector/Path.js",
+      "line": 78,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In beforeAdd(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/layer/vector/Path.js",
+      "line": 105,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setStyle(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "src/layer/vector/Polygon.js",
+      "line": 76,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _convertLatLngs(): parameter 'latlngs' needs a type. Add: @param {unknown} latlngs"
+    },
+    {
+      "file": "src/layer/vector/Polygon.js",
+      "line": 87,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setLatLngs(): parameter 'latlngs' needs a type. Add: @param {unknown} latlngs"
+    },
+    {
+      "file": "src/layer/vector/Polygon.js",
+      "line": 131,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _containsPoint(): parameter 'p' needs a type. Add: @param {object} p"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 69,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: latlngs, options: object"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 82,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLatLngs(): parameter 'latlngs' needs a type. Add: @param {unknown} latlngs"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 95,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In closestLayerPoint(): parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 141,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addLatLng needs types for 2 parameters: latlng, latlngs: any[]"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 149,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setLatLngs(): parameter 'latlngs' needs a type. Add: @param {unknown} latlngs"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 159,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _convertLatLngs(): parameter 'latlngs' needs a type. Add: @param {object} latlngs"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 201,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_projectLatlngs needs types for 3 parameters: latlngs: any[], result: any[], projectedBounds: object"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 205,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 206,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'r' needs a type. Add: @param {unknown} r"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 209,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/layer/vector/Polyline.js",
+      "line": 273,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_containsPoint needs types for 2 parameters: p, closed"
+    },
+    {
+      "file": "src/layer/vector/Rectangle.js",
+      "line": 31,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: latLngBounds, options: object"
+    },
+    {
+      "file": "src/layer/vector/Rectangle.js",
+      "line": 37,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setBounds(): parameter 'latLngBounds' needs a type. Add: @param {unknown} latLngBounds"
+    },
+    {
+      "file": "src/layer/vector/Rectangle.js",
+      "line": 41,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _boundsToLatLngs(): parameter 'latLngBounds' needs a type. Add: @param {object} latLngBounds"
+    },
+    {
+      "file": "src/layer/vector/Renderer.getRenderer.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRenderer(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/Renderer.getRenderer.js",
+      "line": 27,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getPaneRenderer(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/layer/vector/Renderer.getRenderer.js",
+      "line": 40,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createRenderer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/vector/Renderer.js",
+      "line": 28,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/layer/vector/Renderer.js",
+      "line": 34,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onAdd(): parameter 'map' needs a type. Add: @param {unknown} map"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 85,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initPath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 103,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addPath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 109,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removePath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 115,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updatePath(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 120,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateStyle(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 157,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_updatePoly needs types for 2 parameters: layer: object, closed"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 161,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateCircle(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 176,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setPath needs types for 2 parameters: layer: object, path: string"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 181,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _bringToFront(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 185,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _bringToBack(): parameter 'layer' needs a type. Add: @param {object} layer"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 193,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 200,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pointsToPath needs types for 2 parameters: rings: any[], closed"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 201,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'points' needs a type. Add: @param {any[]} points"
+    },
+    {
+      "file": "src/layer/vector/SVG.js",
+      "line": 202,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: p: object, j"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 147,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initialize needs types for 2 parameters: id: string, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 193,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setView needs types for 3 parameters: center, zoom, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 228,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setZoom needs types for 2 parameters: zoom, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 238,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "zoomIn needs types for 2 parameters: delta, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 245,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "zoomOut needs types for 2 parameters: delta: number, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 256,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setZoomAround needs types for 3 parameters: latlng, zoom, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 267,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getBoundsCenterZoom needs types for 2 parameters: bounds: object, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 301,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fitBounds needs types for 2 parameters: bounds: object, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 316,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fitWorld(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 322,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "panTo needs types for 2 parameters: center, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 328,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "panBy needs types for 2 parameters: offset: number, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 373,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flyTo needs types for 3 parameters: targetCenter, targetZoom, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 396,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In r(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 411,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sinh(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 412,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cosh(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 413,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tanh(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 417,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In w(): parameter 's' needs a type. Add: @param {number} s"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 418,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In u(): parameter 's' needs a type. Add: @param {number} s"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 420,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In easeOut(): parameter 't' needs a type. Add: @param {number} t"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 454,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flyToBounds needs types for 2 parameters: bounds, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 461,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMaxBounds(): parameter 'bounds' needs a type. Add: @param {object} bounds"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 484,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMinZoom(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 501,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMaxZoom(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 518,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "panInsideBounds needs types for 2 parameters: bounds, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 536,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "panInside needs types for 2 parameters: latlng, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 572,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In invalidateSize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 639,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In locate(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 686,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleGeolocationError(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 707,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleGeolocationResponse(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 743,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addHandler needs types for 2 parameters: name: string, HandlerClass"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 821,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createPane needs types for 2 parameters: name: string, container"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 877,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBoundsZoom needs types for 3 parameters: bounds: object, inside, padding"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 920,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPixelBounds needs types for 2 parameters: center, zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 939,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPixelWorldBounds(): parameter 'zoom' needs a type. Add: @param {unknown} zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 947,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPane(): parameter 'pane' needs a type. Add: @param {unknown} pane"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 970,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getZoomScale needs types for 2 parameters: toZoom, fromZoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 981,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getScaleZoom needs types for 2 parameters: scale: number, fromZoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 993,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "project needs types for 2 parameters: latlng, zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1000,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unproject needs types for 2 parameters: point, zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1008,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In layerPointToLatLng(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1016,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In latLngToLayerPoint(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1027,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapLatLng(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1037,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapLatLngBounds(): parameter 'bounds' needs a type. Add: @param {unknown} bounds"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1044,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "distance needs types for 2 parameters: latlng1, latlng2"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1051,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In containerPointToLayerPoint(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1058,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In layerPointToContainerPoint(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1065,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In containerPointToLatLng(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1073,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In latLngToContainerPoint(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1080,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pointerEventToContainerPoint(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1087,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pointerEventToLayerPoint(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1094,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pointerEventToLatLng(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1101,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initContainer(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1190,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_resetView needs types for 3 parameters: center, zoom, noMoveStart"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1218,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_moveStart needs types for 2 parameters: zoomChanged, noMoveStart"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1232,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_move needs types for 4 parameters: center, zoom, data: object, supressEvent"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1260,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _moveEnd(): parameter 'zoomChanged' needs a type. Add: @param {unknown} zoomChanged"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1279,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _rawPanBy(): parameter 'offset' needs a type. Add: @param {number} offset"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1302,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _initEvents(): parameter 'remove' needs a type. Add: @param {unknown} remove"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1373,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_findEventTargets needs types for 2 parameters: e: object, type: string"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1401,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _isClickDisabled(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1408,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleDOMEvent(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1426,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_fireDOMEvent needs types for 3 parameters: e: object, type: string, canvasTargets: any[]"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1442,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1472,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _draggableMoved(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1489,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "whenReady needs types for 2 parameters: callback: Function, context: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1510,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getTopLeftPoint needs types for 2 parameters: center, zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1517,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getNewPixelOrigin needs types for 2 parameters: center, zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1522,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_latLngToNewLayerPoint needs types for 3 parameters: latlng, zoom, center"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1527,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_latLngBoundsToNewLayerBounds needs types for 3 parameters: latLngBounds: object, zoom, center"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1543,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getCenterOffset(): parameter 'latlng' needs a type. Add: @param {unknown} latlng"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1548,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_limitCenter needs types for 3 parameters: center, zoom, bounds"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1568,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_limitOffset needs types for 2 parameters: offset: number, bounds"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1578,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getBoundsOffset needs types for 3 parameters: pxBounds: object, maxBounds: object, zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1592,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_rebound needs types for 2 parameters: left: number, right: number"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1598,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _limitZoom(): parameter 'zoom' needs a type. Add: @param {number} zoom"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1617,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_tryAnimatedPan needs types for 2 parameters: center, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1639,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateProxyZoom(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1681,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _catchTransitionEnd(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1691,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_tryAnimatedZoom needs types for 3 parameters: center, zoom: number, options: object"
+    },
+    {
+      "file": "src/map/Map.js",
+      "line": 1717,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_animateZoom needs types for 4 parameters: center, zoom, startAnim, noUpdate"
+    },
+    {
+      "file": "src/map/handler/BoxZoomHandler.js",
+      "line": 23,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/map/handler/BoxZoomHandler.js",
+      "line": 60,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPointerDown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/BoxZoomHandler.js",
+      "line": 81,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPointerMove(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/map/handler/BoxZoomHandler.js",
+      "line": 119,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPointerUp(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/BoxZoomHandler.js",
+      "line": 139,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onKeyDown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/DoubleClickZoomHandler.js",
+      "line": 29,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDoubleClick(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/DragHandler.js",
+      "line": 120,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDrag(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/map/handler/DragHandler.js",
+      "line": 136,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _prunePositions(): parameter 'time' needs a type. Add: @param {number} time"
+    },
+    {
+      "file": "src/map/handler/DragHandler.js",
+      "line": 151,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_viscousLimit needs types for 2 parameters: value: number, threshold: number"
+    },
+    {
+      "file": "src/map/handler/DragHandler.js",
+      "line": 183,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDragEnd(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/KeyboardHandler.js",
+      "line": 35,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialize(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "src/map/handler/KeyboardHandler.js",
+      "line": 104,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setPanDelta(): parameter 'panDelta' needs a type. Add: @param {number} panDelta"
+    },
+    {
+      "file": "src/map/handler/KeyboardHandler.js",
+      "line": 122,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setZoomDelta(): parameter 'zoomDelta' needs a type. Add: @param {unknown} zoomDelta"
+    },
+    {
+      "file": "src/map/handler/KeyboardHandler.js",
+      "line": 142,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onKeyDown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/PinchZoomHandler.js",
+      "line": 38,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPointerStart(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/PinchZoomHandler.js",
+      "line": 67,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onPointerMove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/ScrollWheelZoomHandler.js",
+      "line": 42,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onWheelScroll(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/map/handler/TapHoldHandler.js",
+      "line": 39,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onDown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/TapHoldHandler.js",
+      "line": 70,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onMove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/map/handler/TapHoldHandler.js",
+      "line": 78,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_simulateEvent needs types for 2 parameters: type: string, e: object"
+    }
+  ],
+  "typesPackage": "@types/leaflet",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.9.21",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 53715
+}

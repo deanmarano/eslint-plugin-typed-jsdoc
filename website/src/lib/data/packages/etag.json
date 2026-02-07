@@ -1,0 +1,29 @@
+{
+  "name": "etag",
+  "downloadedAt": "2026-02-03T22:03:43.499Z",
+  "lintedAt": "2026-02-03T22:03:43.499Z",
+  "filesAnalyzed": 9,
+  "totalIssues": 1,
+  "errors": 1,
+  "warnings": 0,
+  "byRule": {
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 70,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': object → { weak?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    }
+  ],
+  "typesPackage": "@types/etag",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.8.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19806
+}

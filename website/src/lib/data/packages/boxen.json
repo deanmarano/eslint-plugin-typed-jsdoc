@@ -1,0 +1,193 @@
+{
+  "name": "boxen",
+  "downloadedAt": "2026-02-03T22:04:47.944Z",
+  "lintedAt": "2026-02-03T22:04:47.944Z",
+  "filesAnalyzed": 13,
+  "totalIssues": 22,
+  "errors": 0,
+  "warnings": 22,
+  "byRule": {
+    "tjd/no-implicit-any": 21,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 33,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getObject(): parameter 'detail' needs a type. Add: @param {number} detail"
+    },
+    {
+      "file": "index.js",
+      "line": 46,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBorderWidth(): parameter 'borderStyle' needs a type. Add: @param {unknown} borderStyle"
+    },
+    {
+      "file": "index.js",
+      "line": 48,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBorderChars(): parameter 'borderStyle' needs a type. Add: @param {object} borderStyle"
+    },
+    {
+      "file": "index.js",
+      "line": 101,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeTitle needs types for 3 parameters: text: string, horizontal: object, alignment"
+    },
+    {
+      "file": "index.js",
+      "line": 135,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeContentText(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "index.js",
+      "line": 148,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "index.js",
+      "line": 177,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {unknown} line"
+    },
+    {
+      "file": "index.js",
+      "line": 179,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {unknown} line"
+    },
+    {
+      "file": "index.js",
+      "line": 185,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {unknown} line"
+    },
+    {
+      "file": "index.js",
+      "line": 208,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "boxContent needs types for 3 parameters: content: string, contentWidth: number, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 209,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In colorizeBorder(): parameter 'border' needs a type. Add: @param {unknown} border"
+    },
+    {
+      "file": "index.js",
+      "line": 214,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In colorizeContent(): parameter 'content' needs a type. Add: @param {unknown} content"
+    },
+    {
+      "file": "index.js",
+      "line": 240,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {unknown} line"
+    },
+    {
+      "file": "index.js",
+      "line": 253,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sanitizeOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "index.js",
+      "line": 276,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatTitle needs types for 2 parameters: title: string, borderStyle"
+    },
+    {
+      "file": "index.js",
+      "line": 278,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "determineDimensions needs types for 2 parameters: text: string, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 338,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isHex(): parameter 'color' needs a type. Add: @param {string} color"
+    },
+    {
+      "file": "index.js",
+      "line": 339,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isColorValid(): parameter 'color' needs a type. Add: @param {unknown} color"
+    },
+    {
+      "file": "index.js",
+      "line": 340,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getColorFunction(): parameter 'color' needs a type. Add: @param {unknown} color"
+    },
+    {
+      "file": "index.js",
+      "line": 341,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBGColorFunction(): parameter 'color' needs a type. Add: @param {unknown} color"
+    },
+    {
+      "file": "index.js",
+      "line": 343,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "boxen needs types for 2 parameters: text: string, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 343,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "boxen needs JSDoc: @param {any} text, @param {any} options, @returns {string}"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 20264
+}

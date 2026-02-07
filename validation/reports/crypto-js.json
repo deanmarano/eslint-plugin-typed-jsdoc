@@ -1,0 +1,38 @@
+{
+  "name": "crypto-js",
+  "downloadedAt": "2026-02-03T22:02:06.782Z",
+  "lintedAt": "2026-02-03T22:02:06.782Z",
+  "filesAnalyzed": 105,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "Gruntfile.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} grunt"
+    },
+    {
+      "file": "Gruntfile.js",
+      "line": 7,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'grunt' needs a type. Add: @param {object} grunt"
+    }
+  ],
+  "typesPackage": "@types/crypto-js",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.2.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 16505
+}

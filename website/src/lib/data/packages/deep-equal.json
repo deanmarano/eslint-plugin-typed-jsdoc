@@ -1,0 +1,377 @@
+{
+  "name": "deep-equal",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 44,
+  "errors": 0,
+  "warnings": 44,
+  "byRule": {
+    "tjd/no-implicit-any": 11,
+    "unknown": 19,
+    "tjd/require-jsdoc-types": 1,
+    "no-buffer-constructor": 1,
+    "new-cap": 12
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setHasEqualElement needs types for 4 parameters: set, val1, opts, channel"
+    },
+    {
+      "file": "index.js",
+      "line": 42,
+      "column": 65,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "index.js",
+      "line": 53,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findLooseMatchingPrimitives(): parameter 'prim' needs a type. Add: @param {unknown} prim"
+    },
+    {
+      "file": "index.js",
+      "line": 65,
+      "column": 29,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-implicit-coercion')."
+    },
+    {
+      "file": "index.js",
+      "line": 71,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapMightHaveLoosePrim needs types for 6 parameters: a, b, prim, item, opts, channel"
+    },
+    {
+      "file": "index.js",
+      "line": 80,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "index.js",
+      "line": 85,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "index.js",
+      "line": 90,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setMightHaveLoosePrim needs types for 3 parameters: a, b, prim"
+    },
+    {
+      "file": "index.js",
+      "line": 100,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapHasEqualEntry needs types for 6 parameters: set, map, key1, item1, opts, channel"
+    },
+    {
+      "file": "index.js",
+      "line": 107,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "index.js",
+      "line": 109,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "index.js",
+      "line": 120,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "internalDeepEqual needs types for 4 parameters: actual, expected, options: object, channel: object"
+    },
+    {
+      "file": "index.js",
+      "line": 136,
+      "column": 69,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'eqeqeq')."
+    },
+    {
+      "file": "index.js",
+      "line": 162,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "index.js",
+      "line": 166,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBuffer(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "index.js",
+      "line": 180,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setEquiv needs types for 4 parameters: a, b, opts: object, channel"
+    },
+    {
+      "file": "index.js",
+      "line": 222,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mapEquiv needs types for 4 parameters: a: object, b, opts: object, channel"
+    },
+    {
+      "file": "index.js",
+      "line": 276,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "objEquiv needs types for 4 parameters: a: object, b: object, opts: object, channel"
+    },
+    {
+      "file": "index.js",
+      "line": 366,
+      "column": 43,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'eqeqeq')."
+    },
+    {
+      "file": "index.js",
+      "line": 390,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: a, b, opts"
+    },
+    {
+      "file": "index.js",
+      "line": 390,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} a, @param {any} b, @param {any} opts, @returns {any}"
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 16,
+      "column": 61,
+      "rule": "no-buffer-constructor",
+      "severity": "warning",
+      "message": "new Buffer() is deprecated. Use Buffer.from(), Buffer.alloc(), or Buffer.allocUnsafe() instead."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 301,
+      "column": 41,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 442,
+      "column": 20,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 527,
+      "column": 41,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 554,
+      "column": 53,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 843,
+      "column": 20,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 950,
+      "column": 25,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1009,
+      "column": 30,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1100,
+      "column": 34,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1154,
+      "column": 20,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1181,
+      "column": 17,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1181,
+      "column": 23,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1181,
+      "column": 29,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1182,
+      "column": 17,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1182,
+      "column": 23,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1182,
+      "column": 29,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1189,
+      "column": 17,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1189,
+      "column": 23,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1189,
+      "column": 29,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1190,
+      "column": 17,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1190,
+      "column": 23,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1190,
+      "column": 29,
+      "rule": "new-cap",
+      "severity": "warning",
+      "message": "A function with a name starting with an uppercase letter should only be used as a constructor."
+    },
+    {
+      "file": "test/cmp.js",
+      "line": 1203,
+      "column": 41,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-proto')."
+    }
+  ],
+  "typesPackage": "@types/deep-equal",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 17539
+}

@@ -1,0 +1,12 @@
+{
+  "name": "array-flatten",
+  "downloadedAt": "2026-01-30T20:28:52.566Z",
+  "lintedAt": "2026-01-30T20:28:52.566Z",
+  "filesAnalyzed": 18,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/array-flatten"
+}

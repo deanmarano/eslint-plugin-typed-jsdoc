@@ -1,0 +1,1150 @@
+{
+  "name": "js-yaml",
+  "downloadedAt": "2026-02-03T22:02:06.782Z",
+  "lintedAt": "2026-02-03T22:02:06.782Z",
+  "filesAnalyzed": 24,
+  "totalIssues": 141,
+  "errors": 0,
+  "warnings": 141,
+  "byRule": {
+    "tjd/no-implicit-any": 133,
+    "unknown": 8
+  },
+  "issues": [
+    {
+      "file": "lib/common.js",
+      "line": 4,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNothing(): parameter 'subject' needs a type. Add: @param {unknown} subject"
+    },
+    {
+      "file": "lib/common.js",
+      "line": 9,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isObject(): parameter 'subject' needs a type. Add: @param {unknown} subject"
+    },
+    {
+      "file": "lib/common.js",
+      "line": 14,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toArray(): parameter 'sequence' needs a type. Add: @param {unknown} sequence"
+    },
+    {
+      "file": "lib/common.js",
+      "line": 22,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extend needs types for 2 parameters: target: object, source: object"
+    },
+    {
+      "file": "lib/common.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "repeat needs types for 2 parameters: string: string, count: number"
+    },
+    {
+      "file": "lib/common.js",
+      "line": 49,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNegativeZero(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-use-before-define')."
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 63,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compileStyleMap needs types for 2 parameters: schema: object, map: object"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 90,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In encodeHex(): parameter 'character' needs a type. Add: @param {object} character"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 115,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In State(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 142,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "indentString needs types for 2 parameters: string: string, spaces"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 168,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "generateNextLine needs types for 2 parameters: state: object, level: number"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 172,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "testImplicitResolving needs types for 2 parameters: state: object, str: string"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 187,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isWhitespace(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 195,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPrintable(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 207,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNsCharOrWhitespace(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 224,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isPlainSafe needs types for 3 parameters: c, prev, inblock"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 247,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPlainSafeFirst(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 280,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPlainSafeLast(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 286,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "codePointAt needs types for 2 parameters: string: string, pos"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 299,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In needIndentIndicator(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 317,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "chooseScalarStyle needs types for 8 parameters: string: string, singleLineOnly, indentPerLevel, lineWidth, testAmbiguousType: Function, quotingType, forceQuotes, inblock"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 395,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeScalar needs types for 5 parameters: state: object, string: string, level, iskey, inblock"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 421,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testAmbiguity(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 447,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "blockHeader needs types for 2 parameters: string: string, indentPerLevel"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 459,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dropEndingNewline(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 465,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "foldString needs types for 2 parameters: string: string, width: number"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 502,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "foldLine needs types for 2 parameters: line: object, width: number"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 542,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeString(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 562,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeFlowSequence needs types for 3 parameters: state: object, level, object: object"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 590,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeBlockSequence needs types for 4 parameters: state: object, level, object: object, compact"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 627,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeFlowMapping needs types for 3 parameters: state: object, level, object: object"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 673,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeBlockMapping needs types for 4 parameters: state: object, level, object: object, compact"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 751,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "detectType needs types for 3 parameters: state: object, object: object, explicit"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 797,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeNode needs types for 7 parameters: state: object, level: number, object: object, block, compact, iskey, isblockseq"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 904,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDuplicateReferences needs types for 2 parameters: object: object, state: object"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 918,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "inspectNode needs types for 3 parameters: object: object, objects: object, duplicatesIndexes: object"
+    },
+    {
+      "file": "lib/dumper.js",
+      "line": 947,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dump needs types for 2 parameters: input, options: object"
+    },
+    {
+      "file": "lib/exception.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatError needs types for 2 parameters: exception: Error, compact"
+    },
+    {
+      "file": "lib/exception.js",
+      "line": 25,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "YAMLException needs types for 2 parameters: reason, mark"
+    },
+    {
+      "file": "lib/exception.js",
+      "line": 50,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toString(): parameter 'compact' needs a type. Add: @param {unknown} compact"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len' or 'no-use-before-define')."
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 32,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _class(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 34,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In is_EOL(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 38,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In is_WHITE_SPACE(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 42,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In is_WS_OR_EOL(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 49,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In is_FLOW_INDICATOR(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 57,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromHexCode(): parameter 'c' needs a type. Add: @param {number} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 64,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-bitwise')."
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 74,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapedHexLen(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 81,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromDecimalCode(): parameter 'c' needs a type. Add: @param {number} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 89,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In simpleEscapeSequence(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 90,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'indent')."
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 111,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In charFromCodepoint(): parameter 'c' needs a type. Add: @param {number} c"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 125,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setProperty needs types for 3 parameters: object: object, key: string, value"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 147,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "State needs types for 2 parameters: input: object, options: object"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 188,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "generateError needs types for 2 parameters: state: object, message: string"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 202,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwError needs types for 2 parameters: state: object, message: string"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 206,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throwWarning needs types for 2 parameters: state: object, message: string"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 215,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "YAML needs types for 3 parameters: state: object, name: string, args: any[]"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 248,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "TAG needs types for 3 parameters: state: object, name: string, args: any[]"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 282,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "captureSegment needs types for 4 parameters: state: object, start: number, end: number, checkJson"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 304,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeMappings needs types for 4 parameters: state: object, destination, source: object, overridableKeys: object"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 323,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "storeMappingPair needs types for 9 parameters: state: object, _result, overridableKeys: object, keyTag, keyNode: object, valueNode: object, startLine, startLineStart, startPos"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 384,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readLineBreak(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 405,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipSeparationSpace needs types for 3 parameters: state: object, allowComments, checkIndent"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 446,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testDocumentSeparator(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 470,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeFoldedLines needs types for 2 parameters: state: object, count: number"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 479,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readPlainScalar needs types for 3 parameters: state: object, nodeIndent, withinFlowCollection"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 588,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readSingleQuotedScalar needs types for 2 parameters: state: object, nodeIndent"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 633,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readDoubleQuotedScalar needs types for 2 parameters: state: object, nodeIndent"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 712,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readFlowCollection needs types for 2 parameters: state: object, nodeIndent"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 824,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readBlockScalar needs types for 2 parameters: state: object, nodeIndent: number"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 967,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readBlockSequence needs types for 2 parameters: state: object, nodeIndent"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1037,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readBlockMapping needs types for 3 parameters: state: object, nodeIndent, flowIndent"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1214,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readTagProperty(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1314,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readAnchorProperty(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1341,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readAlias(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1371,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "composeNode needs types for 5 parameters: state: object, parentIndent, nodeContext, allowToSeek, allowCompact"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1550,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readDocument(): parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1658,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadDocuments needs types for 2 parameters: input: object, options: object"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1701,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadAll needs types for 3 parameters: input, iterator: Function, options: object"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1719,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "load needs types for 2 parameters: input, options: object"
+    },
+    {
+      "file": "lib/loader.js",
+      "line": 1723,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undefined')."
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 9,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compileList needs types for 2 parameters: schema: object, name: string"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 12,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'currentType' needs a type. Add: @param {object} currentType"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 15,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'previousType' needs a type. Add: @param {object} previousType"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 45,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In collectType(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 61,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Schema(): parameter 'definition' needs a type. Add: @param {unknown} definition"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 66,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extend(): parameter 'definition' needs a type. Add: @param {object} definition"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 88,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/schema.js",
+      "line": 102,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/snippet.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getLine needs types for 5 parameters: buffer: object, lineStart: number, lineEnd: number, position: number, maxLineLength: number"
+    },
+    {
+      "file": "lib/snippet.js",
+      "line": 30,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "padStart needs types for 2 parameters: string: string, max: number"
+    },
+    {
+      "file": "lib/snippet.js",
+      "line": 35,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeSnippet needs types for 2 parameters: mark: object, options: object"
+    },
+    {
+      "file": "lib/type.js",
+      "line": 24,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In compileStyleAliases(): parameter 'map' needs a type. Add: @param {object} map"
+    },
+    {
+      "file": "lib/type.js",
+      "line": 29,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'alias' needs a type. Add: @param {unknown} alias"
+    },
+    {
+      "file": "lib/type.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Type needs types for 2 parameters: tag, options: object"
+    },
+    {
+      "file": "lib/type.js",
+      "line": 52,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/binary.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-bitwise')."
+    },
+    {
+      "file": "lib/type/binary.js",
+      "line": 13,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlBinary(): parameter 'data' needs a type. Add: @param {string} data"
+    },
+    {
+      "file": "lib/type/binary.js",
+      "line": 35,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlBinary(): parameter 'data' needs a type. Add: @param {string} data"
+    },
+    {
+      "file": "lib/type/binary.js",
+      "line": 73,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In representYamlBinary(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/type/binary.js",
+      "line": 115,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBinary(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/type/bool.js",
+      "line": 5,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlBoolean(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/bool.js",
+      "line": 14,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlBoolean(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/bool.js",
+      "line": 20,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBoolean(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/type/bool.js",
+      "line": 30,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lowercase(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/type/bool.js",
+      "line": 31,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In uppercase(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/type/bool.js",
+      "line": 32,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In camelcase(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/type/float.js",
+      "line": 17,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlFloat(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/float.js",
+      "line": 30,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlFloat(): parameter 'data' needs a type. Add: @param {string} data"
+    },
+    {
+      "file": "lib/type/float.js",
+      "line": 52,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "representYamlFloat needs types for 2 parameters: object: object, style"
+    },
+    {
+      "file": "lib/type/float.js",
+      "line": 85,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFloat(): parameter 'object' needs a type. Add: @param {number} object"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 6,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isHexCode(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 12,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOctCode(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 16,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDecCode(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 20,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlInteger(): parameter 'data' needs a type. Add: @param {string} data"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 106,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlInteger(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 132,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isInteger(): parameter 'object' needs a type. Add: @param {number} object"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 143,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In binary(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 144,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In octal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 145,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In decimal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 146,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "lib/type/int.js",
+      "line": 147,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hexadecimal(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/type/map.js",
+      "line": 7,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In construct(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/merge.js",
+      "line": 5,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlMerge(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/null.js",
+      "line": 5,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlNull(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/null.js",
+      "line": 18,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNull(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/type/omap.js",
+      "line": 8,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlOmap(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/omap.js",
+      "line": 36,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlOmap(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/pairs.js",
+      "line": 7,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlPairs(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/pairs.js",
+      "line": 30,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlPairs(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/seq.js",
+      "line": 7,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In construct(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/set.js",
+      "line": 7,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlSet(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/set.js",
+      "line": 21,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlSet(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/str.js",
+      "line": 7,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In construct(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/timestamp.js",
+      "line": 22,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveYamlTimestamp(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/timestamp.js",
+      "line": 29,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructYamlTimestamp(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/type/timestamp.js",
+      "line": 78,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In representYamlTimestamp(): parameter 'object' needs a type. Add: @param {object} object"
+    }
+  ],
+  "typesPackage": "@types/js-yaml",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.0.9",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18649
+}

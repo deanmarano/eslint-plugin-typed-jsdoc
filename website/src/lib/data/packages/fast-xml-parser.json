@@ -1,0 +1,1730 @@
+{
+  "name": "fast-xml-parser",
+  "downloadedAt": "2026-02-03T22:02:31.081Z",
+  "lintedAt": "2026-02-03T22:02:31.081Z",
+  "filesAnalyzed": 40,
+  "totalIssues": 214,
+  "errors": 0,
+  "warnings": 214,
+  "byRule": {
+    "unknown": 1,
+    "tjd/no-implicit-any": 188,
+    "tjd/require-jsdoc-types": 25
+  },
+  "issues": [
+    {
+      "file": "src/cli/cli.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "src/cli/cli.js",
+      "line": 51,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callback(): parameter 'xmlData' needs a type. Add: @param {unknown} xmlData"
+    },
+    {
+      "file": "src/cli/cli.js",
+      "line": 71,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, data: object"
+    },
+    {
+      "file": "src/cli/cli.js",
+      "line": 90,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeToFile needs types for 2 parameters: fileName: string, data: object"
+    },
+    {
+      "file": "src/cli/read.js",
+      "line": 12,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: chunk: object, encoding: string, done: Function"
+    },
+    {
+      "file": "src/cli/read.js",
+      "line": 18,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _flush(): parameter 'done' needs a type. Add: @param {Function} done"
+    },
+    {
+      "file": "src/cli/read.js",
+      "line": 23,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readToEnd needs types for 3 parameters: stream: object, options: object, callback: Function"
+    },
+    {
+      "file": "src/cli/read.js",
+      "line": 33,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/ignoreAttributes.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getIgnoreAttributesFn needs JSDoc: @param {any} ignoreAttributes, @returns {any}"
+    },
+    {
+      "file": "src/ignoreAttributes.js",
+      "line": 1,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getIgnoreAttributesFn(): parameter 'ignoreAttributes' needs a type. Add: @param {unknown} ignoreAttributes"
+    },
+    {
+      "file": "src/ignoreAttributes.js",
+      "line": 6,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attrName' needs a type. Add: @param {string} attrName"
+    },
+    {
+      "file": "src/util.js",
+      "line": 8,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getAllMatches needs types for 2 parameters: string: string, regex: object"
+    },
+    {
+      "file": "src/util.js",
+      "line": 8,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getAllMatches needs JSDoc: @param {any} string, @param {any} regex, @returns {any[][]}"
+    },
+    {
+      "file": "src/util.js",
+      "line": 24,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isName needs JSDoc: @param {any} string, @returns {boolean}"
+    },
+    {
+      "file": "src/util.js",
+      "line": 24,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isName(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/util.js",
+      "line": 29,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isExist needs JSDoc: @param {any} v, @returns {boolean}"
+    },
+    {
+      "file": "src/util.js",
+      "line": 29,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isExist(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/util.js",
+      "line": 33,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isEmptyObject needs JSDoc: @param {any} obj, @returns {boolean}"
+    },
+    {
+      "file": "src/util.js",
+      "line": 33,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEmptyObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/util.js",
+      "line": 42,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "merge needs JSDoc: @param {any} arrayMode"
+    },
+    {
+      "file": "src/util.js",
+      "line": 42,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In merge(): parameter 'arrayMode' needs a type. Add: @param {unknown} arrayMode"
+    },
+    {
+      "file": "src/util.js",
+      "line": 59,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getValue needs JSDoc: @param {any} v, @returns {any}"
+    },
+    {
+      "file": "src/util.js",
+      "line": 59,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getValue(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 16,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "val needs types for 2 parameters: _, str: string"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 17,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "val needs types for 2 parameters: _, str: string"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 20,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'replaceHtmlEntities' needs a type. Add: @param {unknown} replaceHtmlEntities"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 31,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addExternalEntities(): parameter 'externalEntities' needs a type. Add: @param {object} externalEntities"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 38,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addExternalEntity needs types for 2 parameters: key: string, val: object"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 51,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addDocTypeEntities(): parameter 'entities' needs a type. Add: @param {object} entities"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 62,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/v6/EntitiesParser.js",
+      "line": 98,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateEntityName(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/OptionsBuilder.js",
+      "line": 38,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "buildOptions needs JSDoc: @param {any} options, @returns {{ preserveOrder: boolean; removeNSPrefix: boolean; stopNodes: any[]; htmlEntities: boolean; tags: { unpaired: any[]; nameFor: { cdata: boolean; comment: boolean; text: string; }; separateTextProperty: boolean; }; ... 6 more ...; OutputBuilder: any; }}"
+    },
+    {
+      "file": "src/v6/OptionsBuilder.js",
+      "line": 38,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/OptionsBuilder.js",
+      "line": 44,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "copyProperties needs types for 2 parameters: target: object, source: object"
+    },
+    {
+      "file": "src/v6/OutputBuilders/BaseOutputBuilder.js",
+      "line": 6,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addAttribute needs types for 2 parameters: name: string, value"
+    },
+    {
+      "file": "src/v6/OutputBuilders/BaseOutputBuilder.js",
+      "line": 22,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'valParsers' needs a type. Add: @param {object} valParsers"
+    },
+    {
+      "file": "src/v6/OutputBuilders/BaseOutputBuilder.js",
+      "line": 40,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addChild(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/v6/OutputBuilders/BaseOutputBuilder.js",
+      "line": 45,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addComment(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/v6/OutputBuilders/BaseOutputBuilder.js",
+      "line": 52,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addCdata(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/v6/OutputBuilders/BaseOutputBuilder.js",
+      "line": 60,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 4,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 9,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerValueParser needs types for 2 parameters: name: string, parserInstance"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 13,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInstance(): parameter 'parserOptions' needs a type. Add: @param {object} parserOptions"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 23,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: parserOptions: object, options: object, registeredParsers"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 35,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addTag(): parameter 'tag' needs a type. Add: @param {object} tag"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 64,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addChild needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 78,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addPi(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsArrBuilder.js",
+      "line": 95,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: tagname, attributes: object"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 4,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 9,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerValueParser needs types for 2 parameters: name: string, parserInstance"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 13,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInstance(): parameter 'parserOptions' needs a type. Add: @param {object} parserOptions"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 23,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: parserOptions: object, options: object, registeredParsers"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 36,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addTag(): parameter 'tag' needs a type. Add: @param {object} tag"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 73,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addChild needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsMinArrBuilder.js",
+      "line": 87,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addPi(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 6,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'builderOptions' needs a type. Add: @param {object} builderOptions"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 11,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerValueParser needs types for 2 parameters: name: string, parserInstance"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 15,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getInstance(): parameter 'parserOptions' needs a type. Add: @param {object} parserOptions"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 25,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: parserOptions: object, builderOptions: object, registeredParsers"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 41,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addTag(): parameter 'tag' needs a type. Add: @param {object} tag"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 100,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addChild needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 110,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addChildTo needs types for 3 parameters: key: string, val, node: object"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 134,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addPi(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/OutputBuilders/JsObjBuilder.js",
+      "line": 152,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEmpty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/v6/OutputBuilders/ParserOptionsBuilder.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "buildOptions needs JSDoc: @param {any} options, @returns {{ nameFor: { text: string; comment: string; cdata: string; }; piTag: boolean; declaration: boolean; tags: { valueParsers: any[]; }; attributes: { prefix: string; suffix: string; groupBy: string; valueParsers: any[]; }; dataType: {}; }}"
+    },
+    {
+      "file": "src/v6/OutputBuilders/ParserOptionsBuilder.js",
+      "line": 47,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/OutputBuilders/ParserOptionsBuilder.js",
+      "line": 64,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "copyProperties needs types for 2 parameters: target: object, source: object"
+    },
+    {
+      "file": "src/v6/OutputBuilders/ParserOptionsBuilder.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "registerCommonValueParsers needs JSDoc: @param {any} options, @returns {{ trim: trimmer; boolean: boolParser; number: numParser; currency: CurrencyParser; }}"
+    },
+    {
+      "file": "src/v6/OutputBuilders/ParserOptionsBuilder.js",
+      "line": 81,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In registerCommonValueParsers(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/TagPath.js",
+      "line": 2,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'pathStr' needs a type. Add: @param {object} pathStr"
+    },
+    {
+      "file": "src/v6/TagPath.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "match needs types for 2 parameters: tagStack: object, node"
+    },
+    {
+      "file": "src/v6/TagPath.js",
+      "line": 62,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: name: string, position, attrName: string, attrVal"
+    },
+    {
+      "file": "src/v6/TagPath.js",
+      "line": 69,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In match(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/v6/TagPathMatcher.js",
+      "line": 4,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: stack, node"
+    },
+    {
+      "file": "src/v6/TagPathMatcher.js",
+      "line": 9,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In match(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "src/v6/XMLParser.js",
+      "line": 6,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/XMLParser.js",
+      "line": 80,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 20,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 33,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'strData' needs a type. Add: @param {unknown} strData"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 38,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseBytesArr(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 97,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateClosingTag(): parameter 'tagName' needs a type. Add: @param {string} tagName"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 144,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readSpecialTag(): parameter 'startCh' needs a type. Add: @param {unknown} startCh"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 177,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In processAttrName(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 183,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In processTagName(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 192,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tagsPath(): parameter 'tagName' needs a type. Add: @param {string} tagName"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 197,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isUnpaired(): parameter 'tagName' needs a type. Add: @param {string} tagName"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 212,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStopNode(): parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 220,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In replaceEntities(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/v6/Xml2JsParser.js",
+      "line": 226,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resolveNameSpace needs types for 2 parameters: name: string, removeNSPrefix"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readStopNode needs JSDoc: @returns {{ tagContent: string; i: any; }}"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 58,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readClosingTagName needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 80,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readTagExp needs JSDoc: @param {any} parser, @returns {{ tagName: string; selfClosing: boolean; }}"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 80,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readTagExp(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 110,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readPiExp needs JSDoc: @param {any} parser, @returns {{ tagName: string; selfClosing: boolean; }}"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 110,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readPiExp(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 146,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildTagExpObj needs types for 2 parameters: exp: object, parser: object"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 183,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseAttributesExp needs types for 2 parameters: attrStr, parser: object"
+    },
+    {
+      "file": "src/v6/XmlPartReader.js",
+      "line": 195,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getAllMatches needs types for 2 parameters: string: string, regex: object"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readCdata needs JSDoc: @param {any} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 3,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readCdata(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 13,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readPiTag needs JSDoc: @param {any} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 13,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readPiTag(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 25,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readComment needs JSDoc: @param {any} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readComment(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 39,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "readDocType needs JSDoc: @param {any} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 39,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readDocType(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/XmlSpecialTagsReader.js",
+      "line": 85,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In registerEntity(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 6,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'bytesArr' needs a type. Add: @param {unknown} bytesArr"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 19,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readChAt(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 23,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readStr needs types for 2 parameters: n, from: number"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 28,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readUpto(): parameter 'stopStr' needs a type. Add: @param {object} stopStr"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 52,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readUptoCloseTag(): parameter 'stopStr' needs a type. Add: @param {object} stopStr"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 88,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readFromBuffer needs types for 2 parameters: n, shouldUpdate: boolean"
+    },
+    {
+      "file": "src/v6/inputSource/BufferSource.js",
+      "line": 111,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canRead(): parameter 'n' needs a type. Add: @param {number} n"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 5,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 18,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readChAt(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 22,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readStr needs types for 2 parameters: n, from: number"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 27,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readUpto(): parameter 'stopStr' needs a type. Add: @param {object} stopStr"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 50,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In readUptoCloseTag(): parameter 'stopStr' needs a type. Add: @param {object} stopStr"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 85,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readFromBuffer needs types for 2 parameters: n, updateIndex: number"
+    },
+    {
+      "file": "src/v6/inputSource/StringSource.js",
+      "line": 116,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canRead(): parameter 'n' needs a type. Add: @param {number} n"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 16,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "val needs types for 2 parameters: _, str: string"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 17,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "val needs types for 2 parameters: _, str: string"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 21,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'replaceHtmlEntities' needs a type. Add: @param {unknown} replaceHtmlEntities"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 32,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addExternalEntities(): parameter 'externalEntities' needs a type. Add: @param {object} externalEntities"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 39,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addExternalEntity needs types for 2 parameters: key: string, val: object"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 52,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addDocTypeEntities(): parameter 'entities' needs a type. Add: @param {object} entities"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 63,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/v6/valueParsers/EntitiesParser.js",
+      "line": 99,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateEntityName(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/v6/valueParsers/booleanParser.js",
+      "line": 2,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: trueList, falseList"
+    },
+    {
+      "file": "src/v6/valueParsers/booleanParser.js",
+      "line": 13,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {string} val"
+    },
+    {
+      "file": "src/v6/valueParsers/booleanParserExt.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "boolParserExt needs JSDoc: @param {any} val, @returns {any}"
+    },
+    {
+      "file": "src/v6/valueParsers/booleanParserExt.js",
+      "line": 1,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In boolParserExt(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "src/v6/valueParsers/booleanParserExt.js",
+      "line": 12,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {string} val"
+    },
+    {
+      "file": "src/v6/valueParsers/currency.js",
+      "line": 20,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/valueParsers/currency.js",
+      "line": 23,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "src/v6/valueParsers/join.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "join needs JSDoc: @returns {any[]}"
+    },
+    {
+      "file": "src/v6/valueParsers/number.js",
+      "line": 5,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/v6/valueParsers/number.js",
+      "line": 8,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/v6/valueParsers/trim.js",
+      "line": 2,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'val' needs a type. Add: @param {string} val"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 11,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validate needs types for 2 parameters: xmlData: object, options: object"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 11,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "validate needs JSDoc: @param {any} xmlData, @param {any} options, @returns {number | true | { err: { code: any; msg: any; line: any; col: any; }; }}"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 193,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isWhiteSpace(): parameter 'char' needs a type. Add: @param {unknown} char"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 221,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readCommentAndCDATA needs types for 2 parameters: xmlData: object, i"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 319,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateAttributeString needs types for 2 parameters: attrStr, options: object"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 355,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateNumberAmpersand needs types for 2 parameters: xmlData: object, i"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 370,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateAmpersand needs types for 2 parameters: xmlData: object, i"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 390,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getErrorObject needs types for 3 parameters: code, message: string, lineNumber: object"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 401,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateAttrName(): parameter 'attrName' needs a type. Add: @param {string} attrName"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 407,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateTagName(): parameter 'tagname' needs a type. Add: @param {unknown} tagname"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 412,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getLineNumberForPosition needs types for 2 parameters: xmlData: string, index: number"
+    },
+    {
+      "file": "src/validator.js",
+      "line": 423,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPositionFromMatch(): parameter 'match' needs a type. Add: @param {object} match"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 17,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tagValueProcessor needs types for 2 parameters: key: string, a"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 20,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "attributeValueProcessor needs types for 2 parameters: attrName: string, a"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 40,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Builder needs JSDoc: @param {any} options"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 40,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Builder(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 67,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In build(): parameter 'jObj' needs a type. Add: @param {unknown} jObj"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 80,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "j2x needs types for 3 parameters: jObj: object, level, ajPath: string"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 172,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildAttrPairStr needs types for 2 parameters: attrName: string, val"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 180,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processTextOrObjNode needs types for 4 parameters: object: object, key: string, level, ajPath: string"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 189,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildObjectNode needs types for 4 parameters: val: object, key: string, attrStr, level"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 219,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In closeTag(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 231,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildEmptyObjNode needs types for 4 parameters: val, key: string, attrStr, level"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 243,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildTextValNode needs types for 4 parameters: val, key: string, attrStr, level"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 264,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In replaceEntitiesValue(): parameter 'textValue' needs a type. Add: @param {string} textValue"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 274,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In indentate(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "src/xmlbuilder/json2xml.js",
+      "line": 278,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAttribute(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toXml needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 9,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toXml(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 17,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arrToStr needs types for 4 parameters: arr: object, options: object, jPath: string, indentation"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 91,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In propName(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 100,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "attr_to_str needs types for 2 parameters: attrMap: object, options: object"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 117,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isStopNode needs types for 2 parameters: jPath: string, options: object"
+    },
+    {
+      "file": "src/xmlbuilder/orderedJs2Xml.js",
+      "line": 126,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replaceEntitiesValue needs types for 2 parameters: textValue: string, options: object"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 4,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'processEntities' needs a type. Add: @param {unknown} processEntities"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readDocType needs types for 2 parameters: xmlData: object, i: number"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 77,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readEntityExp needs types for 2 parameters: xmlData: string, i"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 117,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readNotationExp needs types for 2 parameters: xmlData: string, i"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 168,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readIdentifierVal needs types for 3 parameters: xmlData: object, i, type: string"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 188,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readElementExp needs types for 2 parameters: xmlData: object, i"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 239,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readAttlistExp needs types for 2 parameters: xmlData: string, i"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 358,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipWhitespace needs types for 2 parameters: data: object, index: number"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 367,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hasSeq needs types for 3 parameters: data: object, seq: object, i"
+    },
+    {
+      "file": "src/xmlparser/DocTypeReader.js",
+      "line": 374,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateEntityName(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/xmlparser/OptionsBuilder.js",
+      "line": 20,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tagValueProcessor needs types for 2 parameters: tagName: string, val"
+    },
+    {
+      "file": "src/xmlparser/OptionsBuilder.js",
+      "line": 23,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "attributeValueProcessor needs types for 2 parameters: attrName: string, val"
+    },
+    {
+      "file": "src/xmlparser/OptionsBuilder.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateTag needs types for 3 parameters: tagName: string, jPath: string, attrs: object"
+    },
+    {
+      "file": "src/xmlparser/OptionsBuilder.js",
+      "line": 44,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "buildOptions needs JSDoc: @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/xmlparser/OptionsBuilder.js",
+      "line": 44,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 18,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 44,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "val needs types for 2 parameters: _, str: string"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 45,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "val needs types for 2 parameters: _, str: string"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 76,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addExternalEntities(): parameter 'externalEntities' needs a type. Add: @param {object} externalEntities"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 125,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolveNameSpace(): parameter 'tagname' needs a type. Add: @param {string} tagname"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 143,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildAttributesMap needs types for 2 parameters: attrStr, jPath: string"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 200,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseXml(): parameter 'xmlData' needs a type. Add: @param {string} xmlData"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 424,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addChild needs types for 4 parameters: currentNode: object, childNode: object, jPath: string, startIndex: number"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 438,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In replaceEntitiesValue(): parameter 'val' needs a type. Add: @param {string} val"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 459,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "saveTextToParentTag needs types for 4 parameters: textData, currentNode: object, jPath: string, isLeafNode: boolean"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 526,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findClosingIndex needs types for 4 parameters: xmlData: object, str: string, i, errMsg"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 535,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readTagExp needs types for 3 parameters: xmlData, i, removeNSPrefix"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 615,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseValue needs types for 3 parameters: val: string, shouldParse: boolean, options: object"
+    },
+    {
+      "file": "src/xmlparser/OrderedObjParser.js",
+      "line": 631,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromCodePoint needs types for 3 parameters: str: string, base, prefix: string"
+    },
+    {
+      "file": "src/xmlparser/XMLParser.js",
+      "line": 9,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/xmlparser/XMLParser.js",
+      "line": 19,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'validationOption' needs a type. Add: @param {unknown} validationOption"
+    },
+    {
+      "file": "src/xmlparser/node2json.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "prettify needs JSDoc: @returns {{}}"
+    },
+    {
+      "file": "src/xmlparser/node2json.js",
+      "line": 13,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prettify(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/xmlparser/node2json.js",
+      "line": 80,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In propName(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/xmlparser/node2json.js",
+      "line": 88,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "assignAttributes needs types for 4 parameters: obj: object, attrMap: object, jpath, options: object"
+    },
+    {
+      "file": "src/xmlparser/node2json.js",
+      "line": 103,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isLeafTag needs types for 2 parameters: obj: object, options: object"
+    },
+    {
+      "file": "src/xmlparser/xmlNode.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'tagname' needs a type. Add: @param {unknown} tagname"
+    },
+    {
+      "file": "src/xmlparser/xmlNode.js",
+      "line": 17,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "src/xmlparser/xmlNode.js",
+      "line": 22,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addChild needs types for 2 parameters: node: object, startIndex: number"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19351
+}

@@ -1,0 +1,494 @@
+{
+  "name": "infinite-scroll",
+  "downloadedAt": "2026-02-03T22:10:24.532Z",
+  "lintedAt": "2026-02-03T22:10:24.532Z",
+  "filesAnalyzed": 32,
+  "totalIssues": 59,
+  "errors": 0,
+  "warnings": 59,
+  "byRule": {
+    "unknown": 2,
+    "tjd/no-implicit-any": 57
+  },
+  "issues": [
+    {
+      "file": "dist/infinite-scroll.pkgd.js",
+      "line": 543,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'new-cap')."
+    },
+    {
+      "file": "js/button.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/button.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: window, InfiniteScroll: object, utils: object"
+    },
+    {
+      "file": "js/button.js",
+      "line": 25,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: element, infScroll: object"
+    },
+    {
+      "file": "js/button.js",
+      "line": 37,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onClick(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "js/core.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/core.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: window: object, EvEmitter: object, utils: object"
+    },
+    {
+      "file": "js/core.js",
+      "line": 26,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "InfiniteScroll needs types for 2 parameters: element: object, options: object"
+    },
+    {
+      "file": "js/core.js",
+      "line": 98,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In option(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "js/core.js",
+      "line": 112,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dispatchEvent needs types for 3 parameters: type: string, event: Event, args: any[]"
+    },
+    {
+      "file": "js/core.js",
+      "line": 125,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'new-cap')."
+    },
+    {
+      "file": "js/core.js",
+      "line": 134,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initialized(): parameter 'className' needs a type. Add: @param {string} className"
+    },
+    {
+      "file": "js/core.js",
+      "line": 135,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In request(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "js/core.js",
+      "line": 136,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "load needs types for 2 parameters: response: object, path: string"
+    },
+    {
+      "file": "js/core.js",
+      "line": 137,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "error needs types for 2 parameters: error: Error, path: string"
+    },
+    {
+      "file": "js/core.js",
+      "line": 138,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "append needs types for 3 parameters: response: object, path: string, items: any[]"
+    },
+    {
+      "file": "js/core.js",
+      "line": 139,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "last needs types for 2 parameters: response: object, path: string"
+    },
+    {
+      "file": "js/core.js",
+      "line": 140,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "history needs types for 2 parameters: title: string, path: string"
+    },
+    {
+      "file": "js/core.js",
+      "line": 141,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pageIndex needs types for 2 parameters: index: number, origin"
+    },
+    {
+      "file": "js/core.js",
+      "line": 147,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "log needs types for 2 parameters: type: string, args: any[]"
+    },
+    {
+      "file": "js/core.js",
+      "line": 203,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateGetPathTemplate(): parameter 'optPath' needs a type. Add: @param {string} optPath"
+    },
+    {
+      "file": "js/core.js",
+      "line": 235,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPathParts(): parameter 'href' needs a type. Add: @param {string} href"
+    },
+    {
+      "file": "js/core.js",
+      "line": 246,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateGetPathSelector(): parameter 'optPath' needs a type. Add: @param {string} optPath"
+    },
+    {
+      "file": "js/core.js",
+      "line": 323,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throttle needs types for 2 parameters: fn: Function, threshold"
+    },
+    {
+      "file": "js/core.js",
+      "line": 344,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In data(): parameter 'elem' needs a type. Add: @param {object} elem"
+    },
+    {
+      "file": "js/core.js",
+      "line": 351,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setJQuery(): parameter 'jqry' needs a type. Add: @param {unknown} jqry"
+    },
+    {
+      "file": "js/history.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/history.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: window: object, InfiniteScroll: object, utils: object"
+    },
+    {
+      "file": "js/history.js",
+      "line": 77,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bindHistoryAppendEvents(): parameter 'isBind' needs a type. Add: @param {boolean} isBind"
+    },
+    {
+      "file": "js/history.js",
+      "line": 97,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onAppendHistory needs types for 3 parameters: response: object, path: string, items: any[]"
+    },
+    {
+      "file": "js/history.js",
+      "line": 113,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getElementScrollY(): parameter 'elem' needs a type. Add: @param {object} elem"
+    },
+    {
+      "file": "js/history.js",
+      "line": 151,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setHistory needs types for 2 parameters: title: string, path: string"
+    },
+    {
+      "file": "js/history.js",
+      "line": 176,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onPageLoadHistory needs types for 2 parameters: response: object, path: string"
+    },
+    {
+      "file": "js/index.js",
+      "line": 9,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {unknown} window"
+    },
+    {
+      "file": "js/index.js",
+      "line": 23,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'InfiniteScroll' needs a type. Add: @param {unknown} InfiniteScroll"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 18,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: window: object, InfiniteScroll: object"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 63,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 76,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 85,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onPageLoad needs types for 3 parameters: body: object, path: string, response: object"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 96,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "appendNextPage needs types for 3 parameters: body: object, path: string, response: object"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 126,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "appendItems needs types for 2 parameters: items: any[], fragment"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 135,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getItemsFragment(): parameter 'items' needs a type. Add: @param {any[]} items"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 145,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In refreshScripts(): parameter 'fragment' needs a type. Add: @param {object} fragment"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 162,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "appendOutlayerItems needs types for 2 parameters: fragment, appendReady: Function"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 178,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onAppendOutlayer needs types for 3 parameters: response: object, path: string, items: any[]"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 185,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkLastPage needs types for 2 parameters: body: object, path: string"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 214,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lastPageReached needs types for 2 parameters: body: object, path: string"
+    },
+    {
+      "file": "js/page-load.js",
+      "line": 221,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onPageError needs types for 3 parameters: error: Error, path: string, response: object"
+    },
+    {
+      "file": "js/scroll-watch.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/scroll-watch.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: window: object, InfiniteScroll: object, utils: object"
+    },
+    {
+      "file": "js/scroll-watch.js",
+      "line": 62,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bindScrollWatchEvents(): parameter 'isBind' needs a type. Add: @param {boolean} isBind"
+    },
+    {
+      "file": "js/status.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/status.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: window, InfiniteScroll: object, utils: object"
+    },
+    {
+      "file": "js/status.js",
+      "line": 44,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bindHideStatus(): parameter 'bindMethod' needs a type. Add: @param {unknown} bindMethod"
+    },
+    {
+      "file": "js/status.js",
+      "line": 63,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In showStatus(): parameter 'eventName' needs a type. Add: @param {string} eventName"
+    },
+    {
+      "file": "js/status.js",
+      "line": 84,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hide(): parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "js/status.js",
+      "line": 88,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In show(): parameter 'elem' needs a type. Add: @param {unknown} elem"
+    },
+    {
+      "file": "js/status.js",
+      "line": 92,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setDisplay needs types for 2 parameters: elem: object, value"
+    }
+  ],
+  "typesPackage": "@types/infinite-scroll",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.0.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 25482
+}

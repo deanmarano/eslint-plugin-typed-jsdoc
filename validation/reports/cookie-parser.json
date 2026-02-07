@@ -1,0 +1,29 @@
+{
+  "name": "cookie-parser",
+  "downloadedAt": "2026-02-03T21:59:27.777Z",
+  "lintedAt": "2026-02-03T21:59:27.777Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 1,
+  "errors": 0,
+  "warnings": 1,
+  "byRule": {
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 44,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    }
+  ],
+  "typesPackage": "@types/cookie-parser",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.4.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22004
+}

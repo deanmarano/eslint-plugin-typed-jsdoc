@@ -1,0 +1,53 @@
+{
+  "name": "serve-static",
+  "downloadedAt": "2026-02-03T21:57:54.551Z",
+  "lintedAt": "2026-02-03T21:57:54.551Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "tjd/no-implicit-any": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 71,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 114,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 132,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In collapseLeadingSlashes(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "index.js",
+      "line": 182,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    }
+  ],
+  "typesPackage": "@types/serve-static",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.2.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19681
+}

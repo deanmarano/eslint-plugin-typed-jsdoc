@@ -1,0 +1,81 @@
+{
+  "name": "pretty-bytes",
+  "downloadedAt": "2026-02-03T22:04:05.614Z",
+  "lintedAt": "2026-02-03T22:04:05.614Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 8,
+  "errors": 0,
+  "warnings": 8,
+  "byRule": {
+    "tjd/no-implicit-any": 7,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 55,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toLocaleString needs types for 3 parameters: number: number, locale, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 66,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log10(): parameter 'numberOrBigInt' needs a type. Add: @param {object} numberOrBigInt"
+    },
+    {
+      "file": "index.js",
+      "line": 76,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'numberOrBigInt' needs a type. Add: @param {unknown} numberOrBigInt"
+    },
+    {
+      "file": "index.js",
+      "line": 84,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "divide needs types for 2 parameters: numberOrBigInt: number, divisor: number"
+    },
+    {
+      "file": "index.js",
+      "line": 94,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyFixedWidth needs types for 2 parameters: result: string, fixedWidth"
+    },
+    {
+      "file": "index.js",
+      "line": 110,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildLocaleOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "index.js",
+      "line": 124,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "prettyBytes needs types for 2 parameters: number: number, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 124,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "prettyBytes needs JSDoc: @param {any} number, @param {any} options, @returns {any}"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19398
+}

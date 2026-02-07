@@ -1,0 +1,18 @@
+{
+  "name": "glob",
+  "downloadedAt": "2026-02-03T22:01:06.318Z",
+  "lintedAt": "2026-02-03T22:01:06.318Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/glob",
+  "typesComparison": {
+    "definitelyTypedVersion": "9.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 23719
+}

@@ -1,0 +1,247 @@
+{
+  "name": "iconv-lite",
+  "downloadedAt": "2026-02-03T21:58:27.864Z",
+  "lintedAt": "2026-02-03T21:58:27.864Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 28,
+  "errors": 0,
+  "warnings": 28,
+  "byRule": {
+    "tjd/no-implicit-any": 26,
+    "unknown": 1,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "lib/bom-handling.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "PrependBOMWrapper needs types for 2 parameters: encoder, options: object"
+    },
+    {
+      "file": "lib/bom-handling.js",
+      "line": 11,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/bom-handling.js",
+      "line": 27,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "StripBOMWrapper needs types for 2 parameters: decoder, options: object"
+    },
+    {
+      "file": "lib/bom-handling.js",
+      "line": 33,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'buf' needs a type. Add: @param {unknown} buf"
+    },
+    {
+      "file": "lib/helpers/merge-exports.js",
+      "line": 5,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeModules needs types for 2 parameters: target: object, module: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 18,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encode needs types for 3 parameters: str: string, encoding: string, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 29,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "decode needs types for 3 parameters: buf, encoding: string, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 47,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In encodingExists(): parameter 'enc' needs a type. Add: @param {unknown} enc"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 63,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCodec(): parameter 'encoding' needs a type. Add: @param {string} encoding"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 113,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _canonicalizeEncoding(): parameter 'encoding' needs a type. Add: @param {string} encoding"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 118,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getEncoder needs types for 2 parameters: encoding: string, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 127,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDecoder needs types for 2 parameters: encoding: string, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 141,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In enableStreamingAPI(): parameter 'streamModule' needs a type. Add: @param {unknown} streamModule"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 152,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encodeStream needs types for 2 parameters: encoding: string, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 156,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "decodeStream needs types for 2 parameters: encoding: string, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 179,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constant-condition')."
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} streamModule, @returns {{ IconvLiteEncoderStream: typeof IconvLiteEncoderStream; IconvLiteDecoderStream: typeof IconvLiteDecoderStream; }}"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 7,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'streamModule' needs a type. Add: @param {object} streamModule"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 12,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "IconvLiteEncoderStream needs types for 2 parameters: conv, options: object"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 23,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: chunk, encoding: string, done: Function"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 37,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _flush(): parameter 'done' needs a type. Add: @param {Function} done"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 47,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In collect(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 50,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 59,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "IconvLiteDecoderStream needs types for 2 parameters: conv, options: object"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 70,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: chunk, encoding: string, done: Function"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 81,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _flush(): parameter 'done' needs a type. Add: @param {Function} done"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 91,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In collect(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/streams.js",
+      "line": 94,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    }
+  ],
+  "typesPackage": "@types/iconv-lite",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.0.1",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 28268
+}

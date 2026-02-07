@@ -1,0 +1,231 @@
+{
+  "name": "pug",
+  "downloadedAt": "2026-02-03T21:59:01.152Z",
+  "lintedAt": "2026-02-03T21:59:01.152Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 26,
+  "errors": 1,
+  "warnings": 25,
+  "byRule": {
+    "tjd/no-implicit-any": 17,
+    "tjd/accurate-jsdoc": 1,
+    "tjd/require-jsdoc-types": 8
+  },
+  "issues": [
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 43,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyPlugins needs types for 4 parameters: value, options: object, plugins: any[], name: string"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 44,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, plugin: object"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 49,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findReplacementFunc needs types for 2 parameters: plugins: any[], name: string"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 50,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'plugin' needs a type. Add: @param {object} plugin"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 85,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lex needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 91,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'plugin' needs a type. Add: @param {object} plugin"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 94,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'plugin' needs a type. Add: @param {object} plugin"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 110,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 2 parameters: tokens: any[], options: object"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 111,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 128,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'plugin' needs a type. Add: @param {object} plugin"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 131,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'plugin' needs a type. Add: @param {object} plugin"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 147,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resolve needs types for 3 parameters: filename, source, loadOptions: object"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 155,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "read needs types for 2 parameters: filename, loadOptions: object"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 236,
+      "column": 39,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'str': String= → string. JSDoc declares unknown but TypeScript infers primitive."
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 264,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compile needs JSDoc: @param {string} str, @param {Options} options, @returns {Function}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 313,
+      "column": 48,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileClientWithDependenciesTracked needs JSDoc: @param {string} str, @param {Options} options, @returns {any}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 362,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileClient needs JSDoc: @param {string} str, @param {Options} options, @returns {string}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 380,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileFile needs JSDoc: @param {string} path, @param {Options} options, @returns {Function}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 401,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {string} str, @param {any} options, @param {Function} fn, @returns {string}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 401,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 436,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderFile needs JSDoc: @param {string} path, @param {any} options, @param {Function} fn, @returns {string}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 436,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderFile(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 466,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileFileClient needs JSDoc: @param {string} path, @param {any} options, @returns {string}"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 466,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In compileFileClient(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 486,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "__express needs types for 3 parameters: path: string, options: object, fn: Function"
+    },
+    {
+      "file": "packages/pug/lib/index.js",
+      "line": 486,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "__express needs JSDoc: @param {any} path, @param {any} options, @param {any} fn"
+    }
+  ],
+  "typesPackage": "@types/pug",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.10",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 30072
+}

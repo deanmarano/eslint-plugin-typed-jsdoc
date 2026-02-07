@@ -1,0 +1,105 @@
+{
+  "name": "ansi-styles",
+  "downloadedAt": "2026-02-03T22:04:25.835Z",
+  "lintedAt": "2026-02-03T22:04:25.835Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 11,
+  "errors": 0,
+  "warnings": 11,
+  "byRule": {
+    "tjd/no-implicit-any": 9,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {unknown} code"
+    },
+    {
+      "file": "index.js",
+      "line": 5,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {unknown} code"
+    },
+    {
+      "file": "index.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: red, green, blue"
+    },
+    {
+      "file": "index.js",
+      "line": 112,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "value needs types for 3 parameters: red: number, green: number, blue: number"
+    },
+    {
+      "file": "index.js",
+      "line": 135,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'hex' needs a type. Add: @param {object} hex"
+    },
+    {
+      "file": "index.js",
+      "line": 150,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-bitwise')."
+    },
+    {
+      "file": "index.js",
+      "line": 160,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'hex' needs a type. Add: @param {unknown} hex"
+    },
+    {
+      "file": "index.js",
+      "line": 164,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'code' needs a type. Add: @param {number} code"
+    },
+    {
+      "file": "index.js",
+      "line": 197,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-bitwise')."
+    },
+    {
+      "file": "index.js",
+      "line": 209,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "value needs types for 3 parameters: red, green, blue"
+    },
+    {
+      "file": "index.js",
+      "line": 213,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'hex' needs a type. Add: @param {unknown} hex"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 18733
+}

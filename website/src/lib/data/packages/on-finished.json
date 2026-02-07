@@ -1,0 +1,86 @@
+{
+  "name": "on-finished",
+  "downloadedAt": "2026-02-03T21:57:54.551Z",
+  "lintedAt": "2026-02-03T21:57:54.551Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 8,
+  "errors": 1,
+  "warnings": 7,
+  "byRule": {
+    "tjd/no-implicit-any": 7,
+    "node/no-deprecated-api": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 34,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "index.js",
+      "line": 97,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onFinish(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "index.js",
+      "line": 108,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onSocket(): parameter 'socket' needs a type. Add: @param {unknown} socket"
+    },
+    {
+      "file": "index.js",
+      "line": 142,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In attachListener(): parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "index.js",
+      "line": 163,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In listener(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 195,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assignSocket(): parameter 'socket' needs a type. Add: @param {unknown} socket"
+    },
+    {
+      "file": "index.js",
+      "line": 220,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrap(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "test/test.js",
+      "line": 1142,
+      "column": 46,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    }
+  ],
+  "typesPackage": "@types/on-finished",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.3.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19170
+}

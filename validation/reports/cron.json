@@ -1,0 +1,18 @@
+{
+  "name": "cron",
+  "downloadedAt": "2026-02-03T22:02:54.450Z",
+  "lintedAt": "2026-02-03T22:02:54.450Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/cron",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.4.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20381
+}

@@ -1,0 +1,17 @@
+{
+  "name": "mime",
+  "downloadedAt": "2026-01-30T19:08:34.453Z",
+  "lintedAt": "2026-01-30T19:08:34.453Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/mime",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  }
+}

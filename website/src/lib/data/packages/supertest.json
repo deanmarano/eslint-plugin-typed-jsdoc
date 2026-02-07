@@ -1,0 +1,536 @@
+{
+  "name": "supertest",
+  "downloadedAt": "2026-02-03T22:00:08.067Z",
+  "lintedAt": "2026-02-03T22:00:08.067Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 64,
+  "errors": 2,
+  "warnings": 62,
+  "byRule": {
+    "unknown": 23,
+    "tjd/no-implicit-any": 38,
+    "tjd/require-jsdoc-types": 1,
+    "tjd/accurate-jsdoc": 2
+  },
+  "issues": [
+    {
+      "file": "lib/agent.js",
+      "line": 12,
+      "column": 29,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'global-require')."
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 14,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-empty')."
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 41,
+      "column": 38,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 43,
+      "column": 37,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 59,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In host(): parameter 'host' needs a type. Add: @param {unknown} host"
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 65,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'method' needs a type. Add: @param {string} method"
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 71,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "method needs types for 2 parameters: url: string, fn: Function"
+    },
+    {
+      "file": "lib/agent.js",
+      "line": 71,
+      "column": 53,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 15,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 42,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 107,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {string | string[]} secret, @param {Function | Function[]} asserts, @returns {Assertion}"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 110,
+      "column": 54,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 111,
+      "column": 49,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 123,
+      "column": 3,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: undefined|string → string. JSDoc declares union but TypeScript infers primitive."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 150,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 157,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'assertion' needs a type. Add: @param {Function} assertion"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 175,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 196,
+      "column": 52,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 252,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In expects(): parameter 'expects' needs a type. Add: @param {any[]} expects"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 253,
+      "column": 86,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 265,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expect' needs a type. Add: @param {object} expect"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 282,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'expects' needs a type. Add: @param {unknown} expects"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 283,
+      "column": 55,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 285,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expect' needs a type. Add: @param {object} expect"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 286,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 307,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reset(): parameter 'expects' needs a type. Add: @param {unknown} expects"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 308,
+      "column": 55,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 310,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expect' needs a type. Add: @param {object} expect"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 311,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 335,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In new(): parameter 'expects' needs a type. Add: @param {unknown} expects"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 336,
+      "column": 55,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 338,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expect' needs a type. Add: @param {object} expect"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 339,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 366,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renew(): parameter 'expects' needs a type. Add: @param {unknown} expects"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 367,
+      "column": 55,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 369,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expect' needs a type. Add: @param {object} expect"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 378,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 431,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In contain(): parameter 'expects' needs a type. Add: @param {unknown} expects"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 432,
+      "column": 55,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 434,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'expect' needs a type. Add: @param {object} expect"
+    },
+    {
+      "file": "lib/cookies/assertion.js",
+      "line": 437,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/cookies/index.js",
+      "line": 15,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'secret': null|string|string[] → string | string[]. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 15,
+      "column": 29,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'global-require')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 17,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-empty')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 32,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'optHttp2' needs a type. Add: @param {unknown} optHttp2"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 37,
+      "column": 40,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 39,
+      "column": 39,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-param-reassign')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 89,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "expect needs types for 3 parameters: a: any[], b, c"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 109,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 136,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, res: object"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 170,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assert(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 215,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bearer(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 227,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bearer(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 239,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'class-methods-use-this')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 240,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _assertBody(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 275,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'class-methods-use-this')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 276,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_assertHeader needs types for 2 parameters: header: object, res: object"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 304,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'class-methods-use-this')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 305,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _assertStatus(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 320,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'class-methods-use-this')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 321,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _assertStatusArray(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 338,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'class-methods-use-this')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 339,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _assertFunction(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 361,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    }
+  ],
+  "typesPackage": "@types/supertest",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 34456
+}

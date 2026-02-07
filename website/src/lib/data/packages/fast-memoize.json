@@ -1,0 +1,104 @@
+{
+  "name": "fast-memoize",
+  "downloadedAt": "2026-02-03T22:05:47.722Z",
+  "lintedAt": "2026-02-03T22:05:47.722Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 11,
+  "errors": 0,
+  "warnings": 11,
+  "byRule": {
+    "tjd/no-implicit-any": 11
+  },
+  "issues": [
+    {
+      "file": "src/index.js",
+      "line": 5,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "memoize needs types for 2 parameters: fn: Function, options: object"
+    },
+    {
+      "file": "src/index.js",
+      "line": 28,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPrimitive(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/index.js",
+      "line": 32,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "monadic needs types for 4 parameters: fn: Function, cache: object, serializer: Function, arg"
+    },
+    {
+      "file": "src/index.js",
+      "line": 44,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "variadic needs types for 3 parameters: fn: Function, cache: object, serializer: Function"
+    },
+    {
+      "file": "src/index.js",
+      "line": 57,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "assemble needs types for 5 parameters: fn: Function, context: object, strategy: object, cache, serialize"
+    },
+    {
+      "file": "src/index.js",
+      "line": 66,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "strategyDefault needs types for 2 parameters: fn: Function, options: object"
+    },
+    {
+      "file": "src/index.js",
+      "line": 78,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "strategyVariadic needs types for 2 parameters: fn: Function, options: object"
+    },
+    {
+      "file": "src/index.js",
+      "line": 90,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "strategyMonadic needs types for 2 parameters: fn: Function, options: object"
+    },
+    {
+      "file": "src/index.js",
+      "line": 118,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In has(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/index.js",
+      "line": 122,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/index.js",
+      "line": 126,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: key: string, value"
+    }
+  ],
+  "typesPackage": "@types/fast-memoize",
+  "duration": 18990
+}

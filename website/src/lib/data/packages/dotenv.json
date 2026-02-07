@@ -1,0 +1,174 @@
+{
+  "name": "dotenv",
+  "downloadedAt": "2026-02-03T21:57:29.203Z",
+  "lintedAt": "2026-02-03T21:57:29.203Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 19,
+  "errors": 0,
+  "warnings": 19,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 18
+  },
+  "issues": [
+    {
+      "file": "lib/cli-options.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} args, @returns {any}"
+    },
+    {
+      "file": "lib/cli-options.js",
+      "line": 3,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/cli-options.js",
+      "line": 4,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc, cur: string"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 34,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseBoolean(): parameter 'value' needs a type. Add: @param {string} value"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 45,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dim(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 52,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'src' needs a type. Add: @param {string} src"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 90,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _parseVault(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 133,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _warn(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 137,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _debug(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 141,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _log(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 145,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _dotenvKey(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 160,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_instructions needs types for 2 parameters: result: object, dotenvKey"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 203,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _vaultPath(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 227,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _resolveHome(): parameter 'envPath' needs a type. Add: @param {string} envPath"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 231,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _configVault(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 251,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configDotenv(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 331,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In config(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 349,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "decrypt needs types for 2 parameters: encrypted, keyStr: object"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 381,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "populate needs types for 2 parameters: processEnv: object, parsed: object"
+    }
+  ],
+  "typesPackage": "@types/dotenv",
+  "typesComparison": {
+    "definitelyTypedVersion": "8.2.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22560
+}

@@ -1,0 +1,221 @@
+{
+  "name": "multer",
+  "downloadedAt": "2026-02-03T21:59:27.777Z",
+  "lintedAt": "2026-02-03T21:59:27.777Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 25,
+  "errors": 0,
+  "warnings": 25,
+  "byRule": {
+    "tjd/no-implicit-any": 25
+  },
+  "issues": [
+    {
+      "file": "lib/counter.js",
+      "line": 22,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onceZero(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/file-appender.js",
+      "line": 1,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arrayRemove needs types for 2 parameters: arr: object, item"
+    },
+    {
+      "file": "lib/file-appender.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "FileAppender needs types for 2 parameters: strategy, req: object"
+    },
+    {
+      "file": "lib/file-appender.js",
+      "line": 19,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In insertPlaceholder(): parameter 'file' needs a type. Add: @param {object} file"
+    },
+    {
+      "file": "lib/file-appender.js",
+      "line": 40,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removePlaceholder(): parameter 'placeholder' needs a type. Add: @param {object} placeholder"
+    },
+    {
+      "file": "lib/file-appender.js",
+      "line": 55,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replacePlaceholder needs types for 2 parameters: placeholder: object, file"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 10,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In drainStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 16,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeMiddleware(): parameter 'setup' needs a type. Add: @param {Function} setup"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 17,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 30,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 49,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In done(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 65,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In abortWithError(): parameter 'uploadError' needs a type. Add: @param {object} uploadError"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 70,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "remove needs types for 2 parameters: file, cb: Function"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 74,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, storageErrors"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 83,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "abortWithCode needs types for 2 parameters: code, optionalField"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 88,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: fieldname: object, value"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 102,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: fieldname: object, fileStream: object"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 105,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 131,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, includeFile"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 157,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, info: any[] | object"
+    },
+    {
+      "file": "lib/make-middleware.js",
+      "line": 180,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/multer-error.js",
+      "line": 14,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "MulterError needs types for 2 parameters: code, field"
+    },
+    {
+      "file": "lib/remove-uploaded-files.js",
+      "line": 1,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeUploadedFiles needs types for 3 parameters: uploadedFiles: object, remove: Function, cb: Function"
+    },
+    {
+      "file": "lib/remove-uploaded-files.js",
+      "line": 7,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleFile(): parameter 'idx' needs a type. Add: @param {number} idx"
+    },
+    {
+      "file": "lib/remove-uploaded-files.js",
+      "line": 10,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    }
+  ],
+  "typesPackage": "@types/multer",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21113
+}

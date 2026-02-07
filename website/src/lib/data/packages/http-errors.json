@@ -1,0 +1,151 @@
+{
+  "name": "http-errors",
+  "downloadedAt": "2026-02-03T22:03:19.679Z",
+  "lintedAt": "2026-02-03T22:03:19.679Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 16,
+  "errors": 5,
+  "warnings": 11,
+  "byRule": {
+    "tjd/no-implicit-any": 10,
+    "node/no-deprecated-api": 5,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 38,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In codeClass(): parameter 'status' needs a type. Add: @param {unknown} status"
+    },
+    {
+      "file": "index.js",
+      "line": 127,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createClientErrorConstructor needs types for 3 parameters: HttpError, name: string, code"
+    },
+    {
+      "file": "index.js",
+      "line": 130,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ClientError(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "index.js",
+      "line": 175,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createIsHttpErrorFunction(): parameter 'HttpError' needs a type. Add: @param {unknown} HttpError"
+    },
+    {
+      "file": "index.js",
+      "line": 176,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 196,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createServerErrorConstructor needs types for 3 parameters: HttpError, name: string, code"
+    },
+    {
+      "file": "index.js",
+      "line": 199,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ServerError(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "index.js",
+      "line": 244,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nameFunc needs types for 2 parameters: func: Function, name: string"
+    },
+    {
+      "file": "index.js",
+      "line": 258,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "populateConstructorExports needs types for 3 parameters: exports: object, codes: any[], HttpError"
+    },
+    {
+      "file": "index.js",
+      "line": 259,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {unknown} code"
+    },
+    {
+      "file": "test/test.js",
+      "line": 11,
+      "column": 3,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    },
+    {
+      "file": "test/test.js",
+      "line": 13,
+      "column": 5,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    },
+    {
+      "file": "test/test.js",
+      "line": 24,
+      "column": 1,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    },
+    {
+      "file": "test/test.js",
+      "line": 381,
+      "column": 35,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new')."
+    },
+    {
+      "file": "test/test.js",
+      "line": 443,
+      "column": 5,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    },
+    {
+      "file": "test/test.js",
+      "line": 447,
+      "column": 5,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    }
+  ],
+  "typesPackage": "@types/http-errors",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22228
+}

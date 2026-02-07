@@ -1,0 +1,2021 @@
+{
+  "name": "mysql",
+  "downloadedAt": "2026-02-03T22:00:39.002Z",
+  "lintedAt": "2026-02-03T22:00:39.002Z",
+  "filesAnalyzed": 56,
+  "totalIssues": 250,
+  "errors": 0,
+  "warnings": 250,
+  "byRule": {
+    "tjd/no-implicit-any": 250
+  },
+  "issues": [
+    {
+      "file": "lib/Connection.js",
+      "line": 13,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Connection(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 25,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createQuery needs types for 3 parameters: sql, values, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 64,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "connect needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 84,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 87,
+      "column": 64,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 119,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "changeUser needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 141,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "beginTransaction needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 154,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "commit needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 167,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rollback needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 180,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "query needs types for 3 parameters: sql, values, cb: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 201,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ping needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 211,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "statistics needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 221,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "end needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 259,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escape(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 263,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeId(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 267,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 2 parameters: sql, values"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 276,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _startTLS(): parameter 'onSecure' needs a type. Add: @param {Function} onSecure"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 279,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, secureContext"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 300,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 310,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 326,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _startTLS(): parameter 'onSecure' needs a type. Add: @param {Function} onSecure"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 346,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 360,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 366,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 417,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleNetworkError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 421,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleProtocolError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 439,
+      "column": 85,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleProtocolInitialize(): parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 443,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleProtocolEnd(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 448,
+      "column": 79,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleProtocolEnqueue(): parameter 'sequence' needs a type. Add: @param {unknown} sequence"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 458,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createSecureContext needs types for 2 parameters: config: object, cb: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 479,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unwrapFromDomain(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 501,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrapCallbackInDomain needs types for 2 parameters: ee, fn: Function"
+    },
+    {
+      "file": "lib/Connection.js",
+      "line": 521,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrapToDomain needs types for 2 parameters: ee: object, fn: Function"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 7,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ConnectionConfig(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 66,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeFlags needs types for 2 parameters: defaultFlags, userFlags"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 89,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCharsetNumber(): parameter 'charset' needs a type. Add: @param {string} charset"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 99,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getDefaultFlags(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 133,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSSLProfile(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 147,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFlagList(): parameter 'flagList' needs a type. Add: @param {unknown} flagList"
+    },
+    {
+      "file": "lib/ConnectionConfig.js",
+      "line": 179,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseUrl(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 10,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Pool(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 22,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getConnection(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 48,
+      "column": 82,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 81,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "acquireConnection needs types for 2 parameters: connection: object, cb: Function"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 91,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onOperationComplete(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 123,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In releaseConnection(): parameter 'connection' needs a type. Add: @param {object} connection"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 148,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 161,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 165,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 173,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onEnd(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 190,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "query needs types for 3 parameters: sql, values, cb: Function"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 202,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, conn: object"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 220,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _enqueueCallback(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 240,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _needsChangeUser(): parameter 'connection' needs a type. Add: @param {object} connection"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 251,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_purgeConnection needs types for 2 parameters: connection: object, callback: Function"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 268,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeConnection(): parameter 'connection' needs a type. Add: @param {object} connection"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 280,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escape(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 284,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeId(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/Pool.js",
+      "line": 288,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "spliceConnection needs types for 2 parameters: array: any[], connection"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 34,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: id: string, config: object"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 61,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 81,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onEnd(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 101,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "of needs types for 2 parameters: pattern: string, selector: string"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 119,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'pattern' needs a type. Add: @param {string} pattern"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 131,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getConnection needs types for 3 parameters: pattern: string, selector, cb: Function"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 152,
+      "column": 74,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _decreaseErrorCount(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 171,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_findNodeIds needs types for 2 parameters: pattern: string, includeOffline"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 190,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'nodeId' needs a type. Add: @param {string} nodeId"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 205,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getNode(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 209,
+      "column": 74,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _increaseErrorCount(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 226,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getConnection needs types for 2 parameters: node: object, cb: Function"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 229,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, connection: object"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 244,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeNode(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 265,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRegExp(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 270,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In patternRegExp(): parameter 'pattern' needs a type. Add: @param {string} pattern"
+    },
+    {
+      "file": "lib/PoolCluster.js",
+      "line": 282,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _cb(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/PoolConfig.js",
+      "line": 5,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In PoolConfig(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/PoolConnection.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "PoolConnection needs types for 2 parameters: pool: object, options: object"
+    },
+    {
+      "file": "lib/PoolConnection.js",
+      "line": 21,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/PoolNamespace.js",
+      "line": 20,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getConnection(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/PoolNamespace.js",
+      "line": 40,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, connection"
+    },
+    {
+      "file": "lib/PoolNamespace.js",
+      "line": 58,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "query needs types for 3 parameters: sql, values, cb: Function"
+    },
+    {
+      "file": "lib/PoolNamespace.js",
+      "line": 91,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, conn: object"
+    },
+    {
+      "file": "lib/PoolSelector.js",
+      "line": 10,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterIds' needs a type. Add: @param {object} clusterIds"
+    },
+    {
+      "file": "lib/PoolSelector.js",
+      "line": 22,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterIds' needs a type. Add: @param {object} clusterIds"
+    },
+    {
+      "file": "lib/PoolSelector.js",
+      "line": 28,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterIds' needs a type. Add: @param {unknown} clusterIds"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 5,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "auth needs types for 3 parameters: name: string, data: object, options: object"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 17,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sha1(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 24,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "xor needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 35,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "token needs types for 2 parameters: password, scramble: object"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 49,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hashPassword(): parameter 'password' needs a type. Add: @param {object} password"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 84,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "randomInit needs types for 2 parameters: seed1: number, seed2: number"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 93,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In myRnd(): parameter 'r' needs a type. Add: @param {object} r"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 100,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scramble323 needs types for 2 parameters: message: string, password"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 124,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "xor32 needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 128,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add32 needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 135,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mul32 needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 144,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "and32 needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 148,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shl32 needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 156,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "int31Write needs types for 3 parameters: buffer: object, number: number, offset: number"
+    },
+    {
+      "file": "lib/protocol/Auth.js",
+      "line": 163,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "int32Read needs types for 2 parameters: buffer: object, offset: number"
+    },
+    {
+      "file": "lib/protocol/BufferList.js",
+      "line": 18,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'buf' needs a type. Add: @param {object} buf"
+    },
+    {
+      "file": "lib/protocol/PacketHeader.js",
+      "line": 2,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "PacketHeader needs types for 2 parameters: length: number, number: number"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 16,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toBuffer(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 49,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeUnsignedNumber needs types for 2 parameters: bytes, value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 57,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeFiller(): parameter 'bytes' needs a type. Add: @param {unknown} bytes"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 65,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeNullTerminatedString needs types for 2 parameters: value, encoding: string"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 79,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeString(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 92,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeBuffer(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 100,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeLengthCodedNumber(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 161,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeLengthCodedBuffer(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 167,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeNullTerminatedBuffer(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 172,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeLengthCodedString(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/protocol/PacketWriter.js",
+      "line": 194,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _allocate(): parameter 'bytes' needs a type. Add: @param {unknown} bytes"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 11,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Parser(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 22,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 29,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 47,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In append(): parameter 'chunk' needs a type. Add: @param {object} chunk"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 118,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In peak(): parameter 'offset' needs a type. Add: @param {number} offset"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 122,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseUnsignedNumber(): parameter 'bytes' needs a type. Add: @param {number} bytes"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 223,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFiller(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 270,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseBuffer(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 278,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseString(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 367,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _combineNextBuffers(): parameter 'bytes' needs a type. Add: @param {number} bytes"
+    },
+    {
+      "file": "lib/protocol/Parser.js",
+      "line": 419,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _parsePacket(): parameter 'packetHeader' needs a type. Add: @param {object} packetHeader"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 10,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Protocol(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 37,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'buffer' needs a type. Add: @param {unknown} buffer"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 42,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handshake needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 58,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "query needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 62,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "changeUser needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 66,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ping needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 75,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stats needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 84,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "quit needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 137,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _enqueue(): parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 152,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 155,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 172,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 207,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _validateEnqueue(): parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 231,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 294,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _parsePacketDebug(): parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 302,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _emitPacket(): parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 312,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _determinePacket(): parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 331,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _dequeue(): parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 352,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _startSequence(): parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 364,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleNetworkError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 375,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleParserError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 384,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_delegateError needs types for 2 parameters: err: Error, sequence: object"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 403,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 416,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_shouldErrorBubbleUp needs types for 2 parameters: err: Error, sequence: object"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 429,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "lib/protocol/Protocol.js",
+      "line": 445,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_debugPacket needs types for 2 parameters: incoming, packet: object"
+    },
+    {
+      "file": "lib/protocol/ResultSet.js",
+      "line": 2,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ResultSet(): parameter 'resultSetHeaderPacket' needs a type. Add: @param {unknown} resultSetHeaderPacket"
+    },
+    {
+      "file": "lib/protocol/Timer.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Timer(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/protocol/Timer.js",
+      "line": 19,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In start(): parameter 'msecs' needs a type. Add: @param {unknown} msecs"
+    },
+    {
+      "file": "lib/protocol/packets/AuthSwitchRequestPacket.js",
+      "line": 2,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AuthSwitchRequestPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/AuthSwitchRequestPacket.js",
+      "line": 10,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/AuthSwitchRequestPacket.js",
+      "line": 16,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/AuthSwitchResponsePacket.js",
+      "line": 2,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AuthSwitchResponsePacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/AuthSwitchResponsePacket.js",
+      "line": 8,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/AuthSwitchResponsePacket.js",
+      "line": 12,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ClientAuthenticationPacket.js",
+      "line": 4,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ClientAuthenticationPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/ClientAuthenticationPacket.js",
+      "line": 17,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ClientAuthenticationPacket.js",
+      "line": 35,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ComChangeUserPacket.js",
+      "line": 2,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ComChangeUserPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/ComChangeUserPacket.js",
+      "line": 12,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ComChangeUserPacket.js",
+      "line": 20,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ComPingPacket.js",
+      "line": 6,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ComPingPacket.js",
+      "line": 10,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ComQueryPacket.js",
+      "line": 2,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ComQueryPacket(): parameter 'sql' needs a type. Add: @param {unknown} sql"
+    },
+    {
+      "file": "lib/protocol/packets/ComQueryPacket.js",
+      "line": 7,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ComQueryPacket.js",
+      "line": 12,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ComQuitPacket.js",
+      "line": 6,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ComQuitPacket.js",
+      "line": 10,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ComStatisticsPacket.js",
+      "line": 6,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ComStatisticsPacket.js",
+      "line": 10,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/EofPacket.js",
+      "line": 2,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In EofPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/EofPacket.js",
+      "line": 11,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/EofPacket.js",
+      "line": 19,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ErrorPacket.js",
+      "line": 2,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ErrorPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/ErrorPacket.js",
+      "line": 12,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ErrorPacket.js",
+      "line": 25,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/Field.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Field(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/FieldPacket.js",
+      "line": 2,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In FieldPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/FieldPacket.js",
+      "line": 21,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/FieldPacket.js",
+      "line": 65,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/HandshakeInitializationPacket.js",
+      "line": 5,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In HandshakeInitializationPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/HandshakeInitializationPacket.js",
+      "line": 30,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/HandshakeInitializationPacket.js",
+      "line": 70,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/LocalDataFilePacket.js",
+      "line": 13,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/LocalInfileRequestPacket.js",
+      "line": 2,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LocalInfileRequestPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/LocalInfileRequestPacket.js",
+      "line": 8,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/LocalInfileRequestPacket.js",
+      "line": 18,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/OkPacket.js",
+      "line": 6,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In OkPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/OkPacket.js",
+      "line": 18,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/OkPacket.js",
+      "line": 35,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/OldPasswordPacket.js",
+      "line": 2,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In OldPasswordPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/OldPasswordPacket.js",
+      "line": 8,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/OldPasswordPacket.js",
+      "line": 12,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/ResultSetHeaderPacket.js",
+      "line": 2,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ResultSetHeaderPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/ResultSetHeaderPacket.js",
+      "line": 8,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/ResultSetHeaderPacket.js",
+      "line": 12,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/RowDataPacket.js",
+      "line": 22,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 5 parameters: parser: object, fieldPackets: object, typeCast: object, nestTables: object, connection: object"
+    },
+    {
+      "file": "lib/protocol/packets/RowDataPacket.js",
+      "line": 53,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "typeCast needs types for 6 parameters: field: object, parser: object, timeZone, supportBigNumbers, bigNumberStrings, dateStrings"
+    },
+    {
+      "file": "lib/protocol/packets/RowDataPacket.js",
+      "line": 124,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "typeMatch needs types for 2 parameters: type: string, list: any[]"
+    },
+    {
+      "file": "lib/protocol/packets/SSLRequestPacket.js",
+      "line": 8,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In SSLRequestPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/SSLRequestPacket.js",
+      "line": 15,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/SSLRequestPacket.js",
+      "line": 22,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/StatisticsPacket.js",
+      "line": 6,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/StatisticsPacket.js",
+      "line": 18,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/packets/UseOldPasswordPacket.js",
+      "line": 2,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In UseOldPasswordPacket(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/packets/UseOldPasswordPacket.js",
+      "line": 8,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'parser' needs a type. Add: @param {object} parser"
+    },
+    {
+      "file": "lib/protocol/packets/UseOldPasswordPacket.js",
+      "line": 12,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'writer' needs a type. Add: @param {object} writer"
+    },
+    {
+      "file": "lib/protocol/sequences/ChangeUser.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ChangeUser needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/ChangeUser.js",
+      "line": 18,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In determinePacket(): parameter 'firstByte' needs a type. Add: @param {unknown} firstByte"
+    },
+    {
+      "file": "lib/protocol/sequences/ChangeUser.js",
+      "line": 26,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In start(): parameter 'handshakeInitializationPacket' needs a type. Add: @param {object} handshakeInitializationPacket"
+    },
+    {
+      "file": "lib/protocol/sequences/ChangeUser.js",
+      "line": 45,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/ChangeUser.js",
+      "line": 63,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Handshake.js",
+      "line": 9,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Handshake needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/Handshake.js",
+      "line": 18,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "determinePacket needs types for 2 parameters: firstByte, parser: object"
+    },
+    {
+      "file": "lib/protocol/sequences/Handshake.js",
+      "line": 36,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Handshake.js",
+      "line": 54,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Handshake.js",
+      "line": 122,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Ping.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Ping needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 12,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Query needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 33,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "determinePacket needs types for 2 parameters: byte, parser: object"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 62,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 78,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 95,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 107,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 111,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 115,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 136,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _handleFinalResultPacket(): parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 152,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: packet: object, parser, connection"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 162,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _sendLocalDataFile(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 192,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 210,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: row, i"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 215,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/sequences/Query.js",
+      "line": 223,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: fields, i"
+    },
+    {
+      "file": "lib/protocol/sequences/Quit.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Quit needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/Quit.js",
+      "line": 18,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 15,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Sequence needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 32,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In determinePacket(): parameter 'byte' needs a type. Add: @param {unknown} byte"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 45,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _packetToError(): parameter 'packet' needs a type. Add: @param {object} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 57,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 91,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 95,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Sequence.js",
+      "line": 102,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addLongStackTrace(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/protocol/sequences/Statistics.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Statistics needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/protocol/sequences/Statistics.js",
+      "line": 20,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'packet' needs a type. Add: @param {unknown} packet"
+    },
+    {
+      "file": "lib/protocol/sequences/Statistics.js",
+      "line": 24,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In determinePacket(): parameter 'firstByte' needs a type. Add: @param {unknown} firstByte"
+    }
+  ],
+  "typesPackage": "@types/mysql",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.15.27",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 25872
+}

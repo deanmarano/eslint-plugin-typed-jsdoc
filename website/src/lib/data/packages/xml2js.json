@@ -1,0 +1,342 @@
+{
+  "name": "xml2js",
+  "downloadedAt": "2026-02-03T22:02:31.080Z",
+  "lintedAt": "2026-02-03T22:02:31.081Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 40,
+  "errors": 0,
+  "warnings": 40,
+  "byRule": {
+    "tjd/require-jsdoc-types": 8,
+    "tjd/no-implicit-any": 32
+  },
+  "issues": [
+    {
+      "file": "lib/bom.js",
+      "line": 4,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stripBOM needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/bom.js",
+      "line": 4,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripBOM(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/builder.js",
+      "line": 11,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "lib/builder.js",
+      "line": 15,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {unknown} entry"
+    },
+    {
+      "file": "lib/builder.js",
+      "line": 19,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {string} entry"
+    },
+    {
+      "file": "lib/builder.js",
+      "line": 24,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Builder(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/builder.js",
+      "line": 40,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildObject(): parameter 'rootObj' needs a type. Add: @param {object} rootObj"
+    },
+    {
+      "file": "lib/builder.js",
+      "line": 51,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: element: object, obj: object"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 5,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bind needs types for 2 parameters: fn: Function, me"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 6,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extend needs types for 2 parameters: child: object, parent: object"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 21,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'thing' needs a type. Add: @param {unknown} thing"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 25,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: processors: object, item, key: string"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 34,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: obj: object, key: string, value"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 47,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Parser(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 104,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "assignOrPush needs types for 3 parameters: obj: object, key: string, newValue"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 129,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 152,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 281,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 303,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 313,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseString needs types for 2 parameters: str: string, cb: Function"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 316,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 320,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 349,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseStringPromise(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 352,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, value"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 367,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseString needs types for 3 parameters: str: string, a, b"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 367,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseString needs JSDoc: @param {any} str, @param {any} a, @param {any} b, @returns {any}"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 386,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseStringPromise needs types for 2 parameters: str: string, a"
+    },
+    {
+      "file": "lib/parser.js",
+      "line": 386,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseStringPromise needs JSDoc: @param {any} str, @param {any} a, @returns {any}"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 8,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalize needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 8,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalize(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 12,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "firstCharLowerCase needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 12,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In firstCharLowerCase(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 16,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stripPrefix needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 16,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripPrefix(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 20,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseNumbers needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 20,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseNumbers(): parameter 'str' needs a type. Add: @param {number} str"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 27,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseBooleans needs JSDoc: @param {any} str, @returns {any}"
+    },
+    {
+      "file": "lib/processors.js",
+      "line": 27,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseBooleans(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/xml2js.js",
+      "line": 5,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extend needs types for 2 parameters: child: object, parent: object"
+    },
+    {
+      "file": "lib/xml2js.js",
+      "line": 23,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ValidationError(): parameter 'message' needs a type. Add: @param {string} message"
+    }
+  ],
+  "typesPackage": "@types/xml2js",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.4.14",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18888
+}

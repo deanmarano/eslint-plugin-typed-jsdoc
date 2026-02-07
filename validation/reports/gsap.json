@@ -1,0 +1,221 @@
+{
+  "name": "gsap",
+  "downloadedAt": "2026-02-03T22:09:55.660Z",
+  "lintedAt": "2026-02-03T22:09:55.660Z",
+  "filesAnalyzed": 33,
+  "totalIssues": 25,
+  "errors": 0,
+  "warnings": 25,
+  "byRule": {
+    "tjd/no-implicit-any": 25
+  },
+  "issues": [
+    {
+      "file": "src/SplitText.js",
+      "line": 9,
+      "column": 280,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _toArray(): parameter 'r' needs a type. Add: @param {unknown} r"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 9,
+      "column": 388,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc: any[], cur"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 12,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _elements(): parameter 'targets' needs a type. Add: @param {unknown} targets"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 12,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 13,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'f' needs a type. Add: @param {Function} f"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 13,
+      "column": 369,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_findNextValidBounds needs types for 2 parameters: allBounds: object, startIndex: number"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 21,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_stretchToFitSpecialChars needs types for 2 parameters: collection: any[], specialCharsRegEx"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 44,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _disallowInline(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 44,
+      "column": 154,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_insertNodeBefore needs types for 3 parameters: newChild, parent: object, existingChild"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 44,
+      "column": 318,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getWrapper needs types for 3 parameters: type: string, config: object, collection: any[]"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 45,
+      "column": 222,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapper(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 61,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getLineWrapper needs types for 4 parameters: element: object, nodes: object, config: object, collection"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 63,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: startIndex: number, endIndex: number"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 72,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_splitWordsAndCharsRecursively needs types for 10 parameters: element: object, config: object, wordWrapper: Function, charWrapper: Function, prepForCharsOnly, deepSlice, ignore: object, charSplitRegEx, specialCharsRegEx, isNested: boolean"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 125,
+      "column": 114,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 166,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: elements: any[], config: object"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 175,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 200,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In split(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 206,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: element: string, index: number"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 217,
+      "column": 181,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {object} n"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 239,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 273,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 287,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: element: object, index: number"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 315,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 2 parameters: elements: any[], config: object"
+    },
+    {
+      "file": "src/SplitText.js",
+      "line": 318,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In register(): parameter 'core' needs a type. Add: @param {unknown} core"
+    }
+  ],
+  "typesPackage": "@types/gsap",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 26566
+}

@@ -1,0 +1,3212 @@
+{
+  "packages": [
+    {
+      "name": "lodash",
+      "repo": "lodash/lodash",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/lodash",
+      "include": [
+        "*.js"
+      ],
+      "exclude": [
+        "dist/**",
+        "node_modules/**",
+        "test/**",
+        "*.min.js"
+      ]
+    },
+    {
+      "name": "express",
+      "repo": "expressjs/express",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/express",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "debug",
+      "repo": "debug-js/debug",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/debug",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "commander",
+      "repo": "tj/commander.js",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/commander",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "axios",
+      "repo": "axios/axios",
+      "branch": "v1.x",
+      "src": "lib",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "minimist",
+      "repo": "minimistjs/minimist",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/minimist",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "semver",
+      "repo": "npm/node-semver",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/semver",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": [
+        "test/**",
+        "bin/**"
+      ]
+    },
+    {
+      "name": "async",
+      "repo": "caolan/async",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/async",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "underscore",
+      "repo": "jashkenas/underscore",
+      "branch": "master",
+      "src": "modules",
+      "types": "@types/underscore",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cookie",
+      "repo": "jshttp/cookie",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/cookie",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "qs",
+      "repo": "ljharb/qs",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/qs",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "body-parser",
+      "repo": "expressjs/body-parser",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/body-parser",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "morgan",
+      "repo": "expressjs/morgan",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/morgan",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cors",
+      "repo": "expressjs/cors",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/cors",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "dotenv",
+      "repo": "motdotla/dotenv",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/dotenv",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "request",
+      "repo": "request/request",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/request",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "on-finished",
+      "repo": "jshttp/on-finished",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/on-finished",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "serve-static",
+      "repo": "expressjs/serve-static",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/serve-static",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "send",
+      "repo": "pillarjs/send",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/send",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "depd",
+      "repo": "dougwilson/nodejs-depd",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/depd",
+      "include": [
+        "index.js",
+        "lib/**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "escape-html",
+      "repo": "component/escape-html",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/escape-html",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fresh",
+      "repo": "jshttp/fresh",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/fresh",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "methods",
+      "repo": "jshttp/methods",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/methods",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "statuses",
+      "repo": "jshttp/statuses",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/statuses",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "vary",
+      "repo": "jshttp/vary",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/vary",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "encodeurl",
+      "repo": "pillarjs/encodeurl",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/encodeurl",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "iconv-lite",
+      "repo": "ashtuchkin/iconv-lite",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/iconv-lite",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "destroy",
+      "repo": "stream-utils/destroy",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/destroy",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "negotiator",
+      "repo": "jshttp/negotiator",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/negotiator",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "moment",
+      "repo": "moment/moment",
+      "branch": "develop",
+      "src": "src",
+      "types": "@types/moment",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "winston",
+      "repo": "winstonjs/winston",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/winston",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "passport",
+      "repo": "jaredhanson/passport",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/passport",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mongoose",
+      "repo": "Automattic/mongoose",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/mongoose",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "jsonwebtoken",
+      "repo": "auth0/node-jsonwebtoken",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/jsonwebtoken",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "bcrypt",
+      "repo": "kelektiv/node.bcrypt.js",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/bcrypt",
+      "include": [
+        "bcrypt.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "validator",
+      "repo": "validatorjs/validator.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/validator",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "nodemailer",
+      "repo": "nodemailer/nodemailer",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/nodemailer",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "handlebars",
+      "repo": "handlebars-lang/handlebars.js",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/handlebars",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pug",
+      "repo": "pugjs/pug",
+      "branch": "master",
+      "src": "packages/pug/lib",
+      "types": "@types/pug",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ejs",
+      "repo": "mde/ejs",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/ejs",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "multer",
+      "repo": "expressjs/multer",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/multer",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "compression",
+      "repo": "expressjs/compression",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/compression",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cookie-parser",
+      "repo": "expressjs/cookie-parser",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/cookie-parser",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "express-session",
+      "repo": "expressjs/session",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/express-session",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "connect",
+      "repo": "senchalabs/connect",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/connect",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "koa",
+      "repo": "koajs/koa",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/koa",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "hapi",
+      "repo": "hapijs/hapi",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/hapi",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "restify",
+      "repo": "restify/node-restify",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/restify",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "superagent",
+      "repo": "ladjs/superagent",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/superagent",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "supertest",
+      "repo": "ladjs/supertest",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/supertest",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "chai",
+      "repo": "chaijs/chai",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/chai",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sinon",
+      "repo": "sinonjs/sinon",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/sinon",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mocha",
+      "repo": "mochajs/mocha",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/mocha",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "tape",
+      "repo": "ljharb/tape",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/tape",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "webpack",
+      "repo": "webpack/webpack",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/webpack",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "browserify",
+      "repo": "browserify/browserify",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/browserify",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mysql",
+      "repo": "mysqljs/mysql",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/mysql",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pg",
+      "repo": "brianc/node-postgres",
+      "branch": "master",
+      "src": "packages/pg/lib",
+      "types": "@types/pg",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "knex",
+      "repo": "knex/knex",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/knex",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ramda",
+      "repo": "ramda/ramda",
+      "branch": "master",
+      "src": "source",
+      "types": "@types/ramda",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "dayjs",
+      "repo": "iamkun/dayjs",
+      "branch": "dev",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "shortid",
+      "repo": "dylang/shortid",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/shortid",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "slugify",
+      "repo": "simov/slugify",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/slugify",
+      "include": [
+        "slugify.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pluralize",
+      "repo": "blakeembrey/pluralize",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/pluralize",
+      "include": [
+        "pluralize.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "highlight.js",
+      "repo": "highlightjs/highlight.js",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/highlight.js",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "prismjs",
+      "repo": "PrismJS/prism",
+      "branch": "master",
+      "src": "components",
+      "types": "@types/prismjs",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mime-types",
+      "repo": "jshttp/mime-types",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/mime-types",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "url-parse",
+      "repo": "unshiftio/url-parse",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/url-parse",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "chalk",
+      "repo": "chalk/chalk",
+      "branch": "main",
+      "src": "source",
+      "types": "@types/chalk",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "glob",
+      "repo": "isaacs/node-glob",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/glob",
+      "include": [
+        "*.js"
+      ],
+      "exclude": [
+        "test/**"
+      ]
+    },
+    {
+      "name": "rimraf",
+      "repo": "isaacs/rimraf",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/rimraf",
+      "include": [
+        "*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mkdirp",
+      "repo": "isaacs/node-mkdirp",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/mkdirp",
+      "include": [
+        "*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "yargs",
+      "repo": "yargs/yargs",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/yargs",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "inquirer",
+      "repo": "SBoudrias/Inquirer.js",
+      "branch": "main",
+      "src": "packages/inquirer/lib",
+      "types": "@types/inquirer",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ora",
+      "repo": "sindresorhus/ora",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/ora",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "got",
+      "repo": "sindresorhus/got",
+      "branch": "main",
+      "src": "source",
+      "types": "@types/got",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "node-fetch",
+      "repo": "node-fetch/node-fetch",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/node-fetch",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cheerio",
+      "repo": "cheeriojs/cheerio",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/cheerio",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "jsdom",
+      "repo": "jsdom/jsdom",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/jsdom",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "puppeteer-core",
+      "repo": "puppeteer/puppeteer",
+      "branch": "main",
+      "src": "packages/puppeteer-core/src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "socket.io",
+      "repo": "socketio/socket.io",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/socket.io",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "redis",
+      "repo": "redis/node-redis",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/redis",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ioredis",
+      "repo": "redis/ioredis",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/ioredis",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mongodb",
+      "repo": "mongodb/node-mongodb-native",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/mongodb",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sequelize",
+      "repo": "sequelize/sequelize",
+      "branch": "main",
+      "src": "lib",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sharp",
+      "repo": "lovell/sharp",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/sharp",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "jimp",
+      "repo": "jimp-dev/jimp",
+      "branch": "main",
+      "src": "packages/jimp/src",
+      "types": "@types/jimp",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "uuid",
+      "repo": "uuidjs/uuid",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/uuid",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "nanoid",
+      "repo": "ai/nanoid",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js",
+        "async/index.js",
+        "non-secure/index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "crypto-js",
+      "repo": "brix/crypto-js",
+      "branch": "develop",
+      "src": ".",
+      "types": "@types/crypto-js",
+      "include": [
+        "*.js"
+      ],
+      "exclude": [
+        "test/**",
+        "docs/**"
+      ]
+    },
+    {
+      "name": "jwt-decode",
+      "repo": "auth0/jwt-decode",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/jwt-decode",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "marked",
+      "repo": "markedjs/marked",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/marked",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "markdown-it",
+      "repo": "markdown-it/markdown-it",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/markdown-it",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "showdown",
+      "repo": "showdownjs/showdown",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/showdown",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "yaml",
+      "repo": "eemeli/yaml",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "js-yaml",
+      "repo": "nodeca/js-yaml",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/js-yaml",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "xml2js",
+      "repo": "Leonidas-from-XIV/node-xml2js",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/xml2js",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fast-xml-parser",
+      "repo": "NaturalIntelligence/fast-xml-parser",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "csv-parse",
+      "repo": "adaltas/node-csv",
+      "branch": "master",
+      "src": "packages/csv-parse/lib",
+      "types": "@types/csv-parse",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "papaparse",
+      "repo": "mholt/PapaParse",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/papaparse",
+      "include": [
+        "papaparse.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "archiver",
+      "repo": "archiverjs/node-archiver",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/archiver",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "unzipper",
+      "repo": "ZJONSSON/node-unzipper",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/unzipper",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "tar",
+      "repo": "isaacs/node-tar",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/tar",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "chokidar",
+      "repo": "paulmillr/chokidar",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/chokidar",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fs-extra",
+      "repo": "jprichardson/node-fs-extra",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/fs-extra",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cross-spawn",
+      "repo": "moxystudio/node-cross-spawn",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/cross-spawn",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "execa",
+      "repo": "sindresorhus/execa",
+      "branch": "main",
+      "src": "lib",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "dotenv-expand",
+      "repo": "motdotla/dotenv-expand",
+      "branch": "master",
+      "src": "lib",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "config",
+      "repo": "node-config/node-config",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/config",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "convict",
+      "repo": "mozilla/node-convict",
+      "branch": "master",
+      "src": "packages/convict/lib",
+      "types": "@types/convict",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cron",
+      "repo": "kelektiv/node-cron",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/cron",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "node-schedule",
+      "repo": "node-schedule/node-schedule",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/node-schedule",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "bull",
+      "repo": "OptimalBits/bull",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/bull",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pino",
+      "repo": "pinojs/pino",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/pino",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "bunyan",
+      "repo": "trentm/node-bunyan",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/bunyan",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "log4js",
+      "repo": "log4js-node/log4js-node",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/log4js",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "http-errors",
+      "repo": "jshttp/http-errors",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/http-errors",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "http-proxy",
+      "repo": "http-party/node-http-proxy",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/http-proxy",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "http-proxy-middleware",
+      "repo": "chimurai/http-proxy-middleware",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "finalhandler",
+      "repo": "pillarjs/finalhandler",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/finalhandler",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "path-to-regexp",
+      "repo": "pillarjs/path-to-regexp",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/path-to-regexp",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "accepts",
+      "repo": "jshttp/accepts",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/accepts",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "content-type",
+      "repo": "jshttp/content-type",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/content-type",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "content-disposition",
+      "repo": "jshttp/content-disposition",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/content-disposition",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "etag",
+      "repo": "jshttp/etag",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/etag",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "range-parser",
+      "repo": "jshttp/range-parser",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/range-parser",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "type-is",
+      "repo": "jshttp/type-is",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/type-is",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "raw-body",
+      "repo": "stream-utils/raw-body",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/raw-body",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "bytes",
+      "repo": "visionmedia/bytes.js",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/bytes",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ms",
+      "repo": "vercel/ms",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/ms",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pretty-bytes",
+      "repo": "sindresorhus/pretty-bytes",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "filesize",
+      "repo": "avoidwork/filesize.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/filesize",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "humanize-duration",
+      "repo": "EvanHahn/HumanizeDuration.js",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/humanize-duration",
+      "include": [
+        "humanize-duration.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "date-fns",
+      "repo": "date-fns/date-fns",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": [
+        "test/**",
+        "locale/**"
+      ]
+    },
+    {
+      "name": "luxon",
+      "repo": "moment/luxon",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "numeral",
+      "repo": "adamwdraper/Numeral-js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/numeral",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "decimal.js",
+      "repo": "MikeMcl/decimal.js",
+      "branch": "master",
+      "src": ".",
+      "types": null,
+      "include": [
+        "decimal.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "accounting",
+      "repo": "openexchangerates/accounting.js",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/accounting",
+      "include": [
+        "accounting.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "change-case",
+      "repo": "blakeembrey/change-case",
+      "branch": "main",
+      "src": "packages/change-case/src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "camelcase",
+      "repo": "sindresorhus/camelcase",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "escape-string-regexp",
+      "repo": "sindresorhus/escape-string-regexp",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "strip-ansi",
+      "repo": "chalk/strip-ansi",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ansi-styles",
+      "repo": "chalk/ansi-styles",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "supports-color",
+      "repo": "chalk/supports-color",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cli-table3",
+      "repo": "cli-table/cli-table3",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/cli-table3",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cli-progress",
+      "repo": "npkgz/cli-progress",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/cli-progress",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "boxen",
+      "repo": "sindresorhus/boxen",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "figures",
+      "repo": "sindresorhus/figures",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "log-symbols",
+      "repo": "sindresorhus/log-symbols",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "prompts",
+      "repo": "terkelg/prompts",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/prompts",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "enquirer",
+      "repo": "enquirer/enquirer",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/enquirer",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "meow",
+      "repo": "sindresorhus/meow",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "update-notifier",
+      "repo": "yeoman/update-notifier",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/update-notifier",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "open",
+      "repo": "sindresorhus/open",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "clipboardy",
+      "repo": "sindresorhus/clipboardy",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "conf",
+      "repo": "sindresorhus/conf",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "keyv",
+      "repo": "jaredwray/keyv",
+      "branch": "main",
+      "src": "packages/keyv/src",
+      "types": "@types/keyv",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "lru-cache",
+      "repo": "isaacs/node-lru-cache",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/lru-cache",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "quick-lru",
+      "repo": "sindresorhus/quick-lru",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "p-limit",
+      "repo": "sindresorhus/p-limit",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "p-queue",
+      "repo": "sindresorhus/p-queue",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "p-retry",
+      "repo": "sindresorhus/p-retry",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "p-map",
+      "repo": "sindresorhus/p-map",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "eventemitter3",
+      "repo": "primus/eventemitter3",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/eventemitter3",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "events",
+      "repo": "browserify/events",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/events",
+      "include": [
+        "events.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mitt",
+      "repo": "developit/mitt",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "nanoevents",
+      "repo": "ai/nanoevents",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "rxjs",
+      "repo": "ReactiveX/rxjs",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "immer",
+      "repo": "immerjs/immer",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "immutable",
+      "repo": "immutable-js/immutable-js",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "memoize-one",
+      "repo": "alexreardon/memoize-one",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fast-memoize",
+      "repo": "caiogondim/fast-memoize.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/fast-memoize",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "deepmerge",
+      "repo": "TehShrike/deepmerge",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/deepmerge",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "merge-deep",
+      "repo": "jonschlinkert/merge-deep",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/merge-deep",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "object-assign",
+      "repo": "sindresorhus/object-assign",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/object-assign",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "clone-deep",
+      "repo": "jonschlinkert/clone-deep",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/clone-deep",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fast-deep-equal",
+      "repo": "epoberezkin/fast-deep-equal",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/fast-deep-equal",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "deep-equal",
+      "repo": "inspect-js/node-deep-equal",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/deep-equal",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "is-plain-object",
+      "repo": "jonschlinkert/is-plain-object",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/is-plain-object",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "kind-of",
+      "repo": "jonschlinkert/kind-of",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/kind-of",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "is-number",
+      "repo": "jonschlinkert/is-number",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/is-number",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "is-buffer",
+      "repo": "feross/is-buffer",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/is-buffer",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "is-stream",
+      "repo": "sindresorhus/is-stream",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "is-promise",
+      "repo": "then/is-promise",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/is-promise",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "throat",
+      "repo": "ForbesLindesay/throat",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/throat",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "delay",
+      "repo": "sindresorhus/delay",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pify",
+      "repo": "sindresorhus/pify",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/pify",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "bluebird",
+      "repo": "petkaantonov/bluebird",
+      "branch": "master",
+      "src": "js/release",
+      "types": "@types/bluebird",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "yallist",
+      "repo": "isaacs/yallist",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/yallist",
+      "include": [
+        "yallist.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "denque",
+      "repo": "invertase/denque",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/denque",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "heap",
+      "repo": "qiao/heap.js",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/heap",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "tinyqueue",
+      "repo": "mourner/tinyqueue",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "flatbush",
+      "repo": "mourner/flatbush",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "rbush",
+      "repo": "mourner/rbush",
+      "branch": "main",
+      "src": ".",
+      "types": "@types/rbush",
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "kdbush",
+      "repo": "mourner/kdbush",
+      "branch": "main",
+      "src": ".",
+      "types": null,
+      "include": [
+        "index.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "d3",
+      "repo": "d3/d3",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/d3",
+      "note": "Excellent JSDoc coverage",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "d3-array",
+      "repo": "d3/d3-array",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/d3-array",
+      "note": "Excellent JSDoc coverage",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "d3-scale",
+      "repo": "d3/d3-scale",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/d3-scale",
+      "note": "Excellent JSDoc coverage",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "d3-selection",
+      "repo": "d3/d3-selection",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/d3-selection",
+      "note": "Excellent JSDoc coverage",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "d3-shape",
+      "repo": "d3/d3-shape",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/d3-shape",
+      "note": "Excellent JSDoc coverage",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "chart.js",
+      "repo": "chartjs/Chart.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/chart.js",
+      "note": "Well-documented charting library",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "three",
+      "repo": "mrdoob/three.js",
+      "branch": "dev",
+      "src": "src",
+      "types": "@types/three",
+      "note": "Extensive JSDoc for 3D library",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "leaflet",
+      "repo": "Leaflet/Leaflet",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/leaflet",
+      "note": "Well-documented mapping library",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "openlayers",
+      "repo": "openlayers/openlayers",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/ol",
+      "note": "Thorough JSDoc for mapping",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "video.js",
+      "repo": "videojs/video.js",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/video.js",
+      "note": "Extensive JSDoc coverage",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "quill",
+      "repo": "quilljs/quill",
+      "branch": "main",
+      "src": "packages/quill/src",
+      "types": "@types/quill",
+      "note": "Rich text editor with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "codemirror5",
+      "repo": "codemirror/codemirror5",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/codemirror",
+      "note": "Code editor with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "ace",
+      "repo": "ajaxorg/ace",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/ace",
+      "note": "Code editor with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fabric.js",
+      "repo": "fabricjs/fabric.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/fabric",
+      "note": "Canvas library with extensive JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "konva",
+      "repo": "konvajs/konva",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "Canvas library with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pixi.js",
+      "repo": "pixijs/pixijs",
+      "branch": "dev",
+      "src": "src",
+      "types": null,
+      "note": "2D rendering with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "paper.js",
+      "repo": "paperjs/paper.js",
+      "branch": "develop",
+      "src": "src",
+      "types": "@types/paper",
+      "note": "Vector graphics with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "p5.js",
+      "repo": "processing/p5.js",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/p5",
+      "note": "Creative coding library, excellent JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "raphael",
+      "repo": "DmitryBaranovskiy/raphael",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/raphael",
+      "note": "SVG library with JSDoc",
+      "include": [
+        "raphael.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "snap.svg",
+      "repo": "adobe-webplatform/Snap.svg",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/snapsvg",
+      "note": "SVG library with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "matter-js",
+      "repo": "liabru/matter-js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/matter-js",
+      "note": "Physics engine with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "howler.js",
+      "repo": "goldfire/howler.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/howler",
+      "note": "Audio library with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "tone.js",
+      "repo": "Tonejs/Tone.js",
+      "branch": "dev",
+      "src": "Tone",
+      "types": null,
+      "note": "Web audio with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "wavesurfer.js",
+      "repo": "katspaugh/wavesurfer.js",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "note": "Audio waveform with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "hammer.js",
+      "repo": "hammerjs/hammer.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/hammerjs",
+      "note": "Touch gestures with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "interact.js",
+      "repo": "taye/interact.js",
+      "branch": "main",
+      "src": "packages/@interactjs",
+      "types": "@types/interactjs",
+      "note": "Drag and drop with JSDoc",
+      "include": [
+        "**/src/**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sortablejs",
+      "repo": "SortableJS/Sortable",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/sortablejs",
+      "note": "Drag and drop with JSDoc",
+      "include": [
+        "Sortable.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "dragula",
+      "repo": "bevacqua/dragula",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/dragula",
+      "note": "Drag and drop",
+      "include": [
+        "dragula.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "fullcalendar",
+      "repo": "fullcalendar/fullcalendar",
+      "branch": "main",
+      "src": "packages/core/src",
+      "types": "@types/fullcalendar",
+      "note": "Calendar with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "flatpickr",
+      "repo": "flatpickr/flatpickr",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/flatpickr",
+      "note": "Date picker with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "nouislider",
+      "repo": "leongersen/noUiSlider",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/nouislider",
+      "note": "Slider with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cleave.js",
+      "repo": "nosir/cleave.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/cleave.js",
+      "note": "Input formatting with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "inputmask",
+      "repo": "RobinHerbots/Inputmask",
+      "branch": "5.x",
+      "src": "lib",
+      "types": "@types/inputmask",
+      "note": "Input masking with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "imask",
+      "repo": "uNmAnNeR/imaskjs",
+      "branch": "master",
+      "src": "packages/imask/src",
+      "types": null,
+      "note": "Input masking with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "tippy.js",
+      "repo": "atomiks/tippyjs",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/tippy.js",
+      "note": "Tooltips with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "popper.js",
+      "repo": "floating-ui/floating-ui",
+      "branch": "master",
+      "src": "packages/core/src",
+      "types": "@types/popperjs",
+      "note": "Positioning with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "swiper",
+      "repo": "nolimits4web/swiper",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "Slider with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "glide.js",
+      "repo": "glidejs/glide",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/glidejs__glide",
+      "note": "Slider with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "scrollreveal",
+      "repo": "jlmakes/scrollreveal",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/scrollreveal",
+      "note": "Scroll animations with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "aos",
+      "repo": "michalsnik/aos",
+      "branch": "v2",
+      "src": "src/js",
+      "types": null,
+      "note": "Animate on scroll with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "lottie-web",
+      "repo": "airbnb/lottie-web",
+      "branch": "master",
+      "src": "player/js",
+      "types": "@types/lottie-web",
+      "note": "Animation player with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "anime.js",
+      "repo": "juliangarnier/anime",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/animejs",
+      "note": "Animation library with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "velocity",
+      "repo": "julianshapiro/velocity",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/velocity-animate",
+      "note": "Animation with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "gsap",
+      "repo": "greensock/GSAP",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/gsap",
+      "note": "Animation platform with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "popmotion",
+      "repo": "popmotion/popmotion",
+      "branch": "master",
+      "src": "packages/popmotion/src",
+      "types": null,
+      "note": "Animation with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "scrollmagic",
+      "repo": "janpaepke/ScrollMagic",
+      "branch": "master",
+      "src": "scrollmagic",
+      "types": "@types/scrollmagic",
+      "note": "Scroll interactions with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "masonry",
+      "repo": "desandro/masonry",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/masonry-layout",
+      "note": "Grid layout with JSDoc",
+      "include": [
+        "masonry.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "isotope",
+      "repo": "metafizzy/isotope",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/isotope-layout",
+      "note": "Filtering layout with JSDoc",
+      "include": [
+        "js/**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "packery",
+      "repo": "metafizzy/packery",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/packery",
+      "note": "Bin-packing layout with JSDoc",
+      "include": [
+        "js/**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "infinite-scroll",
+      "repo": "metafizzy/infinite-scroll",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/infinite-scroll",
+      "note": "Infinite scrolling with JSDoc",
+      "include": [
+        "js/**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "lazysizes",
+      "repo": "aFarkas/lazysizes",
+      "branch": "gh-pages",
+      "src": ".",
+      "types": "@types/lazysizes",
+      "note": "Lazy loading with JSDoc",
+      "include": [
+        "lazysizes.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "lozad.js",
+      "repo": "ApoorvSaxena/lozad.js",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/lozad",
+      "note": "Lazy loading with JSDoc",
+      "include": [
+        "src/**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "vanilla-lazyload",
+      "repo": "verlok/vanilla-lazyload",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "Lazy loading with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "photoswipe",
+      "repo": "dimsemenov/PhotoSwipe",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/photoswipe",
+      "note": "Gallery with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "lightgallery",
+      "repo": "sachinchoolur/lightGallery",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/lightgallery",
+      "note": "Gallery with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "medium-zoom",
+      "repo": "francoischalifour/medium-zoom",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/medium-zoom",
+      "note": "Image zoom with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cropper.js",
+      "repo": "fengyuanchen/cropperjs",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/cropperjs",
+      "note": "Image cropper with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "compressorjs",
+      "repo": "fengyuanchen/compressorjs",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/compressorjs",
+      "note": "Image compression with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "viewerjs",
+      "repo": "fengyuanchen/viewerjs",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/viewerjs",
+      "note": "Image viewer with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "tesseract.js",
+      "repo": "naptha/tesseract.js",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "OCR with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "jspdf",
+      "repo": "parallax/jsPDF",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/jspdf",
+      "note": "PDF generation with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pdfmake",
+      "repo": "bpampuch/pdfmake",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/pdfmake",
+      "note": "PDF generation with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "exceljs",
+      "repo": "exceljs/exceljs",
+      "branch": "master",
+      "src": "lib",
+      "types": null,
+      "note": "Excel files with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sheetjs",
+      "repo": "SheetJS/sheetjs",
+      "branch": "master",
+      "src": ".",
+      "types": "@types/xlsx",
+      "note": "Spreadsheets with JSDoc",
+      "include": [
+        "xlsx.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "docxtemplater",
+      "repo": "open-xml-templating/docxtemplater",
+      "branch": "master",
+      "src": "es6",
+      "types": "@types/docxtemplater",
+      "note": "Word documents with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "jszip",
+      "repo": "Stuk/jszip",
+      "branch": "main",
+      "src": "lib",
+      "types": "@types/jszip",
+      "note": "ZIP files with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "qrcode",
+      "repo": "soldair/node-qrcode",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/qrcode",
+      "note": "QR codes with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "clipboard",
+      "repo": "zenorocha/clipboard.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/clipboard",
+      "note": "Clipboard with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "localforage",
+      "repo": "localForage/localForage",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/localforage",
+      "note": "Storage with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "dexie",
+      "repo": "dexie/Dexie.js",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "IndexedDB with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sql.js",
+      "repo": "sql-js/sql.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/sql.js",
+      "note": "SQLite with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "pouchdb",
+      "repo": "pouchdb/pouchdb",
+      "branch": "master",
+      "src": "packages/node_modules/pouchdb-core/src",
+      "types": "@types/pouchdb",
+      "note": "Database with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "lowdb",
+      "repo": "typicode/lowdb",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/lowdb",
+      "note": "JSON database with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "nedb",
+      "repo": "louischatriot/nedb",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/nedb",
+      "note": "Embedded database with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "reveal.js",
+      "repo": "hakimel/reveal.js",
+      "branch": "master",
+      "src": "js",
+      "types": "@types/reveal.js",
+      "note": "Presentations with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "impress.js",
+      "repo": "impress/impress.js",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/impress",
+      "note": "Presentations with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "mermaid",
+      "repo": "mermaid-js/mermaid",
+      "branch": "develop",
+      "src": "packages/mermaid/src",
+      "types": null,
+      "note": "Diagrams with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "cytoscape",
+      "repo": "cytoscape/cytoscape.js",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "Graph visualization with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "vis-network",
+      "repo": "visjs/vis-network",
+      "branch": "master",
+      "src": "lib",
+      "types": "@types/vis-network",
+      "note": "Network visualization with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "sigma.js",
+      "repo": "jacomyal/sigma.js",
+      "branch": "main",
+      "src": "src",
+      "types": "@types/sigma",
+      "note": "Graph rendering with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "force-graph",
+      "repo": "vasturiano/force-graph",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "Force-directed graphs with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "echarts",
+      "repo": "apache/echarts",
+      "branch": "master",
+      "src": "src",
+      "types": null,
+      "note": "Charting with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "apexcharts",
+      "repo": "apexcharts/apexcharts.js",
+      "branch": "main",
+      "src": "src",
+      "types": null,
+      "note": "Modern charts with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "frappe-charts",
+      "repo": "frappe/charts",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/frappe-charts",
+      "note": "Charting with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "roughjs",
+      "repo": "rough-stuff/rough",
+      "branch": "master",
+      "src": "src",
+      "types": "@types/roughjs",
+      "note": "Hand-drawn graphics with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "two.js",
+      "repo": "jonobr1/two.js",
+      "branch": "dev",
+      "src": "src",
+      "types": null,
+      "note": "2D rendering with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    },
+    {
+      "name": "zdog",
+      "repo": "metafizzy/zdog",
+      "branch": "master",
+      "src": "js",
+      "types": null,
+      "note": "3D engine with JSDoc",
+      "include": [
+        "**/*.js"
+      ],
+      "exclude": []
+    }
+  ]
+}

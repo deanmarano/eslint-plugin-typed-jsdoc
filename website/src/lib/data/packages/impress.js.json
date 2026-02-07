@@ -1,0 +1,1733 @@
+{
+  "name": "impress.js",
+  "downloadedAt": "2026-02-03T22:12:17.269Z",
+  "lintedAt": "2026-02-03T22:12:17.269Z",
+  "filesAnalyzed": 27,
+  "totalIssues": 214,
+  "errors": 0,
+  "warnings": 214,
+  "byRule": {
+    "tjd/no-implicit-any": 214
+  },
+  "issues": [
+    {
+      "file": "src/impress.js",
+      "line": 23,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 38,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'prop' needs a type. Add: @param {string} prop"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 59,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateOrder needs types for 2 parameters: order: string, fallback"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 84,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "css needs types for 2 parameters: el: object, props: object"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 98,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In translate(): parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 105,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotate needs types for 2 parameters: r: object, revert"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 120,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scale(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 126,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In computeWindowScale(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 193,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In impress(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 261,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onStepEnter(): parameter 'step' needs a type. Add: @param {unknown} step"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 272,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onStepLeave needs types for 2 parameters: currentStep, nextStep"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 281,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initStep needs types for 2 parameters: el: object, idx: number"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 360,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 412,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getStep(): parameter 'step' needs a type. Add: @param {object} step"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 429,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "goto needs types for 4 parameters: el: object, duration: number, reason, origEvent"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 609,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prev(): parameter 'origEvent' needs a type. Add: @param {unknown} origEvent"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 618,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'origEvent' needs a type. Add: @param {unknown} origEvent"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 631,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "interpolate needs types for 3 parameters: a: number, b: number, k: number"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 656,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In swipe(): parameter 'pct' needs a type. Add: @param {unknown} pct"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 758,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'step' needs a type. Add: @param {object} step"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 762,
+      "column": 75,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 768,
+      "column": 75,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 787,
+      "column": 75,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 834,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addLibraryFactory(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 843,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initLibraries(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 859,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addPreInitPlugin needs types for 2 parameters: plugin, weight"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 872,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In execPreInitPlugins(): parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 885,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addPreStepLeavePlugin needs types for 2 parameters: plugin, weight"
+    },
+    {
+      "file": "src/impress.js",
+      "line": 902,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In execPreStepLeavePlugins(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 15,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 21,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In libraryFactory(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 37,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pushElement(): parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 42,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "appendChild needs types for 2 parameters: parent: object, element"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 48,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pushEventListener needs types for 3 parameters: target, type: string, listenerFunction"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 53,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addEventListener needs types for 3 parameters: target: object, type: string, listenerFunction"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 60,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pushCallback(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 63,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 114,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In recordStartingState(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/lib/gc.js",
+      "line": 154,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resetStartingState(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 7,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document, window: object"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 13,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In libraryFactory(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 21,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In roundNumber(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 30,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In vectorLength(): parameter 'vec' needs a type. Add: @param {object} vec"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 39,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "vectorDotProd needs types for 2 parameters: vec1: object, vec2: object"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 48,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "vectorCrossProd needs types for 2 parameters: vec1: object, vec2: object"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 59,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isZeroVector(): parameter 'vec' needs a type. Add: @param {object} vec"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 70,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tripleProduct needs types for 3 parameters: vec1, vec2, vec3"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 102,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeQuaternion(): parameter 'axis' needs a type. Add: @param {object} axis"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 120,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In quaternionToVector(): parameter 'quaternion' needs a type. Add: @param {unknown} quaternion"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 133,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In conjugateQuaternion(): parameter 'quaternion' needs a type. Add: @param {unknown} quaternion"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 142,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "leftMulQuaternion needs types for 2 parameters: q1, q2"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 154,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotationToQuaternion needs types for 2 parameters: baseCoordinate: object, rotation: object"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 188,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotateByQuaternion needs types for 2 parameters: vec, quaternion"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 201,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotateVector needs types for 3 parameters: baseCoordinate, vec, rotation"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 210,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotateCoordinate needs types for 2 parameters: coordinate: object, rotation"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 225,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "angleBetweenTwoVector needs types for 3 parameters: axis, vec1, vec2"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 248,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "angleBetweenPlaneAndVector needs types for 3 parameters: axis, planeVec, rotatedVec"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 262,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "coordinateToOrderedRotation needs types for 2 parameters: coordinate: object, order: string"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 305,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In possibleRotations(): parameter 'coordinate' needs a type. Add: @param {unknown} coordinate"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 321,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nearestAngle needs types for 2 parameters: baseDeg: number, deg"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 338,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bestRotation needs types for 2 parameters: baseRotate: object, rotations: object"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 368,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "coordinateToRotation needs types for 2 parameters: baseRotate, coordinate"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 386,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In combineRotations(): parameter 'rotations' needs a type. Add: @param {object} rotations"
+    },
+    {
+      "file": "src/lib/rotation.js",
+      "line": 409,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "translateRelative needs types for 2 parameters: relative: object, prevRotation"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 9,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 13,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In libraryFactory(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 20,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$ needs types for 2 parameters: selector, context: object"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 27,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$$ needs types for 2 parameters: selector, context: object"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 34,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arrayify(): parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 39,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In byId(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 55,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getUrlParamValue(): parameter 'parameter' needs a type. Add: @param {unknown} parameter"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 66,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "throttle needs types for 2 parameters: fn: Function, delay: number"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 80,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toNumber needs types for 2 parameters: numeric, fallback"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 89,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toNumberAdvanced needs types for 2 parameters: numeric: string, fallback"
+    },
+    {
+      "file": "src/lib/util.js",
+      "line": 106,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerEvent needs types for 3 parameters: el: object, eventName: string, detail"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 9,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 21,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 53,
+      "column": 68,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 58,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 65,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reloadTimeout(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 75,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 79,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 86,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setAutoplayTimeout(): parameter 'timeout' needs a type. Add: @param {number} timeout"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 101,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeDomElement(): parameter 'html' needs a type. Add: @param {unknown} html"
+    },
+    {
+      "file": "src/plugins/autoplay/autoplay.js",
+      "line": 139,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addToolbarButton(): parameter 'toolbar' needs a type. Add: @param {unknown} toolbar"
+    },
+    {
+      "file": "src/plugins/blackout/blackout.js",
+      "line": 12,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/blackout/blackout.js",
+      "line": 22,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "css needs types for 2 parameters: el: object, props: object"
+    },
+    {
+      "file": "src/plugins/blackout/blackout.js",
+      "line": 41,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'prop' needs a type. Add: @param {string} prop"
+    },
+    {
+      "file": "src/plugins/blackout/blackout.js",
+      "line": 85,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/blackout/blackout.js",
+      "line": 92,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/blackout/blackout.js",
+      "line": 105,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 27,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 30,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hotkeyDest(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 35,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: root: object, api: object"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 36,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'div' needs a type. Add: @param {object} div"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 38,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 43,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/bookmark/bookmark.js",
+      "line": 54,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/extras/extras.js",
+      "line": 14,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/extras/extras.js",
+      "line": 23,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: elem, src: string"
+    },
+    {
+      "file": "src/plugins/extras/extras.js",
+      "line": 29,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: elem: object, src: string"
+    },
+    {
+      "file": "src/plugins/extras/extras.js",
+      "line": 38,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMarkdownSlides(): parameter 'elem' needs a type. Add: @param {object} elem"
+    },
+    {
+      "file": "src/plugins/extras/extras.js",
+      "line": 51,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In convertMarkdowns(): parameter 'selector' needs a type. Add: @param {unknown} selector"
+    },
+    {
+      "file": "src/plugins/form/form.js",
+      "line": 25,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/form/form.js",
+      "line": 30,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/form/form.js",
+      "line": 44,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/form/form.js",
+      "line": 47,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/fullscreen/fullscreen.js",
+      "line": 11,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/fullscreen/fullscreen.js",
+      "line": 28,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/fullscreen/fullscreen.js",
+      "line": 34,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/goto/goto.js",
+      "line": 31,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/goto/goto.js",
+      "line": 35,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/goto/goto.js",
+      "line": 39,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNumber(): parameter 'numeric' needs a type. Add: @param {unknown} numeric"
+    },
+    {
+      "file": "src/plugins/goto/goto.js",
+      "line": 43,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In goto(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/help/help.js",
+      "line": 19,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/help/help.js",
+      "line": 24,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerEvent needs types for 3 parameters: el: object, eventName: string, detail"
+    },
+    {
+      "file": "src/plugins/help/help.js",
+      "line": 59,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/help/help.js",
+      "line": 76,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/plugins/help/help.js",
+      "line": 91,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 16,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 20,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerEvent needs types for 3 parameters: el: object, eventName: string, detail"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 116,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zeroPad(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 121,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In impressConsole(): parameter 'rootId' needs a type. Add: @param {string} rootId"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 238,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onSubstep(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 259,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerEventInView needs types for 3 parameters: frame: object, eventName: string, detail"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 317,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerKeyEvent needs types for 3 parameters: keyCodes: object, handler: Function, window: object"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 323,
+      "column": 68,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 331,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 536,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_init needs types for 2 parameters: cssConsole, cssIframe"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 577,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "init needs types for 2 parameters: cssConsole, cssIframe"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 599,
+      "column": 78,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/impressConsole/impressConsole.js",
+      "line": 611,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 55,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 74,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 94,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: attributeName: string, nodes: object"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 124,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 130,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 136,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 192,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/media/media.js",
+      "line": 218,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/mobile/mobile.js",
+      "line": 15,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/mobile/mobile.js",
+      "line": 18,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNextStep(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/plugins/mobile/mobile.js",
+      "line": 30,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPrevStep(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/plugins/mobile/mobile.js",
+      "line": 44,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/mobile/mobile.js",
+      "line": 72,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/mouse-timeout/mouse-timeout.js",
+      "line": 27,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/mouse-timeout/mouse-timeout.js",
+      "line": 50,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 18,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 29,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerEvent needs types for 3 parameters: el: object, eventName: string, detail"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 35,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeDomElement(): parameter 'html' needs a type. Add: @param {unknown} html"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 41,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getStepTitle(): parameter 'step' needs a type. Add: @param {object} step"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 83,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addNavigationControls(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 105,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 108,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 136,
+      "column": 76,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation-ui/navigation-ui.js",
+      "line": 144,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 25,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 29,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 52,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNavigationEvent(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 79,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 86,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 115,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation.js",
+      "line": 154,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 10,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'assert' needs a type. Add: @param {object} assert"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 93,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepEnter(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 99,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepEnterWrapper(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 105,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepLeave(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 111,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepLeaveWrapper(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 121,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'assert' needs a type. Add: @param {object} assert"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 136,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepEnter(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 141,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepEnterWrapper(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 147,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepLeave(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/navigation/navigation_tests.js",
+      "line": 152,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertStepLeaveWrapper(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/progress/progress.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/progress/progress.js",
+      "line": 18,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/progress/progress.js",
+      "line": 37,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/progress/progress.js",
+      "line": 41,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/progress/progress.js",
+      "line": 48,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateProgressbar(): parameter 'slideId' needs a type. Add: @param {string} slideId"
+    },
+    {
+      "file": "src/plugins/rel/rel.js",
+      "line": 48,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/rel/rel.js",
+      "line": 57,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "computeRelativePositions needs types for 2 parameters: el: object, prev: object"
+    },
+    {
+      "file": "src/plugins/rel/rel.js",
+      "line": 234,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rel needs types for 2 parameters: root: object, impressApi"
+    },
+    {
+      "file": "src/plugins/rel/rel.js",
+      "line": 287,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/resize/resize.js",
+      "line": 18,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window"
+    },
+    {
+      "file": "src/plugins/resize/resize.js",
+      "line": 22,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/skip/skip.js",
+      "line": 17,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/skip/skip.js",
+      "line": 21,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/skip/skip.js",
+      "line": 25,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNextStep(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/plugins/skip/skip.js",
+      "line": 37,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPrevStep(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/plugins/skip/skip.js",
+      "line": 50,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skip(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/stop/stop.js",
+      "line": 15,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document, window: object"
+    },
+    {
+      "file": "src/plugins/stop/stop.js",
+      "line": 18,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stop(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 10,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 14,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerEvent needs types for 3 parameters: el: object, eventName: string, detail"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 21,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 25,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In substep(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 62,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In showSubstepIfAny(): parameter 'step' needs a type. Add: @param {object} step"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 71,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sortSubsteps(): parameter 'substepNodeList' needs a type. Add: @param {unknown} substepNodeList"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 74,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 75,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 80,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 86,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "showSubstep needs types for 2 parameters: substeps: object, visible: boolean"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 118,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hideSubstepIfAny(): parameter 'step' needs a type. Add: @param {object} step"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 127,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hideSubstep(): parameter 'visible' needs a type. Add: @param {any[]} visible"
+    },
+    {
+      "file": "src/plugins/substep/substep.js",
+      "line": 160,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 67,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'document' needs a type. Add: @param {object} document"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 82,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getGroupElement(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 106,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNextGroupIndex(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 126,
+      "column": 76,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 137,
+      "column": 77,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 144,
+      "column": 77,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/plugins/toolbar/toolbar.js",
+      "line": 148,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/touch/touch.js",
+      "line": 15,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: document: object, window: object"
+    },
+    {
+      "file": "src/plugins/touch/touch.js",
+      "line": 26,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/plugins/touch/touch.js",
+      "line": 30,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    }
+  ],
+  "typesPackage": "@types/impress",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.13",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 27401
+}

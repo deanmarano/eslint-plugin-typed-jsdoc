@@ -1,0 +1,70 @@
+{
+  "name": "raw-body",
+  "downloadedAt": "2026-02-03T22:03:43.499Z",
+  "lintedAt": "2026-02-03T22:03:43.499Z",
+  "filesAnalyzed": 8,
+  "totalIssues": 6,
+  "errors": 0,
+  "warnings": 6,
+  "byRule": {
+    "tjd/no-implicit-any": 4,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 120,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, buf"
+    },
+    {
+      "file": "index.js",
+      "line": 254,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onData(): parameter 'chunk' needs a type. Add: @param {object} chunk"
+    },
+    {
+      "file": "index.js",
+      "line": 272,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onEnd(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 321,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrap(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "test/flowing.js",
+      "line": 10,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-self-assign')."
+    },
+    {
+      "file": "test/index.js",
+      "line": 21,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-self-assign')."
+    }
+  ],
+  "typesPackage": "@types/raw-body",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.3.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21155
+}

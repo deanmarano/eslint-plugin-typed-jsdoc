@@ -1,0 +1,18 @@
+{
+  "name": "ms",
+  "downloadedAt": "2026-02-03T22:04:05.614Z",
+  "lintedAt": "2026-02-03T22:04:05.614Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/ms",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.1.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19008
+}

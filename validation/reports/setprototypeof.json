@@ -1,0 +1,47 @@
+{
+  "name": "setprototypeof",
+  "downloadedAt": "2026-01-30T20:28:26.148Z",
+  "lintedAt": "2026-01-30T20:28:26.148Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "estl/no-implicit-any": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 5,
+      "column": 22,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'obj' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 5,
+      "column": 27,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'proto' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 10,
+      "column": 27,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'obj' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 10,
+      "column": 32,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'proto' has implicit 'any' type - add JSDoc @param annotation"
+    }
+  ],
+  "typesPackage": null
+}

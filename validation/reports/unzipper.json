@@ -1,0 +1,766 @@
+{
+  "name": "unzipper",
+  "downloadedAt": "2026-02-03T22:02:31.081Z",
+  "lintedAt": "2026-02-03T22:02:31.081Z",
+  "filesAnalyzed": 13,
+  "totalIssues": 93,
+  "errors": 0,
+  "warnings": 93,
+  "byRule": {
+    "tjd/require-jsdoc-types": 5,
+    "tjd/no-implicit-any": 88
+  },
+  "issues": [
+    {
+      "file": "lib/BufferStream.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} entry, @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/BufferStream.js",
+      "line": 3,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "lib/BufferStream.js",
+      "line": 12,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: d, e, cb: Function"
+    },
+    {
+      "file": "lib/Decrypt.js",
+      "line": 22,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "crc needs types for 2 parameters: ch: string, crc: object"
+    },
+    {
+      "file": "lib/Decrypt.js",
+      "line": 33,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "multiply needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/Decrypt.js",
+      "line": 55,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'h' needs a type. Add: @param {unknown} h"
+    },
+    {
+      "file": "lib/Decrypt.js",
+      "line": 72,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In decryptByte(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/Decrypt.js",
+      "line": 83,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: d: object, e, cb: Function"
+    },
+    {
+      "file": "lib/NoopStream.js",
+      "line": 12,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: d, e, cb: Function"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 14,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCrxHeader(): parameter 'source' needs a type. Add: @param {object} source"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 17,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 21,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 29,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 40,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getZip64CentralDirectory needs types for 2 parameters: source: object, zip64CDL"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 59,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseZip64DirRecord(): parameter 'dir64record' needs a type. Add: @param {unknown} dir64record"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 80,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: source: object, options: object"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 80,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} source, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 93,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 97,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 105,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 135,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 136,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dir64record' needs a type. Add: @param {unknown} dir64record"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 144,
+      "column": 84,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'comment' needs a type. Add: @param {object} comment"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 151,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extract(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 155,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'files' needs a type. Add: @param {any[]} files"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 156,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 186,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 210,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fileNameBuffer' needs a type. Add: @param {object} fileNameBuffer"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 216,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'extraField' needs a type. Add: @param {unknown} extraField"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 220,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'comment' needs a type. Add: @param {unknown} comment"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 224,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter '_password' needs a type. Add: @param {unknown} _password"
+    },
+    {
+      "file": "lib/Open/directory.js",
+      "line": 233,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buffer(): parameter '_password' needs a type. Add: @param {unknown} _password"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 6,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buffer needs types for 2 parameters: buffer: object, options: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 8,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 2 parameters: offset: number, length: number"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 20,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "file needs types for 2 parameters: filename, options: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 22,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 2 parameters: start: number, length: number"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 28,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, d: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 40,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "url needs types for 3 parameters: request: object, params: object, options: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 48,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 2 parameters: offset: number, length: number"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 58,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 72,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "s3 needs types for 3 parameters: client: object, params: object, options: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 76,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, d: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 84,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 2 parameters: offset: number, length: number"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 96,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "s3_v3 needs types for 3 parameters: client: object, params: object, options: object"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 114,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 2 parameters: offset: number, length: number"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 125,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'response' needs a type. Add: @param {object} response"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 128,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/Open/index.js",
+      "line": 138,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "custom needs types for 2 parameters: source, options: object"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 5 parameters: source: object, offset: number, _password, directoryVars: object, length: number"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} source, @param {any} offset, @param {any} _password, @param {any} directoryVars, @param {any} length, @returns {any}"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 14,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 19,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 37,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fileName' needs a type. Add: @param {string} fileName"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 41,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'extraField' needs a type. Add: @param {unknown} extraField"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 48,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'header' needs a type. Add: @param {object} header"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 79,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'vars' needs a type. Add: @param {object} vars"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 100,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/Open/unzip.js",
+      "line": 115,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/PullStream.js",
+      "line": 20,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_write needs types for 3 parameters: chunk, e, cb: Function"
+    },
+    {
+      "file": "lib/PullStream.js",
+      "line": 29,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 2 parameters: eof: object, includeEof"
+    },
+    {
+      "file": "lib/PullStream.js",
+      "line": 93,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pull needs types for 2 parameters: eof, includeEof"
+    },
+    {
+      "file": "lib/PullStream.js",
+      "line": 109,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _transform(): parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "lib/PullStream.js",
+      "line": 118,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/extract.js",
+      "line": 9,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Extract(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/extract.js",
+      "line": 16,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _write(): parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "lib/extract.js",
+      "line": 44,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'crxHeader' needs a type. Add: @param {unknown} crxHeader"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 15,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Parse(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 27,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 38,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 67,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'loop' needs a type. Add: @param {unknown} loop"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 76,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 83,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 93,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 111,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fileNameBuffer' needs a type. Add: @param {object} fileNameBuffer"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 153,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'extraField' needs a type. Add: @param {unknown} extraField"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 194,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 208,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _processDataDescriptor(): parameter 'entry' needs a type. Add: @param {object} entry"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 210,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 225,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 245,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fileName' needs a type. Add: @param {string} fileName"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 260,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/parseBuffer.js",
+      "line": 1,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseUIntLE needs types for 3 parameters: buffer: object, offset: number, size: number"
+    },
+    {
+      "file": "lib/parseBuffer.js",
+      "line": 38,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 2 parameters: buffer: object, format: string"
+    },
+    {
+      "file": "lib/parseDateTime.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: date, time: number"
+    },
+    {
+      "file": "lib/parseDateTime.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} date, @param {any} time, @returns {Date}"
+    },
+    {
+      "file": "lib/parseExtraField.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: extraField: object, vars: object"
+    },
+    {
+      "file": "lib/parseExtraField.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} extraField, @param {any} vars, @returns {{}}"
+    },
+    {
+      "file": "lib/parseOne.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseOne needs types for 2 parameters: match, opts"
+    },
+    {
+      "file": "lib/parseOne.js",
+      "line": 13,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_transform needs types for 3 parameters: entry: object, e, cb: Function"
+    },
+    {
+      "file": "lib/parseOne.js",
+      "line": 20,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "lib/parseOne.js",
+      "line": 24,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/parseOne.js",
+      "line": 27,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "lib/parseOne.js",
+      "line": 34,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    }
+  ],
+  "typesPackage": "@types/unzipper",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.10.11",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20612
+}

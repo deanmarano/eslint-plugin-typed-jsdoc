@@ -1,0 +1,65 @@
+{
+  "name": "delay",
+  "downloadedAt": "2026-02-03T22:06:31.727Z",
+  "lintedAt": "2026-02-03T22:06:31.727Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 6,
+  "errors": 0,
+  "warnings": 6,
+  "byRule": {
+    "tjd/require-jsdoc-types": 3,
+    "tjd/no-implicit-any": 3
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 6,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createDelay needs JSDoc: @returns {function(any, { value, {}): Promise<any>}"
+    },
+    {
+      "file": "index.js",
+      "line": 8,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'milliseconds' needs a type. Add: @param {unknown} milliseconds"
+    },
+    {
+      "file": "index.js",
+      "line": 57,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rangeDelay needs types for 3 parameters: minimum, maximum, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 57,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "rangeDelay needs JSDoc: @param {any} minimum, @param {any} maximum, @param {any} options, @returns {Promise<any>}"
+    },
+    {
+      "file": "index.js",
+      "line": 61,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clearDelay needs JSDoc: @param {any} promise"
+    },
+    {
+      "file": "index.js",
+      "line": 61,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clearDelay(): parameter 'promise' needs a type. Add: @param {unknown} promise"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 17323
+}

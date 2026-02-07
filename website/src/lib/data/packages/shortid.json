@@ -1,0 +1,133 @@
+{
+  "name": "shortid",
+  "downloadedAt": "2026-02-03T22:00:39.002Z",
+  "lintedAt": "2026-02-03T22:00:39.002Z",
+  "filesAnalyzed": 10,
+  "totalIssues": 14,
+  "errors": 0,
+  "warnings": 14,
+  "byRule": {
+    "tjd/no-implicit-any": 14
+  },
+  "issues": [
+    {
+      "file": "lib/alphabet.js",
+      "line": 15,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setCharacters(): parameter '_alphabet_' needs a type. Add: @param {string} _alphabet_"
+    },
+    {
+      "file": "lib/alphabet.js",
+      "line": 32,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: item, ind, arr: string"
+    },
+    {
+      "file": "lib/alphabet.js",
+      "line": 44,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In characters(): parameter '_alphabet_' needs a type. Add: @param {unknown} _alphabet_"
+    },
+    {
+      "file": "lib/alphabet.js",
+      "line": 49,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setSeed(): parameter 'seed' needs a type. Add: @param {unknown} seed"
+    },
+    {
+      "file": "lib/alphabet.js",
+      "line": 88,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lookup(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "lib/build.js",
+      "line": 25,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In build(): parameter 'clusterWorkerId' needs a type. Add: @param {string} clusterWorkerId"
+    },
+    {
+      "file": "lib/generate.js",
+      "line": 7,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generate(): parameter 'number' needs a type. Add: @param {number} number"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 19,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In seed(): parameter 'seedValue' needs a type. Add: @param {unknown} seedValue"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 30,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In worker(): parameter 'workerId' needs a type. Add: @param {string} workerId"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 40,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In characters(): parameter 'newCharacters' needs a type. Add: @param {unknown} newCharacters"
+    },
+    {
+      "file": "lib/is-valid.js",
+      "line": 4,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isShortId(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/random/random-byte-browser.js",
+      "line": 8,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "lib/random/random-byte-browser.js",
+      "line": 16,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "lib/random/random-from-seed.js",
+      "line": 18,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setSeed(): parameter '_seed_' needs a type. Add: @param {unknown} _seed_"
+    }
+  ],
+  "typesPackage": "@types/shortid",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.2.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 27361
+}

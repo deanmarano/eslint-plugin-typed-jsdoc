@@ -1,0 +1,29 @@
+{
+  "name": "filesize",
+  "downloadedAt": "2026-02-03T22:04:05.615Z",
+  "lintedAt": "2026-02-03T22:04:05.615Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 1,
+  "errors": 0,
+  "warnings": 1,
+  "byRule": {
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "src/filesize.js",
+      "line": 230,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    }
+  ],
+  "typesPackage": "@types/filesize",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.0.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19158
+}

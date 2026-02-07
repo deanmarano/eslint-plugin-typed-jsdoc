@@ -1,0 +1,77 @@
+{
+  "name": "connect",
+  "downloadedAt": "2026-02-03T21:59:27.777Z",
+  "lintedAt": "2026-02-03T21:59:27.777Z",
+  "filesAnalyzed": 7,
+  "totalIssues": 7,
+  "errors": 0,
+  "warnings": 7,
+  "byRule": {
+    "tjd/no-implicit-any": 7
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 41,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "index.js",
+      "line": 51,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "app needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 76,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "use needs types for 2 parameters: route, fn: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 90,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 119,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handle needs types for 3 parameters: req: object, res: object, out"
+    },
+    {
+      "file": "index.js",
+      "line": 135,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 225,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "call needs types for 6 parameters: handle: Function, route, err: Error, req: object, res: object, next: Function"
+    }
+  ],
+  "typesPackage": "@types/connect",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.4.38",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22845
+}

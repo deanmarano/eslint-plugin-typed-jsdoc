@@ -1,0 +1,24 @@
+{
+  "name": "interact.js",
+  "downloadedAt": "2026-02-03T22:08:49.572Z",
+  "lintedAt": "2026-02-03T22:08:49.572Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 1,
+  "errors": 0,
+  "warnings": 1,
+  "byRule": {
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "packages/@interactjs/dev-tools/babel-plugin-prod.js",
+      "line": 27,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    }
+  ],
+  "typesPackage": "@types/interactjs",
+  "duration": 18557
+}

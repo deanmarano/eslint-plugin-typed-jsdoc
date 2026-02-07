@@ -1,0 +1,325 @@
+{
+  "name": "packery",
+  "downloadedAt": "2026-02-03T22:10:24.532Z",
+  "lintedAt": "2026-02-03T22:10:24.532Z",
+  "filesAnalyzed": 33,
+  "totalIssues": 38,
+  "errors": 0,
+  "warnings": 38,
+  "byRule": {
+    "tjd/no-implicit-any": 38
+  },
+  "issues": [
+    {
+      "file": "js/item.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/item.js",
+      "line": 29,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Outlayer: object, Rect"
+    },
+    {
+      "file": "js/item.js",
+      "line": 54,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveTo needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 6,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 23,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Rect' needs a type. Add: @param {unknown} Rect"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 60,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pack(): parameter 'rect' needs a type. Add: @param {unknown} rect"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 70,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In columnPack(): parameter 'rect' needs a type. Add: @param {object} rect"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 84,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rowPack(): parameter 'rect' needs a type. Add: @param {object} rect"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 98,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "placeInSpace needs types for 2 parameters: rect: object, space: object"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 107,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In placed(): parameter 'rect' needs a type. Add: @param {unknown} rect"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 133,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addSpace(): parameter 'rect' needs a type. Add: @param {unknown} rect"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 183,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "downwardLeftToRight needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/packer.js",
+      "line": 187,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rightwardTopToBottom needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 9,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 42,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 5 parameters: getSize: Function, Outlayer: object, Rect: object, Packer, Item"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 48,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canFit(): parameter 'rect' needs a type. Add: @param {object} rect"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 87,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "start needs types for 2 parameters: event: Event, ui"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 94,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "drag needs types for 2 parameters: event: Event, ui: object"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 100,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stop needs types for 2 parameters: event: Event, ui"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 155,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getItemLayoutPosition(): parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 269,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "verticalSorter needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 273,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "horizontalSorter needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 381,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 388,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 419,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateShiftTargets(): parameter 'dropItem' needs a type. Add: @param {object} dropItem"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 426,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stamp' needs a type. Add: @param {unknown} stamp"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 471,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 496,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addShiftTarget needs types for 3 parameters: x: number, y: number, boundsSize: number"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 513,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shift needs types for 3 parameters: item: object, x: number, y: number"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 517,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 528,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDistance needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 618,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unbindDraggabillyEvents(): parameter 'draggie' needs a type. Add: @param {unknown} draggie"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 622,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_bindDraggabillyEvents needs types for 2 parameters: draggie: object, method"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 637,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unbindUIDraggableEvents(): parameter '$elems' needs a type. Add: @param {unknown} $elems"
+    },
+    {
+      "file": "js/packery.js",
+      "line": 641,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_bindUIDraggableEvents needs types for 2 parameters: $elems: object, method"
+    },
+    {
+      "file": "js/rect.js",
+      "line": 6,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'window' needs a type. Add: @param {object} window"
+    },
+    {
+      "file": "js/rect.js",
+      "line": 26,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Rect(): parameter 'props' needs a type. Add: @param {object} props"
+    },
+    {
+      "file": "js/rect.js",
+      "line": 146,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In canFit(): parameter 'rect' needs a type. Add: @param {object} rect"
+    }
+  ],
+  "typesPackage": "@types/packery",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.4.37",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 25004
+}

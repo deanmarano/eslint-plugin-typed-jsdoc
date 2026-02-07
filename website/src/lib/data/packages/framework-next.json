@@ -1,0 +1,77 @@
+{
+  "name": "next",
+  "displayName": "Next.js",
+  "generatedAt": "2026-01-31T15:18:05.020Z",
+  "lintedAt": "2026-01-31T15:19:41.417Z",
+  "generatorVersion": "16.1.6",
+  "filesAnalyzed": 3,
+  "totalIssues": 5,
+  "errors": 0,
+  "warnings": 5,
+  "byRule": {
+    "tjd/no-implicit-any": 3,
+    "tjd/no-redundant-jsdoc": 2
+  },
+  "issues": [
+    {
+      "file": "lib/test-no-implicit-any.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processData needs types for 3 parameters: data: object, callback: Function, options: object"
+    },
+    {
+      "file": "lib/test-no-implicit-any.js",
+      "line": 11,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleRequest needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/test-no-redundant-jsdoc.js",
+      "line": 5,
+      "column": 8,
+      "rule": "tjd/no-redundant-jsdoc",
+      "severity": "warning",
+      "message": "JSDoc comment is redundant - only contains type information that TypeScript infers"
+    },
+    {
+      "file": "lib/test-no-redundant-jsdoc.js",
+      "line": 8,
+      "column": 8,
+      "rule": "tjd/no-redundant-jsdoc",
+      "severity": "warning",
+      "message": "JSDoc comment is redundant - only contains type information that TypeScript infers"
+    },
+    {
+      "file": "pages/api/hello.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handler needs types for 2 parameters: req: object, res: object"
+    }
+  ],
+  "duration": 113089,
+  "success": true,
+  "verification": {
+    "passed": true,
+    "expectedViolations": [
+      {
+        "rule": "tjd/no-implicit-any",
+        "expectedCount": 2,
+        "actualCount": 2,
+        "passed": true
+      },
+      {
+        "rule": "tjd/no-redundant-jsdoc",
+        "expectedCount": 2,
+        "actualCount": 2,
+        "passed": true
+      }
+    ],
+    "unexpectedIssues": 1
+  }
+}

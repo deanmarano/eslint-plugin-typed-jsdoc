@@ -1,0 +1,5560 @@
+{
+  "name": "p5.js",
+  "downloadedAt": "2026-02-03T22:08:26.872Z",
+  "lintedAt": "2026-02-03T22:08:26.872Z",
+  "filesAnalyzed": 85,
+  "totalIssues": 692,
+  "errors": 4,
+  "warnings": 688,
+  "byRule": {
+    "tjd/no-implicit-any": 674,
+    "tjd/require-jsdoc-types": 5,
+    "unknown": 9,
+    "tjd/accurate-jsdoc": 4
+  },
+  "issues": [
+    {
+      "file": "src/accessibility/color_namer.js",
+      "line": 623,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _calculateColor(): parameter 'hsb' needs a type. Add: @param {object} hsb"
+    },
+    {
+      "file": "src/accessibility/color_namer.js",
+      "line": 706,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _rgbColorName(): parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "src/accessibility/describe.js",
+      "line": 307,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _descriptionText(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/accessibility/describe.js",
+      "line": 330,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_describeHTML needs types for 2 parameters: type: string, text: string"
+    },
+    {
+      "file": "src/accessibility/describe.js",
+      "line": 401,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _elementName(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/accessibility/describe.js",
+      "line": 418,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_describeElementHTML needs types for 3 parameters: type: string, name: string, text: string"
+    },
+    {
+      "file": "src/accessibility/gridOutput.js",
+      "line": 12,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateGridOutput(): parameter 'idT' needs a type. Add: @param {unknown} idT"
+    },
+    {
+      "file": "src/accessibility/gridOutput.js",
+      "line": 56,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_gridMap needs types for 2 parameters: idT, ingredients: object"
+    },
+    {
+      "file": "src/accessibility/gridOutput.js",
+      "line": 111,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_gridSummary needs types for 4 parameters: numShapes, background, width: number, height: number"
+    },
+    {
+      "file": "src/accessibility/gridOutput.js",
+      "line": 124,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_gridShapeDetails needs types for 2 parameters: idT, ingredients: object"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 328,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createOutput needs types for 2 parameters: type: string, display"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 455,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _accsBackground(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 469,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_accsCanvasColors needs types for 2 parameters: f, args: any[]"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 486,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_accsOutput needs types for 2 parameters: f, args: any[]"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 548,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getMiddle needs types for 2 parameters: f, args: any[]"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 576,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getPos needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 613,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_canvasLocator needs types for 3 parameters: args: any[], canvasWidth: number, canvasHeight: number"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 634,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getArea needs types for 2 parameters: objectType, shapeArgs"
+    },
+    {
+      "file": "src/accessibility/outputs.js",
+      "line": 706,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'corner' needs a type. Add: @param {object} corner"
+    },
+    {
+      "file": "src/accessibility/textOutput.js",
+      "line": 12,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateTextOutput(): parameter 'idT' needs a type. Add: @param {unknown} idT"
+    },
+    {
+      "file": "src/accessibility/textOutput.js",
+      "line": 56,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_textSummary needs types for 4 parameters: numShapes, background, width: number, height: number"
+    },
+    {
+      "file": "src/accessibility/textOutput.js",
+      "line": 67,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_shapeDetails needs types for 2 parameters: idT, ingredients: object"
+    },
+    {
+      "file": "src/accessibility/textOutput.js",
+      "line": 99,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_shapeList needs types for 2 parameters: idT, ingredients: object"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 21,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _hsbaToHSLA(): parameter 'hsba' needs a type. Add: @param {unknown} hsba"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 47,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _hsbaToRGBA(): parameter 'hsba' needs a type. Add: @param {unknown} hsba"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 102,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _hslaToHSBA(): parameter 'hsla' needs a type. Add: @param {unknown} hsla"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 130,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _hslaToRGBA(): parameter 'hsla' needs a type. Add: @param {unknown} hsla"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 152,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hzvToRGB needs types for 3 parameters: hue: number, zest: number, val: number"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 189,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _rgbaToHSBA(): parameter 'rgba' needs a type. Add: @param {unknown} rgba"
+    },
+    {
+      "file": "src/color/color_conversion.js",
+      "line": 228,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _rgbaToHSLA(): parameter 'rgba' needs a type. Add: @param {unknown} rgba"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 112,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In alpha(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 248,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In blue(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 393,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In brightness(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 823,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In green(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 944,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hue(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1024,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'level' needs a type. Add: @param {number} level"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1025,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'level' needs a type. Add: @param {number} level"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1046,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lerp needs types for 3 parameters: start: number, stop: number, amt: number"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1114,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In paletteLerp(): parameter 'color_stops' needs a type. Add: @param {object} color_stops"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1274,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lightness(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1410,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In red(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/creating_reading.js",
+      "line": 1587,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In saturation(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 347,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: pInst: object, vals"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 609,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setRed(): parameter 'new_red' needs a type. Add: @param {number} new_red"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 651,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setGreen(): parameter 'new_green' needs a type. Add: @param {number} new_green"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 693,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setBlue(): parameter 'new_blue' needs a type. Add: @param {number} new_blue"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 736,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setAlpha(): parameter 'new_alpha' needs a type. Add: @param {number} new_alpha"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 761,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_storeModeAndMaxes needs types for 2 parameters: new_mode, new_maxes"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 865,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_parseInputs needs types for 4 parameters: r: string, g: number, b: number, a: number"
+    },
+    {
+      "file": "src/color/p5.Color.js",
+      "line": 1003,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/color/setting.js",
+      "line": 408,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clip(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/core/environment.js",
+      "line": 300,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cursor(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "src/core/environment.js",
+      "line": 408,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In frameRate(): parameter 'fps' needs a type. Add: @param {unknown} fps"
+    },
+    {
+      "file": "src/core/environment.js",
+      "line": 772,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onresize(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/core/environment.js",
+      "line": 1063,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pixelDensity(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/core/environment.js",
+      "line": 1117,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In launchFullscreen(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/core/environment.js",
+      "line": 1206,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 68,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getType(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 215,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _friendlyAutoplayError(): parameter 'src' needs a type. Add: @param {string} src"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 287,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkForUserDefinedFunctions(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 345,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'symbol' needs a type. Add: @param {object} symbol"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 359,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'symbol' needs a type. Add: @param {object} symbol"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 397,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'symbol' needs a type. Add: @param {object} symbol"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 442,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'frame' needs a type. Add: @param {object} frame"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 493,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'frame' needs a type. Add: @param {object} frame"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 542,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'frame' needs a type. Add: @param {object} frame"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 546,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'frame' needs a type. Add: @param {object} frame"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 629,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fesErrorMonitor(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 976,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSymbols(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 1015,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/core/friendly_errors/fes_core.js",
+      "line": 1050,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'symbol' needs a type. Add: @param {object} symbol"
+    },
+    {
+      "file": "src/core/friendly_errors/file_errors.js",
+      "line": 12,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fileLoadErrorCases needs types for 2 parameters: num: number, filePath: string"
+    },
+    {
+      "file": "src/core/friendly_errors/sketch_reader.js",
+      "line": 170,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ele' needs a type. Add: @param {string} ele"
+    },
+    {
+      "file": "src/core/friendly_errors/sketch_reader.js",
+      "line": 176,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'group' needs a type. Add: @param {unknown} group"
+    },
+    {
+      "file": "src/core/friendly_errors/sketch_reader.js",
+      "line": 195,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ele' needs a type. Add: @param {string} ele"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 54,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extractLocation(): parameter 'urlLike' needs a type. Add: @param {object} urlLike"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 65,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseV8OrIE(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 66,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 70,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {object} line"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 111,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFFOrSafari(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 112,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 116,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {object} line"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 149,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseOpera(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 163,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseOpera9(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 182,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseOpera10(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 203,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseOpera11(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 204,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "src/core/friendly_errors/stacktrace.js",
+      "line": 211,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 101,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addType needs types for 3 parameters: value: object, obj: object, func: Function"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 171,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildArgTypeCache needs types for 2 parameters: func: Function, arr: object"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 203,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lookupParamDoc(): parameter 'func' needs a type. Add: @param {Function} func"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 246,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'format' needs a type. Add: @param {string} format"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 248,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 319,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 344,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNumber(): parameter 'param' needs a type. Add: @param {unknown} param"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 361,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "testParamType needs types for 2 parameters: param: object, type: string"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 410,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "testParamTypes needs types for 2 parameters: param, types: object"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 425,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scoreOverload needs types for 4 parameters: args: any[], argCount: number, overload: object, minScore"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 461,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getOverloadErrors needs types for 3 parameters: args: any[], argCount: number, overload: object"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 519,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: message: string, func: Function, type: string"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 538,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_friendlyParamError needs types for 2 parameters: errorObj: object, func: Function"
+    },
+    {
+      "file": "src/core/friendly_errors/validate_params.js",
+      "line": 545,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "src/core/helpers.js",
+      "line": 13,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "modeAdjust needs types for 5 parameters: a: number, b: number, c: number, d: number, mode"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 37,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: services, options: object"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 43,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fetchWithTimeout needs types for 2 parameters: url: string, options: object"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 52,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init(): parameter 'services' needs a type. Add: @param {unknown} services"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 57,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "read needs types for 3 parameters: language, namespace, callback: Function"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 82,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadUrl needs types for 2 parameters: url: string, callback: Function"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 85,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'response' needs a type. Add: @param {object} response"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 99,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 118,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In translator(): parameter 'values' needs a type. Add: @param {unknown} values"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 131,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "initialize needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 165,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'translateFn' needs a type. Add: @param {Function} translateFn"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 168,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 180,
+      "column": 45,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "availableTranslatorLanguages needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 187,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In currentTranslatorLanguage(): parameter 'language' needs a type. Add: @param {unknown} language"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 187,
+      "column": 42,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "currentTranslatorLanguage needs JSDoc: @param {any} language, @returns {any}"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 196,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTranslatorLanguage(): parameter 'language' needs a type. Add: @param {unknown} language"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 196,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setTranslatorLanguage needs JSDoc: @param {any} language, @returns {any}"
+    },
+    {
+      "file": "src/core/internationalization.js",
+      "line": 197,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 36,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: sketch: Function, node: object"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 347,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callRegisteredHooksFor(): parameter 'hookName' needs a type. Add: @param {string} hookName"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 436,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_wrapPreload needs types for 2 parameters: obj: object, fnName: string"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 504,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _draw(): parameter 'requestAnimationFrameTimestamp' needs a type. Add: @param {unknown} requestAnimationFrameTimestamp"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 552,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setProperty needs types for 2 parameters: prop, value"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 632,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'f' needs a type. Add: @param {object} f"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 761,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerPreloadMethod needs types for 2 parameters: fnString, obj: object"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 768,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerMethod needs types for 2 parameters: name: string, m"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 776,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unregisterMethod needs types for 2 parameters: name: string, m"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 810,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: prop, value"
+    },
+    {
+      "file": "src/core/main.js",
+      "line": 842,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'newValue' needs a type. Add: @param {unknown} newValue"
+    },
+    {
+      "file": "src/core/p5.Element.js",
+      "line": 55,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: elt, pInst"
+    },
+    {
+      "file": "src/core/p5.Element.js",
+      "line": 237,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parent(): parameter 'p' needs a type. Add: @param {string} p"
+    },
+    {
+      "file": "src/core/p5.Element.js",
+      "line": 290,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In id(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "src/core/p5.Element.js",
+      "line": 341,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In class(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/core/p5.Element.js",
+      "line": 394,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In eventPrependedFxn(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/core/p5.Element.js",
+      "line": 1018,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setProperty needs types for 2 parameters: prop, value"
+    },
+    {
+      "file": "src/core/p5.Graphics.js",
+      "line": 97,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 5 parameters: w, h, renderer, pInst: object, canvas"
+    },
+    {
+      "file": "src/core/p5.Graphics.js",
+      "line": 642,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createFramebuffer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 23,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: elt, pInst, isMainCanvas: boolean"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 97,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pop(): parameter 'style' needs a type. Add: @param {object} style"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 123,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resize needs types for 2 parameters: w: number, h: number"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 136,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 4 parameters: x: number, y: number, w: number, h: number"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 170,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textLeading(): parameter 'l' needs a type. Add: @param {unknown} l"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 180,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textStyle(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 211,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "textAlign needs types for 2 parameters: h, v: string"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 228,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textWrap(): parameter 'wrapStyle' needs a type. Add: @param {unknown} wrapStyle"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 233,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "text needs types for 5 parameters: str: string, x: number, y: number, maxWidth: number, maxHeight: number"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 524,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calculateOffset(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "src/core/p5.Renderer.js",
+      "line": 539,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textSize(): parameter 's' needs a type. Add: @param {number} s"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 15,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: elt, pInst, isMainCanvas: boolean"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 63,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resize needs types for 2 parameters: w, h"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 143,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "erase needs types for 2 parameters: opacityFill, opacityStroke"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 235,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "image needs types for 9 parameters: img: object, sx: number, sy: number, sWidth: number, sHeight: number, dx, dy, dWidth, dHeight"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 289,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getTintedImageCanvas(): parameter 'img' needs a type. Add: @param {object} img"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 359,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In blendMode(): parameter 'mode' needs a type. Add: @param {unknown} mode"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 403,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getPixel needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 428,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 3 parameters: x: number, y: number, imgOrCol: object"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 504,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updatePixels needs types for 4 parameters: x: number, y: number, w, h"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 542,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arc needs types for 7 parameters: x: number, y: number, w: number, h: number, start: number, stop: number, mode"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 591,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ellipse(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 625,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "line needs types for 4 parameters: x1, y1, x2, y2"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 639,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "point needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 660,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "quad needs types for 8 parameters: x1, y1, x2, y2, x3, y3, x4, y4"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 688,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rect(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 771,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In triangle(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 803,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "endShape needs types for 7 parameters: mode, vertices: any[], isCurve: boolean, isBezier: boolean, isQuadratic: boolean, isContour: boolean, shapeKind"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1072,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeCap(): parameter 'cap' needs a type. Add: @param {unknown} cap"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1083,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeJoin(): parameter 'join' needs a type. Add: @param {unknown} join"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1094,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeWeight(): parameter 'w' needs a type. Add: @param {unknown} w"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1111,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setFill(): parameter 'fillStyle' needs a type. Add: @param {unknown} fillStyle"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1125,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setStroke(): parameter 'strokeStyle' needs a type. Add: @param {unknown} strokeStyle"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1135,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezier needs types for 8 parameters: x1, y1, x2, y2, x3, y3, x4, y4"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1143,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "curve needs types for 8 parameters: x1, y1, x2, y2, x3, y3, x4, y4"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1157,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _doFillStrokeClose(): parameter 'closeShape' needs a type. Add: @param {unknown} closeShape"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1173,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyMatrix needs types for 6 parameters: a, b, c, d, e, f"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1186,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotate(): parameter 'rad' needs a type. Add: @param {unknown} rad"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1190,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scale needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1195,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "translate needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1212,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_renderText needs types for 6 parameters: p: any[], line, x: number, y: number, maxY, minY"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1245,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textWidth(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1306,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pop(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "src/core/p5.Renderer2D.js",
+      "line": 1317,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "text needs types for 5 parameters: str: string, x: number, y: number, maxWidth, maxHeight"
+    },
+    {
+      "file": "src/core/preload.js",
+      "line": 19,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In registerPromisePreload(): parameter 'setup' needs a type. Add: @param {unknown} setup"
+    },
+    {
+      "file": "src/core/preload.js",
+      "line": 63,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_wrapPromisePreload needs types for 3 parameters: thisValue, fn: Function, addCallbacks"
+    },
+    {
+      "file": "src/core/preload.js",
+      "line": 108,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_legacyPreloadGenerator needs types for 3 parameters: thisValue, legacyPreloadSetup: object, fn: Function"
+    },
+    {
+      "file": "src/core/preload.js",
+      "line": 124,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/core/rendering.js",
+      "line": 126,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createCanvas needs types for 3 parameters: w, h, renderer"
+    },
+    {
+      "file": "src/core/rendering.js",
+      "line": 154,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/core/rendering.js",
+      "line": 306,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resizeCanvas needs types for 2 parameters: w, h"
+    },
+    {
+      "file": "src/core/rendering.js",
+      "line": 482,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createGraphics needs types for 2 parameters: w, h"
+    },
+    {
+      "file": "src/core/rendering.js",
+      "line": 631,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createFramebuffer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/core/shape/2d_primitives.js",
+      "line": 38,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_normalizeArcAngles needs types for 5 parameters: start: number, stop: number, width: number, height: number, correctForScaling"
+    },
+    {
+      "file": "src/core/shape/2d_primitives.js",
+      "line": 483,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ellipse(): parameter 'detailX' needs a type. Add: @param {unknown} detailX"
+    },
+    {
+      "file": "src/core/shape/2d_primitives.js",
+      "line": 541,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_renderEllipse needs types for 5 parameters: x: number, y: number, w, h, detailX"
+    },
+    {
+      "file": "src/core/shape/attributes.js",
+      "line": 87,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ellipseMode(): parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/core/shape/attributes.js",
+      "line": 290,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rectMode(): parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/core/shape/attributes.js",
+      "line": 596,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeWeight(): parameter 'w' needs a type. Add: @param {unknown} w"
+    },
+    {
+      "file": "src/core/shape/curves.js",
+      "line": 318,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bezierDetail(): parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/core/shape/curves.js",
+      "line": 865,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curveDetail(): parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/core/shape/curves.js",
+      "line": 924,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In curveTightness(): parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "src/core/shape/vertex.js",
+      "line": 2068,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In vertex(): parameter 'moveTo' needs a type. Add: @param {unknown} moveTo"
+    },
+    {
+      "file": "src/core/transform.js",
+      "line": 464,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotate(): parameter 'axis' needs a type. Add: @param {unknown} axis"
+    },
+    {
+      "file": "src/core/transform.js",
+      "line": 1044,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scale needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/core/transform.js",
+      "line": 1399,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "translate needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/data/local_storage.js",
+      "line": 123,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In storeItem(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 43,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createStringDict needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 77,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createNumberDict needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 92,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 163,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 203,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addObj(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 232,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 346,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In saveTable(): parameter 'filename' needs a type. Add: @param {unknown} filename"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 384,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "saveJSON needs types for 2 parameters: filename, opt"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 392,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _validate(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 410,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _validate(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 435,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _validate(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 458,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: key: string, amount"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 485,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sub needs types for 2 parameters: key: string, amount"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 508,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mult needs types for 2 parameters: key: string, amount"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 535,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "div needs types for 2 parameters: key: string, amount"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 549,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _valueTest(): parameter 'flip' needs a type. Add: @param {number} flip"
+    },
+    {
+      "file": "src/data/p5.TypedDict.js",
+      "line": 613,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _keyTest(): parameter 'flip' needs a type. Add: @param {number} flip"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 98,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "select needs types for 2 parameters: e, p"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 192,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "selectAll needs types for 2 parameters: e, p"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 209,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getContainer(): parameter 'p' needs a type. Add: @param {object} p"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 224,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _wrapElement(): parameter 'elt' needs a type. Add: @param {object} elt"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 245,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 322,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeElements(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 325,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNotCanvasElement(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 327,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 481,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addElement needs types for 3 parameters: elt, pInst: object, media"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1138,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1350,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "option needs types for 2 parameters: name: string, value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1383,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In selected(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1405,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In disable(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1419,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In enable(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1635,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRadioInput(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1637,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLabelElement(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1638,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSpanElement(): parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1643,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1647,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1650,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "option needs types for 2 parameters: value, label: string"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1696,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1722,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In selected(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1734,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'option' needs a type. Add: @param {object} option"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 1823,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createColorPicker(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2047,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleFileSelect(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2071,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createMedia needs types for 4 parameters: pInst, type: string, src: string, callback: Function"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2275,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getUserMedia(): parameter 'constraints' needs a type. Add: @param {unknown} constraints"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2449,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stream' needs a type. Add: @param {unknown} stream"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2460,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2582,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addClass(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2630,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeClass(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 2808,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In child(): parameter 'childNode' needs a type. Add: @param {string} childNode"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 3225,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "style needs types for 2 parameters: prop: object, val: object"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 3682,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "size needs types for 2 parameters: w: number, h: number"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 3769,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'track' needs a type. Add: @param {object} track"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 3906,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preventDefault(): parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 3922,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4013,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In draggable(): parameter 'elmMove' needs a type. Add: @param {object} elmMove"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4036,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dragMouseDown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4053,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In elementDrag(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4085,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4087,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: callback: Function, time, id: string, val"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4137,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: elt: object, pInst"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4195,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'newValue' needs a type. Add: @param {unknown} newValue"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4264,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4600,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In autoplay(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4754,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In speed(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4859,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In time(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4963,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updatePixels needs types for 4 parameters: x: number, y: number, w, h"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 4981,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 3 parameters: x: number, y: number, imgOrCol"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5021,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setModified(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5111,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In connect(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5315,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addCue(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5572,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: file: object, pInst"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5809,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createLoader needs types for 2 parameters: theFile, callback: Function"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5811,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onload(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/dom/dom.js",
+      "line": 5829,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_load needs types for 2 parameters: f: object, callback: Function"
+    },
+    {
+      "file": "src/events/acceleration.js",
+      "line": 454,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMoveThreshold(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/events/acceleration.js",
+      "line": 496,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setShakeThreshold(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/events/acceleration.js",
+      "line": 619,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _ondeviceorientation(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/acceleration.js",
+      "line": 628,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _ondevicemotion(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/keyboard.js",
+      "line": 443,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onkeydown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/keyboard.js",
+      "line": 630,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onkeyup(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/keyboard.js",
+      "line": 639,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "src/events/keyboard.js",
+      "line": 785,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onkeypress(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/keyboard.js",
+      "line": 807,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onblur(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 814,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateNextMouseCoords(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 865,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMousePos needs types for 4 parameters: canvas: object, w: number, h: number, evt: Event"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 886,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setMouseButton(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 1072,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onmousemove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 1243,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onmousedown(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 1416,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onmouseup(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 1589,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onclick(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 1720,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _ondblclick(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/mouse.js",
+      "line": 1868,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onwheel(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/touch.js",
+      "line": 95,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateTouchCoords(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/touch.js",
+      "line": 111,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTouchInfo needs types for 4 parameters: canvas: object, w: number, h: number, e: object"
+    },
+    {
+      "file": "src/events/touch.js",
+      "line": 278,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _ontouchstart(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/touch.js",
+      "line": 450,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _ontouchmove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/events/touch.js",
+      "line": 622,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _ontouchend(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/image/filters.js",
+      "line": 32,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _toPixels(): parameter 'canvas' needs a type. Add: @param {object} canvas"
+    },
+    {
+      "file": "src/image/filters.js",
+      "line": 119,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _toImageData(): parameter 'canvas' needs a type. Add: @param {object} canvas"
+    },
+    {
+      "file": "src/image/filters.js",
+      "line": 164,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In apply(): parameter 'filterParam' needs a type. Add: @param {unknown} filterParam"
+    },
+    {
+      "file": "src/image/filters.js",
+      "line": 499,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "blur needs types for 2 parameters: canvas, radius"
+    },
+    {
+      "file": "src/image/filters.js",
+      "line": 522,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildBlurKernel(): parameter 'r' needs a type. Add: @param {number} r"
+    },
+    {
+      "file": "src/image/filters.js",
+      "line": 558,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "blurARGB needs types for 2 parameters: canvas: object, radius"
+    },
+    {
+      "file": "src/image/image.js",
+      "line": 327,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'blob' needs a type. Add: @param {unknown} blob"
+    },
+    {
+      "file": "src/image/image.js",
+      "line": 336,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encodeAndDownloadGif needs types for 2 parameters: pImg: object, filename"
+    },
+    {
+      "file": "src/image/image.js",
+      "line": 658,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "saveFrames needs types for 4 parameters: fName: string, ext, _duration, _fps"
+    },
+    {
+      "file": "src/image/image.js",
+      "line": 688,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_makeFrame needs types for 3 parameters: filename, extension: string, _cnv"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 137,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pImg' needs a type. Add: @param {unknown} pImg"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 143,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 169,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onerror(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 192,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 289,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In saveGif(): parameter 'fileName' needs a type. Add: @param {string} fileName"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 470,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getIndexedFrame(): parameter 'frame' needs a type. Add: @param {object} frame"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 566,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_flipPixels needs types for 3 parameters: pixels: any[], width: number, height: number"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 594,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _generateGlobalPalette(): parameter 'frames' needs a type. Add: @param {object} frames"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 642,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createGif needs types for 5 parameters: arrayBuffer, pImg: object, successCallback: Function, failureCallback: Function, finishCallback: Function"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 655,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadGIFFrameIntoImage needs types for 2 parameters: frameNum, gifReader: object"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 1097,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In image(): parameter 'img' needs a type. Add: @param {object} img"
+    },
+    {
+      "file": "src/image/loading_displaying.js",
+      "line": 1493,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In imageMode(): parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 113,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: width: number, height: number"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 345,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _animateGif(): parameter 'pInst' needs a type. Add: @param {object} pInst"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 376,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setProperty needs types for 2 parameters: prop, value"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 558,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updatePixels needs types for 4 parameters: x: number, y: number, w, h"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 688,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: w, h"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 832,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'imgOrCol' needs a type. Add: @param {unknown} imgOrCol"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 958,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nearestNeighbor needs types for 2 parameters: src: string, dst: object"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 1147,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mask(): parameter 'p5Image' needs a type. Add: @param {object} p5Image"
+    },
+    {
+      "file": "src/image/p5.Image.js",
+      "line": 1425,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "filter needs types for 2 parameters: operation, value"
+    },
+    {
+      "file": "src/image/pixels.js",
+      "line": 387,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_copyHelper needs types for 10 parameters: dstImage: any[], srcImage: object, sx: number, sy: number, sw: number, sh: number, dx, dy, dw, dh"
+    },
+    {
+      "file": "src/image/pixels.js",
+      "line": 941,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: w, h"
+    },
+    {
+      "file": "src/image/pixels.js",
+      "line": 1114,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'imgOrCol' needs a type. Add: @param {unknown} imgOrCol"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 284,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'resp' needs a type. Add: @param {object} resp"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 294,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 466,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {string} data"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 490,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 575,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadTable(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 621,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'resp' needs a type. Add: @param {object} resp"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 751,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 767,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeObject needs types for 2 parameters: row: object, headers: any[]"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 776,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, i"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 961,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'xml' needs a type. Add: @param {object} xml"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 971,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 1020,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arrayBuffer' needs a type. Add: @param {unknown} arrayBuffer"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 1029,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 1395,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 1418,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 1932,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "save needs types for 3 parameters: object: object, _filename, _options"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 2104,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "saveJSON needs types for 2 parameters: json, opt"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 2266,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeHelper(): parameter 'content' needs a type. Add: @param {string} content"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 2313,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In saveTable(): parameter 'table' needs a type. Add: @param {object} table"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 2442,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In downloadFile(): parameter 'fName' needs a type. Add: @param {string} fName"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 2456,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onclick(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/io/files.js",
+      "line": 2526,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In destroyClickedElement(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 238,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRow(): parameter 'r' needs a type. Add: @param {unknown} r"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 331,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findRow(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 398,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findRows(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 458,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In matchRow(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 524,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In matchRows(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 578,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getColumn(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 789,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeTokens(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 790,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escape(): parameter 's' needs a type. Add: @param {string} s"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 858,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In trim(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 925,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeColumn(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 994,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 1039,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setNum(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 1083,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setString(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 1127,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 1169,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNum(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.Table.js",
+      "line": 1219,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getString(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 24,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: str: string, separator: string"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 75,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 135,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setNum(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 179,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setString needs types for 2 parameters: column, value: object"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 223,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 271,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNum(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.TableRow.js",
+      "line": 327,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getString(): parameter 'column' needs a type. Add: @param {unknown} column"
+    },
+    {
+      "file": "src/io/p5.XML.js",
+      "line": 68,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'DOM' needs a type. Add: @param {unknown} DOM"
+    },
+    {
+      "file": "src/io/p5.XML.js",
+      "line": 440,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getChildren(): parameter 'param' needs a type. Add: @param {unknown} param"
+    },
+    {
+      "file": "src/io/p5.XML.js",
+      "line": 528,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getChild(): parameter 'param' needs a type. Add: @param {unknown} param"
+    },
+    {
+      "file": "src/io/p5.XML.js",
+      "line": 595,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addChild(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/io/p5.XML.js",
+      "line": 706,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeChild(): parameter 'param' needs a type. Add: @param {unknown} param"
+    },
+    {
+      "file": "src/io/p5.XML.js",
+      "line": 1350,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In elementsToP5XML(): parameter 'elements' needs a type. Add: @param {any[]} elements"
+    },
+    {
+      "file": "src/math/calculation.js",
+      "line": 605,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In map(): parameter 'n' needs a type. Add: @param {number} n"
+    },
+    {
+      "file": "src/math/calculation.js",
+      "line": 686,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findMax(): parameter 'arr' needs a type. Add: @param {any[] | object} arr"
+    },
+    {
+      "file": "src/math/calculation.js",
+      "line": 763,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findMin(): parameter 'arr' needs a type. Add: @param {any[] | object} arr"
+    },
+    {
+      "file": "src/math/calculation.js",
+      "line": 810,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In norm(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/math/calculation.js",
+      "line": 1083,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fract(): parameter 'toConvert' needs a type. Add: @param {unknown} toConvert"
+    },
+    {
+      "file": "src/math/noise.js",
+      "line": 32,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scaled_cosine(): parameter 'i' needs a type. Add: @param {number} i"
+    },
+    {
+      "file": "src/math/noise.js",
+      "line": 461,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setSeed(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 220,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 416,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 439,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calculateRemainder2D needs types for 2 parameters: xComponent: number, yComponent: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 453,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calculateRemainder3D needs types for 3 parameters: xComponent: number, yComponent: number, zComponent: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 766,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sub needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1012,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1013,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1038,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1039,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1301,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1332,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 1547,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dot needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 2022,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMag(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 2230,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setHeading(): parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 2375,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotate(): parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 2521,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In angleBetween(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 2657,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lerp needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 3079,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equals needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 3876,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equals needs types for 2 parameters: v1, v2"
+    },
+    {
+      "file": "src/math/p5.Vector.js",
+      "line": 3916,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _clampToZero(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/math/random.js",
+      "line": 23,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _lcg(): parameter 'stateProperty' needs a type. Add: @param {unknown} stateProperty"
+    },
+    {
+      "file": "src/math/random.js",
+      "line": 31,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_lcgSetSeed needs types for 2 parameters: stateProperty, val"
+    },
+    {
+      "file": "src/math/random.js",
+      "line": 264,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "random needs types for 2 parameters: min: number, max: number"
+    },
+    {
+      "file": "src/math/trigonometry.js",
+      "line": 76,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In acos(): parameter 'ratio' needs a type. Add: @param {unknown} ratio"
+    },
+    {
+      "file": "src/math/trigonometry.js",
+      "line": 138,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In asin(): parameter 'ratio' needs a type. Add: @param {unknown} ratio"
+    },
+    {
+      "file": "src/math/trigonometry.js",
+      "line": 200,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In atan(): parameter 'ratio' needs a type. Add: @param {unknown} ratio"
+    },
+    {
+      "file": "src/math/trigonometry.js",
+      "line": 519,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In degrees(): parameter 'angle' needs a type. Add: @param {number} angle"
+    },
+    {
+      "file": "src/math/trigonometry.js",
+      "line": 555,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In radians(): parameter 'angle' needs a type. Add: @param {number} angle"
+    },
+    {
+      "file": "src/math/trigonometry.js",
+      "line": 747,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In angleMode(): parameter 'mode' needs a type. Add: @param {unknown} mode"
+    },
+    {
+      "file": "src/typography/attributes.js",
+      "line": 102,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "textAlign needs types for 2 parameters: horizAlign, vertAlign"
+    },
+    {
+      "file": "src/typography/attributes.js",
+      "line": 146,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textLeading(): parameter 'theLeading' needs a type. Add: @param {unknown} theLeading"
+    },
+    {
+      "file": "src/typography/attributes.js",
+      "line": 192,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textSize(): parameter 'theSize' needs a type. Add: @param {number} theSize"
+    },
+    {
+      "file": "src/typography/attributes.js",
+      "line": 248,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textStyle(): parameter 'theStyle' needs a type. Add: @param {unknown} theStyle"
+    },
+    {
+      "file": "src/typography/attributes.js",
+      "line": 541,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textWrap(): parameter 'wrapStyle' needs a type. Add: @param {unknown} wrapStyle"
+    },
+    {
+      "file": "src/typography/loading_displaying.js",
+      "line": 129,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "loadFont needs types for 2 parameters: onSuccess: Function, onError: Function"
+    },
+    {
+      "file": "src/typography/loading_displaying.js",
+      "line": 134,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, font"
+    },
+    {
+      "file": "src/typography/loading_displaying.js",
+      "line": 328,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In text(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/typography/loading_displaying.js",
+      "line": 424,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "textFont needs types for 2 parameters: theFont, theSize: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 46,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 178,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textBounds(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 218,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: glyph: object, gX, gY, gFontSize: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 344,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "textToPoints needs types for 2 parameters: txt: string, options: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 352,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isSpace needs types for 3 parameters: i, text: string, glyphsLine: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 428,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getPath(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 452,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getPathData needs types for 4 parameters: line: object, x: number, y: number, options: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 488,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getSVG needs types for 4 parameters: line: object, x: number, y: number, options: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 531,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_renderPath needs types for 4 parameters: line: object, x: number, y: number, options: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 575,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_textWidth needs types for 2 parameters: str: string, fontSize: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 579,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _textAscent(): parameter 'fontSize' needs a type. Add: @param {number} fontSize"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 583,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _textDescent(): parameter 'fontSize' needs a type. Add: @param {number} fontSize"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 587,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _scale(): parameter 'fontSize' needs a type. Add: @param {number} fontSize"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 593,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_handleAlignment needs types for 5 parameters: renderer: object, line, x: number, y: number, textWidth: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 626,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pathToPoints needs types for 2 parameters: cmds, options: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 648,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In simplify(): parameter 'pts' needs a type. Add: @param {any[]} pts"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 660,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In splitPaths(): parameter 'cmds' needs a type. Add: @param {object} cmds"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 677,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cmdToArr(): parameter 'cmd' needs a type. Add: @param {object} cmd"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 691,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseOpts needs types for 2 parameters: options: object, defaults: object"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 706,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "at needs types for 2 parameters: v: string, i: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 711,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "collinear needs types for 4 parameters: a: object, b: object, c: object, thresholdAngle"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 736,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "areaTriangle needs types for 3 parameters: a, b, c"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 742,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findDotsAtSegment needs types for 9 parameters: p1x: number, p1y: number, c1x: number, c1y: number, c2x: number, c2y: number, p2x: number, p2y: number, t: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 775,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPointAtSegmentLength needs types for 9 parameters: p1x, p1y, c1x, c1y, c2x, c2y, p2x, p2y, length: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 801,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pointAtLength needs types for 3 parameters: path: string, length: number, istotal"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 853,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pathToAbsolute(): parameter 'pathArray' needs a type. Add: @param {object} pathArray"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 953,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "path2curve needs types for 2 parameters: path: string, path2: any[]"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 962,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processPath needs types for 3 parameters: path: string, d: object, pcom"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1022,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fixArc needs types for 2 parameters: pp: any[], i"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1037,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fixM needs types for 5 parameters: path1: object, path2: any[], a1: object, a2: object, i"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1109,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "a2c needs types for 10 parameters: x1: number, y1: number, rx: number, ry: number, angle, lac, sweep_flag, x2: number, y2: number, recursive: boolean"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1123,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotate needs types for 3 parameters: x: number, y: number, rad"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1229,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "catmullRom2bezier needs types for 2 parameters: crp: object, z: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1295,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "l2c needs types for 4 parameters: x1, y1, x2, y2"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1299,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "q2c needs types for 6 parameters: x1: number, y1: number, ax: number, ay: number, x2: number, y2: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1312,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezlen needs types for 9 parameters: x1, y1, x2, y2, x3, y3, x4, y4, z: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1360,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTatLen needs types for 9 parameters: x1, y1, x2, y2, x3, y3, x4, y4, ll: number"
+    },
+    {
+      "file": "src/typography/p5.Font.js",
+      "line": 1378,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "base3 needs types for 5 parameters: t: number, p1: number, p2: number, p3: number, p4: number"
+    },
+    {
+      "file": "src/utilities/array_functions.js",
+      "line": 30,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In append(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/utilities/array_functions.js",
+      "line": 80,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arrayCopy needs types for 2 parameters: srcPosition, dstPosition"
+    },
+    {
+      "file": "src/utilities/array_functions.js",
+      "line": 139,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "concat needs types for 2 parameters: list0: object, list1"
+    },
+    {
+      "file": "src/utilities/array_functions.js",
+      "line": 282,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shuffle(): parameter 'arr' needs a type. Add: @param {object} arr"
+    },
+    {
+      "file": "src/utilities/array_functions.js",
+      "line": 341,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: number, b: number"
+    },
+    {
+      "file": "src/utilities/array_functions.js",
+      "line": 374,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splice needs types for 2 parameters: value, index: number"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 85,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In float(): parameter 'str' needs a type. Add: @param {any[]} str"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 216,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In int(): parameter 'n' needs a type. Add: @param {any[]} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 228,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 456,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In boolean(): parameter 'n' needs a type. Add: @param {object} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 603,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In byte(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 721,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In char(): parameter 'n' needs a type. Add: @param {any[]} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 810,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unchar(): parameter 'n' needs a type. Add: @param {object} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 932,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hex(): parameter 'n' needs a type. Add: @param {any[]} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 935,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/utilities/conversion.js",
+      "line": 1038,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unhex(): parameter 'n' needs a type. Add: @param {any[]} n"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 114,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In match(): parameter 'reg' needs a type. Add: @param {unknown} reg"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 184,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In matchAll(): parameter 'reg' needs a type. Add: @param {unknown} reg"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 283,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nf needs types for 2 parameters: left, right"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 303,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "doNf needs types for 3 parameters: num: number, left, right"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 417,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nfc needs types for 2 parameters: num: any[], right"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 420,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 425,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "doNfc needs types for 2 parameters: num: number, right: number"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 569,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addNfp(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 686,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addNfs(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 746,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In split(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 889,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In splitTokens(): parameter 'delims' needs a type. Add: @param {unknown} delims"
+    },
+    {
+      "file": "src/utilities/string_functions.js",
+      "line": 989,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In trim(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 1366,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_truncatedCone needs types for 7 parameters: bottomRadius: number, topRadius: number, height: number, detailX: number, detailY: number, bottomCap, topCap"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2452,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In triangle(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2505,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ellipse(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2635,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rect(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2767,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2768,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "quad needs types for 12 parameters: x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, x3: number, y3: number, z3: number, x4: number, y4: number, z4: number"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2831,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezier needs types for 12 parameters: x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, x3: number, y3: number, z3: number, x4: number, y4: number, z4: number"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 2872,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "curve needs types for 12 parameters: x1: number, y1: number, z1: number, x2: number, y2: number, z2: number, x3: number, y3: number, z3: number, x4: number, y4: number, z4: number"
+    },
+    {
+      "file": "src/webgl/3d_primitives.js",
+      "line": 3394,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "image needs types for 9 parameters: img: object, sx: number, sy: number, sWidth: number, sHeight: number, dx, dy, dWidth, dHeight"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 10,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'renderer' needs a type. Add: @param {object} renderer"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 25,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transformVertices(): parameter 'vertices' needs a type. Add: @param {any[]} vertices"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 28,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 35,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transformNormals(): parameter 'normals' needs a type. Add: @param {any[]} normals"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 39,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 48,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addGeometry(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 50,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: v: string, i"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 65,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'f' needs a type. Add: @param {any[]} f"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 65,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'idx' needs a type. Add: @param {number} idx"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 70,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edge' needs a type. Add: @param {any[]} edge"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 70,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'idx' needs a type. Add: @param {number} idx"
+    },
+    {
+      "file": "src/webgl/GeometryBuilder.js",
+      "line": 118,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addRetained(): parameter 'geometry' needs a type. Add: @param {object} geometry"
+    },
+    {
+      "file": "src/webgl/interaction.js",
+      "line": 168,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In orbitControl(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/webgl/interaction.js",
+      "line": 221,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'curTouch' needs a type. Add: @param {object} curTouch"
+    },
+    {
+      "file": "src/webgl/interaction.js",
+      "line": 222,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'prevTouch' needs a type. Add: @param {object} prevTouch"
+    },
+    {
+      "file": "src/webgl/interaction.js",
+      "line": 788,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _grid(): parameter 'numDivs' needs a type. Add: @param {number} numDivs"
+    },
+    {
+      "file": "src/webgl/light.js",
+      "line": 189,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ambientLight needs types for 4 parameters: v1, v2, v3, a"
+    },
+    {
+      "file": "src/webgl/light.js",
+      "line": 447,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "specularColor needs types for 3 parameters: v1, v2, v3"
+    },
+    {
+      "file": "src/webgl/light.js",
+      "line": 640,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "directionalLight needs types for 6 parameters: v1, v2, v3, x: number, y: number, z: number"
+    },
+    {
+      "file": "src/webgl/light.js",
+      "line": 916,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pointLight needs types for 6 parameters: v1, v2, v3, x: number, y: number, z: number"
+    },
+    {
+      "file": "src/webgl/light.js",
+      "line": 1226,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lightFalloff needs types for 3 parameters: constantAttenuation, linearAttenuation, quadraticAttenuation"
+    },
+    {
+      "file": "src/webgl/light.js",
+      "line": 1474,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "spotLight needs types for 6 parameters: v1, v2, v3, nx, ny, nz"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 378,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMaterials(): parameter 'lines' needs a type. Add: @param {any[]} lines"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 403,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 420,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fileExists(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 433,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arrayBuffer' needs a type. Add: @param {unknown} arrayBuffer"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 458,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lines' needs a type. Add: @param {any[]} lines"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 505,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseMtl needs types for 2 parameters: p5: object, mtlPath: string"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 511,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lines' needs a type. Add: @param {any[]} lines"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 562,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseObj needs types for 2 parameters: model: object, lines: any[]"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 701,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseSTL needs types for 2 parameters: model, buffer"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 735,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBinary(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 752,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "matchDataViewAt needs types for 3 parameters: query: object, reader: object, offset: number"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 767,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseBinarySTL needs types for 2 parameters: model: object, buffer"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 859,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseASCIISTL needs types for 2 parameters: model: object, lines: any[]"
+    },
+    {
+      "file": "src/webgl/loading.js",
+      "line": 1225,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createModel needs types for 2 parameters: modelString: string, options: object"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 148,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {any[]} result"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 160,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {any[]} result"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 535,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createShader(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 1888,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In texture(): parameter 'tex' needs a type. Add: @param {object} tex"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 2634,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ambientMaterial needs types for 3 parameters: v1, v2, v3"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 2730,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "emissiveMaterial needs types for 4 parameters: v1, v2, v3, a"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 2985,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "specularMaterial needs types for 4 parameters: v1, v2, v3, alpha"
+    },
+    {
+      "file": "src/webgl/material.js",
+      "line": 3194,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _applyColorBlend(): parameter 'colors' needs a type. Add: @param {object} colors"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 397,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In linePerspective(): parameter 'enable' needs a type. Add: @param {unknown} enable"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 842,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'renderer' needs a type. Add: @param {unknown} renderer"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2074,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'indent')."
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2263,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'indent')."
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2401,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'indent')."
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2425,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_rotateView needs types for 4 parameters: a, x: number, y: number, z: number"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2439,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2453,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2529,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In roll(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2608,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pan(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2671,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tilt(): parameter 'amount' needs a type. Add: @param {unknown} amount"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2938,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "camera needs types for 3 parameters: eyeX, eyeY, eyeZ"
+    },
+    {
+      "file": "src/webgl/p5.Camera.js",
+      "line": 2982,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'indent')."
+    },
+    {
+      "file": "src/webgl/p5.DataArray.js",
+      "line": 86,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "slice needs types for 2 parameters: from: number, to: number"
+    },
+    {
+      "file": "src/webgl/p5.DataArray.js",
+      "line": 94,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "subArray needs types for 2 parameters: from: number, to: number"
+    },
+    {
+      "file": "src/webgl/p5.DataArray.js",
+      "line": 101,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ensureLength(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/webgl/p5.Framebuffer.js",
+      "line": 105,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'target' needs a type. Add: @param {object} target"
+    },
+    {
+      "file": "src/webgl/p5.Framebuffer.js",
+      "line": 1493,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "get needs types for 2 parameters: w: number, h: number"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 251,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: detailX, detailY, callback: Function"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 982,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 995,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {object} n"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1004,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'face' needs a type. Add: @param {any[]} face"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1006,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1236,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {number} val"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1331,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {number} val"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1487,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getFaceNormal(): parameter 'faceId' needs a type. Add: @param {string} faceId"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1827,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rounded(): parameter 'val' needs a type. Add: @param {number} val"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1828,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getKey(): parameter 'vert' needs a type. Add: @param {object} vert"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1842,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'face' needs a type. Add: @param {object} face"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1852,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edge' needs a type. Add: @param {object} edge"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 1873,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'face' needs a type. Add: @param {object} face"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 2127,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addSegment needs types for 5 parameters: begin: object, end: number, fromColor: any[] | object, toColor: any[] | object, dir: object"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 2171,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addCap needs types for 3 parameters: point: object, tangent: object, color: any[] | object"
+    },
+    {
+      "file": "src/webgl/p5.Geometry.js",
+      "line": 2208,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addJoin needs types for 4 parameters: point: object, fromTangent: object, toTangent: object, color: any[] | object"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 13,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isMatrixArray(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 16,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 76,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'inMatrix' needs a type. Add: @param {object} inMatrix"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 153,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In identity(): parameter 'pInst' needs a type. Add: @param {unknown} pInst"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 164,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transpose(): parameter 'a' needs a type. Add: @param {object} a"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 225,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In invert(): parameter 'a' needs a type. Add: @param {object} a"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 441,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mult(): parameter 'multMatrix' needs a type. Add: @param {object} multMatrix"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 496,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In apply(): parameter 'multMatrix' needs a type. Add: @param {object} multMatrix"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 559,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scale needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 596,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotate needs types for 3 parameters: x: number, y: number, z: number"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 676,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateX(): parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 679,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateY(): parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 682,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateZ(): parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 761,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "multiplyVec4 needs types for 4 parameters: x: number, y: number, z: number, w: number"
+    },
+    {
+      "file": "src/webgl/p5.Matrix.js",
+      "line": 833,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mult3x3(): parameter 'multMatrix' needs a type. Add: @param {object} multMatrix"
+    },
+    {
+      "file": "src/webgl/p5.Quat.js",
+      "line": 22,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: w, x: number, y: number, z: number"
+    },
+    {
+      "file": "src/webgl/p5.Quat.js",
+      "line": 55,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/webgl/p5.RenderBuffer.js",
+      "line": 4,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 6 parameters: size: number, src: string, dst, attr, renderer, map"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Immediate.js",
+      "line": 181,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normal(): parameter 'xorv' needs a type. Add: @param {unknown} xorv"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Immediate.js",
+      "line": 195,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "endShape needs types for 6 parameters: mode, isCurve: boolean, isBezier: boolean, isQuadratic: boolean, isContour: boolean, shapeKind"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Immediate.js",
+      "line": 326,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_calculateEdges needs types for 3 parameters: shapeMode, verts: object, shouldClose: boolean"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Immediate.js",
+      "line": 465,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edge' needs a type. Add: @param {any[]} edge"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Immediate.js",
+      "line": 465,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'origIdx' needs a type. Add: @param {unknown} origIdx"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Immediate.js",
+      "line": 469,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Retained.js",
+      "line": 40,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _freeBuffers(): parameter 'gId' needs a type. Add: @param {string} gId"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Retained.js",
+      "line": 53,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In freeBuffers(): parameter 'defs' needs a type. Add: @param {unknown} defs"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Retained.js",
+      "line": 90,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Retained.js",
+      "line": 208,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_drawArrays needs types for 2 parameters: drawMode, gId: string"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Retained.js",
+      "line": 217,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_drawElements needs types for 2 parameters: drawMode, gId: string"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.Retained.js",
+      "line": 247,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_drawPoints needs types for 2 parameters: vertices: object, pointBuffers"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 17,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "defineStrokeCapEnum needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 21,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "defineStrokeJoinEnum needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 267,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setAttributes needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 333,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Uint8Array|Float32Array → Uint8Array<ArrayBufferLike> | Float32Array<ArrayBufferLike>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 334,
+      "column": 3,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'pixels': Uint8Array|Float32Array|undefined → Uint8Array<ArrayBufferLike> | Float32Array<ArrayBufferLike>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 343,
+      "column": 3,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'flipY': Number|undefined → number. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 407,
+      "column": 3,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'flipY': Number|undefined → number. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 439,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: elt, pInst, isMainCanvas: boolean, attr"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 751,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setAttributeDefaults(): parameter 'pInst' needs a type. Add: @param {object} pInst"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 812,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_adjustDimensions needs types for 2 parameters: width: number, height: number"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 842,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_resetContext needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1007,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fill(): parameter 'v1' needs a type. Add: @param {unknown} v1"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1046,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stroke needs types for 3 parameters: r, g, b"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1051,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeCap(): parameter 'cap' needs a type. Add: @param {unknown} cap"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1055,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeJoin(): parameter 'join' needs a type. Add: @param {unknown} join"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1070,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "matchSize needs types for 2 parameters: fboToMatch: object, target: object"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1207,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pixelDensity(): parameter 'newDensity' needs a type. Add: @param {unknown} newDensity"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1214,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In blendMode(): parameter 'mode' needs a type. Add: @param {unknown} mode"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1241,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "erase needs types for 2 parameters: opacityFill: number, opacityStroke: number"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1370,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In strokeWeight(): parameter 'w' needs a type. Add: @param {unknown} w"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1378,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_getPixel needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1469,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In geometryInHash(): parameter 'gId' needs a type. Add: @param {string} gId"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1473,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "viewport needs types for 2 parameters: w, h"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1559,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyMatrix needs types for 6 parameters: a, b, c, d, e, f"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1599,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scale(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1604,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotate needs types for 2 parameters: rad, axis"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1612,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateX(): parameter 'rad' needs a type. Add: @param {unknown} rad"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1617,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateY(): parameter 'rad' needs a type. Add: @param {unknown} rad"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1622,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateZ(): parameter 'rad' needs a type. Add: @param {unknown} rad"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 1753,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getSphereMapping(): parameter 'img' needs a type. Add: @param {unknown} img"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2084,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_webGL2CompatibilityPrefix needs types for 2 parameters: shaderType, floatPrecision"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2113,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTexture(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2135,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getDiffusedTexture(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2178,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSpecularTexture(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2235,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createFramebuffer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2239,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setStrokeUniforms(): parameter 'baseStrokeShader' needs a type. Add: @param {object} baseStrokeShader"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2250,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setFillUniforms(): parameter 'fillShader' needs a type. Add: @param {object} fillShader"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2257,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'mixedSpecularColor' needs a type. Add: @param {number} mixedSpecularColor"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2314,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ambientColors' needs a type. Add: @param {number} ambientColors"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2342,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setImageLightUniforms(): parameter 'shader' needs a type. Add: @param {object} shader"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2357,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _setPointUniforms(): parameter 'pointShader' needs a type. Add: @param {object} pointShader"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2380,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_bindBuffer needs types for 5 parameters: buffer, target, values: object, type: string, usage"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2403,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_arraysEqual needs types for 2 parameters: a: any[], b: object"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2406,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: ai, i"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2409,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _isTypedArray(): parameter 'arr' needs a type. Add: @param {unknown} arr"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2442,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _bezierCoefficients(): parameter 't' needs a type. Add: @param {number} t"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2452,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _quadraticCoefficients(): parameter 't' needs a type. Add: @param {number} t"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2460,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _bezierToCatmull(): parameter 'w' needs a type. Add: @param {unknown} w"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2470,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "vertexCallback needs types for 2 parameters: data: object, polyVertArray: any[]"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2476,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In begincallback(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2482,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In errorcallback(): parameter 'errno' needs a type. Add: @param {unknown} errno"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2487,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "combinecallback needs types for 3 parameters: coords, data: object, weight: object"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2498,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In edgeCallback(): parameter 'flag' needs a type. Add: @param {boolean} flag"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2516,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _triangulate(): parameter 'contours' needs a type. Add: @param {unknown} contours"
+    },
+    {
+      "file": "src/webgl/p5.RendererGL.js",
+      "line": 2571,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _assert3d(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 156,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: renderer, vertSrc, fragSrc"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 199,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shaderSrc needs types for 2 parameters: src: string, shaderType"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 432,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In modify(): parameter 'hooks' needs a type. Add: @param {object} hooks"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 754,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In copyToContext(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 767,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ensureCompiledOnContext(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 1225,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setUniform(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 1413,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/webgl/p5.Shader.js",
+      "line": 1444,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "enableAttrib needs types for 6 parameters: attr: object, size: number, type: string, normalized, stride, offset: number"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 44,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: renderer, obj: object, settings: object"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 146,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 352,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In glFilter(): parameter 'filter' needs a type. Add: @param {unknown} filter"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 376,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPowerOfTwo(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 459,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: renderer, levels, settings: object"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 467,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In glFilter(): parameter '_filter' needs a type. Add: @param {unknown} _filter"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 477,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init(): parameter 'levels' needs a type. Add: @param {object} levels"
+    },
+    {
+      "file": "src/webgl/p5.Texture.js",
+      "line": 503,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "checkWebGLCapabilities needs JSDoc: @returns {{ float: any; floatLinear: any; halfFloat: any; halfFloatLinear: any; }}"
+    },
+    {
+      "file": "src/webgl/text.js",
+      "line": 15,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In textWidth(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/webgl/text.js",
+      "line": 50,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: width: number, height: number"
+    },
+    {
+      "file": "src/webgl/text.js",
+      "line": 148,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'font' needs a type. Add: @param {unknown} font"
+    },
+    {
+      "file": "src/webgl/text.js",
+      "line": 290,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: p0, c0, c1, p1"
+    },
+    {
+      "file": "src/webgl/text.js",
+      "line": 644,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_renderText needs types for 5 parameters: p: any[], line, x: number, y: number, maxY"
+    }
+  ],
+  "typesPackage": "@types/p5",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.7.7",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 27092
+}

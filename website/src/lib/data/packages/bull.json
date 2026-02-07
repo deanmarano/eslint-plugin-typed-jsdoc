@@ -1,0 +1,1734 @@
+{
+  "name": "bull",
+  "downloadedAt": "2026-02-03T22:03:19.679Z",
+  "lintedAt": "2026-02-03T22:03:19.679Z",
+  "filesAnalyzed": 14,
+  "totalIssues": 214,
+  "errors": 0,
+  "warnings": 214,
+  "byRule": {
+    "tjd/no-implicit-any": 210,
+    "tjd/require-jsdoc-types": 4
+  },
+  "issues": [
+    {
+      "file": "lib/backoffs.js",
+      "line": 6,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fixed(): parameter 'delay' needs a type. Add: @param {number} delay"
+    },
+    {
+      "file": "lib/backoffs.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exponential(): parameter 'delay' needs a type. Add: @param {number} delay"
+    },
+    {
+      "file": "lib/backoffs.js",
+      "line": 13,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attemptsMade' needs a type. Add: @param {unknown} attemptsMade"
+    },
+    {
+      "file": "lib/backoffs.js",
+      "line": 19,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lookupStrategy needs types for 2 parameters: backoff: object, customStrategies"
+    },
+    {
+      "file": "lib/backoffs.js",
+      "line": 34,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalize(): parameter 'backoff' needs a type. Add: @param {unknown} backoff"
+    },
+    {
+      "file": "lib/backoffs.js",
+      "line": 45,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calculate needs types for 4 parameters: backoff, attemptsMade, customStrategies, err: Error"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 30,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'client' needs a type. Add: @param {object} client"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 34,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_scripts' needs a type. Add: @param {any[]} _scripts"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 35,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'command' needs a type. Add: @param {object} command"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 43,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadScripts(): parameter 'dir' needs a type. Add: @param {unknown} dir"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 46,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'files' needs a type. Add: @param {any[]} files"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 47,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 51,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'files' needs a type. Add: @param {any[]} files"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 53,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'file' needs a type. Add: @param {unknown} file"
+    },
+    {
+      "file": "lib/commands/index.js",
+      "line": 58,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lua' needs a type. Add: @param {object} lua"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Queue"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 6,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Queue' needs a type. Add: @param {object} Queue"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getJob(): parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 11,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_commandByType needs types for 3 parameters: types, count: number, callback: Function"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 12,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 44,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 60,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, command"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 64,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 66,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: res: object, index: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 98,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getWaiting needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 102,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getActive needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 106,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDelayed needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 110,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getCompleted needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 114,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFailed needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 118,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRanges needs types for 4 parameters: types, start: number, end: number, asc"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 125,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, command"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 146,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'responses' needs a type. Add: @param {any[]} responses"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 149,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: response: object, index: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 162,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getJobs needs types for 4 parameters: types, start: number, end: number, asc"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 163,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobIds' needs a type. Add: @param {any[]} jobIds"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 168,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getJobLogs needs types for 3 parameters: jobId: string, start: number, end: number"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 177,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/getters.js",
+      "line": 184,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseTypeArg(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 22,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Job needs types for 4 parameters: queue: object, name: string, data: object, opts"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 45,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setDefaultOpts(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 61,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addJob needs types for 3 parameters: queue, client, job: object"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 72,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 4 parameters: queue: object, name: string, data: object, opts"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 80,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 87,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createBulk needs types for 2 parameters: queue: object, jobs: any[]"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 88,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 101,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 102,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: res: object, index: number"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 111,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromId needs types for 2 parameters: queue: object, jobId: string"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 116,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobData' needs a type. Add: @param {unknown} jobData"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 121,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In progress(): parameter 'progress' needs a type. Add: @param {unknown} progress"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 129,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 181,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lock' needs a type. Add: @param {unknown} lock"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 190,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'unlocked' needs a type. Add: @param {unknown} unlocked"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 290,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'results' needs a type. Add: @param {any[]} results"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 300,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToDelayed needs types for 2 parameters: timestamp, ignoreLock"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 308,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 357,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'logRow' needs a type. Add: @param {unknown} logRow"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 387,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'state' needs a type. Add: @param {object} state"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 408,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 413,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 423,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'removed' needs a type. Add: @param {unknown} removed"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 455,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onCompleted needs types for 2 parameters: jobId: string, resultValue"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 471,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onFailed needs types for 2 parameters: jobId: string, failedReason"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 498,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'status' needs a type. Add: @param {unknown} status"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 501,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 524,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _isDone(): parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 527,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'score' needs a type. Add: @param {unknown} score"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 532,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _isInList(): parameter 'list' needs a type. Add: @param {any[]} list"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 540,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_saveAttempt needs types for 2 parameters: multi: object, err: Error"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 558,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromJSON needs types for 3 parameters: queue, json: object, jobId: string"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 588,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTraces(): parameter 'stacktrace' needs a type. Add: @param {unknown} stacktrace"
+    },
+    {
+      "file": "lib/job.js",
+      "line": 598,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getReturnValue(): parameter '_value' needs a type. Add: @param {unknown} _value"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 17,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In convertExecArgv(): parameter 'execArgv' needs a type. Add: @param {unknown} execArgv"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 21,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {object} arg"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 27,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'port' needs a type. Add: @param {number} port"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 39,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In retain(): parameter 'processFile' needs a type. Add: @param {unknown} processFile"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 64,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In release(): parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 69,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 80,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "kill needs types for 2 parameters: child: object, signal"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 88,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {unknown} child"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 97,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFree(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/process/child-pool.js",
+      "line": 105,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initChild needs types for 2 parameters: child: object, processFile"
+    },
+    {
+      "file": "lib/process/master.js",
+      "line": 66,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/process/master.js",
+      "line": 72,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/process/master.js",
+      "line": 102,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapJob(): parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/process/master.js",
+      "line": 103,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In progress(): parameter 'progress' needs a type. Add: @param {unknown} progress"
+    },
+    {
+      "file": "lib/process/master.js",
+      "line": 110,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'row' needs a type. Add: @param {unknown} row"
+    },
+    {
+      "file": "lib/process/sandbox.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: processFile, childPool: object"
+    },
+    {
+      "file": "lib/process/sandbox.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} processFile, @param {any} childPool, @returns {function(any): any}"
+    },
+    {
+      "file": "lib/process/sandbox.js",
+      "line": 7,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/process/sandbox.js",
+      "line": 8,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "lib/process/sandbox.js",
+      "line": 18,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'msg' needs a type. Add: @param {object} msg"
+    },
+    {
+      "file": "lib/process/sandbox.js",
+      "line": 39,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: exitCode, signal"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 87,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Queue needs types for 3 parameters: name: string, url: string, opts: object"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 131,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In retryStrategy(): parameter 'times' needs a type. Add: @param {unknown} times"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 145,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: type: string, client: object"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 154,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 184,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'version' needs a type. Add: @param {string} version"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 259,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 266,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "redisClientGetter needs types for 3 parameters: queue: object, options: object, initCallback: Function"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 269,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: type: string, config: object"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 275,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 296,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In redisOptsFromUrl(): parameter 'urlString' needs a type. Add: @param {unknown} urlString"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 326,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In on(): parameter 'eventName' needs a type. Add: @param {string} eventName"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 333,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In once(): parameter 'eventName' needs a type. Add: @param {string} eventName"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 376,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: pattern: string, channel: string, message: string"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 399,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: channel: string, message: string"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 442,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _registerEvent(): parameter 'eventName' needs a type. Add: @param {string} eventName"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 489,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In redisClientDisconnect(): parameter 'client' needs a type. Add: @param {object} client"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 501,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 520,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'client' needs a type. Add: @param {object} client"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 525,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 533,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In close(): parameter 'doNotWaitJobs' needs a type. Add: @param {unknown} doNotWaitJobs"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 568,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'timer' needs a type. Add: @param {unknown} timer"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 592,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "process needs types for 3 parameters: name: string, concurrency, handler: Function"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 617,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In start(): parameter 'concurrency' needs a type. Add: @param {unknown} concurrency"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 618,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 624,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setHandler needs types for 2 parameters: name: string, handler: Function"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 683,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 3 parameters: name: string, data: object, opts: object"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 706,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addBulk(): parameter 'jobs' needs a type. Add: @param {unknown} jobs"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 741,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 769,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pause needs types for 2 parameters: isLocal: boolean, doNotWaitActive"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 791,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resume(): parameter 'isLocal' needs a type. Add: @param {boolean} isLocal"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 807,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In run(): parameter 'concurrency' needs a type. Add: @param {unknown} concurrency"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 843,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'nextTimestamp' needs a type. Add: @param {number} nextTimestamp"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 874,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 892,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 893,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'job' needs a type. Add: @param {unknown} job"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 903,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 904,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'job' needs a type. Add: @param {unknown} job"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 911,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 929,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processJobs needs types for 3 parameters: index: number, resolve, job"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 936,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_processJobOnNextTick needs types for 4 parameters: processJobs: Function, index: number, resolve: Function, job"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 949,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 963,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 971,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In processJob(): parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 994,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'lock' needs a type. Add: @param {unknown} lock"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1013,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleCompleted(): parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1014,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobData' needs a type. Add: @param {unknown} jobData"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1020,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleFailed(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1023,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobData' needs a type. Add: @param {unknown} jobData"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1074,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1079,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1091,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveToActive(): parameter 'jobId' needs a type. Add: @param {string} jobId"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1097,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nextJobFromJobData needs types for 2 parameters: jobData, jobId: string"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1114,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In retryJob(): parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1118,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toKey(): parameter 'queueType' needs a type. Add: @param {unknown} queueType"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1131,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clean needs types for 3 parameters: grace: number, type: string, limit: number"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1152,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'jobs' needs a type. Add: @param {unknown} jobs"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1156,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1219,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRedisVersion(): parameter 'client' needs a type. Add: @param {object} client"
+    },
+    {
+      "file": "lib/queue.js",
+      "line": 1220,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'doc' needs a type. Add: @param {string} doc"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 9,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Queue"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 9,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Queue' needs a type. Add: @param {object} Queue"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 10,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "nextRepeatableJob needs types for 4 parameters: name: string, data: object, opts: object, skipCheckExists"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 82,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'repeatableExists' needs a type. Add: @param {unknown} repeatableExists"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 94,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeRepeatable needs types for 2 parameters: name: string, repeat: object"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 115,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeRepeatableByKey(): parameter 'repeatJobKey' needs a type. Add: @param {unknown} repeatJobKey"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 130,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _keyToData(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 143,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRepeatableJobs needs types for 3 parameters: start: number, end: number, asc"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 150,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {object} result"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 173,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRepeatJobId needs types for 4 parameters: name: string, jobId: string, nextMillis, namespace"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 177,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRepeatKey needs types for 3 parameters: name: string, repeat: object, jobId: string"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 187,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getNextMillis needs types for 2 parameters: millis: number, opts: object"
+    },
+    {
+      "file": "lib/repeatable.js",
+      "line": 219,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In md5(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isJobInList needs types for 3 parameters: client: object, listKey, jobId: string"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 11,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 16,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addJob needs types for 4 parameters: client: object, queue: object, job: object, opts: object"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 44,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pause needs types for 2 parameters: queue: object, pause"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 54,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 62,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToActive needs types for 2 parameters: queue: object, jobId: string"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 90,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateProgress needs types for 2 parameters: job: object, progress"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 92,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 104,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToFinishedArgs needs types for 7 parameters: job: object, val, propVal, shouldRemove: boolean, target, ignoreLock, notFetch"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 148,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToFinished needs types for 6 parameters: job: object, val, propVal, shouldRemove: boolean, target, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 167,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 177,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "finishedErrors needs types for 3 parameters: code, jobId: string, command"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 187,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToCompleted needs types for 4 parameters: job, returnvalue, removeOnComplete, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 205,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToFailedArgs needs types for 4 parameters: job, failedReason, removeOnFailed, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 217,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToFailed needs types for 4 parameters: job, failedReason, removeOnFailed, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 227,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFinished(): parameter 'job' needs a type. Add: @param {object} job"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 228,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 235,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToDelayedArgs needs types for 4 parameters: queue: object, jobId: string, timestamp: number, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 251,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 261,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "moveToDelayed needs types for 4 parameters: queue: object, jobId: string, timestamp, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 263,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 281,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "remove needs types for 2 parameters: queue: object, jobId: string"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 294,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 302,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extendLock needs types for 2 parameters: queue: object, jobId: string"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 312,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "releaseLock needs types for 2 parameters: queue: object, jobId: string"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 319,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "takeLock needs types for 2 parameters: queue: object, job: object"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 331,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateDelaySet needs types for 2 parameters: queue: object, delayedTimestamp"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 345,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "promote needs types for 2 parameters: queue: object, jobId: string"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 361,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveUnlockedJobsToWait(): parameter 'queue' needs a type. Add: @param {object} queue"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 380,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cleanJobsInSet needs types for 4 parameters: queue: object, set, ts, limit: number"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 390,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "retryJobArgs needs types for 2 parameters: job: object, ignoreLock"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 394,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 435,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In array2obj(): parameter 'arr' needs a type. Add: @param {object} arr"
+    },
+    {
+      "file": "lib/scripts.js",
+      "line": 443,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In raw2jobData(): parameter 'raw' needs a type. Add: @param {boolean} raw"
+    },
+    {
+      "file": "lib/timer-manager.js",
+      "line": 76,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'timeoutId' needs a type. Add: @param {string} timeoutId"
+    },
+    {
+      "file": "lib/timer-manager.js",
+      "line": 107,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clear(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/timer-manager.js",
+      "line": 124,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: timer, id: string"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tryCatch needs types for 3 parameters: fn: Function, ctx: object, args: any[]"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEmpty(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 25,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRedisReady(): parameter 'client' needs a type. Add: @param {object} client"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 35,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 6,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Queue"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 6,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Queue' needs a type. Add: @param {object} Queue"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 18,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 29,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clients' needs a type. Add: @param {unknown} clients"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 32,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 45,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseClientList(): parameter 'list' needs a type. Add: @param {string} list"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 49,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 52,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'keyValue' needs a type. Add: @param {object} keyValue"
+    }
+  ],
+  "typesPackage": "@types/bull",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.10.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19817
+}

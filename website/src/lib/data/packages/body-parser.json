@@ -1,0 +1,143 @@
+{
+  "name": "body-parser",
+  "downloadedAt": "2026-02-03T21:57:29.203Z",
+  "lintedAt": "2026-02-03T21:57:29.203Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 15,
+  "errors": 3,
+  "warnings": 12,
+  "byRule": {
+    "tjd/no-implicit-any": 11,
+    "unknown": 1,
+    "tjd/accurate-jsdoc": 3
+  },
+  "issues": [
+    {
+      "file": "lib/read.js",
+      "line": 113,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: error: Error, body: object"
+    },
+    {
+      "file": "lib/types/json.js",
+      "line": 36,
+      "column": 69,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "lib/types/json.js",
+      "line": 54,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/types/json.js",
+      "line": 84,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isValidCharset(): parameter 'charset' needs a type. Add: @param {string} charset"
+    },
+    {
+      "file": "lib/types/json.js",
+      "line": 87,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/types/json.js",
+      "line": 112,
+      "column": 64,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'placeholder' needs a type. Add: @param {object} placeholder"
+    },
+    {
+      "file": "lib/types/json.js",
+      "line": 127,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: string|undefined → string. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/types/raw.js",
+      "line": 39,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/types/text.js",
+      "line": 33,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/types/urlencoded.js",
+      "line": 47,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isValidCharset(): parameter 'charset' needs a type. Add: @param {string} charset"
+    },
+    {
+      "file": "lib/types/urlencoded.js",
+      "line": 50,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/types/urlencoded.js",
+      "line": 83,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: body: object, encoding: string"
+    },
+    {
+      "file": "lib/types/urlencoded.js",
+      "line": 129,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: number|undefined → number. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 27,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: string | undefined → string. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 43,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'req' needs a type. Add: @param {object} req"
+    }
+  ],
+  "typesPackage": "@types/body-parser",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.19.6",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21163
+}

@@ -1,0 +1,960 @@
+{
+  "name": "winston",
+  "downloadedAt": "2026-02-03T21:58:27.864Z",
+  "lintedAt": "2026-02-03T21:58:27.864Z",
+  "filesAnalyzed": 17,
+  "totalIssues": 117,
+  "errors": 3,
+  "warnings": 114,
+  "byRule": {
+    "tjd/require-jsdoc-types": 3,
+    "tjd/no-implicit-any": 79,
+    "unknown": 32,
+    "valid-jsdoc": 3
+  },
+  "issues": [
+    {
+      "file": "lib/winston.js",
+      "line": 110,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "method needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/winston.js",
+      "line": 122,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/winston.js",
+      "line": 159,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/winston/common.js",
+      "line": 19,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deprecated(): parameter 'prop' needs a type. Add: @param {unknown} prop"
+    },
+    {
+      "file": "lib/winston/common.js",
+      "line": 24,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In useFormat(): parameter 'prop' needs a type. Add: @param {unknown} prop"
+    },
+    {
+      "file": "lib/winston/common.js",
+      "line": 32,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "forFunctions needs types for 3 parameters: obj: object, type: string, props: any[]"
+    },
+    {
+      "file": "lib/winston/common.js",
+      "line": 33,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'prop' needs a type. Add: @param {unknown} prop"
+    },
+    {
+      "file": "lib/winston/common.js",
+      "line": 37,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "forProperties needs types for 3 parameters: obj: object, type: string, props: any[]"
+    },
+    {
+      "file": "lib/winston/common.js",
+      "line": 38,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'prop' needs a type. Add: @param {unknown} prop"
+    },
+    {
+      "file": "lib/winston/container.js",
+      "line": 34,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/container.js",
+      "line": 64,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/container.js",
+      "line": 89,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, key: string"
+    },
+    {
+      "file": "lib/winston/create-logger.js",
+      "line": 15,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLevelEnabledFunctionName(): parameter 'level' needs a type. Add: @param {object} level"
+    },
+    {
+      "file": "lib/winston/create-logger.js",
+      "line": 25,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {Logger}"
+    },
+    {
+      "file": "lib/winston/create-logger.js",
+      "line": 43,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/create-logger.js",
+      "line": 56,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 41,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {any[]} arg"
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 43,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 66,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'wrapper' needs a type. Add: @param {unknown} wrapper"
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 133,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'site' needs a type. Add: @param {object} site"
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 176,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 178,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 193,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-process-exit')."
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 203,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: handler: Function, next: Function"
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 208,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onDone(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/winston/exception-handler.js",
+      "line": 240,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'wrap' needs a type. Add: @param {object} wrap"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 40,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 45,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In child(): parameter 'defaultRequestMetadata' needs a type. Add: @param {unknown} defaultRequestMetadata"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 49,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'info' needs a type. Add: @param {object} info"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 125,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'transport' needs a type. Add: @param {unknown} transport"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 153,
+      "column": 3,
+      "rule": "valid-jsdoc",
+      "severity": "error",
+      "message": "Definition for rule 'valid-jsdoc' was not found."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 169,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: max: number, transport: object"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 175,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLevelEnabled(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 190,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'transport' needs a type. Add: @param {object} transport"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 200,
+      "column": 3,
+      "rule": "valid-jsdoc",
+      "severity": "error",
+      "message": "Definition for rule 'valid-jsdoc' was not found."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 229,
+      "column": 3,
+      "rule": "valid-jsdoc",
+      "severity": "error",
+      "message": "Definition for rule 'valid-jsdoc' was not found."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 231,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-params')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 319,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 325,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 340,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 354,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: transport: object, next: Function"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 411,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {object} match"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 458,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In query(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 469,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "queryTransport needs types for 2 parameters: transport: object, next: Function"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 474,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, res: object"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 489,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addResults needs types for 2 parameters: transport: object, next: Function"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 490,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, result"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 499,
+      "column": 11,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 510,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'transport' needs a type. Add: @param {object} transport"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 535,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'transport' needs a type. Add: @param {object} transport"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 536,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'transport' needs a type. Add: @param {object} transport"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 544,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'log' needs a type. Add: @param {object} log"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 550,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 591,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 616,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 629,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 657,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onEvent(): parameter 'transport' needs a type. Add: @param {object} transport"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 658,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transportEvent(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 672,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addDefaultMeta(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "lib/winston/logger.js",
+      "line": 679,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getLevelValue needs types for 2 parameters: levels: object, level"
+    },
+    {
+      "file": "lib/winston/profiler.js",
+      "line": 40,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 41,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {any[]} arg"
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 43,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 65,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'wrapper' needs a type. Add: @param {unknown} wrapper"
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 134,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'site' needs a type. Add: @param {object} site"
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 178,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 180,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 195,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-process-exit')."
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 207,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: handler: Function, next: Function"
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 212,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onDone(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/winston/rejection-handler.js",
+      "line": 246,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'wrap' needs a type. Add: @param {object} wrap"
+    },
+    {
+      "file": "lib/winston/tail-file.js",
+      "line": 27,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} options, @param {Function} iter, @returns {mixed}"
+    },
+    {
+      "file": "lib/winston/tail-file.js",
+      "line": 27,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/tail-file.js",
+      "line": 76,
+      "column": 13,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'eqeqeq')."
+    },
+    {
+      "file": "lib/winston/tail-file.js",
+      "line": 101,
+      "column": 11,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'eqeqeq')."
+    },
+    {
+      "file": "lib/winston/transports/console.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/transports/console.js",
+      "line": 52,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'info' needs a type. Add: @param {object} info"
+    },
+    {
+      "file": "lib/winston/transports/console.js",
+      "line": 66,
+      "column": 21,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/console.js",
+      "line": 80,
+      "column": 21,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/console.js",
+      "line": 94,
+      "column": 19,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/console.js",
+      "line": 116,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: set: object, el"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'complexity' or 'max-statements')."
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 41,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throwIf(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 42,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 65,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 150,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'info' needs a type. Add: @param {object} info"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 262,
+      "column": 19,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 278,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In query(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 328,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 332,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: buff, attempt"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 345,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'log' needs a type. Add: @param {object} log"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 358,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: obj: object, key: string"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 372,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In check(): parameter 'log' needs a type. Add: @param {object} log"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 393,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeQuery(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 435,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, line"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 465,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, size: number"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 528,
+      "column": 15,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 598,
+      "column": 19,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 652,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 664,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 741,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: i: number, cb: Function"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 788,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createLogDirIfNotExist(): parameter 'dirPath' needs a type. Add: @param {string} dirPath"
+    },
+    {
+      "file": "lib/winston/transports/file.js",
+      "line": 789,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-sync')."
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 27,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-statements')."
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 60,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'info' needs a type. Add: @param {unknown} info"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 61,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, res: object"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 86,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In query(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 103,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, res: object, body: object"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 146,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 161,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 174,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _request(): parameter 'auth' needs a type. Add: @param {unknown} auth"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 194,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _doBatch(): parameter 'auth' needs a type. Add: @param {unknown} auth"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 218,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _doBatchRequest(): parameter 'auth' needs a type. Add: @param {unknown} auth"
+    },
+    {
+      "file": "lib/winston/transports/http.js",
+      "line": 236,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _doRequest(): parameter 'auth' needs a type. Add: @param {object} auth"
+    },
+    {
+      "file": "lib/winston/transports/stream.js",
+      "line": 47,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'info' needs a type. Add: @param {object} info"
+    },
+    {
+      "file": "lib/winston/transports/stream.js",
+      "line": 52,
+      "column": 21,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    },
+    {
+      "file": "lib/winston/transports/stream.js",
+      "line": 59,
+      "column": 19,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'callback-return')."
+    }
+  ],
+  "typesPackage": "@types/winston",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.4.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 30354
+}

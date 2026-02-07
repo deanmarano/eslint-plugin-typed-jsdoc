@@ -1,0 +1,40 @@
+{
+  "name": "dotenv-expand",
+  "downloadedAt": "2026-02-03T22:02:54.450Z",
+  "lintedAt": "2026-02-03T22:02:54.450Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 3,
+  "errors": 0,
+  "warnings": 3,
+  "byRule": {
+    "tjd/no-implicit-any": 3
+  },
+  "issues": [
+    {
+      "file": "lib/main.js",
+      "line": 3,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _resolveEscapeSequences(): parameter 'value' needs a type. Add: @param {string} value"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 7,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "expandValue needs types for 3 parameters: value, processEnv: any[] | object, runningParsed: any[] | object"
+    },
+    {
+      "file": "lib/main.js",
+      "line": 65,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In expand(): parameter 'options' needs a type. Add: @param {object} options"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19511
+}

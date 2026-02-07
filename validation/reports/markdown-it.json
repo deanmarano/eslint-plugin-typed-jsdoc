@@ -1,0 +1,61 @@
+{
+  "name": "markdown-it",
+  "downloadedAt": "2026-02-03T22:02:06.782Z",
+  "lintedAt": "2026-02-03T22:02:06.782Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 5,
+  "errors": 2,
+  "warnings": 3,
+  "byRule": {
+    "unknown": 5
+  },
+  "issues": [
+    {
+      "file": "lib/common/utils.mjs",
+      "line": 62,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Rule \"no-bitwise\" is already configured by another configuration comment in the preceding code. This configuration is ignored."
+    },
+    {
+      "file": "lib/common/utils.mjs",
+      "line": 175,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "lib/rules_block/reference.mjs",
+      "line": 137,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Rule \"no-empty\" is already configured by another configuration comment in the preceding code. This configuration is ignored."
+    },
+    {
+      "file": "lib/rules_inline/autolink.mjs",
+      "line": 5,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "lib/rules_inline/balance_pairs.mjs",
+      "line": 42,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-prototype-builtins')."
+    }
+  ],
+  "typesPackage": "@types/markdown-it",
+  "typesComparison": {
+    "definitelyTypedVersion": "14.1.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 17994
+}

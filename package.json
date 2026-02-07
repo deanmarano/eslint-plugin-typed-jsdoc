@@ -1,0 +1,64 @@
+{
+  "name": "eslint-plugin-typed-jsdoc",
+  "version": "0.1.0",
+  "description": "ESLint plugin for JSDoc type accuracy - compares JSDoc to TypeScript inference",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src",
+    "validate": "node validation/harness.js",
+    "validate:download": "node validation/harness.js --download-only",
+    "validate:report": "node validation/harness.js --report",
+    "validate:sync": "node validation/sync-to-website.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "jsdoc",
+    "typescript",
+    "type-checking",
+    "documentation",
+    "typed-jsdoc"
+  ],
+  "author": "Dean Marano",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deanmarano/typedjs.git",
+    "directory": "packages/eslint-plugin-typed-jsdoc"
+  },
+  "bugs": {
+    "url": "https://github.com/deanmarano/typedjs/issues"
+  },
+  "homepage": "https://github.com/deanmarano/typedjs/tree/main/packages/eslint-plugin-typed-jsdoc#readme",
+  "peerDependencies": {
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "^8.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@typescript-eslint/rule-tester": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

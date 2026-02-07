@@ -1,0 +1,66 @@
+{
+  "name": "supports-color",
+  "downloadedAt": "2026-02-03T22:04:25.835Z",
+  "lintedAt": "2026-02-03T22:04:25.835Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 6,
+  "errors": 1,
+  "warnings": 5,
+  "byRule": {
+    "n/no-unsupported-features/node-builtins": 1,
+    "tjd/no-implicit-any": 4,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "browser.js",
+      "line": 2,
+      "column": 1,
+      "rule": "n/no-unsupported-features/node-builtins",
+      "severity": "error",
+      "message": "Definition for rule 'n/no-unsupported-features/node-builtins' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasFlag(): parameter 'flag' needs a type. Add: @param {string} flag"
+    },
+    {
+      "file": "index.js",
+      "line": 59,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In translateLevel(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "index.js",
+      "line": 72,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _supportsColor(): parameter 'haveStream' needs a type. Add: @param {unknown} haveStream"
+    },
+    {
+      "file": "index.js",
+      "line": 188,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createSupportsColor needs JSDoc: @param {any} stream, @returns {false | { level: any; hasBasic: boolean; has256: boolean; has16m: boolean; }}"
+    },
+    {
+      "file": "index.js",
+      "line": 188,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createSupportsColor(): parameter 'stream' needs a type. Add: @param {object} stream"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 18482
+}

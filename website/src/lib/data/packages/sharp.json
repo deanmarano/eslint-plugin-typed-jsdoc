@@ -1,0 +1,831 @@
+{
+  "name": "sharp",
+  "downloadedAt": "2026-02-03T22:01:45.524Z",
+  "lintedAt": "2026-02-03T22:01:45.524Z",
+  "filesAnalyzed": 13,
+  "totalIssues": 101,
+  "errors": 39,
+  "warnings": 62,
+  "byRule": {
+    "tjd/accurate-jsdoc": 39,
+    "tjd/require-jsdoc-types": 8,
+    "tjd/no-implicit-any": 54
+  },
+  "issues": [
+    {
+      "file": "lib/channel.js",
+      "line": 125,
+      "column": 23,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'images': Array<string|Buffer>|string|Buffer → string | Buffer<ArrayBufferLike> | (string | Buffer<Array.... Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/channel.js",
+      "line": 166,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/channel.js",
+      "line": 166,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/colour.js",
+      "line": 178,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/colour.js",
+      "line": 178,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/composite.js",
+      "line": 131,
+      "column": 21,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'images': Object[] → { input?: string | Buffer<ArrayBufferLike>; }[]. JSDoc declares array but TypeScript infers union."
+    },
+    {
+      "file": "lib/composite.js",
+      "line": 209,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/composite.js",
+      "line": 209,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/constructor.js",
+      "line": 15,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In queueListener(): parameter 'queueLength' needs a type. Add: @param {unknown} queueLength"
+    },
+    {
+      "file": "lib/constructor.js",
+      "line": 400,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In debuglog(): parameter 'warning' needs a type. Add: @param {unknown} warning"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 40,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _inputOptionsFromObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 53,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createInputDescriptor needs types for 3 parameters: input: any[], inputOptions: object, containerOptions: object"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 96,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 528,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _write(): parameter '_encoding' needs a type. Add: @param {unknown} _encoding"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 642,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, metadata"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 651,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, metadata"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 665,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, metadata"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 681,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, metadata"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 738,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Promise<Object> → Promise<any>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/input.js",
+      "line": 744,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, stats"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 753,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, stats"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 767,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, stats"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 778,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, stats"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 795,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/input.js",
+      "line": 795,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In defined(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 16,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In object(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 22,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In plainObject(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 28,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fn(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 34,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bool(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 40,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buffer(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 46,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In typedArray(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 69,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arrayBuffer(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 75,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In string(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 81,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In number(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 87,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In integer(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 93,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "inRange needs types for 3 parameters: val, min: number, max: number"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 99,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "inArray needs types for 2 parameters: val, list: any[]"
+    },
+    {
+      "file": "lib/is.js",
+      "line": 110,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In invalidParameterError(): parameter 'actual' needs a type. Add: @param {unknown} actual"
+    },
+    {
+      "file": "lib/libvips.js",
+      "line": 31,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "lib/libvips.js",
+      "line": 111,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sha512(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/libvips.js",
+      "line": 169,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skipSearch needs types for 3 parameters: status, reason, logger: Function"
+    },
+    {
+      "file": "lib/libvips.js",
+      "line": 176,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In useGlobalLibvips(): parameter 'logger' needs a type. Add: @param {unknown} logger"
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 55,
+      "column": 25,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { background?: any; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 180,
+      "column": 26,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { background?: any; idx?: number; idy?: number; odx?: num.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 499,
+      "column": 19,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { background?: any; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 584,
+      "column": 18,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { alpha?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 619,
+      "column": 21,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { lower?: number; upper?: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 657,
+      "column": 21,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { lower?: number; upper?: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 684,
+      "column": 17,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { width: number; height: number; maxSlope?: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 734,
+      "column": 20,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'kernel': Object → { width: number; height: number; kernel: number[]; scale?.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 767,
+      "column": 32,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { greyscale?: boolean; grayscale?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 801,
+      "column": 38,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { raw?: { width?: number; height?: number; channels?: num.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 950,
+      "column": 20,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { brightness?: number; saturation?: number; hue?: number;.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 990,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/operation.js",
+      "line": 990,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 36,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bitdepthFromColourCount(): parameter 'colours' needs a type. Add: @param {unknown} colours"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 73,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Promise<Object> → Promise<any>. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 156,
+      "column": 20,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { resolveWithObject?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 210,
+      "column": 20,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'exif': Object<string, Object<string, string>> → { [x: string]: { [x: string]: string; }; }. JSDoc declares generic but TypeScript infers object."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 250,
+      "column": 25,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'exif': Object<string, Object<string, string>> → { [x: string]: { [x: string]: string; }; }. JSDoc declares generic but TypeScript infers object."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 301,
+      "column": 31,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { attach?: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 419,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { orientation?: number; density?: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 504,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { quality?: number; progressive?: boolean; chromaSubsampl.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 610,
+      "column": 15,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { progressive?: boolean; compressionLevel?: number; adapt.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 697,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { quality?: number; alphaQuality?: number; lossless?: boo.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 799,
+      "column": 15,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { reuse?: boolean; progressive?: boolean; colours?: numbe.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 888,
+      "column": 15,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { quality?: number; lossless?: boolean; tileWidth?: numbe.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 943,
+      "column": 34,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'source': Object → { loop?: number; delay?: number[]; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1000,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { quality?: number; force?: boolean; compression?: string.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1119,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { quality?: number; lossless?: boolean; effort?: number; .... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1146,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { compression: string; quality?: number; lossless?: boole.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1219,
+      "column": 15,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { distance?: number; quality?: number; decodingTier?: num.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1288,
+      "column": 15,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { depth?: string; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1349,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { size?: number; overlap?: number; angle?: number; backgr.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1469,
+      "column": 19,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { seconds: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1490,
+      "column": 39,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { force?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1529,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_pipeline needs types for 2 parameters: callback: Function, stack"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1536,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, data: object, info"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1546,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, data: object, info"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1561,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, data: object, info"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1577,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, data: object, info"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1596,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, data: object, info"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1612,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, data: object, info"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1633,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/output.js",
+      "line": 1633,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 109,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRotationExpected(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 116,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isResizeExpected(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 258,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resize(): parameter 'widthOrOptions' needs a type. Add: @param {object} widthOrOptions"
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 258,
+      "column": 42,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { width?: number; height?: number; fit?: string; position.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 477,
+      "column": 19,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { left: number; top: number; width: number; height: numbe.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 550,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { background?: any; threshold?: number; lineArt?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 582,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/resize.js",
+      "line": 582,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    },
+    {
+      "file": "lib/sharp.js",
+      "line": 46,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/sharp.js",
+      "line": 51,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/sharp.js",
+      "line": 104,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/utility.js",
+      "line": 225,
+      "column": 17,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { operation: string[]; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/utility.js",
+      "line": 263,
+      "column": 19,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { operation: string[]; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/utility.js",
+      "line": 280,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} Sharp"
+    },
+    {
+      "file": "lib/utility.js",
+      "line": 280,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'Sharp' needs a type. Add: @param {object} Sharp"
+    }
+  ],
+  "typesPackage": "@types/sharp",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.32.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 12673
+}

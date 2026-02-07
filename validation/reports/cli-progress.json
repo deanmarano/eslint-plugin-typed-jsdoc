@@ -1,0 +1,294 @@
+{
+  "name": "cli-progress",
+  "downloadedAt": "2026-02-03T22:04:47.944Z",
+  "lintedAt": "2026-02-03T22:04:47.944Z",
+  "filesAnalyzed": 10,
+  "totalIssues": 34,
+  "errors": 0,
+  "warnings": 34,
+  "byRule": {
+    "tjd/no-implicit-any": 30,
+    "tjd/require-jsdoc-types": 4
+  },
+  "issues": [
+    {
+      "file": "lib/eta.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: length: number, initTime, initValue"
+    },
+    {
+      "file": "lib/eta.js",
+      "line": 18,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 3 parameters: time, value: number, total: number"
+    },
+    {
+      "file": "lib/eta.js",
+      "line": 32,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calculate(): parameter 'remaining' needs a type. Add: @param {number} remaining"
+    },
+    {
+      "file": "lib/format-bar.js",
+      "line": 2,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: progress: number, options: object"
+    },
+    {
+      "file": "lib/format-bar.js",
+      "line": 2,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} progress, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/format-time.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: t: number, options: object, roundToMultipleOf: number"
+    },
+    {
+      "file": "lib/format-time.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} t, @param {any} options, @param {any} roundToMultipleOf, @returns {string}"
+    },
+    {
+      "file": "lib/format-time.js",
+      "line": 5,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In round(): parameter 'input' needs a type. Add: @param {number} input"
+    },
+    {
+      "file": "lib/format-time.js",
+      "line": 14,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In autopadding(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/format-value.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: v: string, options: object, type: string"
+    },
+    {
+      "file": "lib/format-value.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} v, @param {any} options, @param {any} type, @returns {any}"
+    },
+    {
+      "file": "lib/format-value.js",
+      "line": 11,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "autopadding needs types for 2 parameters: value, length: number"
+    },
+    {
+      "file": "lib/formatter.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 3 parameters: options: object, params: object, payload: object"
+    },
+    {
+      "file": "lib/formatter.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} options, @param {any} params, @param {any} payload, @returns {any}"
+    },
+    {
+      "file": "lib/formatter.js",
+      "line": 46,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: match, key: string"
+    },
+    {
+      "file": "lib/generic-bar.js",
+      "line": 10,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/generic-bar.js",
+      "line": 105,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "start needs types for 3 parameters: total, startValue, payload: object"
+    },
+    {
+      "file": "lib/generic-bar.js",
+      "line": 150,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'arg0' needs a type. Add: @param {unknown} arg0"
+    },
+    {
+      "file": "lib/generic-bar.js",
+      "line": 223,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setTotal(): parameter 'total' needs a type. Add: @param {unknown} total"
+    },
+    {
+      "file": "lib/multi-bar.js",
+      "line": 9,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, preset"
+    },
+    {
+      "file": "lib/multi-bar.js",
+      "line": 41,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 3 parameters: total, startValue, payload: object"
+    },
+    {
+      "file": "lib/multi-bar.js",
+      "line": 104,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'bar' needs a type. Add: @param {unknown} bar"
+    },
+    {
+      "file": "lib/multi-bar.js",
+      "line": 180,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'bar' needs a type. Add: @param {object} bar"
+    },
+    {
+      "file": "lib/multi-bar.js",
+      "line": 246,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/options.js",
+      "line": 2,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mergeOption needs types for 2 parameters: v: string, defaultValue"
+    },
+    {
+      "file": "lib/options.js",
+      "line": 12,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 2 parameters: rawOptions: object, preset"
+    },
+    {
+      "file": "lib/options.js",
+      "line": 100,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assignDerivedOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/single-bar.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, preset"
+    },
+    {
+      "file": "lib/single-bar.js",
+      "line": 45,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 2 parameters: current, payload: object"
+    },
+    {
+      "file": "lib/single-bar.js",
+      "line": 62,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "start needs types for 3 parameters: total, startValue, payload: object"
+    },
+    {
+      "file": "lib/terminal.js",
+      "line": 6,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'outputStream' needs a type. Add: @param {unknown} outputStream"
+    },
+    {
+      "file": "lib/terminal.js",
+      "line": 37,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cursor(): parameter 'enabled' needs a type. Add: @param {boolean} enabled"
+    },
+    {
+      "file": "lib/terminal.js",
+      "line": 123,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/terminal.js",
+      "line": 136,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lineWrapping(): parameter 'enabled' needs a type. Add: @param {boolean} enabled"
+    }
+  ],
+  "typesPackage": "@types/cli-progress",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.11.6",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19907
+}

@@ -1,0 +1,3370 @@
+{
+  "name": "frappe-charts",
+  "downloadedAt": "2026-02-03T22:12:44.721Z",
+  "lintedAt": "2026-02-03T22:12:44.721Z",
+  "filesAnalyzed": 26,
+  "totalIssues": 419,
+  "errors": 0,
+  "warnings": 419,
+  "byRule": {
+    "tjd/no-implicit-any": 319,
+    "tjd/require-jsdoc-types": 98,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "src/js/chart.js",
+      "line": 18,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getChartByType needs types for 2 parameters: parent, options: object"
+    },
+    {
+      "file": "src/js/chart.js",
+      "line": 33,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, options: object"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 8,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, args: any[]"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 12,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 27,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: label: string, i"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 29,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 34,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 41,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 49,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 57,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 62,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/js/charts/AggregationChart.js",
+      "line": 77,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeLegend needs types for 4 parameters: data: object, index: number, x_pos, y_pos"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 29,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, args: any[]"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 48,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 63,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 126,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: d, i: number"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 132,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calcYAxisParameters(): parameter 'dataValues' needs a type. Add: @param {object} dataValues"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 157,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {number} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 168,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 177,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {number} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 189,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pos' needs a type. Add: @param {number} pos"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 219,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: p: object, c: object"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 226,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: p: object, c: object"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 234,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pos' needs a type. Add: @param {number} pos"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 252,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scaleAll needs types for 2 parameters: values: any[], id: string"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 253,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 259,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'axis' needs a type. Add: @param {object} axis"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 268,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: d: object, i"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 275,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'char' needs a type. Add: @param {unknown} char"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 300,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 301,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: pos, j"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 312,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 322,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 336,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "groupBy needs types for 2 parameters: arr: any[], property"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 337,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc, cur: object"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 343,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generateCumulative(): parameter 'arr' needs a type. Add: @param {any[]} arr"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 345,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: d: object, i"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 347,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 370,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 378,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 384,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 388,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 432,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'yAxis' needs a type. Add: @param {object} yAxis"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 463,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 466,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 469,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 502,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'axis' needs a type. Add: @param {object} axis"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 507,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 512,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {number} p"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 527,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: y: number, j"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 546,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 569,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'axis' needs a type. Add: @param {object} axis"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 640,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: label: string, index: number"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 641,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: set: object, i"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 664,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 681,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapTooltipXPosition(): parameter 'relX' needs a type. Add: @param {unknown} relX"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 732,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeLegend needs types for 4 parameters: data: object, index: number, x_pos, y_pos"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 759,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 796,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 797,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'unit' needs a type. Add: @param {object} unit"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 832,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 837,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setCurrentDataPoint(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 848,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addDataPoint needs types for 2 parameters: label: string, datasetValues: object"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 851,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: d: object, i"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 863,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 869,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateDataset(): parameter 'datasetValues' needs a type. Add: @param {unknown} datasetValues"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 876,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateDatasets(): parameter 'datasets' needs a type. Add: @param {object} datasets"
+    },
+    {
+      "file": "src/js/charts/AxisChart.js",
+      "line": 877,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: d: object, i"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 31,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, options: object"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 96,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prepareData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 100,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prepareFirstData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 104,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateColors needs types for 2 parameters: colors: any[], type: string"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 107,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 191,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 271,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateTipOffset needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 282,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 2 parameters: data: object, config: object"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 293,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 298,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 304,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 308,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {object} c"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 320,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderLegend(): parameter 'dataset' needs a type. Add: @param {any[]} dataset"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 325,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: data: object, index: number"
+    },
+    {
+      "file": "src/js/charts/BaseChart.js",
+      "line": 354,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/charts/DonutChart.js",
+      "line": 11,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, args: any[]"
+    },
+    {
+      "file": "src/js/charts/DonutChart.js",
+      "line": 20,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/js/charts/DonutChart.js",
+      "line": 47,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: total: number, i"
+    },
+    {
+      "file": "src/js/charts/DonutChart.js",
+      "line": 124,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calTranslateByAngle(): parameter 'property' needs a type. Add: @param {object} property"
+    },
+    {
+      "file": "src/js/charts/DonutChart.js",
+      "line": 135,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hoverSlice needs types for 4 parameters: path: string, i, flag: boolean, e: object"
+    },
+    {
+      "file": "src/js/charts/DonutChart.js",
+      "line": 166,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mouseMove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 33,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, options: object"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 48,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMeasures(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 121,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: config: object, i"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 131,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: config: object, j"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 132,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 133,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 141,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: args: any[], i"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 148,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: dayName: string, i"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 161,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 172,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 173,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'comp' needs a type. Add: @param {string} comp"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 216,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: color, i: number"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 265,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getDomainConfig(): parameter 'startDate' needs a type. Add: @param {object} startDate"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 302,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getCol needs types for 2 parameters: startDate, month: number"
+    },
+    {
+      "file": "src/js/charts/Heatmap.js",
+      "line": 327,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSubDomainConfig(): parameter 'date' needs a type. Add: @param {unknown} date"
+    },
+    {
+      "file": "src/js/charts/PercentageChart.js",
+      "line": 7,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, args: any[]"
+    },
+    {
+      "file": "src/js/charts/PercentageChart.js",
+      "line": 13,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMeasures(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/js/charts/PercentageChart.js",
+      "line": 60,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {number} value"
+    },
+    {
+      "file": "src/js/charts/PercentageChart.js",
+      "line": 72,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 11,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: parent, args: any[]"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 20,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configure(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 43,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: total: number, i"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 119,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calTranslateByAngle(): parameter 'property' needs a type. Add: @param {object} property"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 130,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hoverSlice needs types for 4 parameters: path: string, i, flag: boolean, e: object"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 169,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setCurrentDataPoint(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 182,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: unit: object, index: number"
+    },
+    {
+      "file": "src/js/charts/PieChart.js",
+      "line": 188,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mouseMove(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 58,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In refresh(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 62,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setup(): parameter 'parent' needs a type. Add: @param {unknown} parent"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 71,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 75,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {any[]} element"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 77,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 82,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 100,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 101,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: s, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 114,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {object} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 115,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: slice, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 122,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 123,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: s, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 130,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {object} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 131,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: slice, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 138,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 140,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: x: number, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 159,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {unknown} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 165,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {any[]} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 169,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: item: object, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 170,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: position, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 202,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: position, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 226,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {object} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 227,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animateMultipleElements needs types for 2 parameters: oldData: object, newData: object"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 244,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: line, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 252,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: old, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 270,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: line, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 278,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 279,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: position, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 287,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {object} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 301,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: line, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 309,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {any[]} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 310,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {object} m"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 319,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {any[]} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 325,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 326,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 327,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 329,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 332,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: pos, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 341,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: line, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 349,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {any[]} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 350,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'r' needs a type. Add: @param {object} r"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 356,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {any[]} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 362,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 363,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 364,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 365,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 367,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 368,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 371,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: pos, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 383,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: rectGroup, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 397,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 406,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: week: any[], weekNo"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 420,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: day: number, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 447,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {unknown} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 456,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 459,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: y: number, j"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 477,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {object} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 509,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: bar, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 530,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeElements(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 553,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: y: number, j"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 567,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateElements(): parameter 'newData' needs a type. Add: @param {object} newData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 604,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: dot, i"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 616,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getComponent needs types for 3 parameters: name: string, constants, getData"
+    },
+    {
+      "file": "src/js/objects/ChartComponents.js",
+      "line": 616,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getComponent needs JSDoc: @param {any} name, @param {any} constants, @param {any} getData, @returns {ChartComponent}"
+    },
+    {
+      "file": "src/js/objects/SvgTip.js",
+      "line": 70,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'set' needs a type. Add: @param {object} set"
+    },
+    {
+      "file": "src/js/objects/SvgTip.js",
+      "line": 110,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setValues needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 10,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "translate needs types for 4 parameters: unit, oldCoord: any[], newCoord: any[], duration: number"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 10,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "translate needs JSDoc: @param {any} unit, @param {any} oldCoord, @param {any} newCoord, @param {any} duration, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 22,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "translateVertLine needs types for 3 parameters: xLine, newX, oldX"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 22,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "translateVertLine needs JSDoc: @param {any} xLine, @param {any} newX, @param {any} oldX, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "translateHoriLine needs types for 3 parameters: yLine, newY, oldY"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 26,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "translateHoriLine needs JSDoc: @param {any} yLine, @param {any} newY, @param {any} oldY, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animateRegion needs types for 4 parameters: rectGroup: object, newY1: number, newY2: number, oldY2"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "animateRegion needs JSDoc: @param {any} rectGroup, @param {any} newY1, @param {any} newY2, @param {any} oldY2, @returns {any[][]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 50,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animateBar needs types for 4 parameters: bar: object, x: number, yTop, width: number"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 50,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "animateBar needs JSDoc: @param {any} bar, @param {any} x, @param {any} yTop, @param {any} width, @returns {any[][]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 78,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animateDot needs types for 3 parameters: dot: object, x: number, y: number"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 78,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "animateDot needs JSDoc: @param {any} dot, @param {any} x, @param {any} y, @returns {any[][]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animatePath needs types for 5 parameters: paths: object, newXList: object, newYList: any[], zeroLine, spline"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "animatePath needs JSDoc: @param {any} paths, @param {any} newXList, @param {any} newYList, @param {any} zeroLine, @param {any} spline, @returns {any[][]}"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 91,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: y: number, i"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 119,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animatePathStr needs types for 2 parameters: oldPath: string, pathStr"
+    },
+    {
+      "file": "src/js/utils/animate.js",
+      "line": 119,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "animatePathStr needs JSDoc: @param {any} oldPath, @param {any} pathStr, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 14,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animateSVGElement needs types for 3 parameters: element: object, props: object, dur: number"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 75,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 2 parameters: element: object, style"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 75,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "transform needs JSDoc: @param {any} element, @param {any} style"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 76,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 84,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "animateSVG needs types for 2 parameters: svgContainer: object, elements: any[]"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 88,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {any[] | object} element"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 107,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'animElement' needs a type. Add: @param {unknown} animElement"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "runSMILAnimation needs types for 3 parameters: parent: object, svgElement: object, elementsToAnimate: object"
+    },
+    {
+      "file": "src/js/utils/animation.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "runSMILAnimation needs JSDoc: @param {any} parent, @param {any} svgElement, @param {any} elementsToAnimate"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dataPrep needs types for 3 parameters: data: object, type: string, config: object"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 9,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "dataPrep needs JSDoc: @param {any} data, @param {any} type, @param {any} config, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 26,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 33,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 60,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 70,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "zeroDataPrep needs JSDoc: @param {any} realData, @returns {{ labels: any; datasets: any; }}"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 70,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In zeroDataPrep(): parameter 'realData' needs a type. Add: @param {object} realData"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 76,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 109,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getShortenedLabels needs JSDoc: @param {any} chartWidth, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 109,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getShortenedLabels(): parameter 'chartWidth' needs a type. Add: @param {number} chartWidth"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 117,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'label' needs a type. Add: @param {string} label"
+    },
+    {
+      "file": "src/js/utils/axis-chart-utils.js",
+      "line": 121,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'label' needs a type. Add: @param {string} label"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 24,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In limitColor(): parameter 'r' needs a type. Add: @param {unknown} r"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lightenDarkenColor needs types for 2 parameters: color, amt"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "lightenDarkenColor needs JSDoc: @param {any} color, @param {any} amt, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 44,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isValidColor needs JSDoc: @param {any} string, @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 44,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isValidColor(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 52,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getColor needs JSDoc: @param {any} color, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/colors.js",
+      "line": 52,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getColor(): parameter 'color' needs a type. Add: @param {unknown} color"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getTopOffset needs JSDoc: @param {any} m, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 47,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTopOffset(): parameter 'm' needs a type. Add: @param {object} m"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 51,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getLeftOffset needs JSDoc: @param {any} m, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 51,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getLeftOffset(): parameter 'm' needs a type. Add: @param {object} m"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 55,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getExtraHeight needs JSDoc: @param {any} m, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 55,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getExtraHeight(): parameter 'm' needs a type. Add: @param {object} m"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 66,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getExtraWidth needs JSDoc: @param {any} m, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/constants.js",
+      "line": 66,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getExtraWidth(): parameter 'm' needs a type. Add: @param {object} m"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 58,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In treatAsUtc(): parameter 'date' needs a type. Add: @param {unknown} date"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 64,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toMidnightUTC needs JSDoc: @param {any} date, @returns {Date}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 64,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toMidnightUTC(): parameter 'date' needs a type. Add: @param {unknown} date"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 70,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getYyyyMmDd needs JSDoc: @param {any} date, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 70,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getYyyyMmDd(): parameter 'date' needs a type. Add: @param {object} date"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 80,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clone needs JSDoc: @param {any} date, @returns {Date}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 80,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clone(): parameter 'date' needs a type. Add: @param {object} date"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 84,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "timestampSec needs JSDoc: @param {any} date, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 84,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In timestampSec(): parameter 'date' needs a type. Add: @param {object} date"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 88,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "timestampToMidnight needs JSDoc: @param {any} timestamp, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 88,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In timestampToMidnight(): parameter 'timestamp' needs a type. Add: @param {number} timestamp"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 98,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getWeeksBetween needs types for 2 parameters: startDate, endDate"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 98,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getWeeksBetween needs JSDoc: @param {any} startDate, @param {any} endDate, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 103,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDaysBetween needs types for 2 parameters: startDate, endDate"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 103,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getDaysBetween needs JSDoc: @param {any} startDate, @param {any} endDate, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 108,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "areInSameMonth needs types for 2 parameters: startDate: object, endDate: object"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 108,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "areInSameMonth needs JSDoc: @param {any} startDate, @param {any} endDate, @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 115,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getMonthName needs JSDoc: @param {any} i, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 115,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMonthName(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 120,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getLastDateInMonth needs types for 2 parameters: month: number, year: number"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 120,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getLastDateInMonth needs JSDoc: @param {any} month, @param {any} year, @returns {Date}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 125,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setDayToSunday needs JSDoc: @param {any} date, @returns {Date}"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 125,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setDayToSunday(): parameter 'date' needs a type. Add: @param {unknown} date"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 135,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addDays needs types for 2 parameters: date: object, numberOfDays"
+    },
+    {
+      "file": "src/js/utils/date-utils.js",
+      "line": 135,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "addDays needs JSDoc: @param {any} date, @param {any} numberOfDays"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$ needs types for 2 parameters: expr, con"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "$ needs JSDoc: @param {any} expr, @param {any} con, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 7,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "findNodeIndex needs JSDoc: @param {any} node, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findNodeIndex(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 16,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 2 parameters: tag, o: object"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 44,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getOffset needs JSDoc: @param {any} element, @returns {{ top: any; left: any; }}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 44,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getOffset(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 62,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isHidden needs JSDoc: @param {any} el, @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 62,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isHidden(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 66,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isElementInViewport needs JSDoc: @param {any} el, @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 66,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isElementInViewport(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 82,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getElementContentWidth needs JSDoc: @param {any} element, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 82,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getElementContentWidth(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 90,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bind needs types for 2 parameters: element: object, o: object"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 90,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bind needs JSDoc: @param {any} element, @param {any} o"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 102,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unbind needs types for 2 parameters: element: object, o: object"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 102,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "unbind needs JSDoc: @param {any} element, @param {any} o"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 114,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fire needs types for 3 parameters: target: object, type: string, properties: object"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 114,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fire needs JSDoc: @param {any} target, @param {any} type, @param {any} properties, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 127,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "forEachNode needs types for 3 parameters: nodeList: object, callback: Function, scope"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 127,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "forEachNode needs JSDoc: @param {any} nodeList, @param {any} callback, @param {any} scope"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 134,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "activate needs types for 3 parameters: $parent: object, $child: object, commonClass"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 134,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "activate needs JSDoc: @param {any} $parent, @param {any} $child, @param {any} commonClass"
+    },
+    {
+      "file": "src/js/utils/dom.js",
+      "line": 143,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: node: object, i"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBarHeightAndYAttr needs types for 2 parameters: yTop: number, zeroLine: number"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 3,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBarHeightAndYAttr needs JSDoc: @param {any} yTop, @param {any} zeroLine, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 16,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "equilizeNoOfElements needs types for 2 parameters: array1, array2"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 16,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "equilizeNoOfElements needs JSDoc: @param {any} array1, @param {any} array2, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "truncateString needs types for 2 parameters: txt: object, len: number"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 30,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "truncateString needs JSDoc: @param {any} txt, @param {any} len, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 41,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "shortenLargeNumber needs JSDoc: @param {any} label, @returns {string | number}"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 41,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shortenLargeNumber(): parameter 'label' needs a type. Add: @param {string} label"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 61,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSplineCurvePointsStr needs types for 2 parameters: xList: object, yList: object"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 61,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSplineCurvePointsStr needs JSDoc: @param {any} xList, @param {any} yList, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 68,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "line needs types for 2 parameters: pointA, pointB"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 77,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "controlPoint needs types for 4 parameters: current, previous, next: Function, reverse"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 88,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezierCommand needs types for 3 parameters: point, i: number, a"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 94,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pointStr needs types for 2 parameters: points: any[], command: Function"
+    },
+    {
+      "file": "src/js/utils/draw-utils.js",
+      "line": 96,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: acc, point, i, a"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 21,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$ needs types for 2 parameters: expr, con"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 27,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createSVG needs types for 2 parameters: tag, o: object"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 27,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "createSVG needs JSDoc: @param {any} tag, @param {any} o, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 60,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderVerticalGradient needs types for 2 parameters: svgDefElem, gradientId: string"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 71,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setGradientStop needs types for 4 parameters: gradElem, offset: number, color, opacity"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 80,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeSVGContainer needs types for 4 parameters: parent, className: string, width: number, height: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 80,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeSVGContainer needs JSDoc: @param {any} parent, @param {any} className, @param {any} width, @param {any} height, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeSVGDefs needs JSDoc: @param {any} svgContainer, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 89,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeSVGDefs(): parameter 'svgContainer' needs a type. Add: @param {unknown} svgContainer"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 95,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeSVGGroup needs JSDoc: @param {any} className, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 95,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeSVGGroup(): parameter 'className' needs a type. Add: @param {string} className"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 104,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "wrapInSVGGroup needs JSDoc: @param {any} elements, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 104,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapInSVGGroup(): parameter 'elements' needs a type. Add: @param {any[]} elements"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 108,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 112,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makePath needs JSDoc: @param {any} pathStr, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 113,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makePath(): parameter 'pathStr' needs a type. Add: @param {unknown} pathStr"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 130,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeArcPathStr needs types for 4 parameters: startPosition: object, endPosition: object, center: object, radius"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 130,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeArcPathStr needs JSDoc: @param {any} startPosition, @param {any} endPosition, @param {any} center, @param {any} radius, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 152,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeCircleStr needs types for 4 parameters: startPosition: object, endPosition: object, center: object, radius"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 152,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeCircleStr needs JSDoc: @param {any} startPosition, @param {any} endPosition, @param {any} center, @param {any} radius, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 178,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeArcStrokePathStr needs types for 4 parameters: startPosition: object, endPosition: object, center: object, radius"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 178,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeArcStrokePathStr needs JSDoc: @param {any} startPosition, @param {any} endPosition, @param {any} center, @param {any} radius, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 200,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeStrokeCircleStr needs types for 4 parameters: startPosition: object, endPosition: object, center: object, radius: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 200,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeStrokeCircleStr needs JSDoc: @param {any} startPosition, @param {any} endPosition, @param {any} center, @param {any} radius, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 226,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeGradient needs types for 2 parameters: svgDefElem, color"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 226,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeGradient needs JSDoc: @param {any} svgDefElem, @param {any} color, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 246,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rightRoundedBar needs types for 3 parameters: x: number, width: number, height: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 246,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "rightRoundedBar needs JSDoc: @param {any} x, @param {any} width, @param {any} height, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 254,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "leftRoundedBar needs types for 3 parameters: x: number, width: number, height: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 254,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "leftRoundedBar needs JSDoc: @param {any} x, @param {any} width, @param {any} height, @returns {string}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 263,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "percentageBar needs types for 6 parameters: x: number, y: number, width: number, height: number, isFirst: boolean, isLast: boolean"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 263,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "percentageBar needs JSDoc: @param {any} x, @param {any} y, @param {any} width, @param {any} height, @param {any} isFirst, @param {any} isLast, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 294,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "heatSquare needs types for 5 parameters: className: string, x: number, y: number, size: number, radius"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 294,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "heatSquare needs JSDoc: @param {any} className, @param {any} x, @param {any} y, @param {any} size, @param {any} radius, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 320,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "legendDot needs types for 6 parameters: x: number, y: number, size: number, radius, label: string, value"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 320,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "legendDot needs JSDoc: @param {any} x, @param {any} y, @param {any} size, @param {any} radius, @param {any} label, @param {any} value, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 382,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeText needs types for 4 parameters: className: string, x: number, y: number, content"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 382,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "makeText needs JSDoc: @param {any} className, @param {any} x, @param {any} y, @param {any} content, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 400,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeVertLine needs types for 4 parameters: x: number, label: string, y1: number, y2"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 432,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "makeHoriLine needs types for 4 parameters: y: number, label: string, x1: number, x2: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 489,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "generateAxisLabel needs JSDoc: @param {any} options, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 489,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generateAxisLabel(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 530,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "yLine needs types for 3 parameters: y: number, label: string, width: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 530,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "yLine needs JSDoc: @param {any} y, @param {any} label, @param {any} width, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 567,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "xLine needs types for 3 parameters: x: number, label: string, height: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 567,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "xLine needs JSDoc: @param {any} x, @param {any} label, @param {any} height, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 603,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "yMarker needs types for 3 parameters: y: number, label: string, width: number"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 603,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "yMarker needs JSDoc: @param {any} y, @param {any} label, @param {any} width, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 634,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "yRegion needs types for 4 parameters: y1: number, y2: number, width: number, label: string"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 634,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "yRegion needs JSDoc: @param {any} y1, @param {any} y2, @param {any} width, @param {any} label, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 678,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "datasetBar needs types for 4 parameters: x: number, yTop, width: number, color"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 678,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "datasetBar needs JSDoc: @param {any} x, @param {any} yTop, @param {any} width, @param {any} color, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 760,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "datasetDot needs types for 4 parameters: x: number, y: number, radius: number, color"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 760,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "datasetDot needs JSDoc: @param {any} x, @param {any} y, @param {any} radius, @param {any} color, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 798,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPaths needs types for 3 parameters: xList: object, yList: any[], color"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 798,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPaths needs JSDoc: @param {any} xList, @param {any} yList, @param {any} color, @returns {{ path: any; }}"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 799,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: y: number, i"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 838,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bar(): parameter 'unit' needs a type. Add: @param {object} unit"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 854,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dot(): parameter 'unit' needs a type. Add: @param {object} unit"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 873,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In heat_square(): parameter 'unit' needs a type. Add: @param {object} unit"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 894,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bar needs types for 2 parameters: unit: object, overlay: object"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 902,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attr' needs a type. Add: @param {object} attr"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 903,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attr' needs a type. Add: @param {object} attr"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 912,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dot needs types for 2 parameters: unit: object, overlay: object"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 920,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attr' needs a type. Add: @param {object} attr"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 921,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attr' needs a type. Add: @param {object} attr"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 930,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "heat_square needs types for 2 parameters: unit: object, overlay: object"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 938,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attr' needs a type. Add: @param {object} attr"
+    },
+    {
+      "file": "src/js/utils/draw.js",
+      "line": 939,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'attr' needs a type. Add: @param {object} attr"
+    },
+    {
+      "file": "src/js/utils/export.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "downloadFile needs types for 2 parameters: filename, data: object"
+    },
+    {
+      "file": "src/js/utils/export.js",
+      "line": 4,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "downloadFile needs JSDoc: @param {any} filename, @param {any} data"
+    },
+    {
+      "file": "src/js/utils/export.js",
+      "line": 19,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "prepareForExport needs JSDoc: @param {any} svg, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/export.js",
+      "line": 19,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prepareForExport(): parameter 'svg' needs a type. Add: @param {object} svg"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 7,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "floatTwo needs JSDoc: @returns {number}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 16,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "arraysEqual needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 19,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 29,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "shuffle needs JSDoc: @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 49,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fillArray needs JSDoc: @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 63,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getStringWidth needs JSDoc: @returns {number}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 67,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindChange needs types for 3 parameters: obj: object, getFn: Function, setFn: Function"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 67,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bindChange needs JSDoc: @param {any} obj, @param {any} getFn, @param {any} setFn, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 69,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: target, value"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 73,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRandomBias needs types for 4 parameters: min: number, max: number, bias: number, influence: number"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getRandomBias needs JSDoc: @param {any} min, @param {any} max, @param {any} bias, @param {any} influence, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPositionByAngle needs types for 2 parameters: angle: number, radius: number"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 89,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPositionByAngle needs JSDoc: @param {any} angle, @param {any} radius, @returns {{ x: number; y: number; }}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 101,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isValidNumber needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 113,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "round needs JSDoc: @returns {number}"
+    },
+    {
+      "file": "src/js/utils/helpers.js",
+      "line": 123,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "deepClone needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 3,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalize(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 26,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getChartRangeIntervals(): parameter 'max' needs a type. Add: @param {number} max"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 64,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getChartIntervals(): parameter 'maxValue' needs a type. Add: @param {unknown} maxValue"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 84,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "calcChartIntervals needs JSDoc: @param {any} values, @returns {any[]}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 84,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calcChartIntervals(): parameter 'values' needs a type. Add: @param {any[] | object} values"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 103,
+      "column": 21,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 105,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPositiveFirstIntervals needs types for 2 parameters: maxValue, absMinValue"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 169,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: number, b: number"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 172,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getZeroIndex needs JSDoc: @param {any} yPts, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 172,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getZeroIndex(): parameter 'yPts' needs a type. Add: @param {object} yPts"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 193,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRealIntervals needs types for 2 parameters: max: number, noOfIntervals: number"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 193,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getRealIntervals needs JSDoc: @param {any} max, @param {any} noOfIntervals, @returns {number[]}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 205,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getIntervalSize needs JSDoc: @param {any} orderedArray, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 205,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getIntervalSize(): parameter 'orderedArray' needs a type. Add: @param {unknown} orderedArray"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 209,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getValueRange needs JSDoc: @param {any} orderedArray, @returns {number}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 209,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getValueRange(): parameter 'orderedArray' needs a type. Add: @param {object} orderedArray"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 213,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "scale needs types for 2 parameters: val: number, yAxis: object"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 213,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "scale needs JSDoc: @param {any} val, @param {any} yAxis, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 217,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isInRange needs types for 3 parameters: val, min: number, max: number"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 217,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isInRange needs JSDoc: @param {any} val, @param {any} min, @param {any} max, @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 221,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isInRange2D needs types for 3 parameters: coord, minCoord, maxCoord"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 221,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isInRange2D needs JSDoc: @param {any} coord, @param {any} minCoord, @param {any} maxCoord, @returns {boolean}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 228,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getClosestInArray needs types for 2 parameters: goal: number, arr: object"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 228,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getClosestInArray needs JSDoc: @param {any} goal, @param {any} arr, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 229,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: prev: number, curr: number"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 236,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calcDistribution needs types for 2 parameters: values: any[] | object, distributionSize: number"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 236,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "calcDistribution needs JSDoc: @param {any} values, @param {any} distributionSize, @returns {number[]}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 253,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getMaxCheckpoint needs types for 2 parameters: value, distribution: any[]"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 253,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getMaxCheckpoint needs JSDoc: @param {any} value, @param {any} distribution, @returns {any}"
+    },
+    {
+      "file": "src/js/utils/intervals.js",
+      "line": 254,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    }
+  ],
+  "typesPackage": "@types/frappe-charts",
+  "duration": 24291
+}

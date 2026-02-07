@@ -1,0 +1,53 @@
+{
+  "name": "bytes",
+  "downloadedAt": "2026-02-03T22:04:05.614Z",
+  "lintedAt": "2026-02-03T22:04:05.614Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 4,
+  "errors": 4,
+  "warnings": 0,
+  "byRule": {
+    "tjd/accurate-jsdoc": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 54,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: string|number|null → string | number. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "index.js",
+      "line": 84,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: string|null → string. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "index.js",
+      "line": 84,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': object → { decimalPlaces?: number; fixedDecimals?: number; thousan.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "index.js",
+      "line": 141,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: number|null → number. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    }
+  ],
+  "typesPackage": "@types/bytes",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.1.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18490
+}

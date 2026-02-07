@@ -1,0 +1,632 @@
+{
+  "name": "pino",
+  "downloadedAt": "2026-02-03T22:03:19.679Z",
+  "lintedAt": "2026-02-03T22:03:19.679Z",
+  "filesAnalyzed": 14,
+  "totalIssues": 76,
+  "errors": 4,
+  "warnings": 72,
+  "byRule": {
+    "tjd/no-implicit-any": 68,
+    "tjd/require-jsdoc-types": 3,
+    "tjd/accurate-jsdoc": 4,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "lib/caller.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "noOpPrepareStackTrace needs types for 2 parameters: _, stack"
+    },
+    {
+      "file": "lib/caller.js",
+      "line": 7,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {any[]}"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 16,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fatal(): parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 30,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In error(): parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 31,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In warn(): parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 32,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In info(): parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 33,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In debug(): parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 34,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In trace(): parameter 'hook' needs a type. Add: @param {unknown} hook"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 47,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In genLsCache(): parameter 'instance' needs a type. Add: @param {object} instance"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 59,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isStandardLevel needs types for 2 parameters: level, useOnlyCustomLevels"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 77,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLevel(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 108,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getLevel(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 114,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLevelEnabled(): parameter 'logLevel' needs a type. Add: @param {unknown} logLevel"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 129,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'direction': SORTING_ORDER → string. JSDoc declares unknown but TypeScript infers primitive."
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 144,
+      "column": 30,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'levelComparison': SORTING_ORDER | Function → string | Function. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 154,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 175,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "assertDefaultLevelFound needs types for 3 parameters: defaultLevel, customLevels: object, useOnlyCustomLevels"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 198,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "assertNoLevelCollisions needs types for 2 parameters: levels, customLevels: object"
+    },
+    {
+      "file": "lib/levels.js",
+      "line": 217,
+      "column": 33,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'levelComparison': SORTING_ORDER | Function → string | Function. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "multistream needs types for 2 parameters: streamsArray: any[], opts: object"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 49,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 100,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'dest' needs a type. Add: @param {object} dest"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 141,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 143,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 163,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clone(): parameter 'level' needs a type. Add: @param {unknown} level"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 187,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compareByLevel needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 191,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "initLoopVar needs types for 2 parameters: length: number, dedupe"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 195,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "adjustLoopVar needs types for 2 parameters: i: number, dedupe"
+    },
+    {
+      "file": "lib/multistream.js",
+      "line": 199,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkLoopVar needs types for 3 parameters: i, length: number, dedupe"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 65,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In level(): parameter 'lvl' needs a type. Add: @param {unknown} lvl"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 67,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In levelVal(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 80,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 84,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resetChildingsFormatter(): parameter 'bindings' needs a type. Add: @param {unknown} bindings"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 85,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "child needs types for 2 parameters: bindings, options: object"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 189,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setBindings(): parameter 'newBindings' needs a type. Add: @param {unknown} newBindings"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 206,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "write needs types for 3 parameters: _obj: object, msg, num: number"
+    },
+    {
+      "file": "lib/proto.js",
+      "line": 246,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In flush(): parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/redaction.js",
+      "line": 12,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "redaction needs types for 2 parameters: opts, serialize: Function"
+    },
+    {
+      "file": "lib/redaction.js",
+      "line": 15,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: o: object, str: string"
+    },
+    {
+      "file": "lib/redaction.js",
+      "line": 83,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In k(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/redaction.js",
+      "line": 86,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, path: string"
+    },
+    {
+      "file": "lib/redaction.js",
+      "line": 102,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handle(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 35,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 40,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "genLog needs types for 2 parameters: level, hook: object"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 47,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In LOG(): parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 88,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _asString(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 238,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "asChindings needs types for 2 parameters: instance: object, bindings: object"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 267,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasBeenTampered(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 271,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildSafeSonicBoom(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 284,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In filterBrokenPipe(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 302,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "autoEnd needs types for 2 parameters: stream: object, eventName: string"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 323,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createArgsNormalizer(): parameter 'defaultOptions' needs a type. Add: @param {object} defaultOptions"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 324,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: instance, caller, stream"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 375,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stringify needs types for 2 parameters: obj: object, stringifySafeFn: Function"
+    },
+    {
+      "file": "lib/tools.js",
+      "line": 388,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildFormatters needs types for 3 parameters: level, bindings, log"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 10,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setupOnExit(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 38,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "buildStream needs types for 5 parameters: filename, workerData, workerOpts: any[] | object, sync: boolean, name: string"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 91,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In autoEnd(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 100,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In flush(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 104,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In transport(): parameter 'fullOptions' needs a type. Add: @param {object} fullOptions"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 130,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dest' needs a type. Add: @param {object} dest"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 130,
+      "column": 64,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dest' needs a type. Add: @param {any[] | object} dest"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 136,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dest' needs a type. Add: @param {object} dest"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 136,
+      "column": 68,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dest' needs a type. Add: @param {object} dest"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 137,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {any[] | object} t"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 147,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dest' needs a type. Add: @param {any[] | object} dest"
+    },
+    {
+      "file": "lib/transport.js",
+      "line": 168,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fixTarget(): parameter 'origin' needs a type. Add: @param {object} origin"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 76,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {Promise<any>}"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 81,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 96,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {any[]} p"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 99,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 132,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "close needs types for 2 parameters: err: Error, cb: Function"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 150,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In process(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 153,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 173,
+      "column": 28,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'streams': (TransformStream|WritableStream)[] → (TransformStream<any, any> | WritableStream<any>)[]. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/worker.js",
+      "line": 183,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    }
+  ],
+  "typesPackage": "@types/pino",
+  "typesComparison": {
+    "definitelyTypedVersion": "7.0.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20675
+}

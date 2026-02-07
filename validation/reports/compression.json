@@ -1,0 +1,109 @@
+{
+  "name": "compression",
+  "downloadedAt": "2026-02-03T21:59:27.777Z",
+  "lintedAt": "2026-02-03T21:59:27.777Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 11,
+  "errors": 0,
+  "warnings": 11,
+  "byRule": {
+    "tjd/no-implicit-any": 11
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 80,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 99,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "write needs types for 2 parameters: chunk, encoding: string"
+    },
+    {
+      "file": "index.js",
+      "line": 113,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "end needs types for 2 parameters: chunk, encoding: string"
+    },
+    {
+      "file": "index.js",
+      "line": 140,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "on needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 155,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nocompress(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "index.js",
+      "line": 228,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "index.js",
+      "line": 252,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addListeners needs types for 3 parameters: stream, on: object, listeners: object"
+    },
+    {
+      "file": "index.js",
+      "line": 262,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "chunkLength needs types for 2 parameters: chunk: object, encoding: string"
+    },
+    {
+      "file": "index.js",
+      "line": 277,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shouldCompress needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "index.js",
+      "line": 293,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shouldTransform needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "index.js",
+      "line": 307,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toBuffer needs types for 2 parameters: chunk, encoding: string"
+    }
+  ],
+  "typesPackage": "@types/compression",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.8.1",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21529
+}

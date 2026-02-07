@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Fetch",
+      "Write",
+      "Bash",
+      "Fetch",
+      "Web Search",
+      "Explore",
+      "Update",
+      "WebSearch"
+    ]
+  }
+}

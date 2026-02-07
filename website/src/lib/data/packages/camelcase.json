@@ -1,0 +1,154 @@
+{
+  "name": "camelcase",
+  "downloadedAt": "2026-02-03T22:04:25.835Z",
+  "lintedAt": "2026-02-03T22:04:25.835Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 17,
+  "errors": 0,
+  "warnings": 17,
+  "byRule": {
+    "tjd/no-implicit-any": 15,
+    "tjd/require-jsdoc-types": 1,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 14,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "preserveCamelCase needs types for 4 parameters: string: string, toLowerCase: Function, toUpperCase: Function, preserveConsecutiveUppercase"
+    },
+    {
+      "file": "index.js",
+      "line": 61,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "preserveConsecutiveUppercase needs types for 2 parameters: input: string, toLowerCase: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 61,
+      "column": 93,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "index.js",
+      "line": 63,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processWithCasePreservation needs types for 3 parameters: input: any[] | object, toLowerCase: Function, preserveConsecutiveUppercase"
+    },
+    {
+      "file": "index.js",
+      "line": 118,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "postProcess needs types for 2 parameters: input: string, toUpperCase: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 120,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: match: object, identifier: object, offset: number, string: string"
+    },
+    {
+      "file": "index.js",
+      "line": 133,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "index.js",
+      "line": 139,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _, identifier"
+    },
+    {
+      "file": "index.js",
+      "line": 143,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "camelCase needs types for 2 parameters: input: object, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 143,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "camelCase needs JSDoc: @param {any} input, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "index.js",
+      "line": 157,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {string} element"
+    },
+    {
+      "file": "index.js",
+      "line": 158,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "index.js",
+      "line": 177,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "index.js",
+      "line": 178,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "index.js",
+      "line": 181,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "index.js",
+      "line": 182,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "test.js",
+      "line": 418,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-extend-native')."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19484
+}

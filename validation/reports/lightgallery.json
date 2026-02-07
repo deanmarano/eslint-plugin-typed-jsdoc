@@ -1,0 +1,13 @@
+{
+  "name": "lightgallery",
+  "downloadedAt": "2026-02-03T22:10:53.183Z",
+  "lintedAt": "2026-02-03T22:10:53.183Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/lightgallery",
+  "duration": 23418
+}

@@ -1,0 +1,37 @@
+{
+  "name": "url-parse",
+  "downloadedAt": "2026-02-03T22:01:06.318Z",
+  "lintedAt": "2026-02-03T22:01:06.318Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/no-implicit-any": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 67,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: address: string, url: string"
+    },
+    {
+      "file": "index.js",
+      "line": 140,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSpecial(): parameter 'scheme' needs a type. Add: @param {unknown} scheme"
+    }
+  ],
+  "typesPackage": "@types/url-parse",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.4.11",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22665
+}

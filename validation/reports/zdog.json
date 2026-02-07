@@ -1,0 +1,1313 @@
+{
+  "name": "zdog",
+  "downloadedAt": "2026-02-03T22:12:51.966Z",
+  "lintedAt": "2026-02-03T22:12:51.966Z",
+  "filesAnalyzed": 19,
+  "totalIssues": 162,
+  "errors": 0,
+  "warnings": 162,
+  "byRule": {
+    "tjd/no-implicit-any": 160,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "js/anchor.js",
+      "line": 17,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: utils: object, Vector, CanvasRenderer, SvgRenderer"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 22,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Anchor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 26,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 54,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 64,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addChild(): parameter 'shape' needs a type. Add: @param {object} shape"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 73,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeChild(): parameter 'shape' needs a type. Add: @param {unknown} shape"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 92,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 102,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 3 parameters: translation, rotation, scale"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 105,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 113,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 120,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shapeSorter needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 132,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'graph' needs a type. Add: @param {unknown} graph"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 147,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addChildFlatGraph(): parameter 'flatGraph' needs a type. Add: @param {unknown} flatGraph"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 148,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 164,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderGraphCanvas(): parameter 'ctx' needs a type. Add: @param {object} ctx"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 169,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 174,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderGraphSvg(): parameter 'svg' needs a type. Add: @param {unknown} svg"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 179,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 186,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In copy(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 190,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 199,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In copyGraph(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 201,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 217,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSubclass(): parameter 'Super' needs a type. Add: @param {object} Super"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 218,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'defaults' needs a type. Add: @param {unknown} defaults"
+    },
+    {
+      "file": "js/anchor.js",
+      "line": 220,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Item(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 28,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extend needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 35,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lerp needs types for 3 parameters: a: number, b: number, alpha: number"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 39,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "modulo needs types for 2 parameters: num: number, div: number"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 44,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {number} a"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 47,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {number} a"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 50,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {number} a"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 53,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {number} a"
+    },
+    {
+      "file": "js/boilerplate.js",
+      "line": 58,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "easeInOut needs types for 2 parameters: alpha: number, power"
+    },
+    {
+      "file": "js/box.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/box.js",
+      "line": 16,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: utils: object, Anchor: object, Shape: object, Rect: object"
+    },
+    {
+      "file": "js/box.js",
+      "line": 51,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-self-assign')."
+    },
+    {
+      "file": "js/box.js",
+      "line": 52,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/box.js",
+      "line": 73,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "js/box.js",
+      "line": 80,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setFace needs types for 2 parameters: faceName: string, value"
+    },
+    {
+      "file": "js/box.js",
+      "line": 103,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFaceOptions(): parameter 'faceName' needs a type. Add: @param {string} faceName"
+    },
+    {
+      "file": "js/box.js",
+      "line": 154,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 18,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In begin(): parameter 'ctx' needs a type. Add: @param {object} ctx"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 22,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "move needs types for 3 parameters: ctx: object, elem, point: object"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 26,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "line needs types for 3 parameters: ctx: object, elem, point: object"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 30,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezier needs types for 5 parameters: ctx: object, elem, cp0: object, cp1: object, end: number"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 34,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In closePath(): parameter 'ctx' needs a type. Add: @param {object} ctx"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 40,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderPath needs types for 4 parameters: ctx: object, elem, pathCommands: any[], isClosed: boolean"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 42,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'command' needs a type. Add: @param {object} command"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 50,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stroke needs types for 5 parameters: ctx: object, elem, isStroke: boolean, color, lineWidth"
+    },
+    {
+      "file": "js/canvas-renderer.js",
+      "line": 59,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fill needs types for 4 parameters: ctx: any[], elem, isFill: boolean, color"
+    },
+    {
+      "file": "js/cone.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/cone.js",
+      "line": 17,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 5 parameters: utils: object, Vector, PathCommand, Anchor, Ellipse: object"
+    },
+    {
+      "file": "js/cone.js",
+      "line": 55,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: ctx: object, renderer"
+    },
+    {
+      "file": "js/cone.js",
+      "line": 60,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderConeSurface needs types for 2 parameters: ctx: object, renderer: any[]"
+    },
+    {
+      "file": "js/cone.js",
+      "line": 113,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getSurfaceRenderElement needs types for 2 parameters: ctx: object, renderer: object"
+    },
+    {
+      "file": "js/cone.js",
+      "line": 126,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setSurfaceRenderPoint needs types for 2 parameters: index: number, point"
+    },
+    {
+      "file": "js/cylinder.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/cylinder.js",
+      "line": 18,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 5 parameters: utils: object, PathCommand, Shape: object, Group: object, Ellipse: object"
+    },
+    {
+      "file": "js/cylinder.js",
+      "line": 37,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: ctx: object, renderer"
+    },
+    {
+      "file": "js/cylinder.js",
+      "line": 42,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderCylinderSurface needs types for 2 parameters: ctx: object, renderer: object"
+    },
+    {
+      "file": "js/cylinder.js",
+      "line": 70,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRenderElement needs types for 2 parameters: ctx: object, renderer: object"
+    },
+    {
+      "file": "js/cylinder.js",
+      "line": 147,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 41,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Dragger(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 45,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 53,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bindDrag(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 63,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getQueryElement(): parameter 'element' needs a type. Add: @param {unknown} element"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 71,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handleEvent(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 79,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onpointerdown(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 83,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ontouchstart(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 87,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dragStart needs types for 2 parameters: event: Event, pointer: object"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 98,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ontouchmove(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 104,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onpointermove(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "js/dragger.js",
+      "line": 108,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dragMove needs types for 2 parameters: event: Event, pointer: object"
+    },
+    {
+      "file": "js/ellipse.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/ellipse.js",
+      "line": 16,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Shape' needs a type. Add: @param {object} Shape"
+    },
+    {
+      "file": "js/group.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/group.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Anchor' needs a type. Add: @param {object} Anchor"
+    },
+    {
+      "file": "js/group.js",
+      "line": 26,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/group.js",
+      "line": 41,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: ctx: object, renderer"
+    },
+    {
+      "file": "js/group.js",
+      "line": 46,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {object} item"
+    },
+    {
+      "file": "js/hemisphere.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/hemisphere.js",
+      "line": 16,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: utils: object, Vector, Anchor, Ellipse: object"
+    },
+    {
+      "file": "js/hemisphere.js",
+      "line": 43,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: ctx: object, renderer"
+    },
+    {
+      "file": "js/hemisphere.js",
+      "line": 49,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderDome needs types for 2 parameters: ctx: object, renderer: any[]"
+    },
+    {
+      "file": "js/hemisphere.js",
+      "line": 81,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDomeRenderElement needs types for 2 parameters: ctx: object, renderer: object"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 16,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: utils: object, Anchor: object, Dragger: object"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 36,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 44,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setElement(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 58,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setSize needs types for 2 parameters: width: number, height: number"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 68,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setResize(): parameter 'resize' needs a type. Add: @param {unknown} resize"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 105,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderGraph(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 114,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateRenderGraph(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 121,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setCanvas(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 130,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setSizeCanvas needs types for 2 parameters: width: number, height: number"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 144,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderGraphCanvas(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 173,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setSvg(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 183,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setSizeSvg needs types for 2 parameters: width: number, height: number"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 202,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderGraphSvg(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 209,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In empty(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 217,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setDragRotate(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "js/illustration.js",
+      "line": 235,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dragMove needs types for 2 parameters: event: Event, pointer: object"
+    },
+    {
+      "file": "js/index.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/index.js",
+      "line": 33,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-params')."
+    },
+    {
+      "file": "js/index.js",
+      "line": 34,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 18 parameters: Zdog: object, CanvasRenderer, SvgRenderer, Vector, Anchor, Dragger, Illustration, PathCommand, Shape, Group, Rect, RoundedRect, Ellipse, Polygon, Hemisphere, Cylinder, Cone, Box"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Vector' needs a type. Add: @param {unknown} Vector"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 17,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "PathCommand needs types for 3 parameters: method, points: any[], previousPoint"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 30,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapVectorPoint(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 38,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapNewVector(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 45,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: renderPoint: object, i"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 51,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 3 parameters: translation, rotation, scale"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 52,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'renderPoint' needs a type. Add: @param {object} renderPoint"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 57,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: ctx: object, elem, renderer"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 61,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "move needs types for 3 parameters: ctx: object, elem, renderer: object"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 65,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "line needs types for 3 parameters: ctx: object, elem, renderer: object"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 69,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezier needs types for 3 parameters: ctx: object, elem, renderer: object"
+    },
+    {
+      "file": "js/path-command.js",
+      "line": 78,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arc needs types for 3 parameters: ctx: object, elem, renderer: object"
+    },
+    {
+      "file": "js/polygon.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/polygon.js",
+      "line": 15,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: utils: object, Shape: object"
+    },
+    {
+      "file": "js/rect.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/rect.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Shape' needs a type. Add: @param {object} Shape"
+    },
+    {
+      "file": "js/rounded-rect.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/rounded-rect.js",
+      "line": 15,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'Shape' needs a type. Add: @param {object} Shape"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 5,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'root' needs a type. Add: @param {object} root"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 16,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: utils: object, Vector, PathCommand, Anchor: object"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 29,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 56,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: pathPart: object, i"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 91,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'command' needs a type. Add: @param {object} command"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 96,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 3 parameters: translation, rotation, scale"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 102,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'command' needs a type. Add: @param {object} command"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 106,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'child' needs a type. Add: @param {object} child"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 132,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: ctx: object, renderer: object"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 156,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In renderCanvasDot(): parameter 'ctx' needs a type. Add: @param {any[]} ctx"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 186,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderPath needs types for 2 parameters: ctx: object, renderer: any[]"
+    },
+    {
+      "file": "js/shape.js",
+      "line": 201,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getRenderElement needs types for 2 parameters: ctx: object, renderer: object"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 19,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In round(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 23,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPointString(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 29,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "move needs types for 3 parameters: svg, elem, point"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 33,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "line needs types for 3 parameters: svg, elem, point"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 37,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bezier needs types for 5 parameters: svg, elem, cp0, cp1, end: number"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 46,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setPath needs types for 3 parameters: svg, elem: object, pathValue"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 50,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderPath needs types for 4 parameters: svg, elem, pathCommands: any[], isClosed: boolean"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 52,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'command' needs a type. Add: @param {object} command"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 61,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stroke needs types for 5 parameters: svg, elem: object, isStroke: boolean, color, lineWidth"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 69,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fill needs types for 4 parameters: svg, elem: object, isFill: boolean, color"
+    },
+    {
+      "file": "js/svg-renderer.js",
+      "line": 74,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "end needs types for 2 parameters: svg: object, elem"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 16,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'utils' needs a type. Add: @param {object} utils"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 18,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Vector(): parameter 'position' needs a type. Add: @param {unknown} position"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 25,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 34,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 44,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotate(): parameter 'rotation' needs a type. Add: @param {object} rotation"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 54,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateZ(): parameter 'angle' needs a type. Add: @param {unknown} angle"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 58,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateX(): parameter 'angle' needs a type. Add: @param {unknown} angle"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 62,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rotateY(): parameter 'angle' needs a type. Add: @param {unknown} angle"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 66,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rotateProperty needs types for 4 parameters: vec: object, angle: number, propA, propB"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 78,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSame(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 85,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 95,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In subtract(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 105,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In multiply(): parameter 'pos' needs a type. Add: @param {object} pos"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 123,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "transform needs types for 3 parameters: translation, rotation, scale"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 130,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "lerp needs types for 2 parameters: pos: object, alpha"
+    },
+    {
+      "file": "js/vector.js",
+      "line": 142,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMagnitudeSqrt(): parameter 'sum' needs a type. Add: @param {number} sum"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 6993
+}

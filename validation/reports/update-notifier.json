@@ -1,0 +1,64 @@
+{
+  "name": "update-notifier",
+  "downloadedAt": "2026-02-03T22:05:06.638Z",
+  "lintedAt": "2026-02-03T22:05:06.638Z",
+  "filesAnalyzed": 7,
+  "totalIssues": 5,
+  "errors": 1,
+  "warnings": 4,
+  "byRule": {
+    "unicorn/no-process-exit": 1,
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 1,
+    "unknown": 2
+  },
+  "issues": [
+    {
+      "file": "check.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unicorn/no-process-exit",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/no-process-exit' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "updateNotifier needs JSDoc: @param {any} options, @returns {UpdateNotifier}"
+    },
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateNotifier(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "update-notifier.js",
+      "line": 29,
+      "column": 16,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'lines-between-class-members')."
+    },
+    {
+      "file": "update-notifier.js",
+      "line": 32,
+      "column": 12,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'lines-between-class-members')."
+    }
+  ],
+  "typesPackage": "@types/update-notifier",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.0.8",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 16519
+}

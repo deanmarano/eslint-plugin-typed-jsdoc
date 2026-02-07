@@ -1,0 +1,29 @@
+{
+  "name": "is-promise",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 1,
+  "errors": 0,
+  "warnings": 1,
+  "byRule": {
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 4,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPromise(): parameter 'obj' needs a type. Add: @param {object} obj"
+    }
+  ],
+  "typesPackage": "@types/is-promise",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.2.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19884
+}

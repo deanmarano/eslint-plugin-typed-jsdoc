@@ -1,0 +1,36 @@
+{
+  "name": "merge-descriptors",
+  "downloadedAt": "2026-01-30T20:28:36.647Z",
+  "lintedAt": "2026-01-30T20:28:36.647Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "estl/no-implicit-any": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 27,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'destination' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 40,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'source' has implicit 'any' type - add JSDoc @param annotation"
+    }
+  ],
+  "typesPackage": "@types/merge-descriptors",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "is-buffer",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 8,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} obj, @returns {any}"
+    },
+    {
+      "file": "index.js",
+      "line": 8,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'obj' needs a type. Add: @param {object} obj"
+    }
+  ],
+  "typesPackage": "@types/is-buffer",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19554
+}

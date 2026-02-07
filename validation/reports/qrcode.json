@@ -1,0 +1,1287 @@
+{
+  "name": "qrcode",
+  "downloadedAt": "2026-02-03T22:11:47.422Z",
+  "lintedAt": "2026-02-03T22:11:47.422Z",
+  "filesAnalyzed": 35,
+  "totalIssues": 158,
+  "errors": 7,
+  "warnings": 151,
+  "byRule": {
+    "tjd/no-implicit-any": 82,
+    "tjd/require-jsdoc-types": 69,
+    "tjd/accurate-jsdoc": 7
+  },
+  "issues": [
+    {
+      "file": "lib/browser.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderCanvas needs types for 5 parameters: renderFunc: Function, canvas: object, text: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/browser.js",
+      "line": 74,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: data: object, _, opts"
+    },
+    {
+      "file": "lib/can-promise.js",
+      "line": 5,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/core/alignment-pattern.js",
+      "line": 27,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getRowColCoords needs JSDoc: @param {number} version, @returns {any[]}"
+    },
+    {
+      "file": "lib/core/alignment-pattern.js",
+      "line": 64,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPositions needs JSDoc: @param {number} version, @returns {any[]}"
+    },
+    {
+      "file": "lib/core/alphanumeric-data.js",
+      "line": 19,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In AlphanumericData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/alphanumeric-data.js",
+      "line": 24,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBitsLength(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/core/alphanumeric-data.js",
+      "line": 36,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'bitBuffer' needs a type. Add: @param {object} bitBuffer"
+    },
+    {
+      "file": "lib/core/bit-buffer.js",
+      "line": 8,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "lib/core/bit-buffer.js",
+      "line": 13,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "put needs types for 2 parameters: num: number, length: number"
+    },
+    {
+      "file": "lib/core/bit-buffer.js",
+      "line": 23,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In putBit(): parameter 'bit' needs a type. Add: @param {unknown} bit"
+    },
+    {
+      "file": "lib/core/byte-data.js",
+      "line": 3,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ByteData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/byte-data.js",
+      "line": 12,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBitsLength(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/core/byte-data.js",
+      "line": 24,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'bitBuffer' needs a type. Add: @param {object} bitBuffer"
+    },
+    {
+      "file": "lib/core/error-correction-code.js",
+      "line": 99,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBlocksCount needs JSDoc: @param {number} version, @param {number} errorCorrectionLevel, @returns {number}"
+    },
+    {
+      "file": "lib/core/error-correction-code.js",
+      "line": 122,
+      "column": 34,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getTotalCodewordsCount needs JSDoc: @param {number} version, @param {number} errorCorrectionLevel, @returns {number}"
+    },
+    {
+      "file": "lib/core/error-correction-level.js",
+      "line": 6,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromString(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/core/error-correction-level.js",
+      "line": 35,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isValid needs JSDoc: @param {any} level, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/error-correction-level.js",
+      "line": 35,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isValid(): parameter 'level' needs a type. Add: @param {object} level"
+    },
+    {
+      "file": "lib/core/error-correction-level.js",
+      "line": 40,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "from needs types for 2 parameters: value, defaultValue"
+    },
+    {
+      "file": "lib/core/error-correction-level.js",
+      "line": 40,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "from needs JSDoc: @param {any} value, @param {any} defaultValue, @returns {any}"
+    },
+    {
+      "file": "lib/core/finder-pattern.js",
+      "line": 11,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPositions needs JSDoc: @param {number} version, @returns {any[]}"
+    },
+    {
+      "file": "lib/core/format-info.js",
+      "line": 17,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getEncodedBits needs JSDoc: @param {number} errorCorrectionLevel, @param {number} mask, @returns {number}"
+    },
+    {
+      "file": "lib/core/galois-field.js",
+      "line": 41,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "log needs JSDoc: @param {number} n, @returns {number}"
+    },
+    {
+      "file": "lib/core/galois-field.js",
+      "line": 52,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exp needs JSDoc: @param {number} n, @returns {number}"
+    },
+    {
+      "file": "lib/core/galois-field.js",
+      "line": 63,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mul needs JSDoc: @param {number} x, @param {number} y, @returns {number}"
+    },
+    {
+      "file": "lib/core/kanji-data.js",
+      "line": 4,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In KanjiData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/kanji-data.js",
+      "line": 9,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBitsLength(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/core/kanji-data.js",
+      "line": 21,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'bitBuffer' needs a type. Add: @param {object} bitBuffer"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 33,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isValid needs JSDoc: @param {number} mask, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 44,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "from needs JSDoc: @param {string | number} value, @returns {number}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 55,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPenaltyN1 needs JSDoc: @param {any} data, @returns {number}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 55,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPenaltyN1(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 99,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPenaltyN2 needs JSDoc: @param {any} data, @returns {number}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 99,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPenaltyN2(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 123,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPenaltyN3 needs JSDoc: @param {any} data, @returns {number}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 123,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPenaltyN3(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 151,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getPenaltyN4 needs JSDoc: @param {any} data, @returns {number}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 151,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPenaltyN4(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 191,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "applyMask needs JSDoc: @param {number} pattern, @param {BitMatrix} data"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 208,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBestMask needs JSDoc: @param {BitMatrix} data, @param {any} setupFormatFunc, @returns {number}"
+    },
+    {
+      "file": "lib/core/mask-pattern.js",
+      "line": 208,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBestMask(): parameter 'setupFormatFunc' needs a type. Add: @param {Function} setupFormatFunc"
+    },
+    {
+      "file": "lib/core/mode.js",
+      "line": 76,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getCharCountIndicator needs JSDoc: @param {Mode} mode, @param {number} version, @returns {number}"
+    },
+    {
+      "file": "lib/core/mode.js",
+      "line": 94,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBestModeForData needs JSDoc: @param {string} dataStr, @returns {Mode}"
+    },
+    {
+      "file": "lib/core/mode.js",
+      "line": 107,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toString needs JSDoc: @param {Mode} mode, @returns {string}"
+    },
+    {
+      "file": "lib/core/mode.js",
+      "line": 118,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isValid needs JSDoc: @param {Mode} mode, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/mode.js",
+      "line": 157,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "from needs JSDoc: @param {any} value, @param {Mode} defaultValue, @returns {Mode}"
+    },
+    {
+      "file": "lib/core/mode.js",
+      "line": 157,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In from(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/core/numeric-data.js",
+      "line": 3,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NumericData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/numeric-data.js",
+      "line": 8,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBitsLength(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "lib/core/numeric-data.js",
+      "line": 20,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'bitBuffer' needs a type. Add: @param {object} bitBuffer"
+    },
+    {
+      "file": "lib/core/polynomial.js",
+      "line": 10,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mul needs JSDoc: @param {Uint8ArrayBufferLike[]} p1, @param {Uint8ArrayBufferLike[]} p2, @returns {Uint8ArrayBufferLike[]}"
+    },
+    {
+      "file": "lib/core/polynomial.js",
+      "line": 29,
+      "column": 15,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mod needs JSDoc: @param {Uint8ArrayBufferLike[]} divident, @param {Uint8ArrayBufferLike[]} divisor, @returns {Uint8ArrayBufferLike[]}"
+    },
+    {
+      "file": "lib/core/polynomial.js",
+      "line": 55,
+      "column": 32,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "generateECPolynomial needs JSDoc: @param {number} degree, @returns {Uint8ArrayBufferLike[]}"
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 183,
+      "column": 29,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'data': Uint8Array → Uint8Array<ArrayBufferLike>. JSDoc declares unknown but TypeScript infers array."
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 231,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Uint8Array → Uint8Array<ArrayBufferLike>. JSDoc declares unknown but TypeScript infers array."
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 231,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createData(): parameter 'segments' needs a type. Add: @param {any[]} segments"
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 235,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 296,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Uint8Array → Uint8Array<ArrayBufferLike>. JSDoc declares unknown but TypeScript infers array."
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 378,
+      "column": 61,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'maskPattern': MaskPattern → typeof import(\"/home/dean/github/deanmarano/typedjs/packa.... Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/core/qrcode.js",
+      "line": 474,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "create needs JSDoc: @param {string | any[]} data, @param {{ version: number; errorCorrectionLevel: string; toSJISFunc: Function; }} options, @returns {any}"
+    },
+    {
+      "file": "lib/core/reed-solomon-encoder.js",
+      "line": 3,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ReedSolomonEncoder(): parameter 'degree' needs a type. Add: @param {unknown} degree"
+    },
+    {
+      "file": "lib/core/regex.js",
+      "line": 21,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "testKanji needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/regex.js",
+      "line": 21,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testKanji(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/core/regex.js",
+      "line": 25,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "testNumeric needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/regex.js",
+      "line": 25,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testNumeric(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/core/regex.js",
+      "line": 29,
+      "column": 28,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "testAlphanumeric needs JSDoc: @param {any} str, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/regex.js",
+      "line": 29,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testAlphanumeric(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 28,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSegments(): parameter 'regex' needs a type. Add: @param {object} regex"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 28,
+      "column": 30,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'mode': Mode → typeof import(\"/home/dean/github/deanmarano/typedjs/packa.... Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 68,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: s1: object, s2: object"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 71,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 88,
+      "column": 40,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'mode': Mode → typeof import(\"/home/dean/github/deanmarano/typedjs/packa.... Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 108,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc: any[], curr: object"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 233,
+      "column": 36,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'modesHint': Mode | String → string | typeof import(\"/home/dean/github/deanmarano/type.... Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 281,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fromArray needs JSDoc: @param {any[]} array, @returns {any[]}"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 282,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc: any[], seg: object"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 301,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fromString needs JSDoc: @param {string} data, @param {number} version, @returns {any[]}"
+    },
+    {
+      "file": "lib/core/segments.js",
+      "line": 326,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "rawSplit needs JSDoc: @param {string} data, @returns {any[]}"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 16,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSymbolSize needs JSDoc: @param {number} version, @returns {number}"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 28,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSymbolTotalCodewords needs JSDoc: @param {number} version, @returns {number}"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 38,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBCHDigit needs JSDoc: @param {number} data, @returns {number}"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 49,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setToSJISFunction needs JSDoc: @param {any} f"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 49,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setToSJISFunction(): parameter 'f' needs a type. Add: @param {unknown} f"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 57,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isKanjiModeEnabled needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 61,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toSJIS needs JSDoc: @param {any} kanji, @returns {any}"
+    },
+    {
+      "file": "lib/core/utils.js",
+      "line": 61,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toSJIS(): parameter 'kanji' needs a type. Add: @param {unknown} kanji"
+    },
+    {
+      "file": "lib/core/version-check.js",
+      "line": 7,
+      "column": 19,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isValid needs JSDoc: @param {number} version, @returns {boolean}"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 11,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBestVersionForDataLength needs types for 3 parameters: mode, length: number, errorCorrectionLevel"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 21,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getReservedBitsCount needs types for 2 parameters: mode, version: string"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 26,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTotalBitsFromDataArray needs types for 2 parameters: segments: any[], version: string"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 29,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 37,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBestVersionForMixedData needs types for 2 parameters: segments: any[], errorCorrectionLevel"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 56,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "from needs JSDoc: @param {string | number} value, @param {number} defaultValue, @returns {number}"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 73,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getCapacity needs JSDoc: @param {number} version, @param {number} errorCorrectionLevel, @param {typeof import(\"/home/dean/github/deanmarano/typedjs/packages/eslint-plugin-typed-jsdoc/validation/packages/qrcode/lib/core/mode\")} mode, @returns {number}"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 119,
+      "column": 33,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getBestVersionForData needs JSDoc: @param {Segment} data, @param {number} errorCorrectionLevel, @returns {number}"
+    },
+    {
+      "file": "lib/core/version.js",
+      "line": 151,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getEncodedBits needs JSDoc: @param {number} version, @returns {number}"
+    },
+    {
+      "file": "lib/renderer/canvas.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clearCanvas needs types for 3 parameters: ctx: object, canvas: object, size: number"
+    },
+    {
+      "file": "lib/renderer/canvas.js",
+      "line": 21,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: qrData: object, canvas: object, options: object"
+    },
+    {
+      "file": "lib/renderer/canvas.js",
+      "line": 21,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} canvas, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/renderer/canvas.js",
+      "line": 47,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToDataURL needs types for 3 parameters: qrData, canvas: object, options: object"
+    },
+    {
+      "file": "lib/renderer/canvas.js",
+      "line": 47,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToDataURL needs JSDoc: @param {any} qrData, @param {any} canvas, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 5,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: qrData: object, options: object"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 5,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} options, @returns {any}"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 19,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToDataURL needs types for 3 parameters: qrData, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 19,
+      "column": 27,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToDataURL needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 25,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, output: object"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 33,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToBuffer needs types for 3 parameters: qrData, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 33,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToBuffer needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 44,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 55,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToFile needs types for 4 parameters: path: string, qrData, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 55,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToFile needs JSDoc: @param {any} path, @param {any} qrData, @param {any} options, @param {any} cb"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 75,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToFileStream needs types for 3 parameters: stream, qrData, options: object"
+    },
+    {
+      "file": "lib/renderer/png.js",
+      "line": 75,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToFileStream needs JSDoc: @param {any} stream, @param {any} qrData, @param {any} options"
+    },
+    {
+      "file": "lib/renderer/svg-tag.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getColorAttrib needs types for 2 parameters: color: object, attrib"
+    },
+    {
+      "file": "lib/renderer/svg-tag.js",
+      "line": 12,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "svgCmd needs types for 3 parameters: cmd, x: number, y: number"
+    },
+    {
+      "file": "lib/renderer/svg-tag.js",
+      "line": 19,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "qrToPath needs types for 3 parameters: data: object, size: number, margin"
+    },
+    {
+      "file": "lib/renderer/svg-tag.js",
+      "line": 55,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: qrData: object, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/svg-tag.js",
+      "line": 55,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb, @returns {string}"
+    },
+    {
+      "file": "lib/renderer/svg.js",
+      "line": 5,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToFile needs types for 4 parameters: path: string, qrData, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/svg.js",
+      "line": 5,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToFile needs JSDoc: @param {any} path, @param {any} qrData, @param {any} options, @param {any} cb"
+    },
+    {
+      "file": "lib/renderer/terminal.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: qrData, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/terminal.js",
+      "line": 4,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb, @returns {string}"
+    },
+    {
+      "file": "lib/renderer/terminal/terminal-small.js",
+      "line": 9,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createPalette needs types for 3 parameters: lineSetup, foregroundWhite, foregroundBlack"
+    },
+    {
+      "file": "lib/renderer/terminal/terminal-small.js",
+      "line": 56,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: qrData: object, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/terminal/terminal-small.js",
+      "line": 56,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb, @returns {string}"
+    },
+    {
+      "file": "lib/renderer/terminal/terminal.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: qrData: object, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/terminal/terminal.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb, @returns {string}"
+    },
+    {
+      "file": "lib/renderer/utf8.js",
+      "line": 17,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBlockChar needs types for 3 parameters: top, bottom, blocks: object"
+    },
+    {
+      "file": "lib/renderer/utf8.js",
+      "line": 24,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: qrData: object, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/utf8.js",
+      "line": 24,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "render needs JSDoc: @param {any} qrData, @param {any} options, @param {any} cb, @returns {string}"
+    },
+    {
+      "file": "lib/renderer/utf8.js",
+      "line": 62,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "renderToFile needs types for 4 parameters: path: string, qrData, options: object, cb: Function"
+    },
+    {
+      "file": "lib/renderer/utf8.js",
+      "line": 62,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "renderToFile needs JSDoc: @param {any} path, @param {any} qrData, @param {any} options, @param {any} cb"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 1,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hex2rgba(): parameter 'hex' needs a type. Add: @param {object} hex"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 36,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getOptions needs JSDoc: @param {any} options, @returns {{ width: any; scale: any; margin: any; color: { dark: { r: number; g: number; b: number; a: number; hex: string; }; light: { r: number; g: number; b: number; a: number; hex: string; }; }; type: any; rendererOpts: any; }}"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 36,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 62,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getScale needs types for 2 parameters: qrSize: number, opts: object"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 62,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getScale needs JSDoc: @param {any} qrSize, @param {any} opts, @returns {any}"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 68,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getImageWidth needs types for 2 parameters: qrSize: number, opts: object"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 68,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getImageWidth needs JSDoc: @param {any} qrSize, @param {any} opts, @returns {number}"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 73,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "qrToImageData needs types for 3 parameters: imgData: object, qr: object, opts: object"
+    },
+    {
+      "file": "lib/renderer/utils.js",
+      "line": 73,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "qrToImageData needs JSDoc: @param {any} imgData, @param {any} qr, @param {any} opts"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 8,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkParams needs types for 3 parameters: text: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 33,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTypeFromFilename(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 37,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRendererFromType(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 53,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getStringRendererFromType(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 67,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: renderFunc: Function, text: string, params: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 72,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, data: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 93,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toString needs types for 3 parameters: text: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 93,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toString needs JSDoc: @param {any} text, @param {any} opts, @param {any} cb, @returns {any}"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 100,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toDataURL needs types for 3 parameters: text: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 100,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toDataURL needs JSDoc: @param {any} text, @param {any} opts, @param {any} cb, @returns {any}"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 106,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toBuffer needs types for 3 parameters: text: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 106,
+      "column": 20,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toBuffer needs JSDoc: @param {any} text, @param {any} opts, @param {any} cb, @returns {any}"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 112,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toFile needs types for 4 parameters: path: string, text: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 112,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toFile needs JSDoc: @param {any} path, @param {any} text, @param {any} opts, @param {any} cb, @returns {any}"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 129,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toFileStream needs types for 3 parameters: stream: object, text: string, opts"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 129,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toFileStream needs JSDoc: @param {any} stream, @param {any} text, @param {any} opts"
+    }
+  ],
+  "typesPackage": "@types/qrcode",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.5.6",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 50521
+}

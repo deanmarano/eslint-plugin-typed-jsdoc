@@ -1,0 +1,2226 @@
+{
+  "name": "vis-network",
+  "downloadedAt": "2026-02-03T22:12:44.721Z",
+  "lintedAt": "2026-02-03T22:12:44.721Z",
+  "filesAnalyzed": 58,
+  "totalIssues": 276,
+  "errors": 1,
+  "warnings": 275,
+  "byRule": {
+    "tjd/no-implicit-any": 271,
+    "unknown": 4,
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "lib/hammerUtil.js",
+      "line": 7,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In inputHandler(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/hammerUtil.js",
+      "line": 23,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In inputHandler(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/Network.js",
+      "line": 180,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/Network.js",
+      "line": 382,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setData(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/network/Network.js",
+      "line": 483,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateValueRange(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/Network.js",
+      "line": 635,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getConnectedNodes(): parameter 'objectId' needs a type. Add: @param {string} objectId"
+    },
+    {
+      "file": "lib/network/NetworkUtil.js",
+      "line": 92,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findCenter(): parameter 'range' needs a type. Add: @param {string} range"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-prototype-builtins')."
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 2,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 3,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-var')."
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 624,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: string | null → string. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1338,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem1' needs a type. Add: @param {unknown} elem1"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1340,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem2' needs a type. Add: @param {unknown} elem2"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1349,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'elem2' needs a type. Add: @param {unknown} elem2"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1400,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'visPropI' needs a type. Add: @param {unknown} visPropI"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1431,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dotNode' needs a type. Add: @param {object} dotNode"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1451,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In convertEdge(): parameter 'dotEdge' needs a type. Add: @param {object} dotEdge"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1468,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dotEdge' needs a type. Add: @param {object} dotEdge"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1487,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'subEdge' needs a type. Add: @param {unknown} subEdge"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1493,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: from: number, to: number"
+    },
+    {
+      "file": "lib/network/dotparser.js",
+      "line": 1506,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'subEdge' needs a type. Add: @param {unknown} subEdge"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 15,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 39,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 58,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 110,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 279,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 282,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 285,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 288,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 291,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 294,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 297,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 300,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 305,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 309,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 312,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/Canvas.js",
+      "line": 317,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "lib/network/modules/CanvasRenderer.js",
+      "line": 11,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/CanvasRenderer.js",
+      "line": 91,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 107,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 127,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clusterByHubsize(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 169,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: node: object, nodeId: string"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 174,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edge' needs a type. Add: @param {object} edge"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 191,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clusterByEdgeCount(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 219,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkJoinCondition(): parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 311,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clusterOutliers(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 320,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clusterBridges(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 330,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clusterByConnection(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 426,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createClusterEdges needs types for 4 parameters: childNodesObj: object, childEdgesObj, clusterNodeProperties: object, clusterEdgeProperties"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 561,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_cluster needs types for 2 parameters: childNodesObj: object, childEdgesObj: object"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 729,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getClusterPosition(): parameter 'childNodesObj' needs a type. Add: @param {unknown} childNodesObj"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 753,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In openCluster(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 831,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'containedNode' needs a type. Add: @param {object} containedNode"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 977,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateClusteredNode(): parameter 'newOptions' needs a type. Add: @param {object} newOptions"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 999,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateEdge(): parameter 'newOptions' needs a type. Add: @param {object} newOptions"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1164,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_createClusteredEdge needs types for 2 parameters: clusterEdgeProperties, extraOptions: object"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1204,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_clusterEdges needs types for 3 parameters: childNodes, childEdges, clusterEdgeProperties"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1296,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1324,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1347,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterNode' needs a type. Add: @param {object} clusterNode"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1363,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edgeId' needs a type. Add: @param {string} edgeId"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1373,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterNode' needs a type. Add: @param {object} clusterNode"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1374,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edge: object, edgeId: string"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1383,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edge: object, edgeId: string"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1390,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'containedEdgeId' needs a type. Add: @param {string} containedEdgeId"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1407,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterNode' needs a type. Add: @param {object} clusterNode"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1408,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'deletedEdgeId' needs a type. Add: @param {string} deletedEdgeId"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1411,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edge: object, m"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1419,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1426,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1433,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edgeId' needs a type. Add: @param {string} edgeId"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1440,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edgeId' needs a type. Add: @param {string} edgeId"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1450,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edgeId' needs a type. Add: @param {string} edgeId"
+    },
+    {
+      "file": "lib/network/modules/Clustering.js",
+      "line": 1492,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterNode' needs a type. Add: @param {object} clusterNode"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 14,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 23,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: event: Event, params: object"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 26,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 2 parameters: event: Event, params: object"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 29,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "remove needs types for 2 parameters: event: Event, params: object"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 96,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "customScalingFunction needs types for 4 parameters: min: number, max: number, total, value: number"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 145,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 196,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: callback: Function, event: Event"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 211,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 253,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setData(): parameter 'edges' needs a type. Add: @param {unknown} edges"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 270,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: callback: Function, event: Event"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 281,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: callback: Function, event: Event"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 368,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'id' needs a type. Add: @param {string} id"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 384,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edge: object, edgeId: string"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 397,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'properties' needs a type. Add: @param {unknown} properties"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 467,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edge: object, id: string"
+    },
+    {
+      "file": "lib/network/modules/EdgesHandler.js",
+      "line": 500,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edgeData, edgeId: string"
+    },
+    {
+      "file": "lib/network/modules/Groups.js",
+      "line": 150,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/Groups.js",
+      "line": 180,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'groupname' needs a type. Add: @param {unknown} groupname"
+    },
+    {
+      "file": "lib/network/modules/Groups.js",
+      "line": 216,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 20,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 84,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 227,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arrayDiff needs types for 2 parameters: firstArr: object, secondArr: object"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 352,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'selection' needs a type. Add: @param {object} selection"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 452,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'nodeId' needs a type. Add: @param {string} nodeId"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 462,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'nodeId' needs a type. Add: @param {string} nodeId"
+    },
+    {
+      "file": "lib/network/modules/InteractionHandler.js",
+      "line": 479,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/network/modules/KamadaKawai.js",
+      "line": 18,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/KamadaKawai.js",
+      "line": 29,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/KamadaKawai.js",
+      "line": 199,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createL_matrix(): parameter 'D_matrix' needs a type. Add: @param {unknown} D_matrix"
+    },
+    {
+      "file": "lib/network/modules/KamadaKawai.js",
+      "line": 218,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createK_matrix(): parameter 'D_matrix' needs a type. Add: @param {unknown} D_matrix"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 150,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getMaxLevel(): parameter 'nodeId' needs a type. Add: @param {string} nodeId"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 194,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: number, b: number"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 316,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 378,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setOptions needs types for 2 parameters: options: object, allOptions: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 434,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _resetRNG(): parameter 'seed' needs a type. Add: @param {unknown} seed"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 444,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In adaptAllOptionsForHierarchicalLayout(): parameter 'allOptions' needs a type. Add: @param {object} allOptions"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 823,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shiftTree needs types for 2 parameters: index: number, offset: number"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 845,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBranchNodes needs types for 2 parameters: source: object, map"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 862,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBranchBoundary(): parameter 'branchMap' needs a type. Add: @param {unknown} branchMap"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 893,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getCollisionLevel needs types for 2 parameters: node1: object, node2: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 905,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shiftElementsCloser(): parameter 'centerParents' needs a type. Add: @param {unknown} centerParents"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 930,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "branchShiftCallback needs types for 2 parameters: node1, node2: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 973,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "minimizeEdgeLength needs types for 2 parameters: iterations, node: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 998,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getFx needs types for 2 parameters: point: number, edges: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1011,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getDFx needs types for 2 parameters: point: number, edges: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1023,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getGuess needs types for 2 parameters: iterations, edges"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1044,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveBranch(): parameter 'guess' needs a type. Add: @param {number} guess"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1082,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveNode(): parameter 'guess' needs a type. Add: @param {number} guess"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1118,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In minimizeEdgeLengthBottomUp(): parameter 'iterations' needs a type. Add: @param {unknown} iterations"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1138,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shiftBranchesCloserBottomUp(): parameter 'iterations' needs a type. Add: @param {unknown} iterations"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1198,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getSpaceAroundNode(): parameter 'map' needs a type. Add: @param {unknown} map"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1277,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _placeNodesByHierarchy(): parameter 'distribution' needs a type. Add: @param {object} distribution"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1449,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edge' needs a type. Add: @param {object} edge"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1467,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'nodeId' needs a type. Add: @param {string} nodeId"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1475,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1479,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: number, b: number"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1491,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "levelDownstream needs types for 2 parameters: nodeA, nodeB"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1501,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'nodeId' needs a type. Add: @param {string} nodeId"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1520,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1521,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "customCallback needs types for 3 parameters: nodeA, nodeB, edge"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1525,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "levelByDirection needs types for 3 parameters: nodeA: object, nodeB: object, edge"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1550,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: acc: object, id: string"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1569,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fillInRelations needs types for 2 parameters: parentNode: object, childNode: object"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1591,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "crawler needs types for 2 parameters: node: object, tree"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1650,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shifter(): parameter 'parentId' needs a type. Add: @param {string} parentId"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1676,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "iterateParents needs types for 2 parameters: parents: object, child"
+    },
+    {
+      "file": "lib/network/modules/LayoutEngine.js",
+      "line": 1686,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findParent needs types for 2 parameters: parents: object, child"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 16,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 88,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setOptions needs types for 3 parameters: options: object, allOptions: object, globalOptions: object"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 301,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'finalizedData' needs a type. Add: @param {unknown} finalizedData"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 437,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ctx' needs a type. Add: @param {object} ctx"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 494,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'finalizedData' needs a type. Add: @param {object} finalizedData"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 833,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _createButton(): parameter 'label' needs a type. Add: @param {string} label"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 1279,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _performAddNode(): parameter 'clickData' needs a type. Add: @param {object} clickData"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 1289,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'finalizedData' needs a type. Add: @param {unknown} finalizedData"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 1322,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'finalizedData' needs a type. Add: @param {unknown} finalizedData"
+    },
+    {
+      "file": "lib/network/modules/ManipulationSystem.js",
+      "line": 1365,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'finalizedData' needs a type. Add: @param {unknown} finalizedData"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 15,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 25,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: event: Event, params: object"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 28,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 2 parameters: event: Event, params: object"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 31,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "remove needs types for 2 parameters: event: Event, params: object"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 120,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "customScalingFunction needs types for 4 parameters: min: number, max: number, total, value: number"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 170,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: callback: Function, event: Event"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 185,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 250,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setData(): parameter 'nodes' needs a type. Add: @param {unknown} nodes"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 266,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: callback: Function, event: Event"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 277,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: callback: Function, event: Event"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 346,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'newValue' needs a type. Add: @param {object} newValue"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 381,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'properties' needs a type. Add: @param {unknown} properties"
+    },
+    {
+      "file": "lib/network/modules/NodesHandler.js",
+      "line": 397,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: node: object, nodeId: string"
+    },
+    {
+      "file": "lib/network/modules/PhysicsEngine.js",
+      "line": 23,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/PhysicsEngine.js",
+      "line": 158,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 15,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 43,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 134,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generateClickEvent(): parameter 'oldSelection' needs a type. Add: @param {unknown} oldSelection"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 171,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In selectObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 190,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deselectObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 203,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getAllNodesOverlappingWith(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 260,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getEdgesOverlappingWith(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 276,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getAllEdgesOverlappingWith(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 332,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addToHover(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 345,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _removeFromSelection(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 397,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emitBlurEvent(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 420,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emitHoverEvent(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "lib/network/modules/SelectionHandler.js",
+      "line": 731,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getClickedItems(): parameter 'pointer' needs a type. Add: @param {unknown} pointer"
+    },
+    {
+      "file": "lib/network/modules/View.js",
+      "line": 14,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/View.js",
+      "line": 52,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fit(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/View.js",
+      "line": 150,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In moveTo(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/View.js",
+      "line": 257,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animateView(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 140,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'layout' needs a type. Add: @param {unknown} layout"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 151,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPosition(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 156,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setPosition needs types for 2 parameters: node: object, position"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 164,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTreeSize(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 173,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sort(): parameter 'nodeArray' needs a type. Add: @param {any[]} nodeArray"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 174,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 180,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fix needs types for 2 parameters: node: object, level: number"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 186,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shift needs types for 2 parameters: nodeId: string, diff"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 203,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'layout' needs a type. Add: @param {unknown} layout"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 214,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPosition(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 219,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setPosition needs types for 2 parameters: node: object, position"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 227,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTreeSize(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 236,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sort(): parameter 'nodeArray' needs a type. Add: @param {any[]} nodeArray"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 237,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 243,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fix needs types for 2 parameters: node: object, level: number"
+    },
+    {
+      "file": "lib/network/modules/components/DirectionStrategy.js",
+      "line": 249,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shift needs types for 2 parameters: nodeId: string, diff"
+    },
+    {
+      "file": "lib/network/modules/components/Edge.js",
+      "line": 33,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: options: object, body: object, globalOptions: object, defaultOptions: object"
+    },
+    {
+      "file": "lib/network/modules/components/Edge.js",
+      "line": 78,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/Edge.js",
+      "line": 137,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseOptions needs types for 2 parameters: parentOptions: object, newOptions: object"
+    },
+    {
+      "file": "lib/network/modules/components/Edge.js",
+      "line": 454,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateLabelModule(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/Edge.js",
+      "line": 856,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getItemsOnPoint(): parameter 'point' needs a type. Add: @param {object} point"
+    },
+    {
+      "file": "lib/network/modules/components/Edge.js",
+      "line": 883,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOverlappingWith(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/components/NavigationHandler.js",
+      "line": 13,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/components/NavigationHandler.js",
+      "line": 44,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 53,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: options: object, body: object, globalOptions: object, defaultOptions: object"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 116,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 281,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateGroupOptions needs types for 3 parameters: parentOptions: object, newOptions: object, groupList: object"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 336,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseOptions needs types for 3 parameters: parentOptions: object, newOptions: object, groupList"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 491,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateLabelModule(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 760,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getItemsOnPoint(): parameter 'point' needs a type. Add: @param {unknown} point"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 781,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOverlappingWith(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 795,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBoundingBoxOverlappingWith(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/network/modules/components/Node.js",
+      "line": 812,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkMass(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/algorithms/FloydWarshall.js",
+      "line": 14,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getDistances(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 18,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 4 parameters: options: object, body: object, globalOptions: object, defaultOptions: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 52,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'edge' needs a type. Add: @param {object} edge"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 57,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: node, nodeId: string"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 62,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: edge, edgeId: string"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 68,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'clusterEdge' needs a type. Add: @param {object} clusterEdge"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 69,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'parentClusterEdge' needs a type. Add: @param {object} parentClusterEdge"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/Cluster.js",
+      "line": 77,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'srcId' needs a type. Add: @param {string} srcId"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/Box.js",
+      "line": 16,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/Circle.js",
+      "line": 15,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/CircularImage.js",
+      "line": 17,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/CustomShape.js",
+      "line": 16,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/Database.js",
+      "line": 16,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/Icon.js",
+      "line": 15,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/Image.js",
+      "line": 18,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/shapes/Text.js",
+      "line": 15,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/util/CircleImageBase.js",
+      "line": 24,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/util/CircleImageBase.js",
+      "line": 36,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setOptions needs types for 3 parameters: options: object, imageObj, imageObjAlt"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/util/CircleImageBase.js",
+      "line": 55,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setImages(): parameter 'imageObjAlt' needs a type. Add: @param {unknown} imageObjAlt"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/util/NodeBase.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: options: object, body: object"
+    },
+    {
+      "file": "lib/network/modules/components/nodes/util/NodeBase.js",
+      "line": 28,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 12,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 26,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 72,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getForceContributions(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 86,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getForceContribution(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 123,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _calculateForces(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 242,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _updateBranchMass(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 271,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _placeInTree(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 305,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _placeInRegion(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 340,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _splitBranch(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 369,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _insertRegion(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/BarnesHutSolver.js",
+      "line": 435,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _drawBranch(): parameter 'branch' needs a type. Add: @param {object} branch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/CentralGravitySolver.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/CentralGravitySolver.js",
+      "line": 20,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/physics/CentralGravitySolver.js",
+      "line": 53,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _calculateForces(): parameter 'forces' needs a type. Add: @param {unknown} forces"
+    },
+    {
+      "file": "lib/network/modules/components/physics/FA2BasedCentralGravitySolver.js",
+      "line": 16,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _calculateForces(): parameter 'forces' needs a type. Add: @param {unknown} forces"
+    },
+    {
+      "file": "lib/network/modules/components/physics/FA2BasedRepulsionSolver.js",
+      "line": 13,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/FA2BasedRepulsionSolver.js",
+      "line": 28,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _calculateForces(): parameter 'parentBranch' needs a type. Add: @param {object} parentBranch"
+    },
+    {
+      "file": "lib/network/modules/components/physics/HierarchicalRepulsionSolver.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/HierarchicalRepulsionSolver.js",
+      "line": 20,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/physics/HierarchicalSpringSolver.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/HierarchicalSpringSolver.js",
+      "line": 20,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/physics/RepulsionSolver.js",
+      "line": 12,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/RepulsionSolver.js",
+      "line": 24,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/physics/SpringSolver.js",
+      "line": 10,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/physics/SpringSolver.js",
+      "line": 20,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 20,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: body: object, options: object"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 33,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptions(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 67,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In initFontOptions(): parameter 'newFontOptions' needs a type. Add: @param {object} newFontOptions"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 70,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'style' needs a type. Add: @param {unknown} style"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 81,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: prop, n"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 98,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseFontString needs types for 2 parameters: outOptions: object, inOptions: string"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 183,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 231,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addFontToPile(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 258,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: opt, name: string"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 381,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: option, n"
+    },
+    {
+      "file": "lib/network/modules/components/shared/Label.js",
+      "line": 646,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getValue needs types for 3 parameters: fontOptions: object, mod, option"
+    },
+    {
+      "file": "lib/network/modules/components/shared/LabelSplitter.js",
+      "line": 216,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In replace(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/network/modules/components/shared/LabelSplitter.js",
+      "line": 407,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseEntities(): parameter 'ch' needs a type. Add: @param {unknown} ch"
+    },
+    {
+      "file": "lib/network/modules/components/shared/LabelSplitter.js",
+      "line": 454,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseOverride(): parameter 'ch' needs a type. Add: @param {unknown} ch"
+    }
+  ],
+  "typesPackage": "@types/vis-network",
+  "duration": 24323
+}

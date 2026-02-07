@@ -1,0 +1,106 @@
+{
+  "name": "is-stream",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 11,
+  "errors": 0,
+  "warnings": 11,
+  "byRule": {
+    "tjd/require-jsdoc-types": 5,
+    "tjd/no-implicit-any": 5,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 1,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isStream needs JSDoc: @param {any} stream, @returns {boolean}"
+    },
+    {
+      "file": "index.js",
+      "line": 1,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "index.js",
+      "line": 8,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isWritableStream needs JSDoc: @param {any} stream, @returns {boolean}"
+    },
+    {
+      "file": "index.js",
+      "line": 8,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isWritableStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "index.js",
+      "line": 19,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isReadableStream needs JSDoc: @param {any} stream, @returns {boolean}"
+    },
+    {
+      "file": "index.js",
+      "line": 19,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isReadableStream(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "index.js",
+      "line": 29,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isDuplexStream needs types for 2 parameters: stream, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 29,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDuplexStream needs JSDoc: @param {any} stream, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "index.js",
+      "line": 34,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isTransformStream needs types for 2 parameters: stream: object, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 34,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isTransformStream needs JSDoc: @param {any} stream, @param {any} options, @returns {boolean}"
+    },
+    {
+      "file": "test.js",
+      "line": 115,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-params')."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 20117
+}

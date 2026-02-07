@@ -1,0 +1,1045 @@
+{
+  "name": "nedb",
+  "downloadedAt": "2026-02-03T22:12:17.269Z",
+  "lintedAt": "2026-02-03T22:12:17.269Z",
+  "filesAnalyzed": 8,
+  "totalIssues": 128,
+  "errors": 0,
+  "warnings": 128,
+  "byRule": {
+    "tjd/no-implicit-any": 128
+  },
+  "issues": [
+    {
+      "file": "lib/cursor.js",
+      "line": 26,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In limit(): parameter 'limit' needs a type. Add: @param {number} limit"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 35,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In skip(): parameter 'skip' needs a type. Add: @param {unknown} skip"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 56,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In projection(): parameter 'projection' needs a type. Add: @param {unknown} projection"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 65,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In project(): parameter 'candidates' needs a type. Add: @param {any[]} candidates"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 85,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'candidate' needs a type. Add: @param {object} candidate"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 89,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 96,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 118,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _exec(): parameter '_callback' needs a type. Add: @param {Function} _callback"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 124,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "callback needs types for 2 parameters: error: Error, res: object"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 132,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, candidates: object"
+    },
+    {
+      "file": "lib/cursor.js",
+      "line": 166,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/customUtils.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In uid(): parameter 'len' needs a type. Add: @param {number} len"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 76,
+      "column": 70,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 103,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resetIndexes(): parameter 'newData' needs a type. Add: @param {unknown} newData"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 122,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ensureIndex(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 146,
+      "column": 77,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 163,
+      "column": 79,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 173,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addToIndexes(): parameter 'doc' needs a type. Add: @param {unknown} doc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 202,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeFromIndexes(): parameter 'doc' needs a type. Add: @param {unknown} doc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 216,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "updateIndexes needs types for 2 parameters: oldDoc, newDoc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 268,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 309,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'docs' needs a type. Add: @param {any[]} docs"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 314,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'doc' needs a type. Add: @param {object} doc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 324,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: _id, cb: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 325,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 329,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 342,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _insert(): parameter 'newDoc' needs a type. Add: @param {unknown} newDoc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 354,
+      "column": 103,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 377,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In prepareDocumentForInsertion(): parameter 'newDoc' needs a type. Add: @param {any[]} newDoc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 399,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _insertInCache(): parameter 'preparedDoc' needs a type. Add: @param {unknown} preparedDoc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 412,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _insertMultipleDocsInCache(): parameter 'preparedDocs' needs a type. Add: @param {object} preparedDocs"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 443,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "count needs types for 2 parameters: query: object, callback: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 444,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, docs: object, callback: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 463,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "find needs types for 3 parameters: query: object, projection, callback: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 477,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, docs: object, callback: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 502,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findOne needs types for 3 parameters: query: object, projection, callback: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 516,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, docs: object, callback: Function"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 559,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_update needs types for 3 parameters: query: object, updateQuery, options: object"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 573,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 578,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, docs: object"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 599,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, newDoc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 609,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, candidates: object"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 640,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 646,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'doc' needs a type. Add: @param {unknown} doc"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 670,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_remove needs types for 2 parameters: query: object, options: object"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 679,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, candidates: any[]"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 683,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "lib/datastore.js",
+      "line": 692,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/executor.js",
+      "line": 13,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: task: object, cb: Function"
+    },
+    {
+      "file": "lib/executor.js",
+      "line": 55,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'task' needs a type. Add: @param {unknown} task"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 10,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkValueEquality needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 17,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In projectForUnique(): parameter 'elt' needs a type. Add: @param {object} elt"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 52,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reset(): parameter 'newData' needs a type. Add: @param {unknown} newData"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 64,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In insert(): parameter 'doc' needs a type. Add: @param {unknown} doc"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 109,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In insertMultipleDocs(): parameter 'docs' needs a type. Add: @param {object} docs"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 138,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'doc' needs a type. Add: @param {any[]} doc"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 150,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_key' needs a type. Add: @param {unknown} _key"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 162,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "update needs types for 2 parameters: oldDoc, newDoc"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 184,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In updateMultipleDocs(): parameter 'pairs' needs a type. Add: @param {object} pairs"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 219,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "revertUpdate needs types for 2 parameters: oldDoc: any[], newDoc"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 247,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'doc' needs a type. Add: @param {object} doc"
+    },
+    {
+      "file": "lib/indexes.js",
+      "line": 279,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 45,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkObject(): parameter 'obj' needs a type. Add: @param {any[]} obj"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 69,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serialize(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 72,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 93,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deserialize(): parameter 'rawData' needs a type. Add: @param {unknown} rawData"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 94,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 109,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deepCopy needs types for 2 parameters: obj: any[], strictKeys"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 144,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPrimitiveType(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 159,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compareNSB needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 165,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compareArrays needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 189,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compareThings needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 252,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$set needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 260,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$unset needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 271,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$push needs types for 3 parameters: obj: object, field, value: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 285,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 315,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$addToSet needs types for 3 parameters: obj: object, field, value: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 327,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 342,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$pop needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 358,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$pull needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 375,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$inc needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 392,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$max needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 403,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$min needs types for 3 parameters: obj: object, field, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 412,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createModifierFunction(): parameter 'modifier' needs a type. Add: @param {unknown} modifier"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 413,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: obj: object, field: string, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 437,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "modify needs types for 2 parameters: obj: object, updateQuery: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 439,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 440,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 458,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 528,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "areThingsEqual needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 563,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "areComparable needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 580,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$lt needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 584,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$lte needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 588,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$gt needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 592,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$gte needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 596,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$ne needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 601,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$in needs types for 2 parameters: a, b: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 613,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$nin needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 619,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$regex needs types for 2 parameters: a, b: object"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 629,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$exists needs types for 2 parameters: value, exists"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 644,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$size needs types for 2 parameters: obj: object, value: number"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 650,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "$elemMatch needs types for 2 parameters: obj: object, value"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 671,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In $or(): parameter 'query' needs a type. Add: @param {object} query"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 689,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In $and(): parameter 'query' needs a type. Add: @param {object} query"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 717,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In $where(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 766,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "matchQueryPart needs types for 4 parameters: obj: object, queryKey, queryValue, treatObjAsValue"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 796,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/model.js",
+      "line": 797,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 42,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 43,
+      "column": 75,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 71,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ensureDirectoryExists needs types for 2 parameters: dir, cb: Function"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 75,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 85,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getNWAppFilename needs types for 2 parameters: appName: string, relativeFilename"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 128,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'doc' needs a type. Add: @param {unknown} doc"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 137,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 194,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'doc' needs a type. Add: @param {unknown} doc"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 210,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In treatRawData(): parameter 'rawData' needs a type. Add: @param {string} rawData"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 274,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 275,
+      "column": 80,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 276,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/persistence.js",
+      "line": 304,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 29,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ensureFileDoesntExist needs types for 2 parameters: file, callback: Function"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 44,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "flushToStorage needs types for 2 parameters: options: object, callback: Function"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 88,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 91,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 97,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 101,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'cb' needs a type. Add: @param {Function} cb"
+    },
+    {
+      "file": "lib/storage.js",
+      "line": 105,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    }
+  ],
+  "typesPackage": "@types/nedb",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.8.16",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 26195
+}

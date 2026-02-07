@@ -1,0 +1,62 @@
+{
+  "name": "yargs",
+  "downloadedAt": "2026-02-03T22:01:28.986Z",
+  "lintedAt": "2026-02-03T22:01:28.986Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 5,
+  "errors": 1,
+  "warnings": 4,
+  "byRule": {
+    "unknown": 4,
+    "n/no-process-exit": 1
+  },
+  "issues": [
+    {
+      "file": "lib/platform-shims/browser.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/platform-shims/browser.mjs",
+      "line": 4,
+      "column": 62,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "lib/platform-shims/browser.mjs",
+      "line": 5,
+      "column": 72,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported)."
+    },
+    {
+      "file": "lib/platform-shims/browser.mjs",
+      "line": 50,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "lib/platform-shims/esm.mjs",
+      "line": 49,
+      "column": 7,
+      "rule": "n/no-process-exit",
+      "severity": "error",
+      "message": "Definition for rule 'n/no-process-exit' was not found."
+    }
+  ],
+  "typesPackage": "@types/yargs",
+  "typesComparison": {
+    "definitelyTypedVersion": "17.0.35",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 17826
+}

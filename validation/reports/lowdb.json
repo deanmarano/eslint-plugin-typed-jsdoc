@@ -1,0 +1,18 @@
+{
+  "name": "lowdb",
+  "downloadedAt": "2026-02-03T22:12:17.269Z",
+  "lintedAt": "2026-02-03T22:12:17.269Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/lowdb",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 25353
+}

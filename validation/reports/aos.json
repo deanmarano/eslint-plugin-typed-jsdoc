@@ -1,0 +1,120 @@
+{
+  "name": "aos",
+  "downloadedAt": "2026-02-03T22:09:55.660Z",
+  "lintedAt": "2026-02-03T22:09:55.660Z",
+  "filesAnalyzed": 8,
+  "totalIssues": 13,
+  "errors": 0,
+  "warnings": 13,
+  "byRule": {
+    "tjd/no-implicit-any": 13
+  },
+  "issues": [
+    {
+      "file": "src/js/aos.js",
+      "line": 74,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/js/aos.js",
+      "line": 86,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDisabled(): parameter 'optionDisable' needs a type. Add: @param {Function} optionDisable"
+    },
+    {
+      "file": "src/js/aos.js",
+      "line": 103,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init(): parameter 'settings' needs a type. Add: @param {object} settings"
+    },
+    {
+      "file": "src/js/helpers/calculateOffset.js",
+      "line": 13,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "calculateOffset needs types for 2 parameters: el: object, optionalOffset"
+    },
+    {
+      "file": "src/js/helpers/elements.js",
+      "line": 6,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createArrayWithElements(): parameter 'elements' needs a type. Add: @param {any[]} elements"
+    },
+    {
+      "file": "src/js/helpers/elements.js",
+      "line": 8,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "src/js/helpers/handleScroll.js",
+      "line": 34,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'el' needs a type. Add: @param {unknown} el"
+    },
+    {
+      "file": "src/js/helpers/prepare.js",
+      "line": 5,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "prepare needs types for 2 parameters: $elements: any[], options: object"
+    },
+    {
+      "file": "src/js/helpers/prepare.js",
+      "line": 6,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: el: object, i"
+    },
+    {
+      "file": "src/js/libs/observer.js",
+      "line": 3,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In containsAOSNode(): parameter 'nodes' needs a type. Add: @param {object} nodes"
+    },
+    {
+      "file": "src/js/libs/observer.js",
+      "line": 33,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "ready needs types for 2 parameters: selector, fn: Function"
+    },
+    {
+      "file": "src/js/libs/observer.js",
+      "line": 47,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In check(): parameter 'mutations' needs a type. Add: @param {any[]} mutations"
+    },
+    {
+      "file": "src/js/libs/observer.js",
+      "line": 50,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'mutation' needs a type. Add: @param {object} mutation"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 25161
+}

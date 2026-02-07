@@ -1,0 +1,623 @@
+{
+  "name": "scrollreveal",
+  "downloadedAt": "2026-02-03T22:09:55.660Z",
+  "lintedAt": "2026-02-03T22:09:55.660Z",
+  "filesAnalyzed": 27,
+  "totalIssues": 75,
+  "errors": 0,
+  "warnings": 75,
+  "byRule": {
+    "tjd/require-jsdoc-types": 18,
+    "tjd/no-implicit-any": 56,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "src/instance/constructor.js",
+      "line": 30,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "ScrollReveal needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/instance/constructor.js",
+      "line": 111,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "animate needs JSDoc: @param {any} element, @returns {any}"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 4,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In animate(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 23,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "triggerReveal needs types for 2 parameters: element: object, delayed"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 35,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 39,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In triggerReset(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 47,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/instance/functions/animate.js",
+      "line": 51,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "registerCallbacks needs types for 2 parameters: element: object, isDelayed: boolean"
+    },
+    {
+      "file": "src/instance/functions/delegate.js",
+      "line": 17,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/instance/functions/delegate.js",
+      "line": 37,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/delegate.js",
+      "line": 44,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/initialize.js",
+      "line": 8,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/initialize.js",
+      "line": 21,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/instance/functions/initialize.js",
+      "line": 24,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 18,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 28,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 34,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'staleId' needs a type. Add: @param {string} staleId"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 39,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 53,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 59,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'staleId' needs a type. Add: @param {string} staleId"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 69,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sequence' needs a type. Add: @param {object} sequence"
+    },
+    {
+      "file": "src/instance/functions/rinse.js",
+      "line": 75,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'staleId' needs a type. Add: @param {string} staleId"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "sequence needs JSDoc: @param {any} element, @returns {any}"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 5,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sequence(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 66,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "Sequence needs JSDoc: @param {any} interval"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 66,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Sequence(): parameter 'interval' needs a type. Add: @param {unknown} interval"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 82,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "SequenceModel needs types for 3 parameters: seq: object, prop, store: object"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 87,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: id: string, index: number"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 95,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: id: string, index: number"
+    },
+    {
+      "file": "src/instance/functions/sequence.js",
+      "line": 108,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cue needs types for 4 parameters: seq: object, i, direction, pristine"
+    },
+    {
+      "file": "src/instance/functions/style.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "style needs JSDoc: @param {any} element, @returns {{ inline: { computed: string; generated: string; }; opacity: { computed: string; generated: string; }; position: any; transform: { property: any; computed: { raw: any; matrix: any; }; generated: { initial: string; final: string; } | { ...; }; }; transition: { ...; }; }}"
+    },
+    {
+      "file": "src/instance/functions/style.js",
+      "line": 13,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In style(): parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/functions/style.js",
+      "line": 25,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {string} m"
+    },
+    {
+      "file": "src/instance/functions/style.js",
+      "line": 27,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {string} m"
+    },
+    {
+      "file": "src/instance/functions/style.js",
+      "line": 29,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {string} m"
+    },
+    {
+      "file": "src/instance/functions/style.js",
+      "line": 188,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: composition: object, fragment: object"
+    },
+    {
+      "file": "src/instance/methods/clean.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clean needs JSDoc: @param {any} target, @returns {any}"
+    },
+    {
+      "file": "src/instance/methods/clean.js",
+      "line": 7,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clean(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/instance/methods/clean.js",
+      "line": 10,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/instance/methods/destroy.js",
+      "line": 8,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/methods/destroy.js",
+      "line": 16,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "reveal needs JSDoc: @param {any} target, @returns {any}"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 13,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reveal(): parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 28,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: elementBuffer: any[], elementNode: object"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 100,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 112,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 140,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getContainerId(): parameter 'node' needs a type. Add: @param {unknown} node"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 142,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'collection' needs a type. Add: @param {unknown} collection"
+    },
+    {
+      "file": "src/instance/methods/reveal.js",
+      "line": 143,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/instance/methods/sync.js",
+      "line": 10,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'record' needs a type. Add: @param {object} record"
+    },
+    {
+      "file": "src/polyfills/math-sign.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In polyfill(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/polyfills/math-sign.js",
+      "line": 1,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "polyfill needs JSDoc: @param {any} x, @returns {number}"
+    },
+    {
+      "file": "src/utils/deep-assign.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "deepAssign needs JSDoc: @param {any} target, @returns {any}"
+    },
+    {
+      "file": "src/utils/deep-assign.js",
+      "line": 4,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deepAssign(): parameter 'target' needs a type. Add: @param {object} target"
+    },
+    {
+      "file": "src/utils/deep-assign.js",
+      "line": 6,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'source' needs a type. Add: @param {unknown} source"
+    },
+    {
+      "file": "src/utils/deep-assign.js",
+      "line": 7,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: data: object, key: string"
+    },
+    {
+      "file": "src/utils/each.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "each needs types for 2 parameters: collection: any[], callback: Function"
+    },
+    {
+      "file": "src/utils/each.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "each needs JSDoc: @param {any} collection, @param {any} callback"
+    },
+    {
+      "file": "src/utils/each.js",
+      "line": 9,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "src/utils/get-geometry.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getGeometry needs types for 2 parameters: target: object, isContainer: boolean"
+    },
+    {
+      "file": "src/utils/get-geometry.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getGeometry needs JSDoc: @param {any} target, @param {any} isContainer, @returns {{ bounds: { top: number; right: any; bottom: any; left: number; }; height: any; width: any; }}"
+    },
+    {
+      "file": "src/utils/get-prefixed-css-prop.js",
+      "line": 5,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPrefixedCssProperty(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/utils/get-scrolled.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getScrolled needs JSDoc: @param {any} container, @returns {{ top: any; left: any; }}"
+    },
+    {
+      "file": "src/utils/get-scrolled.js",
+      "line": 1,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getScrolled(): parameter 'container' needs a type. Add: @param {object} container"
+    },
+    {
+      "file": "src/utils/is-element-visible.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isElementVisible needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/is-mobile.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isMobile needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/is-object.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isObject needs JSDoc: @param {any} x, @returns {boolean}"
+    },
+    {
+      "file": "src/utils/is-object.js",
+      "line": 1,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isObject(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/utils/is-transform-supported.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isTransformSupported needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/is-transition-supported.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isTransitionSupported needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/logger.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "logger needs JSDoc: @param {any} message"
+    },
+    {
+      "file": "src/utils/logger.js",
+      "line": 1,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In logger(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "src/utils/logger.js",
+      "line": 4,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'detail' needs a type. Add: @param {unknown} detail"
+    },
+    {
+      "file": "src/utils/logger.js",
+      "line": 5,
+      "column": 42,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    }
+  ],
+  "typesPackage": "@types/scrollreveal",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.0.11",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 24481
+}

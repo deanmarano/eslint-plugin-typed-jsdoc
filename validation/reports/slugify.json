@@ -1,0 +1,32 @@
+{
+  "name": "slugify",
+  "downloadedAt": "2026-02-03T22:00:39.002Z",
+  "lintedAt": "2026-02-03T22:00:39.002Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/no-implicit-any": 2
+  },
+  "issues": [
+    {
+      "file": "slugify.js",
+      "line": 18,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replace needs types for 2 parameters: string: string, options: object"
+    },
+    {
+      "file": "slugify.js",
+      "line": 64,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extend(): parameter 'customMap' needs a type. Add: @param {unknown} customMap"
+    }
+  ],
+  "typesPackage": "@types/slugify",
+  "duration": 27842
+}

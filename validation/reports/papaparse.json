@@ -1,0 +1,535 @@
+{
+  "name": "papaparse",
+  "downloadedAt": "2026-02-03T22:02:31.081Z",
+  "lintedAt": "2026-02-03T22:02:31.081Z",
+  "filesAnalyzed": 17,
+  "totalIssues": 64,
+  "errors": 2,
+  "warnings": 62,
+  "byRule": {
+    "func-name": 2,
+    "tjd/no-implicit-any": 58,
+    "unknown": 4
+  },
+  "issues": [
+    {
+      "file": "docs/resources/js/papaparse.js",
+      "line": 30,
+      "column": 2,
+      "rule": "func-name",
+      "severity": "error",
+      "message": "Definition for rule 'func-name' was not found."
+    },
+    {
+      "file": "papaparse.js",
+      "line": 30,
+      "column": 2,
+      "rule": "func-name",
+      "severity": "error",
+      "message": "Definition for rule 'func-name' was not found."
+    },
+    {
+      "file": "papaparse.js",
+      "line": 91,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 96,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'idx' needs a type. Add: @param {number} idx"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 158,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In complete(): parameter 'results' needs a type. Add: @param {any[]} results"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 168,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "error needs types for 4 parameters: name: string, file, elem, reason"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 189,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripBom(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 196,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "CsvToJson needs types for 2 parameters: _input: object, _config: object"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 264,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "JsonToCsv needs types for 2 parameters: _input: object, _config: object"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 385,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "serialize needs types for 3 parameters: fields: object, data: object, skipEmptyLines"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 448,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "safe needs types for 2 parameters: str: string, col"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 477,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hasAny needs types for 2 parameters: str: string, substrings: object"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 488,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ChunkStreamer(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 508,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseChunk needs types for 2 parameters: chunk: string, isFakeChunk: boolean"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 589,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _sendError(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 603,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In replaceConfig(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 617,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In NetworkStreamer(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 642,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 715,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _chunkError(): parameter 'errorMessage' needs a type. Add: @param {unknown} errorMessage"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 721,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFileSize(): parameter 'xhr' needs a type. Add: @param {object} xhr"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 734,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In FileStreamer(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 747,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter 'file' needs a type. Add: @param {object} file"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 783,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _chunkLoaded(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 801,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In StringStreamer(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 807,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 832,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ReadableStreamStreamer(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 854,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter 'stream' needs a type. Add: @param {unknown} stream"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 883,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {object} chunk"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 902,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 926,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In DuplexStreamStreamer(): parameter '_config' needs a type. Add: @param {unknown} _config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 934,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _onCsvData(): parameter 'results' needs a type. Add: @param {any[]} results"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 968,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addToParseQueue needs types for 2 parameters: chunk: object, callback: Function"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 996,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_onWrite needs types for 3 parameters: chunk, encoding: string, callback: Function"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1028,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ParserHandle(): parameter '_config' needs a type. Add: @param {object} _config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1053,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In step(): parameter 'results' needs a type. Add: @param {any[]} results"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1083,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 3 parameters: input, baseIndex: number, ignoreLastRow"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1161,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "guessLineEndings needs types for 2 parameters: input: string, quoteChar"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1187,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testEmptyLine(): parameter 's' needs a type. Add: @param {any[]} s"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1191,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In testFloat(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1211,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1232,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addHeader needs types for 2 parameters: header, i"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1253,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shouldApplyDynamicTyping(): parameter 'field' needs a type. Add: @param {unknown} field"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1261,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseDynamic needs types for 2 parameters: field, value"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1284,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "processRow needs types for 2 parameters: rowSource: object, i"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1340,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "guessDelimiter needs types for 5 parameters: input, newline, skipEmptyLines, comments, delimitersToGuess: object"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1394,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addError needs types for 4 parameters: type: string, code, msg, row"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1409,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeRegExp(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1415,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Parser(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1461,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 3 parameters: input: object, baseIndex: number, ignoreLastRow"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1687,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pushRow(): parameter 'row' needs a type. Add: @param {unknown} row"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1697,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extraSpaces(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1712,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In finish(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1732,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In saveRow(): parameter 'newCursor' needs a type. Add: @param {unknown} newCursor"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1741,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In returnable(): parameter 'stopped' needs a type. Add: @param {unknown} stopped"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1836,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mainThreadReceivedMessage(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1882,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "completeWorker needs types for 2 parameters: workerId: string, results: any[]"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1895,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In workerThreadReceivedMessage(): parameter 'e' needs a type. Add: @param {object} e"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1923,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In copy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1933,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindFunction needs types for 2 parameters: f: object, self"
+    },
+    {
+      "file": "papaparse.js",
+      "line": 1937,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFunction(): parameter 'func' needs a type. Add: @param {Function} func"
+    },
+    {
+      "file": "tests/test-cases.js",
+      "line": 15,
+      "column": 22,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new')."
+    },
+    {
+      "file": "tests/test-cases.js",
+      "line": 17,
+      "column": 24,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new')."
+    },
+    {
+      "file": "tests/test-cases.js",
+      "line": 23,
+      "column": 24,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new')."
+    },
+    {
+      "file": "tests/test.js",
+      "line": 13,
+      "column": 25,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-process-exit')."
+    }
+  ],
+  "typesPackage": "@types/papaparse",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.5.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19576
+}

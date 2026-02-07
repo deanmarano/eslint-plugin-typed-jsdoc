@@ -1,0 +1,153 @@
+{
+  "name": "safe-buffer",
+  "downloadedAt": "2026-01-30T20:27:45.602Z",
+  "lintedAt": "2026-01-30T20:27:45.602Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 17,
+  "errors": 2,
+  "warnings": 15,
+  "byRule": {
+    "node/no-deprecated-api": 2,
+    "unknown": 2,
+    "estl/no-implicit-any": 13
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 2,
+      "column": 1,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 2,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-var')."
+    },
+    {
+      "file": "index.js",
+      "line": 7,
+      "column": 21,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'src' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 7,
+      "column": 26,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'dst' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 20,
+      "column": 22,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'arg' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 20,
+      "column": 27,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'encodingOrOffset' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 20,
+      "column": 45,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'length' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 29,
+      "column": 29,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'arg' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 29,
+      "column": 34,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'encodingOrOffset' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 29,
+      "column": 52,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'length' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 36,
+      "column": 30,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'size' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 36,
+      "column": 36,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'fill' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 36,
+      "column": 42,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'encoding' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 53,
+      "column": 36,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'size' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 60,
+      "column": 40,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'size' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "test/basic.js",
+      "line": 1,
+      "column": 1,
+      "rule": "node/no-deprecated-api",
+      "severity": "error",
+      "message": "Definition for rule 'node/no-deprecated-api' was not found."
+    },
+    {
+      "file": "test/basic.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-var')."
+    }
+  ],
+  "typesPackage": "@types/safe-buffer"
+}

@@ -1,0 +1,1249 @@
+{
+  "name": "restify",
+  "downloadedAt": "2026-02-03T21:59:27.777Z",
+  "lintedAt": "2026-02-03T21:59:27.777Z",
+  "filesAnalyzed": 56,
+  "totalIssues": 153,
+  "errors": 25,
+  "warnings": 128,
+  "byRule": {
+    "tjd/accurate-jsdoc": 20,
+    "tjd/no-implicit-any": 120,
+    "unknown": 6,
+    "tjd/require-jsdoc-types": 2,
+    "jsdoc/check-param-names": 5
+  },
+  "issues": [
+    {
+      "file": "lib/chain.js",
+      "line": 31,
+      "column": 16,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { onceNext?: boolean; strictNext?: boolean; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/chain.js",
+      "line": 138,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/chain.js",
+      "line": 183,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'nextErr' needs a type. Add: @param {unknown} nextErr"
+    },
+    {
+      "file": "lib/chain.js",
+      "line": 188,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In resolve(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/chain.js",
+      "line": 200,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reject(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "lib/deprecationWarnings.js",
+      "line": 3,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In deprecationWarnings(): parameter 'server' needs a type. Add: @param {object} server"
+    },
+    {
+      "file": "lib/dtrace.js",
+      "line": 37,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'wrap-iife')."
+    },
+    {
+      "file": "lib/helpers/chainComposer.js",
+      "line": 2,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'func-names')."
+    },
+    {
+      "file": "lib/helpers/chainComposer.js",
+      "line": 24,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/helpers/chainComposer.js",
+      "line": 31,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, resp, callback: Function"
+    },
+    {
+      "file": "lib/http_date.js",
+      "line": 14,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} now, @returns {string}"
+    },
+    {
+      "file": "lib/http_date.js",
+      "line": 14,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'now' needs a type. Add: @param {object} now"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 73,
+      "column": 23,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { name?: string; dtrace?: boolean; router?: Router; log?:.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/index.js",
+      "line": 87,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: req: object, res: object, route, e: object"
+    },
+    {
+      "file": "lib/plugins/accept.js",
+      "line": 43,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {unknown} a"
+    },
+    {
+      "file": "lib/plugins/accept.js",
+      "line": 49,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseAccept needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/audit.js",
+      "line": 26,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: prev, curr"
+    },
+    {
+      "file": "lib/plugins/audit.js",
+      "line": 175,
+      "column": 22,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { log: any; event: string; context?: Function; server?: a.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/audit.js",
+      "line": 214,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In req(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "lib/plugins/audit.js",
+      "line": 220,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'time' needs a type. Add: @param {object} time"
+    },
+    {
+      "file": "lib/plugins/audit.js",
+      "line": 240,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In res(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/plugins/audit.js",
+      "line": 266,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "audit needs types for 4 parameters: req: object, res: object, route, err: Error"
+    },
+    {
+      "file": "lib/plugins/authorization.js",
+      "line": 26,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseBasic(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "lib/plugins/authorization.js",
+      "line": 65,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseSignature needs types for 2 parameters: request: object, options: object"
+    },
+    {
+      "file": "lib/plugins/authorization.js",
+      "line": 108,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseAuthorization needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/bodyParser.js",
+      "line": 125,
+      "column": 21,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { maxBodySize?: number; mapParams?: boolean; mapFiles?: b.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/bodyParser.js",
+      "line": 136,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseBody needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/bodyReader.js",
+      "line": 23,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createBodyWriter(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "lib/plugins/bodyReader.js",
+      "line": 41,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/plugins/bodyReader.js",
+      "line": 71,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "readBody needs types for 3 parameters: req: object, res: object, originalNext"
+    },
+    {
+      "file": "lib/plugins/bodyReader.js",
+      "line": 165,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {object} chunk"
+    },
+    {
+      "file": "lib/plugins/conditionalHandler.js",
+      "line": 81,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'candidate' needs a type. Add: @param {object} candidate"
+    },
+    {
+      "file": "lib/plugins/conditionalHandler.js",
+      "line": 85,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_handler' needs a type. Add: @param {Function} _handler"
+    },
+    {
+      "file": "lib/plugins/conditionalHandler.js",
+      "line": 126,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'candidate' needs a type. Add: @param {object} candidate"
+    },
+    {
+      "file": "lib/plugins/conditionalHandler.js",
+      "line": 148,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: candidate: object, idx: number"
+    },
+    {
+      "file": "lib/plugins/conditionalRequest.js",
+      "line": 20,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkIfMatch needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/conditionalRequest.js",
+      "line": 53,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkIfNoneMatch needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/conditionalRequest.js",
+      "line": 96,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkIfModified needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/conditionalRequest.js",
+      "line": 146,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkIfUnmodified needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/cpuUsageThrottle.js",
+      "line": 103,
+      "column": 33,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { limit?: number; max?: number; interval?: number; halfLi.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/cpuUsageThrottle.js",
+      "line": 140,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: e, stat: object"
+    },
+    {
+      "file": "lib/plugins/cpuUsageThrottle.js",
+      "line": 178,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cpuUsageThrottle needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/cpuUsageThrottle.js",
+      "line": 244,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In update(): parameter 'newOpts' needs a type. Add: @param {object} newOpts"
+    },
+    {
+      "file": "lib/plugins/date.js",
+      "line": 44,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseDate needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/fieldedTextBodyParser.js",
+      "line": 24,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseFieldedText needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/fieldedTextBodyParser.js",
+      "line": 58,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, parsedBody: any[]"
+    },
+    {
+      "file": "lib/plugins/fieldedTextBodyParser.js",
+      "line": 64,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: row: object, index: number"
+    },
+    {
+      "file": "lib/plugins/formBodyParser.js",
+      "line": 35,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseUrlEncodedBody needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/fullResponse.js",
+      "line": 11,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setHeaders needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/plugins/fullResponse.js",
+      "line": 64,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "restifyResponseHeaders needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/gzip.js",
+      "line": 53,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "gzip needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/inflightRequestThrottle.js",
+      "line": 38,
+      "column": 34,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { limit: number; err: Error; server: Function; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/inflightRequestThrottle.js",
+      "line": 55,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "onRequest needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/jsonBodyParser.js",
+      "line": 28,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseJson needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/jsonp.js",
+      "line": 26,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_jsonp needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/metrics.js",
+      "line": 48,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { server: Server; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/metrics.js",
+      "line": 53,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: req: object, res: object, route, err: Error"
+    },
+    {
+      "file": "lib/plugins/multipartBodyParser.js",
+      "line": 45,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseMultipartBody needs types for 3 parameters: req: object, res: object, originalNext"
+    },
+    {
+      "file": "lib/plugins/multipartBodyParser.js",
+      "line": 81,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onPart(): parameter 'part' needs a type. Add: @param {object} part"
+    },
+    {
+      "file": "lib/plugins/multipartBodyParser.js",
+      "line": 91,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: err: Error, fields: object, files: any[]"
+    },
+    {
+      "file": "lib/plugins/oauth2TokenParser.js",
+      "line": 21,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseHeader(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "lib/plugins/oauth2TokenParser.js",
+      "line": 62,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseOauth2Token needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/oauth2TokenParser.js",
+      "line": 80,
+      "column": 13,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'new-cap')."
+    },
+    {
+      "file": "lib/plugins/pre/context.js",
+      "line": 30,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/pre/context.js",
+      "line": 45,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/plugins/pre/dedupeSlashes.js",
+      "line": 20,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/pre/pause.js",
+      "line": 14,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _buffer(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/plugins/pre/pause.js",
+      "line": 18,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _catchEnd(): parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "lib/plugins/pre/pause.js",
+      "line": 62,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "prePause needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/pre/prePath.js",
+      "line": 46,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_sanitizePath needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/pre/reqIdHeaders.js",
+      "line": 20,
+      "column": 29,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { headers: string[]; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/pre/reqIdHeaders.js",
+      "line": 26,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/pre/strictQueryParams.js",
+      "line": 29,
+      "column": 28,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { message?: string; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/pre/strictQueryParams.js",
+      "line": 34,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_strictQueryParams needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/pre/userAgent.js",
+      "line": 30,
+      "column": 30,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { userAgentRegExp?: RegExp; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/pre/userAgent.js",
+      "line": 41,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleUserAgent needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/query.js",
+      "line": 46,
+      "column": 22,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { mapParams?: any; overrideParams?: boolean; allowDots?: .... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/query.js",
+      "line": 50,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseQueryString needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/requestExpiry.js",
+      "line": 61,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { absoluteHeader?: string; startHeader: string; timeoutHe.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/requestExpiry.js",
+      "line": 75,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/requestLogger.js",
+      "line": 42,
+      "column": 24,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { headers?: any[]; properties?: any; serializers?: any; l.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/requestLogger.js",
+      "line": 61,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/requestLogger.js",
+      "line": 71,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "lib/plugins/static.js",
+      "line": 95,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "serveFileFromStats needs types for 7 parameters: file, err: Error, stats: object, isGzip: boolean, req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/static.js",
+      "line": 145,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "serveNormal needs types for 4 parameters: file, req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/static.js",
+      "line": 167,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "serve needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/staticFiles.js",
+      "line": 62,
+      "column": 38,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'opts': Object → { maxAge?: number; etag?: boolean; setHeaders?: Function; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/staticFiles.js",
+      "line": 79,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/staticFiles.js",
+      "line": 101,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/plugins/staticFiles.js",
+      "line": 122,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: response: object, requestedPath: string, stat"
+    },
+    {
+      "file": "lib/plugins/throttle.js",
+      "line": 134,
+      "column": 21,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { size: number; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/throttle.js",
+      "line": 245,
+      "column": 19,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { burst: number; rate: number; ip?: boolean; username?: b.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/plugins/throttle.js",
+      "line": 258,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rateLimit needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/plugins/utils/hrTimeDurationInMs.js",
+      "line": 14,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Number|null → number. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/plugins/utils/httpDate.js",
+      "line": 14,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} now, @returns {string}"
+    },
+    {
+      "file": "lib/plugins/utils/httpDate.js",
+      "line": 14,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'now' needs a type. Add: @param {object} now"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 131,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 249,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "json needs types for 2 parameters: body: object, headers: object"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 298,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "send needs types for 2 parameters: body: object, headers: object"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 334,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sendRaw(): parameter 'headers' needs a type. Add: @param {object} headers"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 360,
+      "column": 5,
+      "rule": "jsdoc/check-param-names",
+      "severity": "error",
+      "message": "Definition for rule 'jsdoc/check-param-names' was not found."
+    },
+    {
+      "file": "lib/response.js",
+      "line": 561,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/router.js",
+      "line": 38,
+      "column": 17,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { log: Bunyan; onceNext?: boolean; strictNext?: boolean; .... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/router.js",
+      "line": 137,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: params: object, query: object"
+    },
+    {
+      "file": "lib/router.js",
+      "line": 140,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pathItem needs types for 2 parameters: match, key: string"
+    },
+    {
+      "file": "lib/router.js",
+      "line": 149,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In queryItem(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/router.js",
+      "line": 260,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: route: object, routeName: string"
+    },
+    {
+      "file": "lib/router.js",
+      "line": 296,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_optionsError needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/routerRegistryRadix.js",
+      "line": 16,
+      "column": 30,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { ignoreTrailingSlash?: any; }. JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/routerRegistryRadix.js",
+      "line": 45,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 42,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleWithDomain needs types for 4 parameters: req: object, res: object, onError: Function, next: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 125,
+      "column": 17,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { name: string; dtrace?: boolean; router: Router; log: an.... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 163,
+      "column": 13,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 201,
+      "column": 17,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-empty')."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 248,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 262,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, socket, head"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 275,
+      "column": 74,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 333,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handledEventName' needs a type. Add: @param {string} handledEventName"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 346,
+      "column": 1,
+      "rule": "jsdoc/check-param-names",
+      "severity": "error",
+      "message": "Definition for rule 'jsdoc/check-param-names' was not found."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 524,
+      "column": 1,
+      "rule": "jsdoc/check-param-names",
+      "severity": "error",
+      "message": "Definition for rule 'jsdoc/check-param-names' was not found."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 563,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 571,
+      "column": 1,
+      "rule": "jsdoc/check-param-names",
+      "severity": "error",
+      "message": "Definition for rule 'jsdoc/check-param-names' was not found."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 638,
+      "column": 1,
+      "rule": "jsdoc/check-param-names",
+      "severity": "error",
+      "message": "Definition for rule 'jsdoc/check-param-names' was not found."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 677,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 718,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 825,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In funcNameMapper(): parameter 'handler' needs a type. Add: @param {Function} handler"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 843,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'route' needs a type. Add: @param {object} route"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 906,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In handlersToString(): parameter 'arr' needs a type. Add: @param {any[]} arr"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 910,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'b' needs a type. Add: @param {object} b"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 930,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {unknown} line"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 934,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: route: object, routeName: string"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 979,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_onRequest needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1037,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1057,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_runPre needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1067,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1117,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_runRoute needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1123,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1148,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1211,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_runUse needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1218,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1316,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_setupRequest needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1408,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'redirectLocation' needs a type. Add: @param {unknown} redirectLocation"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1430,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_finishReqResCycle needs types for 3 parameters: req: object, res: object, err: Error"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1570,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_emitErrorEvents needs types for 5 parameters: req: object, res: object, route, err: Error, cb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1610,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "func needs types for 2 parameters: errEvtName: string, vasyncCb: Function"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1619,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'handle-callback-err')."
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1620,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: __, results: any[]"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1645,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In process(): parameter 'array' needs a type. Add: @param {any[]} array"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1682,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addFormatter needs types for 2 parameters: src: string, k: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1712,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1715,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'a' needs a type. Add: @param {object} a"
+    },
+    {
+      "file": "lib/server.js",
+      "line": 1757,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/upgrade.js",
+      "line": 191,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In send(): parameter 'body' needs a type. Add: @param {object} body"
+    }
+  ],
+  "typesPackage": "@types/restify",
+  "typesComparison": {
+    "definitelyTypedVersion": "8.5.12",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 24120
+}

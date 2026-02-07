@@ -1,0 +1,38 @@
+{
+  "name": "is-number",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 10,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} num, @returns {boolean}"
+    },
+    {
+      "file": "index.js",
+      "line": 10,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'num' needs a type. Add: @param {string} num"
+    }
+  ],
+  "typesPackage": "@types/is-number",
+  "typesComparison": {
+    "definitelyTypedVersion": "7.0.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19011
+}

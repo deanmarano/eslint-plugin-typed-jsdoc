@@ -1,0 +1,110 @@
+{
+  "name": "kind-of",
+  "downloadedAt": "2026-02-03T22:06:10.192Z",
+  "lintedAt": "2026-02-03T22:06:10.192Z",
+  "filesAnalyzed": 34,
+  "totalIssues": 11,
+  "errors": 0,
+  "warnings": 11,
+  "byRule": {
+    "tjd/require-jsdoc-types": 1,
+    "tjd/no-implicit-any": 10
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} val, @returns {string}"
+    },
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "index.js",
+      "line": 68,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ctorName(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 72,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isArray(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "index.js",
+      "line": 77,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isError(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 81,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDate(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 88,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRegexp(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 96,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isGeneratorFn needs types for 2 parameters: name: string, val"
+    },
+    {
+      "file": "index.js",
+      "line": 100,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isGeneratorObj(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 106,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isArguments(): parameter 'val' needs a type. Add: @param {object} val"
+    },
+    {
+      "file": "index.js",
+      "line": 124,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBuffer(): parameter 'val' needs a type. Add: @param {object} val"
+    }
+  ],
+  "typesPackage": "@types/kind-of",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18507
+}

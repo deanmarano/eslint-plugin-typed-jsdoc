@@ -1,0 +1,18 @@
+{
+  "name": "marked",
+  "downloadedAt": "2026-02-03T22:02:06.782Z",
+  "lintedAt": "2026-02-03T22:02:06.782Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/marked",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 17449
+}

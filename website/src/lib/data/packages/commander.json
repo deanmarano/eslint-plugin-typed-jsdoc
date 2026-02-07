@@ -1,0 +1,752 @@
+{
+  "name": "commander",
+  "downloadedAt": "2026-02-03T21:57:03.722Z",
+  "lintedAt": "2026-02-03T21:57:03.722Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 91,
+  "errors": 4,
+  "warnings": 87,
+  "byRule": {
+    "tjd/no-implicit-any": 86,
+    "@typescript-eslint/no-this-alias": 3,
+    "tjd/accurate-jsdoc": 1,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "lib/argument.js",
+      "line": 56,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_collectValue needs types for 2 parameters: value, previous: any[]"
+    },
+    {
+      "file": "lib/argument.js",
+      "line": 73,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In default(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/argument.js",
+      "line": 100,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseArg needs types for 2 parameters: arg, previous"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 62,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeOut(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 63,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In writeErr(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 64,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "outputError needs types for 2 parameters: str: string, write: Function"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 73,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripColor(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 123,
+      "column": 5,
+      "rule": "@typescript-eslint/no-this-alias",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+    },
+    {
+      "file": "lib/command.js",
+      "line": 155,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "command needs types for 2 parameters: actionOptsOrExecDesc, execOpts"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 215,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configureHelp(): parameter 'configuration' needs a type. Add: @param {unknown} configuration"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 245,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configureOutput(): parameter 'configuration' needs a type. Add: @param {any[] | object} configuration"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 288,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addCommand(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 336,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "argument needs types for 2 parameters: parseArg, defaultValue"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 512,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _exitCallback(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 557,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In listener(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 599,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _callParseArg(): parameter 'previous' needs a type. Add: @param {unknown} previous"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 645,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In knownBy(): parameter 'cmd' needs a type. Add: @param {object} cmd"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 649,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 692,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handleOptionValue needs types for 3 parameters: val, invalidValueMessage, valueSource"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 720,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 726,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 741,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_optionEx needs types for 5 parameters: config: object, flags, description, fn: Function, defaultValue"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 754,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, def"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 788,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "option needs types for 2 parameters: parseArg, defaultValue"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 805,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "requiredOption needs types for 2 parameters: parseArg, defaultValue"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 940,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptionValue(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 953,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setOptionValueWithSource(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1001,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_prepareUserArgs needs types for 2 parameters: argv: object, parseOptions: object"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1202,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_executeSubCommand needs types for 2 parameters: subcommand: object, args: any[]"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1207,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "findFile needs types for 2 parameters: baseDir, baseName: string"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1352,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_dispatchSubcommand needs types for 3 parameters: commandName: string, operands: object, unknown"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1380,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _dispatchHelpCommand(): parameter 'subcommandName' needs a type. Add: @param {string} subcommandName"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1429,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "myParseArg needs types for 3 parameters: argument: object, value, previous"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1454,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: processed, v: string"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1506,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1514,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'hookDetail' needs a type. Add: @param {object} hookDetail"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1534,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'hook' needs a type. Add: @param {Function} hook"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1550,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_parseCommand needs types for 2 parameters: operands: object, unknown"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1649,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _findCommand(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1753,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In maybeOption(): parameter 'arg' needs a type. Add: @param {object} arg"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1757,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In negativeNumberArg(): parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1764,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'short' needs a type. Add: @param {unknown} short"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1927,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'combinedOptions' needs a type. Add: @param {object} combinedOptions"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 1998,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasCustomOptionValue(): parameter 'optionKey' needs a type. Add: @param {unknown} optionKey"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2073,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In findBestOptionFromValue(): parameter 'option' needs a type. Add: @param {object} option"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2093,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getErrorMessage(): parameter 'option' needs a type. Add: @param {unknown} option"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2121,
+      "column": 7,
+      "rule": "@typescript-eslint/no-this-alias",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2218,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In description(): parameter 'argsDescription' needs a type. Add: @param {unknown} argsDescription"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2253,
+      "column": 5,
+      "rule": "@typescript-eslint/no-this-alias",
+      "severity": "error",
+      "message": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2475,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getOutputContext(): parameter 'contextOptions' needs a type. Add: @param {object} contextOptions"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2482,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2486,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2490,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2688,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "lib/command.js",
+      "line": 2752,
+      "column": 1,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: boolean | undefined → boolean. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "lib/help.js",
+      "line": 63,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSortKey(): parameter 'option' needs a type. Add: @param {object} option"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 122,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'option' needs a type. Add: @param {object} option"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 420,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 425,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 447,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "callFormatItem needs types for 2 parameters: term, description"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 484,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'option' needs a type. Add: @param {object} option"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 487,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'option' needs a type. Add: @param {unknown} option"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 514,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sub' needs a type. Add: @param {object} sub"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 517,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sub' needs a type. Add: @param {unknown} sub"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 549,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleUsage(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 554,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'word' needs a type. Add: @param {unknown} word"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 563,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleCommandDescription(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 566,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleOptionDescription(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 569,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleSubcommandDescription(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 572,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleArgumentDescription(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 575,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleDescriptionText(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 578,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleOptionTerm(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 581,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleSubcommandTerm(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 586,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'word' needs a type. Add: @param {unknown} word"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 594,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleArgumentTerm(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 597,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleOptionText(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 600,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleArgumentText(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 603,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleSubcommandText(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 606,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In styleCommandText(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/help.js",
+      "line": 741,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-control-regex')."
+    },
+    {
+      "file": "lib/option.js",
+      "line": 47,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In default(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 65,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preset(): parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 100,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In implies(): parameter 'impliedOptionValues' needs a type. Add: @param {unknown} impliedOptionValues"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 165,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_collectValue needs types for 2 parameters: value, previous: any[]"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 183,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseArg needs types for 2 parameters: arg, previous"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 283,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value, key: string"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 297,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In valueFromOption(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/option.js",
+      "line": 328,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In splitOptionFlags(): parameter 'flags' needs a type. Add: @param {string} flags"
+    },
+    {
+      "file": "lib/suggestSimilar.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "editDistance needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "lib/suggestSimilar.js",
+      "line": 87,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: string, b"
+    },
+    {
+      "file": "lib/suggestSimilar.js",
+      "line": 89,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'candidate' needs a type. Add: @param {unknown} candidate"
+    }
+  ],
+  "typesPackage": "@types/commander",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.12.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 31046
+}

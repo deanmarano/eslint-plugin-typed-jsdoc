@@ -1,0 +1,182 @@
+{
+  "name": "ejs",
+  "downloadedAt": "2026-02-03T21:59:01.152Z",
+  "lintedAt": "2026-02-03T21:59:01.152Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 20,
+  "errors": 0,
+  "warnings": 20,
+  "byRule": {
+    "tjd/no-implicit-any": 18,
+    "tjd/no-redundant-jsdoc": 2
+  },
+  "issues": [
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 362,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripSemi(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 409,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 2 parameters: d, o"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 503,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Template needs types for 2 parameters: text: string, optsParam"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 576,
+      "column": 5,
+      "rule": "tjd/no-redundant-jsdoc",
+      "severity": "warning",
+      "message": "JSDoc comment is redundant - only contains type information that TypeScript infers"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 680,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In returnedFn(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 681,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "include needs types for 2 parameters: path: string, includeData"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 734,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'line' needs a type. Add: @param {object} line"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 780,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _addOutput(): parameter 'line' needs a type. Add: @param {string} line"
+    },
+    {
+      "file": "lib/esm/ejs.js",
+      "line": 807,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In scanLine(): parameter 'line' needs a type. Add: @param {object} line"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 30,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hasOwn needs types for 2 parameters: obj: object, key: string"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 59,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In encode_char(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 70,
+      "column": 1,
+      "rule": "tjd/no-redundant-jsdoc",
+      "severity": "warning",
+      "message": "JSDoc @type 'String' is redundant - TypeScript infers the same type"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 132,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shallowCopy needs types for 2 parameters: to: number, from: number"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 160,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "shallowCopyFromList needs types for 2 parameters: to: number, from: number"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 190,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "set needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 193,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 196,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In remove(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 212,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hyphenToCamel(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 213,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "lib/esm/utils.js",
+      "line": 248,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasOwnOnlyObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    }
+  ],
+  "typesPackage": "@types/ejs",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.1.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 30623
+}

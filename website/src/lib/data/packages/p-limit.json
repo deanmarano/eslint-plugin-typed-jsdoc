@@ -1,0 +1,181 @@
+{
+  "name": "p-limit",
+  "downloadedAt": "2026-02-03T22:05:06.638Z",
+  "lintedAt": "2026-02-03T22:05:06.638Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 20,
+  "errors": 5,
+  "warnings": 15,
+  "byRule": {
+    "tjd/require-jsdoc-types": 2,
+    "tjd/no-implicit-any": 9,
+    "promise/param-names": 1,
+    "promise/prefer-await-to-then": 1,
+    "unknown": 4,
+    "unicorn/no-array-method-this-argument": 3
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pLimit needs JSDoc: @param {any} concurrency, @returns {function(any, any[]): Promise<any>}"
+    },
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pLimit(): parameter 'concurrency' needs a type. Add: @param {unknown} concurrency"
+    },
+    {
+      "file": "index.js",
+      "line": 32,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "run needs types for 3 parameters: function_: Function, resolve: Function, arguments_: any[] | object"
+    },
+    {
+      "file": "index.js",
+      "line": 50,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "enqueue needs types for 4 parameters: function_, resolve, reject, arguments_"
+    },
+    {
+      "file": "index.js",
+      "line": 55,
+      "column": 36,
+      "rule": "promise/param-names",
+      "severity": "error",
+      "message": "Definition for rule 'promise/param-names' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 58,
+      "column": 65,
+      "rule": "promise/prefer-await-to-then",
+      "severity": "error",
+      "message": "Definition for rule 'promise/prefer-await-to-then' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 66,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generator(): parameter 'function_' needs a type. Add: @param {unknown} function_"
+    },
+    {
+      "file": "index.js",
+      "line": 94,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'newConcurrency' needs a type. Add: @param {unknown} newConcurrency"
+    },
+    {
+      "file": "index.js",
+      "line": 99,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unmodified-loop-condition')."
+    },
+    {
+      "file": "index.js",
+      "line": 107,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "value needs types for 2 parameters: iterable, function_"
+    },
+    {
+      "file": "index.js",
+      "line": 108,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "index.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "limitFunction needs types for 2 parameters: function_: Function, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 117,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "limitFunction needs JSDoc: @param {any} function_, @param {any} options, @returns {function(any[]): Promise<any>}"
+    },
+    {
+      "file": "index.js",
+      "line": 123,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateConcurrency(): parameter 'concurrency' needs a type. Add: @param {unknown} concurrency"
+    },
+    {
+      "file": "scripts/benchmarker.js",
+      "line": 65,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "scripts/benchmarker.js",
+      "line": 142,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "scripts/benchmarker.js",
+      "line": 166,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-await-in-loop')."
+    },
+    {
+      "file": "test.js",
+      "line": 228,
+      "column": 2,
+      "rule": "unicorn/no-array-method-this-argument",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/no-array-method-this-argument' was not found."
+    },
+    {
+      "file": "test.js",
+      "line": 243,
+      "column": 63,
+      "rule": "unicorn/no-array-method-this-argument",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/no-array-method-this-argument' was not found."
+    },
+    {
+      "file": "test.js",
+      "line": 252,
+      "column": 63,
+      "rule": "unicorn/no-array-method-this-argument",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/no-array-method-this-argument' was not found."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 16781
+}

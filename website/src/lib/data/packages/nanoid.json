@@ -1,0 +1,105 @@
+{
+  "name": "nanoid",
+  "downloadedAt": "2026-02-03T22:02:06.782Z",
+  "lintedAt": "2026-02-03T22:02:06.782Z",
+  "filesAnalyzed": 14,
+  "totalIssues": 11,
+  "errors": 0,
+  "warnings": 11,
+  "byRule": {
+    "tjd/no-implicit-any": 5,
+    "tjd/require-jsdoc-types": 6
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 15,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fillPool(): parameter 'bytes' needs a type. Add: @param {number} bytes"
+    },
+    {
+      "file": "index.js",
+      "line": 27,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "random needs JSDoc: @param {any} bytes, @returns {any}"
+    },
+    {
+      "file": "index.js",
+      "line": 27,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In random(): parameter 'bytes' needs a type. Add: @param {number} bytes"
+    },
+    {
+      "file": "index.js",
+      "line": 33,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "customRandom needs types for 3 parameters: alphabet: object, defaultSize: number, getRandom: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 33,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "customRandom needs JSDoc: @param {any} alphabet, @param {any} defaultSize, @param {any} getRandom, @returns {function(any): string}"
+    },
+    {
+      "file": "index.js",
+      "line": 69,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "customAlphabet needs JSDoc: @param {any} alphabet, @returns {function(any): string}"
+    },
+    {
+      "file": "index.js",
+      "line": 69,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In customAlphabet(): parameter 'alphabet' needs a type. Add: @param {unknown} alphabet"
+    },
+    {
+      "file": "index.js",
+      "line": 73,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "nanoid needs JSDoc: @returns {string}"
+    },
+    {
+      "file": "non-secure/index.js",
+      "line": 12,
+      "column": 29,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "customAlphabet needs JSDoc: @param {any} alphabet, @returns {function(number): string}"
+    },
+    {
+      "file": "non-secure/index.js",
+      "line": 12,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In customAlphabet(): parameter 'alphabet' needs a type. Add: @param {object} alphabet"
+    },
+    {
+      "file": "non-secure/index.js",
+      "line": 25,
+      "column": 21,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "nanoid needs JSDoc: @returns {string}"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 16809
+}

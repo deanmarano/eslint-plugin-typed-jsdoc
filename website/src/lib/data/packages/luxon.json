@@ -1,0 +1,2633 @@
+{
+  "name": "luxon",
+  "downloadedAt": "2026-02-03T22:04:05.615Z",
+  "lintedAt": "2026-02-03T22:04:05.615Z",
+  "filesAnalyzed": 24,
+  "totalIssues": 327,
+  "errors": 0,
+  "warnings": 327,
+  "byRule": {
+    "tjd/no-implicit-any": 259,
+    "tjd/require-jsdoc-types": 68
+  },
+  "issues": [
+    {
+      "file": "src/datetime.js",
+      "line": 57,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unsupportedZone(): parameter 'zone' needs a type. Add: @param {object} zone"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 88,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clone needs types for 2 parameters: inst: object, alts: any[] | object"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 102,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fixOffset needs types for 3 parameters: localTS: number, o: number, tz: object"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 128,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tsToObj needs types for 2 parameters: ts, offset: number"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 145,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "objToTS needs types for 3 parameters: obj: object, offset: number, zone"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 150,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "adjustTime needs types for 2 parameters: inst: object, dur: object"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 189,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseDataToDateTime needs types for 6 parameters: parsed, parsedZone, opts: any[] | object, format: string, text: string, specificOffset"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 189,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseDataToDateTime needs JSDoc: @param {any} parsed, @param {any} parsedZone, @param {any} opts, @param {any} format, @param {any} text, @param {any} specificOffset, @returns {DateTime}"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 208,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toTechFormat needs types for 2 parameters: dt: object, format: string"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 217,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toISODate needs types for 3 parameters: o: object, extended, precision"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 236,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toISOTime needs types for 7 parameters: o: object, extended, suppressSeconds, suppressMilliseconds, includeOffset, extendedZone, precision"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 342,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeUnit(): parameter 'unit' needs a type. Add: @param {string} unit"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 375,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeUnitWithLocalWeeks(): parameter 'unit' needs a type. Add: @param {string} unit"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 436,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "quickDT needs types for 2 parameters: obj: object, opts: object"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 468,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "diffRelative needs types for 3 parameters: start: number, end: number, opts: object"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 471,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 2 parameters: c, unit"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 476,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In differ(): parameter 'unit' needs a type. Add: @param {unknown} unit"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 499,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lastOpts(): parameter 'argList' needs a type. Add: @param {object} argList"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 547,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1002,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromString needs types for 2 parameters: text: string, fmt"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1057,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDateTime(): parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1067,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFormatForOpts(): parameter 'formatOpts' needs a type. Add: @param {unknown} formatOpts"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1069,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1079,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In expandFormat(): parameter 'fmt' needs a type. Add: @param {unknown} fmt"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1081,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1566,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setZone(): parameter 'zone' needs a type. Add: @param {object} zone"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1600,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setLocale(): parameter 'locale' needs a type. Add: @param {unknown} locale"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1617,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'values' needs a type. Add: @param {unknown} values"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1679,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In plus(): parameter 'duration' needs a type. Add: @param {number} duration"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 1691,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In minus(): parameter 'duration' needs a type. Add: @param {number} duration"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 2304,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {string} i"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 2316,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {string} i"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 2341,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromStringExplain needs types for 2 parameters: text: string, fmt"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 2595,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "friendlyDateTime needs JSDoc: @param {any} dateTimeish, @returns {any}"
+    },
+    {
+      "file": "src/datetime.js",
+      "line": 2595,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In friendlyDateTime(): parameter 'dateTimeish' needs a type. Add: @param {string} dateTimeish"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 127,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clone needs types for 2 parameters: dur: object, alts: object"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 138,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "durationToMillis needs types for 2 parameters: matrix: object, vals: object"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 149,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeValues needs types for 2 parameters: matrix: object, vals: object"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 202,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeZeroes(): parameter 'vals' needs a type. Add: @param {unknown} vals"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 229,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 323,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromDurationLike(): parameter 'durationLike' needs a type. Add: @param {unknown} durationLike"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 408,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeUnit(): parameter 'unit' needs a type. Add: @param {string} unit"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 440,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDuration(): parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 537,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 671,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In plus(): parameter 'duration' needs a type. Add: @param {number} duration"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 691,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In minus(): parameter 'duration' needs a type. Add: @param {number} duration"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 733,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'values' needs a type. Add: @param {unknown} values"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 808,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'u' needs a type. Add: @param {unknown} u"
+    },
+    {
+      "file": "src/duration.js",
+      "line": 1013,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eq needs types for 2 parameters: v1, v2"
+    },
+    {
+      "file": "src/errors.js",
+      "line": 12,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'reason' needs a type. Add: @param {object} reason"
+    },
+    {
+      "file": "src/errors.js",
+      "line": 21,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'reason' needs a type. Add: @param {object} reason"
+    },
+    {
+      "file": "src/errors.js",
+      "line": 30,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'reason' needs a type. Add: @param {object} reason"
+    },
+    {
+      "file": "src/errors.js",
+      "line": 44,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'unit' needs a type. Add: @param {unknown} unit"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 17,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "unitOutOfRange needs types for 2 parameters: unit, value"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 24,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dayOfWeek needs types for 3 parameters: year: number, month: number, day: number"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 24,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "dayOfWeek needs JSDoc: @param {any} year, @param {any} month, @param {any} day, @returns {number}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 36,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "computeOrdinal needs types for 3 parameters: year: number, month: number, day: number"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 40,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "uncomputeOrdinal needs types for 2 parameters: year: number, ordinal: number"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isoWeekdayToLocal needs types for 2 parameters: isoWeekday: number, startOfWeek: number"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isoWeekdayToLocal needs JSDoc: @param {any} isoWeekday, @param {any} startOfWeek, @returns {number}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 55,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "gregorianToWeek needs JSDoc: @param {any} gregObj, @returns {any}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 55,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In gregorianToWeek(): parameter 'gregObj' needs a type. Add: @param {unknown} gregObj"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 76,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "weekToGregorian needs JSDoc: @param {any} weekData, @returns {any}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 76,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In weekToGregorian(): parameter 'weekData' needs a type. Add: @param {unknown} weekData"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 98,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "gregorianToOrdinal needs JSDoc: @param {any} gregData, @returns {any}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 98,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In gregorianToOrdinal(): parameter 'gregData' needs a type. Add: @param {unknown} gregData"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 104,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "ordinalToGregorian needs JSDoc: @param {any} ordinalData, @returns {any}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 104,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ordinalToGregorian(): parameter 'ordinalData' needs a type. Add: @param {unknown} ordinalData"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 116,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "usesLocalWeekValues needs types for 2 parameters: obj: object, loc: object"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 116,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "usesLocalWeekValues needs JSDoc: @param {any} obj, @param {any} loc, @returns {{ minDaysInFirstWeek: any; startOfWeek: any; }}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 145,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasInvalidWeekData needs JSDoc: @param {any} obj, @returns {false | Invalid}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 145,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasInvalidWeekData(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 163,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasInvalidOrdinalData needs JSDoc: @param {any} obj, @returns {false | Invalid}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 163,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasInvalidOrdinalData(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 174,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasInvalidGregorianData needs JSDoc: @param {any} obj, @returns {false | Invalid}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 174,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasInvalidGregorianData(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 188,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasInvalidTimeData needs JSDoc: @param {any} obj, @returns {false | Invalid}"
+    },
+    {
+      "file": "src/impl/conversions.js",
+      "line": 188,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasInvalidTimeData(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dayDiff needs types for 2 parameters: earlier, later"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 4,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In utcDayStart(): parameter 'dt' needs a type. Add: @param {object} dt"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 9,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "highOrderDiffs needs types for 3 parameters: cursor, later, units: object"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 11,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 12,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 13,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 16,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, b"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 67,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: earlier, later: number, units: any[], opts"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 67,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} earlier, @param {any} later, @param {any} units, @param {any} opts, @returns {Duration}"
+    },
+    {
+      "file": "src/impl/diff.js",
+      "line": 73,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'u' needs a type. Add: @param {unknown} u"
+    },
+    {
+      "file": "src/impl/digits.js",
+      "line": 49,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseDigits needs JSDoc: @param {any} str, @returns {number}"
+    },
+    {
+      "file": "src/impl/digits.js",
+      "line": 49,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseDigits(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "src/impl/digits.js",
+      "line": 79,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "digitRegex needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 4,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringify(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 44,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "months needs JSDoc: @param {any} length, @returns {string[]}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 44,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In months(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 75,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "weekdays needs JSDoc: @param {any} length, @returns {string[]}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 75,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In weekdays(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 98,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "eras needs JSDoc: @param {any} length, @returns {string[]}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 98,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In eras(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 111,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "meridiemForDateTime needs JSDoc: @param {any} dt, @returns {string}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 111,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In meridiemForDateTime(): parameter 'dt' needs a type. Add: @param {object} dt"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 115,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "weekdayForDateTime needs types for 2 parameters: dt: object, length: number"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 115,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "weekdayForDateTime needs JSDoc: @param {any} dt, @param {any} length, @returns {string}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 119,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "monthForDateTime needs types for 2 parameters: dt: object, length: number"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 119,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "monthForDateTime needs JSDoc: @param {any} dt, @param {any} length, @returns {string}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 123,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eraForDateTime needs types for 2 parameters: dt: object, length: number"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 123,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "eraForDateTime needs JSDoc: @param {any} dt, @param {any} length, @returns {string}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 127,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatRelativeTime needs types for 2 parameters: unit, count: number"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 127,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "formatRelativeTime needs JSDoc: @param {any} unit, @param {any} count, @returns {string}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 168,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "formatString needs JSDoc: @param {any} knownFormat, @returns {\"M/d/yyyy\" | \"LLL d, yyyy\" | \"EEE, LLL d, yyyy\" | \"LLLL d, yyyy\" | \"EEEE, LLLL d, yyyy\" | \"h: mm a\" | \"h: mm: ss a\" | \"HH: mm\" | \"HH: mm: ss\" | \"M/d/yyyy, h: mm a\" | \"LLL d, yyyy, h: mm a\" | ... 6 more ... | \"EEEE, LLLL d, yyyy, h: mm: ss a\"}"
+    },
+    {
+      "file": "src/impl/english.js",
+      "line": 168,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In formatString(): parameter 'knownFormat' needs a type. Add: @param {unknown} knownFormat"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 5,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stringifyTokens needs types for 2 parameters: splits, tokenToString: Function"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 45,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In create(): parameter 'locale' needs a type. Add: @param {unknown} locale"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 49,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFormat(): parameter 'fmt' needs a type. Add: @param {string} fmt"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 90,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In macroTokenToFormatOpts(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 94,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: locale, formatOpts"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 100,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatWithSystemDefault needs types for 2 parameters: dt, opts: any[] | object"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 108,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dtFormatter(): parameter 'dt' needs a type. Add: @param {unknown} dt"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 112,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatDateTime needs types for 2 parameters: dt, opts"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 116,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatDateTimeParts needs types for 2 parameters: dt, opts"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 120,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatInterval needs types for 2 parameters: interval: object, opts"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 125,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "resolvedOptions needs types for 2 parameters: dt, opts"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 129,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In num(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 147,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatDateTimeFromString needs types for 2 parameters: dt: object, fmt"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 150,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "string needs types for 2 parameters: opts, extract"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 151,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In formatOffset(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 162,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "month needs types for 2 parameters: length: number, standalone"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 166,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "weekday needs types for 2 parameters: length: number, standalone"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 173,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In maybeMacro(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 181,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In era(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 183,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tokenToString(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 377,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatDurationFromString needs types for 2 parameters: dur: object, fmt"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 379,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tokenToField(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 401,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tokenToString needs types for 2 parameters: lildur: object, info: object"
+    },
+    {
+      "file": "src/impl/formatter.js",
+      "line": 401,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "src/impl/invalid.js",
+      "line": 2,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: reason, explanation"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 10,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCachedLF(): parameter 'locString' needs a type. Add: @param {unknown} locString"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 21,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCachedDTF(): parameter 'locString' needs a type. Add: @param {unknown} locString"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 32,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCachedINF(): parameter 'locString' needs a type. Add: @param {unknown} locString"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 43,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCachedRTF(): parameter 'locString' needs a type. Add: @param {unknown} locString"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 65,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCachedIntResolvedOptions(): parameter 'locString' needs a type. Add: @param {unknown} locString"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 75,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getCachedWeekInfo(): parameter 'locString' needs a type. Add: @param {unknown} locString"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 90,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseLocaleString(): parameter 'localeStr' needs a type. Add: @param {object} localeStr"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 127,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "intlConfigString needs types for 3 parameters: localeStr: object, numberingSystem, outputCalendar"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 146,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapMonths(): parameter 'f' needs a type. Add: @param {Function} f"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 155,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mapWeekdays(): parameter 'f' needs a type. Add: @param {Function} f"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 164,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "listStuff needs types for 4 parameters: loc: object, length: number, englishFn: Function, intlFn: Function"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 176,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In supportsFastNumbers(): parameter 'loc' needs a type. Add: @param {object} loc"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 194,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: intl, forceSimple, opts: any[] | object"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 207,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In format(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 224,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: dt: object, intl, opts"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 283,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'part' needs a type. Add: @param {any[] | object} part"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 310,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 3 parameters: intl, isEnglish: boolean, opts: any[] | object"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 317,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 2 parameters: count: number, unit"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 325,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatToParts needs types for 2 parameters: count: number, unit"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 344,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromOpts(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 354,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "create needs types for 4 parameters: locale, numberingSystem, outputCalendar, weekSettings"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 377,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 5 parameters: locale, numbering, outputCalendar, weekSettings, specifiedLocale"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 411,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clone(): parameter 'alts' needs a type. Add: @param {object} alts"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 433,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In months(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 444,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dt' needs a type. Add: @param {unknown} dt"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 445,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dt' needs a type. Add: @param {unknown} dt"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 452,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In weekdays(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 459,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'dt' needs a type. Add: @param {unknown} dt"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 487,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In eras(): parameter 'length' needs a type. Add: @param {number} length"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 503,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extract needs types for 3 parameters: dt, intlOpts, field"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 506,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {object} m"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 516,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dtFormatter(): parameter 'dt' needs a type. Add: @param {unknown} dt"
+    },
+    {
+      "file": "src/impl/locale.js",
+      "line": 558,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'other' needs a type. Add: @param {object} other"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 26,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: f, r: object"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 31,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'm' needs a type. Add: @param {unknown} m"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 34,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'ex' needs a type. Add: @param {Function} ex"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 43,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parse(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 58,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: match, cursor"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 86,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "int needs types for 3 parameters: match: object, pos, fallback"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 91,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extractISOYmd needs types for 2 parameters: match, cursor"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 101,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extractISOTime needs types for 2 parameters: match, cursor"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 112,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extractISOOffset needs types for 2 parameters: match: object, cursor"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 119,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extractIANAZone needs types for 2 parameters: match: object, cursor"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 133,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extractISODuration(): parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 140,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In maybeNegate(): parameter 'num' needs a type. Add: @param {number} num"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 172,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromStrings needs types for 7 parameters: weekdayStr: object, yearStr: object, monthStr, dayStr, hourStr, minuteStr, secondStr"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 196,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extractRFC2822(): parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 225,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In preprocessRFC2822(): parameter 's' needs a type. Add: @param {string} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 242,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extractRFC1123Or850(): parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 248,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extractASCII(): parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 287,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseISODate needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 287,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseISODate(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 319,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseISOIntervalEnd needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 319,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseISOIntervalEnd(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 330,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseRFC2822Date needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 330,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseRFC2822Date(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 334,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseHTTPDate needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 334,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseHTTPDate(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 343,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseISODuration needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 343,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseISODuration(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 349,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseISOTimeOnly needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 349,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseISOTimeOnly(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 362,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseSQL needs JSDoc: @param {any} s, @returns {any}"
+    },
+    {
+      "file": "src/impl/regexParser.js",
+      "line": 362,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseSQL(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 11,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In intUnit(): parameter 'regex' needs a type. Add: @param {unknown} regex"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 11,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 19,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fixListRegex(): parameter 's' needs a type. Add: @param {string} s"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 25,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripInsensitivities(): parameter 's' needs a type. Add: @param {string} s"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 32,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "oneOf needs types for 2 parameters: strings: any[], startIndex: number"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 39,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 44,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "offset needs types for 2 parameters: regex, groups"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 48,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In simple(): parameter 'regex' needs a type. Add: @param {unknown} regex"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 52,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escapeToken(): parameter 'value' needs a type. Add: @param {string} value"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 60,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unitForToken(): parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 72,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In literal(): parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 73,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unitate(): parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 248,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tokenForPart needs types for 3 parameters: part, formatOpts: object, resolvedOpts: object"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 295,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In buildRegex(): parameter 'units' needs a type. Add: @param {any[]} units"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 296,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'u' needs a type. Add: @param {object} u"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 296,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: f, r: object"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 300,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "match needs types for 3 parameters: input: string, regex, handlers: object"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 322,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dateTimeFromMatches(): parameter 'matches' needs a type. Add: @param {object} matches"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 323,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toField(): parameter 'token' needs a type. Add: @param {unknown} token"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 412,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "maybeExpandMacroToken needs types for 2 parameters: token: object, locale"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 427,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "expandMacroTokens needs types for 2 parameters: tokens: any[], locale"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 427,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "expandMacroTokens needs JSDoc: @param {any} tokens, @param {any} locale, @returns {any[]}"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 428,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 436,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: locale, format: string"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 440,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 450,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In explainFromTokens(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 485,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "explainFromTokens needs types for 3 parameters: locale, input, format: string"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 485,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "explainFromTokens needs JSDoc: @param {any} locale, @param {any} input, @param {any} format, @returns {{ input: any; tokens: any[]; invalidReason: any; regex?: undefined; rawMatches?: undefined; matches?: undefined; result?: undefined; zone?: undefined; specificOffset?: undefined; } | { input: any; tokens: any[]; ... 6 more ...; invalidReason?: undefined; }}"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 490,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseFromTokens needs types for 3 parameters: locale, input, format: string"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 490,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseFromTokens needs JSDoc: @param {any} locale, @param {any} input, @param {any} format, @returns {any[]}"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 495,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatOptsToTokens needs types for 2 parameters: formatOpts, locale"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 495,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "formatOptsToTokens needs JSDoc: @param {any} formatOpts, @param {any} locale, @returns {any}"
+    },
+    {
+      "file": "src/impl/tokenParser.js",
+      "line": 504,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'p' needs a type. Add: @param {unknown} p"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 17,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUndefined needs JSDoc: @param {any} o, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 17,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isUndefined(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 21,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isNumber needs JSDoc: @param {any} o, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 21,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNumber(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 25,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isInteger needs JSDoc: @param {any} o, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 25,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isInteger(): parameter 'o' needs a type. Add: @param {number} o"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 29,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isString needs JSDoc: @param {any} o, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 29,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isString(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 33,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDate needs JSDoc: @param {any} o, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 33,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDate(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 39,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasRelative needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 47,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasLocaleWeekInfo needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 61,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "maybeArray needs JSDoc: @param {any} thing, @returns {any[]}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 61,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In maybeArray(): parameter 'thing' needs a type. Add: @param {unknown} thing"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 65,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bestBy needs types for 3 parameters: arr: any[], by: Function, compare: Function"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 65,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "bestBy needs JSDoc: @param {any} arr, @param {any} by, @param {any} compare, @returns {any}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 69,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: best, next: Function"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pick needs types for 2 parameters: obj: object, keys: any[]"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 81,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "pick needs JSDoc: @param {any} obj, @param {any} keys, @returns {any}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 82,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, k"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 88,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hasOwnProperty needs types for 2 parameters: obj: object, prop"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 88,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "hasOwnProperty needs JSDoc: @param {any} obj, @param {any} prop, @returns {any}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 92,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "validateWeekSettings needs JSDoc: @param {any} settings, @returns {{ firstDay: any; minimalDays: any; weekend: any[]; }}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 92,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In validateWeekSettings(): parameter 'settings' needs a type. Add: @param {object} settings"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 102,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 116,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "integerBetween needs types for 3 parameters: thing, bottom, top"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 116,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "integerBetween needs JSDoc: @param {any} thing, @param {any} bottom, @param {any} top, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 121,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "floorMod needs types for 2 parameters: x: number, n: number"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 121,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "floorMod needs JSDoc: @param {any} x, @param {any} n, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 125,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "padStart needs JSDoc: @param {any} input, @returns {string}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 125,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In padStart(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 136,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseInteger needs JSDoc: @param {any} string, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 136,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseInteger(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 144,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseFloating needs JSDoc: @param {any} string, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 144,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseFloating(): parameter 'string' needs a type. Add: @param {string} string"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 152,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseMillis needs JSDoc: @param {any} fraction, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 152,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In parseMillis(): parameter 'fraction' needs a type. Add: @param {unknown} fraction"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 162,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "roundTo needs types for 2 parameters: number: number, digits: number"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 162,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "roundTo needs JSDoc: @param {any} number, @param {any} digits, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 184,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isLeapYear needs JSDoc: @param {any} year, @returns {boolean}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 184,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isLeapYear(): parameter 'year' needs a type. Add: @param {number} year"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 188,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "daysInYear needs JSDoc: @param {any} year, @returns {366 | 365}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 188,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In daysInYear(): parameter 'year' needs a type. Add: @param {number} year"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 192,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "daysInMonth needs types for 2 parameters: year: number, month: number"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 192,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "daysInMonth needs JSDoc: @param {any} year, @param {any} month, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 204,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "objToLocalTS needs JSDoc: @param {any} obj, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 204,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In objToLocalTS(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 227,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "firstWeekOffset needs types for 3 parameters: year: number, minDaysInFirstWeek: number, startOfWeek"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 232,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "weeksInWeekYear needs JSDoc: @param {any} weekYear, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 232,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In weeksInWeekYear(): parameter 'weekYear' needs a type. Add: @param {unknown} weekYear"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 238,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "untruncateYear needs JSDoc: @param {any} year, @returns {any}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 238,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In untruncateYear(): parameter 'year' needs a type. Add: @param {number} year"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 246,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseZoneInfo needs types for 3 parameters: ts, offsetFormat, locale"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 246,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "parseZoneInfo needs JSDoc: @param {any} ts, @param {any} offsetFormat, @param {any} locale, @returns {string}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 270,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "signedOffset needs types for 2 parameters: offHourStr, offMinuteStr"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 270,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "signedOffset needs JSDoc: @param {any} offHourStr, @param {any} offMinuteStr, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 285,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "asNumber needs JSDoc: @param {any} value, @returns {number}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 285,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In asNumber(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 292,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeObject needs types for 2 parameters: obj: object, normalizer: Function"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 292,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeObject needs JSDoc: @param {any} obj, @param {any} normalizer, @returns {{}}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 311,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "formatOffset needs JSDoc: @param {any} offset"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 311,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In formatOffset(): parameter 'offset' needs a type. Add: @param {number} offset"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 328,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "timeObject needs JSDoc: @param {any} obj, @returns {any}"
+    },
+    {
+      "file": "src/impl/util.js",
+      "line": 328,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In timeObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "src/impl/zoneUtil.js",
+      "line": 13,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeZone needs types for 2 parameters: input: string, defaultZone"
+    },
+    {
+      "file": "src/impl/zoneUtil.js",
+      "line": 13,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeZone needs JSDoc: @param {any} input, @param {any} defaultZone, @returns {any}"
+    },
+    {
+      "file": "src/info.js",
+      "line": 47,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeZone(): parameter 'input' needs a type. Add: @param {unknown} input"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 13,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "validateStartEnd needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 44,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 89,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fromDateTimes needs types for 2 parameters: start: number, end: number"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 111,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "after needs types for 2 parameters: start: number, duration: number"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 123,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "before needs types for 2 parameters: end: number, duration: number"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 137,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fromISO(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 198,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isInterval(): parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 350,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'd' needs a type. Add: @param {unknown} d"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 351,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 373,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In splitBy(): parameter 'duration' needs a type. Add: @param {number} duration"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 386,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 501,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 503,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 529,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {object} i"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 534,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a: object, b: object"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 560,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 615,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toISO(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "src/interval.js",
+      "line": 638,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toISOTime(): parameter 'opts' needs a type. Add: @param {unknown} opts"
+    },
+    {
+      "file": "src/zones/IANAZone.js",
+      "line": 5,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In makeDTF(): parameter 'zoneName' needs a type. Add: @param {string} zoneName"
+    },
+    {
+      "file": "src/zones/IANAZone.js",
+      "line": 34,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hackyOffset needs types for 2 parameters: dtf: object, date"
+    },
+    {
+      "file": "src/zones/IANAZone.js",
+      "line": 41,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "partsOffset needs types for 2 parameters: dtf: object, date"
+    },
+    {
+      "file": "src/zones/IANAZone.js",
+      "line": 130,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/zones/fixedOffsetZone.js",
+      "line": 49,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'offset' needs a type. Add: @param {number} offset"
+    },
+    {
+      "file": "src/zones/invalidZone.js",
+      "line": 8,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'zoneName' needs a type. Add: @param {string} zoneName"
+    },
+    {
+      "file": "src/zones/systemZone.js",
+      "line": 38,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In offsetName(): parameter 'ts' needs a type. Add: @param {unknown} ts"
+    },
+    {
+      "file": "src/zones/systemZone.js",
+      "line": 43,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatOffset needs types for 2 parameters: ts, format: string"
+    },
+    {
+      "file": "src/zones/systemZone.js",
+      "line": 48,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In offset(): parameter 'ts' needs a type. Add: @param {unknown} ts"
+    },
+    {
+      "file": "src/zones/systemZone.js",
+      "line": 53,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In equals(): parameter 'otherZone' needs a type. Add: @param {object} otherZone"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19956
+}

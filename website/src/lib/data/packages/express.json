@@ -1,0 +1,358 @@
+{
+  "name": "express",
+  "downloadedAt": "2026-02-03T21:57:03.722Z",
+  "lintedAt": "2026-02-03T21:57:03.722Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 42,
+  "errors": 0,
+  "warnings": 42,
+  "byRule": {
+    "tjd/no-implicit-any": 36,
+    "tjd/require-jsdoc-types": 6
+  },
+  "issues": [
+    {
+      "file": "lib/application.js",
+      "line": 109,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'parent' needs a type. Add: @param {object} parent"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 152,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "handle needs types for 3 parameters: req: object, res: object, callback: Function"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 190,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In use(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 219,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 230,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 232,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 256,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In route(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 351,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 472,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In method(): parameter 'path' needs a type. Add: @param {string} path"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 522,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/application.js",
+      "line": 625,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tryRender needs types for 3 parameters: view: object, options: object, callback: Function"
+    },
+    {
+      "file": "lib/express.js",
+      "line": 37,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "app needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/request.js",
+      "line": 269,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In is(): parameter 'types' needs a type. Add: @param {unknown} types"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 97,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In links(): parameter 'links' needs a type. Add: @param {object} links"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 103,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'singleLink' needs a type. Add: @param {unknown} singleLink"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 125,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In send(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 232,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In json(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 260,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In jsonp(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 371,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sendFile needs types for 3 parameters: path: string, options: object, callback: Function"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 404,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 433,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "download needs types for 4 parameters: path: string, filename, options: object, callback: Function"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 569,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In format(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 589,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 665,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In header(): parameter 'field' needs a type. Add: @param {string} field"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 709,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clearCookie(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 742,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cookie needs types for 2 parameters: value, options: object"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 812,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In redirect(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 894,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "render needs types for 3 parameters: view, options: object, callback: Function"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 911,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, str: string"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 921,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sendfile needs types for 4 parameters: res: object, file: object, options: object, callback: Function"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 946,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onerror(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 965,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onfinish(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/response.js",
+      "line": 996,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 61,
+      "column": 25,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeType needs JSDoc: @param {string} type, @returns {any}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 75,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "normalizeTypes needs JSDoc: @param {any[]} types, @returns {any[]}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 130,
+      "column": 23,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileETag needs JSDoc: @param {string | boolean | Function} val, @returns {Function}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 162,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileQueryParser needs JSDoc: @param {string | Function} val, @returns {Function}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 194,
+      "column": 24,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "compileTrust needs JSDoc: @param {string | number | boolean | Function | any[]} val, @returns {Function}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 204,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: a, i"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 225,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "setCharset needs JSDoc: @param {string} type, @param {string} charset, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 250,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: body: object, encoding: string"
+    },
+    {
+      "file": "lib/view.js",
+      "line": 133,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In render(): parameter 'options' needs a type. Add: @param {object} options"
+    }
+  ],
+  "typesPackage": "@types/express",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.0.6",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 30231
+}

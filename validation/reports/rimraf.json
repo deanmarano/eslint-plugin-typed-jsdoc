@@ -1,0 +1,38 @@
+{
+  "name": "rimraf",
+  "downloadedAt": "2026-02-03T22:01:06.318Z",
+  "lintedAt": "2026-02-03T22:01:06.318Z",
+  "filesAnalyzed": 8,
+  "totalIssues": 2,
+  "errors": 0,
+  "warnings": 2,
+  "byRule": {
+    "tjd/no-implicit-any": 1,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "map.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'test' needs a type. Add: @param {string} test"
+    },
+    {
+      "file": "map.js",
+      "line": 1,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} test, @returns {any}"
+    }
+  ],
+  "typesPackage": "@types/rimraf",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.0.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 24151
+}

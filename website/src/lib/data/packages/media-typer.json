@@ -1,0 +1,44 @@
+{
+  "name": "media-typer",
+  "downloadedAt": "2026-01-30T20:29:45.853Z",
+  "lintedAt": "2026-01-30T20:29:45.853Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 3,
+  "errors": 0,
+  "warnings": 3,
+  "byRule": {
+    "estl/no-implicit-any": 3
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 139,
+      "column": 21,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'type' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 139,
+      "column": 27,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'subtype' has implicit 'any' type - add JSDoc @param annotation"
+    },
+    {
+      "file": "index.js",
+      "line": 139,
+      "column": 36,
+      "rule": "estl/no-implicit-any",
+      "severity": "warning",
+      "message": "Parameter 'suffix' has implicit 'any' type - add JSDoc @param annotation"
+    }
+  ],
+  "typesPackage": "@types/media-typer",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.1.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cookie",
+  "downloadedAt": "2026-02-03T21:57:29.203Z",
+  "lintedAt": "2026-02-03T21:57:29.203Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/cookie",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20377
+}

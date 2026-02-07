@@ -1,0 +1,53 @@
+{
+  "name": "eventemitter3",
+  "downloadedAt": "2026-02-03T22:05:24.073Z",
+  "lintedAt": "2026-02-03T22:05:24.073Z",
+  "filesAnalyzed": 12,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "tjd/no-implicit-any": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 166,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "emit needs types for 5 parameters: a1, a2, a3, a4, a5"
+    },
+    {
+      "file": "index.js",
+      "line": 227,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In on(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "index.js",
+      "line": 240,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In once(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "index.js",
+      "line": 254,
+      "column": 76,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeListener(): parameter 'context' needs a type. Add: @param {object} context"
+    }
+  ],
+  "typesPackage": "@types/eventemitter3",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.0.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 15229
+}

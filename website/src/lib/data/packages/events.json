@@ -1,0 +1,270 @@
+{
+  "name": "events",
+  "downloadedAt": "2026-02-03T22:05:24.073Z",
+  "lintedAt": "2026-02-03T22:05:24.073Z",
+  "filesAnalyzed": 24,
+  "totalIssues": 31,
+  "errors": 0,
+  "warnings": 31,
+  "byRule": {
+    "tjd/no-implicit-any": 30,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "events.js",
+      "line": 27,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: target, receiver, args: any[]"
+    },
+    {
+      "file": "events.js",
+      "line": 35,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "events.js",
+      "line": 40,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'target' needs a type. Add: @param {unknown} target"
+    },
+    {
+      "file": "events.js",
+      "line": 45,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ProcessEmitWarning(): parameter 'warning' needs a type. Add: @param {unknown} warning"
+    },
+    {
+      "file": "events.js",
+      "line": 70,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkListener(): parameter 'listener' needs a type. Add: @param {Function} listener"
+    },
+    {
+      "file": "events.js",
+      "line": 81,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "events.js",
+      "line": 102,
+      "column": 67,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setMaxListeners(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "events.js",
+      "line": 110,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _getMaxListeners(): parameter 'that' needs a type. Add: @param {object} that"
+    },
+    {
+      "file": "events.js",
+      "line": 120,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emit(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "events.js",
+      "line": 164,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_addListener needs types for 4 parameters: target: object, type: string, listener: Function, prepend"
+    },
+    {
+      "file": "events.js",
+      "line": 210,
+      "column": 7,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "events.js",
+      "line": 226,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addListener needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "events.js",
+      "line": 233,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "prependListener needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "events.js",
+      "line": 247,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_onceWrap needs types for 3 parameters: target, type: string, listener: Function"
+    },
+    {
+      "file": "events.js",
+      "line": 255,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "once needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "events.js",
+      "line": 262,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "prependOnceListener needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "events.js",
+      "line": 270,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeListener needs types for 2 parameters: type: string, listener: Function"
+    },
+    {
+      "file": "events.js",
+      "line": 324,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeAllListeners(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "events.js",
+      "line": 374,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_listeners needs types for 3 parameters: target: object, type: string, unwrap"
+    },
+    {
+      "file": "events.js",
+      "line": 391,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In listeners(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "events.js",
+      "line": 395,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In rawListeners(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "events.js",
+      "line": 399,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "listenerCount needs types for 2 parameters: emitter: object, type: string"
+    },
+    {
+      "file": "events.js",
+      "line": 408,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In listenerCount(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "events.js",
+      "line": 428,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arrayClone needs types for 2 parameters: arr: object, n"
+    },
+    {
+      "file": "events.js",
+      "line": 435,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "spliceOne needs types for 2 parameters: list: any[], index: number"
+    },
+    {
+      "file": "events.js",
+      "line": 441,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unwrapListeners(): parameter 'arr' needs a type. Add: @param {object} arr"
+    },
+    {
+      "file": "events.js",
+      "line": 449,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "once needs types for 2 parameters: emitter: object, name: string"
+    },
+    {
+      "file": "events.js",
+      "line": 451,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In errorListener(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "events.js",
+      "line": 470,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "addErrorHandlerIfEventEmitter needs types for 3 parameters: emitter: object, handler: Function, flags"
+    },
+    {
+      "file": "events.js",
+      "line": 476,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "eventTargetAgnosticAddListener needs types for 4 parameters: emitter: object, name: string, listener: Function, flags: object"
+    },
+    {
+      "file": "events.js",
+      "line": 486,
+      "column": 58,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    }
+  ],
+  "typesPackage": "@types/events",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 15735
+}

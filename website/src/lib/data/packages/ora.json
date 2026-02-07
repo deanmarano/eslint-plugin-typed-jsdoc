@@ -1,0 +1,241 @@
+{
+  "name": "ora",
+  "downloadedAt": "2026-02-03T22:01:28.986Z",
+  "lintedAt": "2026-02-03T22:01:28.986Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 27,
+  "errors": 3,
+  "warnings": 24,
+  "byRule": {
+    "tjd/no-implicit-any": 21,
+    "n/prefer-global/buffer": 2,
+    "unknown": 1,
+    "tjd/require-jsdoc-types": 2,
+    "unicorn/error-message": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 34,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "index.js",
+      "line": 50,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: chunk, encoding: string"
+    },
+    {
+      "file": "index.js",
+      "line": 59,
+      "column": 3,
+      "rule": "n/prefer-global/buffer",
+      "severity": "error",
+      "message": "Definition for rule 'n/prefer-global/buffer' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 64,
+      "column": 3,
+      "rule": "n/prefer-global/buffer",
+      "severity": "error",
+      "message": "Definition for rule 'n/prefer-global/buffer' was not found."
+    },
+    {
+      "file": "index.js",
+      "line": 69,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunkString' needs a type. Add: @param {object} chunkString"
+    },
+    {
+      "file": "index.js",
+      "line": 105,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: symbol, text: string, prefixText, suffixText"
+    },
+    {
+      "file": "index.js",
+      "line": 113,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "index.js",
+      "line": 161,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'newValue' needs a type. Add: @param {unknown} newValue"
+    },
+    {
+      "file": "index.js",
+      "line": 207,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In spinner(): parameter 'spinner' needs a type. Add: @param {object} spinner"
+    },
+    {
+      "file": "index.js",
+      "line": 212,
+      "column": 93,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'frame' needs a type. Add: @param {unknown} frame"
+    },
+    {
+      "file": "index.js",
+      "line": 261,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: value: Function, separator: string"
+    },
+    {
+      "file": "index.js",
+      "line": 278,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: text: string, columns: number"
+    },
+    {
+      "file": "index.js",
+      "line": 303,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSilent(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "index.js",
+      "line": 361,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "index.js",
+      "line": 374,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "write needs types for 3 parameters: chunk, encoding: string, callback: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 404,
+      "column": 2,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-params')."
+    },
+    {
+      "file": "index.js",
+      "line": 405,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 5 parameters: stream, originalWrite: object, chunk, encoding: string, callback: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 476,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In start(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "index.js",
+      "line": 546,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In succeed(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "index.js",
+      "line": 550,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fail(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "index.js",
+      "line": 554,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In warn(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "index.js",
+      "line": 558,
+      "column": 7,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In info(): parameter 'text' needs a type. Add: @param {string} text"
+    },
+    {
+      "file": "index.js",
+      "line": 581,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "ora needs JSDoc: @param {any} options, @returns {Ora}"
+    },
+    {
+      "file": "index.js",
+      "line": 581,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ora(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "index.js",
+      "line": 585,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "oraPromise needs types for 2 parameters: action: Function, options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 585,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "oraPromise needs JSDoc: @param {any} action, @param {any} options, @returns {Promise<any>}"
+    },
+    {
+      "file": "test.js",
+      "line": 196,
+      "column": 47,
+      "rule": "unicorn/error-message",
+      "severity": "error",
+      "message": "Definition for rule 'unicorn/error-message' was not found."
+    }
+  ],
+  "typesPackage": "@types/ora",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.2.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18397
+}

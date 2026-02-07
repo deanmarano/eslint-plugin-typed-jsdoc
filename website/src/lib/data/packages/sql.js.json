@@ -1,0 +1,302 @@
+{
+  "name": "sql.js",
+  "downloadedAt": "2026-02-03T22:12:17.269Z",
+  "lintedAt": "2026-02-03T22:12:17.269Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 35,
+  "errors": 2,
+  "warnings": 33,
+  "byRule": {
+    "tjd/no-implicit-any": 30,
+    "unknown": 5
+  },
+  "issues": [
+    {
+      "file": "src/api.js",
+      "line": 368,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNumber(): parameter 'pos' needs a type. Add: @param {unknown} pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 376,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBigInt(): parameter 'pos' needs a type. Add: @param {unknown} pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 389,
+      "column": 56,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getString(): parameter 'pos' needs a type. Add: @param {unknown} pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 397,
+      "column": 52,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getBlob(): parameter 'pos' needs a type. Add: @param {unknown} pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 426,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/api.js",
+      "line": 492,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/api.js",
+      "line": 539,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindString needs types for 2 parameters: string: string, pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 556,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindBlob needs types for 2 parameters: array: any[], pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 574,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindNumber needs types for 2 parameters: num: number, pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 588,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In bindNull(): parameter 'pos' needs a type. Add: @param {unknown} pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 596,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "bindValue needs types for 2 parameters: val: object, pos"
+    },
+    {
+      "file": "src/api.js",
+      "line": 945,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1019,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'max-len')."
+    },
+    {
+      "file": "src/api.js",
+      "line": 1020,
+      "column": 77,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'config' needs a type. Add: @param {object} config"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1090,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stmt' needs a type. Add: @param {unknown} stmt"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1118,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'stmt' needs a type. Add: @param {unknown} stmt"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1138,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'returnCode' needs a type. Add: @param {unknown} returnCode"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1158,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In extract_blob(): parameter 'ptr' needs a type. Add: @param {unknown} ptr"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1168,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseFunctionArguments needs types for 2 parameters: argc, argv"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1188,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setFunctionResult needs types for 2 parameters: cx, result: object"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1235,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrapped_func needs types for 3 parameters: cx, argc, argv"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1317,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrapped_step needs types for 3 parameters: cx, argc, argv"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1346,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapped_finalize(): parameter 'cx' needs a type. Add: @param {unknown} cx"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1464,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "src/api.js",
+      "line": 1478,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "wrappedCallback needs types for 5 parameters: ignored, operationCode, databaseNamePtr, tableNamePtr, rowIdBigInt"
+    },
+    {
+      "file": "src/shell-post.js",
+      "line": 5,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Declaration or statement expected."
+    },
+    {
+      "file": "src/shell-pre.js",
+      "line": 72,
+      "column": 0,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: '}' expected."
+    },
+    {
+      "file": "src/worker.js",
+      "line": 9,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onModuleReady(): parameter 'SQL' needs a type. Add: @param {object} SQL"
+    },
+    {
+      "file": "src/worker.js",
+      "line": 10,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createDb(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/worker.js",
+      "line": 47,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In callback(): parameter 'row' needs a type. Add: @param {unknown} row"
+    },
+    {
+      "file": "src/worker.js",
+      "line": 84,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "src/worker.js",
+      "line": 94,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In global_sqljs_message_handler(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/worker.js",
+      "line": 105,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'global-require')."
+    },
+    {
+      "file": "src/worker.js",
+      "line": 108,
+      "column": 5,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-undef')."
+    },
+    {
+      "file": "src/worker.js",
+      "line": 110,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'data' needs a type. Add: @param {object} data"
+    }
+  ],
+  "typesPackage": "@types/sql.js",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.4.9",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 24190
+}

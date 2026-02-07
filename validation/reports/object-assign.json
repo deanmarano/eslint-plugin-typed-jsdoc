@@ -1,0 +1,54 @@
+{
+  "name": "object-assign",
+  "downloadedAt": "2026-02-03T22:05:47.722Z",
+  "lintedAt": "2026-02-03T22:05:47.722Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "unknown": 2,
+    "tjd/no-implicit-any": 2
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 8,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "index.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toObject(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "index.js",
+      "line": 30,
+      "column": 35,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-new-wrappers')."
+    },
+    {
+      "file": "index.js",
+      "line": 65,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: target, source"
+    }
+  ],
+  "typesPackage": "@types/object-assign",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.0.33",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20523
+}

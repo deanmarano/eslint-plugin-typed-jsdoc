@@ -1,0 +1,53 @@
+{
+  "name": "accepts",
+  "downloadedAt": "2026-02-03T22:03:43.499Z",
+  "lintedAt": "2026-02-03T22:03:43.499Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "tjd/no-implicit-any": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 84,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In types(): parameter 'types_' needs a type. Add: @param {unknown} types_"
+    },
+    {
+      "file": "index.js",
+      "line": 128,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In encodings(): parameter 'encodings_' needs a type. Add: @param {unknown} encodings_"
+    },
+    {
+      "file": "index.js",
+      "line": 161,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In charsets(): parameter 'charsets_' needs a type. Add: @param {unknown} charsets_"
+    },
+    {
+      "file": "index.js",
+      "line": 196,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In languages(): parameter 'languages_' needs a type. Add: @param {unknown} languages_"
+    }
+  ],
+  "typesPackage": "@types/accepts",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.3.7",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18364
+}

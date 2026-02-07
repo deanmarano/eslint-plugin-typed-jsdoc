@@ -1,0 +1,53 @@
+{
+  "name": "destroy",
+  "downloadedAt": "2026-02-03T21:58:27.864Z",
+  "lintedAt": "2026-02-03T21:58:27.864Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 4,
+  "errors": 0,
+  "warnings": 4,
+  "byRule": {
+    "tjd/no-implicit-any": 4
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 144,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasDestroy(): parameter 'stream' needs a type. Add: @param {object} stream"
+    },
+    {
+      "file": "index.js",
+      "line": 154,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isEventEmitter(): parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "index.js",
+      "line": 163,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isFsReadStream(): parameter 'stream' needs a type. Add: @param {unknown} stream"
+    },
+    {
+      "file": "index.js",
+      "line": 172,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isZlibStream(): parameter 'stream' needs a type. Add: @param {unknown} stream"
+    }
+  ],
+  "typesPackage": "@types/destroy",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.0.3",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 28737
+}

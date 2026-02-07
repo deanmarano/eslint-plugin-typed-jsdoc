@@ -1,0 +1,77 @@
+{
+  "name": "fabric.js",
+  "downloadedAt": "2026-02-03T22:08:26.872Z",
+  "lintedAt": "2026-02-03T22:08:26.872Z",
+  "filesAnalyzed": 0,
+  "totalIssues": 7,
+  "errors": 0,
+  "warnings": 7,
+  "byRule": {
+    "unknown": 7
+  },
+  "issues": [
+    {
+      "file": "src/benchmarks/boundingBoxFromPoint.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "src/benchmarks/calcCornerCoords.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "src/benchmarks/calcTransformMatrix.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "src/benchmarks/cloneStyles.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "src/benchmarks/pathCloning.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "src/benchmarks/raycasting.mjs",
+      "line": 146,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    },
+    {
+      "file": "src/benchmarks/transformMatrixKey.mjs",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-restricted-syntax')."
+    }
+  ],
+  "typesPackage": "@types/fabric",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.3.11",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 26578
+}

@@ -1,0 +1,367 @@
+{
+  "name": "qs",
+  "downloadedAt": "2026-02-03T21:57:29.203Z",
+  "lintedAt": "2026-02-03T21:57:29.203Z",
+  "filesAnalyzed": 5,
+  "totalIssues": 43,
+  "errors": 0,
+  "warnings": 43,
+  "byRule": {
+    "tjd/no-implicit-any": 40,
+    "unknown": 1,
+    "tjd/require-jsdoc-types": 2
+  },
+  "issues": [
+    {
+      "file": "lib/formats.js",
+      "line": 14,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RFC1738(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/formats.js",
+      "line": 17,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RFC3986(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 32,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In interpretNumericEntities(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 33,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: $0: string, numberStr"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 38,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseArrayValue needs types for 3 parameters: val: object, options: object, currentArrayLength"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 60,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseValues needs types for 2 parameters: str: string, options: object"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 118,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'encodedVal' needs a type. Add: @param {unknown} encodedVal"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 151,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseObject needs types for 4 parameters: chain: object, val: object, options: object, valuesParsed"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 205,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splitKeyIntoSegments needs types for 2 parameters: givenKey: string, options: object"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 261,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseKeys needs types for 4 parameters: givenKey, val, options: object, valuesParsed"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 275,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeParseOptions(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 322,
+      "column": 9,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-implicit-coercion' or 'no-extra-parens')."
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 336,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: str: string, opts"
+    },
+    {
+      "file": "lib/parse.js",
+      "line": 336,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} str, @param {any} opts, @returns {any}"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 9,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In brackets(): parameter 'prefix' needs a type. Add: @param {string} prefix"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 13,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "indices needs types for 2 parameters: prefix: string, key: string"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 16,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In repeat(): parameter 'prefix' needs a type. Add: @param {string} prefix"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 23,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pushToArray needs types for 2 parameters: arr, valueOrArray"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 48,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In serializeDate(): parameter 'date' needs a type. Add: @param {unknown} date"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 55,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNonNullishPrimitive(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 65,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stringify needs types for 18 parameters: object: object, prefix: string, generateArrayPrefix: Function, commaRoundTrip, allowEmptyArrays, strictNullHandling, skipNulls, encodeDotInKeys, encoder: Function, filter: Function, sort, allowDots, serializeDate: Function, format: string, formatter: Function, encodeValuesOnly, charset: string, sideChannel: object"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 111,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 206,
+      "column": 68,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In normalizeStringifyOptions(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 280,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: object: object, opts"
+    },
+    {
+      "file": "lib/stringify.js",
+      "line": 280,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} object, @param {any} opts, @returns {string}"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 13,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "markOverflow needs types for 2 parameters: obj: object, maxIndex: number"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 18,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOverflow(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 22,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getMaxIndex(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 26,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setMaxIndex needs types for 2 parameters: obj: object, maxIndex: number"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 39,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In compactQueue(): parameter 'queue' needs a type. Add: @param {any[]} queue"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 58,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "arrayToObject needs types for 2 parameters: source: object, options: object"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 69,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "merge needs types for 3 parameters: target: object, source: any[], options: object"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 119,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 134,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'acc' needs a type. Add: @param {object} acc"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 146,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "assign needs types for 2 parameters: target, source: object"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 147,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'acc' needs a type. Add: @param {object} acc"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 153,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "decode needs types for 3 parameters: str: string, defaultDecoder, charset: string"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 171,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encode needs types for 5 parameters: str: string, defaultEncoder, charset: string, kind, format: string"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 245,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In compact(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 269,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRegExp(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 273,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBuffer(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 281,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "combine needs types for 4 parameters: a: object, b, arrayLimit, plainObjects"
+    },
+    {
+      "file": "lib/utils.js",
+      "line": 297,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "maybeMap needs types for 2 parameters: val: object, fn: Function"
+    }
+  ],
+  "typesPackage": "@types/qs",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.14.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20789
+}

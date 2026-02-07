@@ -1,0 +1,695 @@
+{
+  "name": "glide.js",
+  "downloadedAt": "2026-02-03T22:09:55.660Z",
+  "lintedAt": "2026-02-03T22:09:55.660Z",
+  "filesAnalyzed": 38,
+  "totalIssues": 84,
+  "errors": 0,
+  "warnings": 84,
+  "byRule": {
+    "tjd/no-implicit-any": 62,
+    "tjd/require-jsdoc-types": 21,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "src/components/anchors.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/anchors.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; bind(): void; unbind(): void; click(event: any): void; detach(): self; attach(): self; }}"
+    },
+    {
+      "file": "src/components/anchors.js",
+      "line": 73,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In click(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/autoplay.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/autoplay.js",
+      "line": 6,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; enable(): void; disable(): void; start(): void; stop(): void; bind(): void; unbind(): void; }}"
+    },
+    {
+      "file": "src/components/breakpoints.js",
+      "line": 24,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components, Events: object"
+    },
+    {
+      "file": "src/components/breakpoints.js",
+      "line": 24,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ match(points: any): any; }}"
+    },
+    {
+      "file": "src/components/breakpoints.js",
+      "line": 62,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In match(): parameter 'points' needs a type. Add: @param {object} points"
+    },
+    {
+      "file": "src/components/build.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/build.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; typeClass(): void; activeClass(): void; removeClasses(): void; }}"
+    },
+    {
+      "file": "src/components/build.js",
+      "line": 41,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sibling' needs a type. Add: @param {object} sibling"
+    },
+    {
+      "file": "src/components/build.js",
+      "line": 57,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sibling' needs a type. Add: @param {object} sibling"
+    },
+    {
+      "file": "src/components/clones.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/clones.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; collect(items?: any[]): []; append(): void; remove(): void; }}"
+    },
+    {
+      "file": "src/components/controls.js",
+      "line": 12,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/controls.js",
+      "line": 12,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; setActive(): void; removeActive(): void; addClass(controls: HTMLElement): void; removeClass(controls: HTMLElement): void; setArrowState(): void; resetArrowState(...lists: NodeList[]): void; disableArrow(...lists: NodeList[]): void; ... 4 more ...; click(event: any): void; }}"
+    },
+    {
+      "file": "src/components/controls.js",
+      "line": 98,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'sibling' needs a type. Add: @param {object} sibling"
+    },
+    {
+      "file": "src/components/controls.js",
+      "line": 146,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/components/controls.js",
+      "line": 161,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'element' needs a type. Add: @param {object} element"
+    },
+    {
+      "file": "src/components/controls.js",
+      "line": 222,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In click(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/direction.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/direction.js",
+      "line": 11,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; resolve(pattern: string): string; is(direction: string): boolean; addClass(): void; removeClass(): void; }}"
+    },
+    {
+      "file": "src/components/gaps.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/gaps.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ apply(slides: HTMLCollection): void; remove(slides: HTMLCollection): void; }}"
+    },
+    {
+      "file": "src/components/html.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components, Events: object"
+    },
+    {
+      "file": "src/components/html.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; collectSlides(): void; }}"
+    },
+    {
+      "file": "src/components/html.js",
+      "line": 25,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'slide' needs a type. Add: @param {object} slide"
+    },
+    {
+      "file": "src/components/html.js",
+      "line": 46,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'r' needs a type. Add: @param {unknown} r"
+    },
+    {
+      "file": "src/components/html.js",
+      "line": 74,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "src/components/images.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/images.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; bind(): void; unbind(): void; dragstart(event: any): void; }}"
+    },
+    {
+      "file": "src/components/images.js",
+      "line": 44,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In dragstart(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/keyboard.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/keyboard.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; bind(): void; unbind(): void; press(event: any): void; }}"
+    },
+    {
+      "file": "src/components/keyboard.js",
+      "line": 47,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In press(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/move.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/move.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; make(offset?: number): void; }}"
+    },
+    {
+      "file": "src/components/move.js",
+      "line": 51,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "src/components/peek.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components, Events: object"
+    },
+    {
+      "file": "src/components/peek.js",
+      "line": 4,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; }}"
+    },
+    {
+      "file": "src/components/peek.js",
+      "line": 32,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/components/resize.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components, Events: object"
+    },
+    {
+      "file": "src/components/resize.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; bind(): void; unbind(): void; }}"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 5,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; make(move: string): void; calculate(): number; isStart(): boolean; isEnd(): boolean; isOffset(direction?: string): boolean; isBound(): boolean; }}"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 194,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calculateForwardIndex(): parameter 'viewSize' needs a type. Add: @param {number} viewSize"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 212,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeForwardIndex needs types for 2 parameters: index: number, viewSize: number"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 246,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In calculateBackwardIndex(): parameter 'viewSize' needs a type. Add: @param {number} viewSize"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 268,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "normalizeBackwardIndex needs types for 2 parameters: index: number, viewSize: number"
+    },
+    {
+      "file": "src/components/run.js",
+      "line": 307,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'value' needs a type. Add: @param {object} value"
+    },
+    {
+      "file": "src/components/sizes.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/sizes.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ setupSlides(): void; setupWrapper(): void; remove(): void; }}"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 12,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 12,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ mount(): void; start(event: any): void; move(event: any): boolean; end(event: any): void; bindSwipeStart(): void; unbindSwipeStart(): void; bindSwipeMove(): void; unbindSwipeMove(): void; ... 5 more ...; disable(): self; }}"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 42,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In start(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 64,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In move(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 99,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 138,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 144,
+      "column": 62,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 166,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 186,
+      "column": 55,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 205,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In touches(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/swipe.js",
+      "line": 218,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In threshold(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/components/transition.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/transition.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ compose(property: string): string; set(property?: string): void; remove(): void; after(callback: Function): void; enable(): void; disable(): void; }}"
+    },
+    {
+      "file": "src/components/translate.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components: object, Events: object"
+    },
+    {
+      "file": "src/components/translate.js",
+      "line": 3,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Glide, @param {any} Components, @param {any} Events, @returns {{ set(value: number): void; remove(): void; getStartIndex(): number; getTravelDistance(): number; }}"
+    },
+    {
+      "file": "src/components/translate.js",
+      "line": 65,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/core/event/events-binder.js",
+      "line": 20,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In on(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/core/event/events-binder.js",
+      "line": 40,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In off(): parameter 'el' needs a type. Add: @param {object} el"
+    },
+    {
+      "file": "src/core/event/events-bus.js",
+      "line": 51,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In emit(): parameter 'context' needs a type. Add: @param {object} context"
+    },
+    {
+      "file": "src/core/event/events-bus.js",
+      "line": 66,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'item' needs a type. Add: @param {Function} item"
+    },
+    {
+      "file": "src/core/index.js",
+      "line": 13,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "mount needs JSDoc: @param {any} events"
+    },
+    {
+      "file": "src/core/index.js",
+      "line": 13,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mount(): parameter 'events' needs a type. Add: @param {unknown} events"
+    },
+    {
+      "file": "src/index.js",
+      "line": 211,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In settings(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "src/index.js",
+      "line": 233,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In index(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "src/mutator/index.js",
+      "line": 17,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: Glide: object, Components, Events"
+    },
+    {
+      "file": "src/mutator/index.js",
+      "line": 17,
+      "column": 16,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "function needs JSDoc: @param {any} Events"
+    },
+    {
+      "file": "src/mutator/transformers/focusing.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Glide: object, Components: object"
+    },
+    {
+      "file": "src/mutator/transformers/gap.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Glide, Components: object"
+    },
+    {
+      "file": "src/mutator/transformers/grow.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Glide, Components: object"
+    },
+    {
+      "file": "src/mutator/transformers/peeking.js",
+      "line": 10,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Glide: object, Components: object"
+    },
+    {
+      "file": "src/mutator/transformers/rtl.js",
+      "line": 8,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: Glide, Components: object"
+    },
+    {
+      "file": "src/utils/unit.js",
+      "line": 44,
+      "column": 62,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-mixed-operators')."
+    }
+  ],
+  "typesPackage": "@types/glidejs__glide",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.6.6",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 23986
+}

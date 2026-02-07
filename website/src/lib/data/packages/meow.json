@@ -1,0 +1,41 @@
+{
+  "name": "meow",
+  "downloadedAt": "2026-02-03T22:04:47.944Z",
+  "lintedAt": "2026-02-03T22:04:47.944Z",
+  "filesAnalyzed": 36,
+  "totalIssues": 3,
+  "errors": 3,
+  "warnings": 0,
+  "byRule": {
+    "import-x/no-anonymous-default-export": 1,
+    "ava/no-ignored-test-files": 2
+  },
+  "issues": [
+    {
+      "file": "rollup.config.js",
+      "line": 87,
+      "column": 1,
+      "rule": "import-x/no-anonymous-default-export",
+      "severity": "error",
+      "message": "Definition for rule 'import-x/no-anonymous-default-export' was not found."
+    },
+    {
+      "file": "test/_utils.js",
+      "line": 1,
+      "column": 1,
+      "rule": "ava/no-ignored-test-files",
+      "severity": "error",
+      "message": "Definition for rule 'ava/no-ignored-test-files' was not found."
+    },
+    {
+      "file": "test/flags/_utils.js",
+      "line": 1,
+      "column": 1,
+      "rule": "ava/no-ignored-test-files",
+      "severity": "error",
+      "message": "Definition for rule 'ava/no-ignored-test-files' was not found."
+    }
+  ],
+  "typesPackage": null,
+  "duration": 20336
+}

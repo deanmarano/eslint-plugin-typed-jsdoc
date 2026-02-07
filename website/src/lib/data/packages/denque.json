@@ -1,0 +1,96 @@
+{
+  "name": "denque",
+  "downloadedAt": "2026-02-03T22:06:31.727Z",
+  "lintedAt": "2026-02-03T22:06:31.727Z",
+  "filesAnalyzed": 11,
+  "totalIssues": 10,
+  "errors": 0,
+  "warnings": 10,
+  "byRule": {
+    "tjd/no-implicit-any": 10
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 6,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Denque needs types for 2 parameters: array: any[], options: object"
+    },
+    {
+      "file": "index.js",
+      "line": 35,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In peekAt(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "index.js",
+      "line": 53,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'i' needs a type. Add: @param {unknown} i"
+    },
+    {
+      "file": "index.js",
+      "line": 106,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unshift(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "index.js",
+      "line": 136,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'item' needs a type. Add: @param {unknown} item"
+    },
+    {
+      "file": "index.js",
+      "line": 173,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In removeOne(): parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "index.js",
+      "line": 211,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "remove needs types for 2 parameters: index: number, count: number"
+    },
+    {
+      "file": "index.js",
+      "line": 293,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "splice needs types for 2 parameters: index: number, count: number"
+    },
+    {
+      "file": "index.js",
+      "line": 394,
+      "column": 51,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _fromArray(): parameter 'array' needs a type. Add: @param {any[]} array"
+    },
+    {
+      "file": "index.js",
+      "line": 412,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_copyArray needs types for 2 parameters: fullCopy, size: number"
+    }
+  ],
+  "typesPackage": "@types/denque",
+  "duration": 18607
+}

@@ -1,0 +1,149 @@
+{
+  "name": "cors",
+  "downloadedAt": "2026-02-03T21:57:29.203Z",
+  "lintedAt": "2026-02-03T21:57:29.203Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 16,
+  "errors": 0,
+  "warnings": 16,
+  "byRule": {
+    "tjd/no-implicit-any": 16
+  },
+  "issues": [
+    {
+      "file": "lib/index.js",
+      "line": 15,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isString(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 19,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isOriginAllowed needs types for 2 parameters: origin, allowedOrigin: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 36,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configureOrigin needs types for 2 parameters: options: object, req: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 73,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configureMethods(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 84,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configureCredentials(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 94,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "configureAllowedHeaders needs types for 2 parameters: options: object, req: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 117,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configureExposedHeaders(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 133,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In configureMaxAge(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 144,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "applyHeaders needs types for 2 parameters: headers: object, res: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 159,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cors needs types for 4 parameters: options: object, req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 192,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In middlewareWrapper(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 198,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, cb: Function"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 203,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 204,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, options: object"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 213,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: origin, cb: Function"
+    },
+    {
+      "file": "lib/index.js",
+      "line": 219,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err2, origin"
+    }
+  ],
+  "typesPackage": "@types/cors",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.8.19",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22142
+}

@@ -1,0 +1,165 @@
+{
+  "name": "accounting",
+  "downloadedAt": "2026-02-03T22:04:25.835Z",
+  "lintedAt": "2026-02-03T22:04:25.835Z",
+  "filesAnalyzed": 14,
+  "totalIssues": 18,
+  "errors": 0,
+  "warnings": 18,
+  "byRule": {
+    "tjd/no-implicit-any": 18
+  },
+  "issues": [
+    {
+      "file": "accounting.js",
+      "line": 12,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'undefined' needs a type. Add: @param {unknown} undefined"
+    },
+    {
+      "file": "accounting.js",
+      "line": 56,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isString(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "accounting.js",
+      "line": 64,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isArray(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "accounting.js",
+      "line": 71,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isObject(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "accounting.js",
+      "line": 80,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "defaults needs types for 2 parameters: object: object, defs: object"
+    },
+    {
+      "file": "accounting.js",
+      "line": 100,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "map needs types for 3 parameters: obj: any[], iterator: object, context: object"
+    },
+    {
+      "file": "accounting.js",
+      "line": 118,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkPrecision needs types for 2 parameters: val, base"
+    },
+    {
+      "file": "accounting.js",
+      "line": 133,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In checkCurrencyFormat(): parameter 'format' needs a type. Add: @param {Function} format"
+    },
+    {
+      "file": "accounting.js",
+      "line": 179,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parse needs types for 2 parameters: value, decimal"
+    },
+    {
+      "file": "accounting.js",
+      "line": 182,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "accounting.js",
+      "line": 216,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toFixed needs types for 2 parameters: value, precision"
+    },
+    {
+      "file": "accounting.js",
+      "line": 233,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "format needs types for 4 parameters: number: number, precision, thousand, decimal"
+    },
+    {
+      "file": "accounting.js",
+      "line": 236,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "accounting.js",
+      "line": 278,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatMoney needs types for 6 parameters: number: number, symbol, precision, thousand, decimal, format: string"
+    },
+    {
+      "file": "accounting.js",
+      "line": 281,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "accounting.js",
+      "line": 324,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "formatColumn needs types for 6 parameters: list: any[], symbol, precision, thousand, decimal, format: string"
+    },
+    {
+      "file": "accounting.js",
+      "line": 349,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val, i"
+    },
+    {
+      "file": "accounting.js",
+      "line": 369,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: val: string, i"
+    }
+  ],
+  "typesPackage": "@types/accounting",
+  "typesComparison": {
+    "definitelyTypedVersion": "0.4.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19186
+}

@@ -1,0 +1,341 @@
+{
+  "name": "bunyan",
+  "downloadedAt": "2026-02-03T22:03:19.679Z",
+  "lintedAt": "2026-02-03T22:03:19.679Z",
+  "filesAnalyzed": 1,
+  "totalIssues": 40,
+  "errors": 0,
+  "warnings": 40,
+  "byRule": {
+    "tjd/no-implicit-any": 40
+  },
+  "issues": [
+    {
+      "file": "lib/bunyan.js",
+      "line": 19,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In xxx(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 116,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In objCopy(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 138,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'f' needs a type. Add: @param {unknown} f"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 208,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_indent needs types for 2 parameters: s: string, indent"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 232,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _haveWarned(): parameter 'dedupKey' needs a type. Add: @param {unknown} dedupKey"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 239,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'rec' needs a type. Add: @param {object} rec"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 306,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isWritable(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 351,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Logger needs types for 3 parameters: options: object, _childOptions: object, _childSimple"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 467,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 549,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addStream(): parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 624,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 640,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In addSerializers(): parameter 'serializers' needs a type. Add: @param {object} serializers"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 686,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In child(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 710,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 721,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 765,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In level(): parameter 'value' needs a type. Add: @param {unknown} value"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 814,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 's' needs a type. Add: @param {object} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 856,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_applySerializers needs types for 2 parameters: fields: object, excludeFields: object"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 933,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mkRecord needs types for 3 parameters: log: object, minLevel, args: any[]"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1001,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mkProbeArgs needs types for 4 parameters: str: string, log: object, minLevel, msgArgs"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1010,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mkLogEmitter(): parameter 'minLevel' needs a type. Add: @param {unknown} minLevel"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1088,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In req(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1108,
+      "column": 39,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In res(): parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1127,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getFullErrorStack(): parameter 'ex' needs a type. Add: @param {object} ex"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1141,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In err(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1158,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1180,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, val"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1210,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In fastAndSafeJsonStringify(): parameter 'rec' needs a type. Add: @param {unknown} rec"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1238,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1365,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _calcRotTime(): parameter 'periodOffset' needs a type. Add: @param {number} periodOffset"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1479,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'delErr' needs a type. Add: @param {unknown} delErr"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1495,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'exists' needs a type. Add: @param {unknown} exists"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1500,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'mvErr' needs a type. Add: @param {unknown} mvErr"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1530,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1539,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1543,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In destroy(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1547,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In destroySoon(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1563,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In RingBuffer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1572,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'record' needs a type. Add: @param {unknown} record"
+    },
+    {
+      "file": "lib/bunyan.js",
+      "line": 1617,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createLogger(): parameter 'options' needs a type. Add: @param {object} options"
+    }
+  ],
+  "typesPackage": "@types/bunyan",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.8.11",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21150
+}

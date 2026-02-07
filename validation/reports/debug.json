@@ -1,0 +1,159 @@
+{
+  "name": "debug",
+  "downloadedAt": "2026-02-03T21:57:03.722Z",
+  "lintedAt": "2026-02-03T21:57:03.722Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 17,
+  "errors": 1,
+  "warnings": 16,
+  "byRule": {
+    "unknown": 3,
+    "tjd/no-implicit-any": 13,
+    "import/no-extraneous-dependencies": 1
+  },
+  "issues": [
+    {
+      "file": "src/browser.js",
+      "line": 114,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'complexity')."
+    },
+    {
+      "file": "src/browser.js",
+      "line": 132,
+      "column": 2,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-return-assign')."
+    },
+    {
+      "file": "src/browser.js",
+      "line": 149,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In formatArgs(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/browser.js",
+      "line": 169,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "src/browser.js",
+      "line": 266,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In j(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/common.js",
+      "line": 7,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setup(): parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "src/common.js",
+      "line": 91,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: match, format: string"
+    },
+    {
+      "file": "src/common.js",
+      "line": 136,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In set(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/common.js",
+      "line": 149,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extend needs types for 2 parameters: namespace, delimiter: string"
+    },
+    {
+      "file": "src/common.js",
+      "line": 209,
+      "column": 35,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-negated-condition')."
+    },
+    {
+      "file": "src/common.js",
+      "line": 236,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'namespace' needs a type. Add: @param {unknown} namespace"
+    },
+    {
+      "file": "src/node.js",
+      "line": 31,
+      "column": 2,
+      "rule": "import/no-extraneous-dependencies",
+      "severity": "error",
+      "message": "Definition for rule 'import/no-extraneous-dependencies' was not found."
+    },
+    {
+      "file": "src/node.js",
+      "line": 131,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {string} k"
+    },
+    {
+      "file": "src/node.js",
+      "line": 167,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In formatArgs(): parameter 'args' needs a type. Add: @param {any[]} args"
+    },
+    {
+      "file": "src/node.js",
+      "line": 231,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init(): parameter 'debug' needs a type. Add: @param {boolean} debug"
+    },
+    {
+      "file": "src/node.js",
+      "line": 248,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In o(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "src/node.js",
+      "line": 260,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In O(): parameter 'v' needs a type. Add: @param {string} v"
+    }
+  ],
+  "typesPackage": "@types/debug",
+  "typesComparison": {
+    "definitelyTypedVersion": "4.1.12",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 30643
+}

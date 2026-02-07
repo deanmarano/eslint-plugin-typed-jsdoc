@@ -1,0 +1,85 @@
+{
+  "name": "bcrypt",
+  "downloadedAt": "2026-02-03T21:59:01.152Z",
+  "lintedAt": "2026-02-03T21:59:01.152Z",
+  "filesAnalyzed": 9,
+  "totalIssues": 8,
+  "errors": 0,
+  "warnings": 8,
+  "byRule": {
+    "tjd/no-implicit-any": 8
+  },
+  "issues": [
+    {
+      "file": "bcrypt.js",
+      "line": 11,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "genSaltSync needs types for 2 parameters: rounds, minor"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 31,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "genSalt needs types for 3 parameters: rounds, minor, cb: Function"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 85,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hashSync needs types for 2 parameters: data: object, salt"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 105,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hash needs types for 3 parameters: data: Function, salt: Function, cb: Function"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 148,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, salt"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 160,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compareSync needs types for 2 parameters: data: object, hash"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 176,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compare needs types for 3 parameters: data: Function, hash: Function, cb: Function"
+    },
+    {
+      "file": "bcrypt.js",
+      "line": 222,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getRounds(): parameter 'hash' needs a type. Add: @param {unknown} hash"
+    }
+  ],
+  "typesPackage": "@types/bcrypt",
+  "typesComparison": {
+    "definitelyTypedVersion": "6.0.0",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 28179
+}

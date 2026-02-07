@@ -1,0 +1,989 @@
+{
+  "name": "prismjs",
+  "downloadedAt": "2026-02-03T22:01:06.318Z",
+  "lintedAt": "2026-02-03T22:01:06.318Z",
+  "filesAnalyzed": 299,
+  "totalIssues": 120,
+  "errors": 39,
+  "warnings": 81,
+  "byRule": {
+    "tjd/no-implicit-any": 77,
+    "unknown": 3,
+    "regexp/sort-alternatives": 1,
+    "tjd/accurate-jsdoc": 6,
+    "regexp/strict": 18,
+    "regexp/no-useless-lazy": 1,
+    "regexp/no-dupe-characters-character-class": 2,
+    "tjd/no-redundant-jsdoc": 1,
+    "regexp/no-super-linear-backtracking": 11
+  },
+  "issues": [
+    {
+      "file": "components/prism-asciidoc.js",
+      "line": 203,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In copyFromAsciiDoc(): parameter 'keys' needs a type. Add: @param {string} keys"
+    },
+    {
+      "file": "components/prism-asciidoc.js",
+      "line": 227,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-avisynth.js",
+      "line": 4,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "replace needs types for 2 parameters: pattern: string, replacements"
+    },
+    {
+      "file": "components/prism-avisynth.js",
+      "line": 5,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: m, index: number"
+    },
+    {
+      "file": "components/prism-avisynth.js",
+      "line": 10,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "re needs types for 3 parameters: pattern: string, replacements, flags"
+    },
+    {
+      "file": "components/prism-bsl.js",
+      "line": 1,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-misleading-character-class')."
+    },
+    {
+      "file": "components/prism-cooklang.js",
+      "line": 115,
+      "column": 4,
+      "rule": "regexp/sort-alternatives",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/sort-alternatives' was not found."
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 19,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_self' needs a type. Add: @param {object} _self"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 85,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In encode(): parameter 'tokens' needs a type. Add: @param {object} tokens"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 111,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In type(): parameter 'o' needs a type. Add: @param {unknown} o"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 121,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In objId(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 167,
+      "column": 71,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 449,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: key: string, value"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 459,
+      "column": 9,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "DFS needs types for 4 parameters: o: object, callback: Function, type: string, visited"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 585,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In insertHighlightedCode(): parameter 'highlightedCode' needs a type. Add: @param {unknown} highlightedCode"
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 890,
+      "column": 2,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: RegExpExecArray | null → RegExpExecArray. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 1015,
+      "column": 6,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-redeclare')."
+    },
+    {
+      "file": "components/prism-core.js",
+      "line": 1151,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'evt' needs a type. Add: @param {Event} evt"
+    },
+    {
+      "file": "components/prism-csharp.js",
+      "line": 14,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "components/prism-csharp.js",
+      "line": 56,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keywordsToPattern(): parameter 'words' needs a type. Add: @param {string} words"
+    },
+    {
+      "file": "components/prism-csharp.js",
+      "line": 318,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createInterpolationInside needs types for 2 parameters: interpolation, interpolationRound"
+    },
+    {
+      "file": "components/prism-cshtml.js",
+      "line": 71,
+      "column": 4,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cshtml.js",
+      "line": 76,
+      "column": 5,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cshtml.js",
+      "line": 83,
+      "column": 6,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cshtml.js",
+      "line": 89,
+      "column": 5,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cshtml.js",
+      "line": 95,
+      "column": 3,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cue.js",
+      "line": 5,
+      "column": 2,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cue.js",
+      "line": 7,
+      "column": 2,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cue.js",
+      "line": 9,
+      "column": 3,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cue.js",
+      "line": 11,
+      "column": 3,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cue.js",
+      "line": 13,
+      "column": 3,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-cue.js",
+      "line": 23,
+      "column": 4,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-d.js",
+      "line": 37,
+      "column": 5,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-d.js",
+      "line": 40,
+      "column": 5,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-django.js",
+      "line": 44,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-django.js",
+      "line": 47,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-django.js",
+      "line": 53,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-django.js",
+      "line": 56,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-ejs.js",
+      "line": 15,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-ejs.js",
+      "line": 20,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-erb.js",
+      "line": 16,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-erb.js",
+      "line": 21,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-etlua.js",
+      "line": 14,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-etlua.js",
+      "line": 19,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-factor.js",
+      "line": 348,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In escape(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "components/prism-factor.js",
+      "line": 352,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In arrToWordsRegExp(): parameter 'arr' needs a type. Add: @param {any[]} arr"
+    },
+    {
+      "file": "components/prism-ftl.js",
+      "line": 88,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-ftl.js",
+      "line": 89,
+      "column": 3,
+      "rule": "regexp/no-useless-lazy",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-useless-lazy' was not found."
+    },
+    {
+      "file": "components/prism-ftl.js",
+      "line": 94,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-graphql.js",
+      "line": 63,
+      "column": 65,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-graphql.js",
+      "line": 74,
+      "column": 48,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "components/prism-graphql.js",
+      "line": 86,
+      "column": 2,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: Token | undefined → Token. JSDoc includes null/undefined but TypeScript infers the value is always present. Either the code guarantees a value, or add runtime checks."
+    },
+    {
+      "file": "components/prism-handlebars.js",
+      "line": 28,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-handlebars.js",
+      "line": 33,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-javadoclike.js",
+      "line": 24,
+      "column": 35,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'callback': (pattern: {inside: {rest: undefined}}) => void → (pattern: { inside: { rest: undefined; }; }) => void. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    },
+    {
+      "file": "components/prism-javascript.js",
+      "line": 58,
+      "column": 4,
+      "rule": "regexp/no-dupe-characters-character-class",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-dupe-characters-character-class' was not found."
+    },
+    {
+      "file": "components/prism-js-templates.js",
+      "line": 93,
+      "column": 2,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: (string|Token)[] → any[]. JSDoc declares union but TypeScript infers array."
+    },
+    {
+      "file": "components/prism-js-templates.js",
+      "line": 169,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "components/prism-js-templates.js",
+      "line": 198,
+      "column": 23,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'tokens': (Token|string)[] → any[]. JSDoc declares union but TypeScript infers array."
+    },
+    {
+      "file": "components/prism-js-templates.js",
+      "line": 264,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-js-templates.js",
+      "line": 275,
+      "column": 32,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'tokens': (Token | string)[] → any[]. JSDoc declares union but TypeScript infers array."
+    },
+    {
+      "file": "components/prism-jsx.js",
+      "line": 57,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringifyToken(): parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "components/prism-jsx.js",
+      "line": 70,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In walkTokens(): parameter 'tokens' needs a type. Add: @param {any[]} tokens"
+    },
+    {
+      "file": "components/prism-jsx.js",
+      "line": 138,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-kumir.js",
+      "line": 1,
+      "column": 1,
+      "rule": "regexp/no-dupe-characters-character-class",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-dupe-characters-character-class' was not found."
+    },
+    {
+      "file": "components/prism-kumir.js",
+      "line": 9,
+      "column": 2,
+      "rule": "tjd/no-redundant-jsdoc",
+      "severity": "warning",
+      "message": "JSDoc @type 'string' is redundant - TypeScript infers the same type"
+    },
+    {
+      "file": "components/prism-kumir.js",
+      "line": 79,
+      "column": 4,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-latte.js",
+      "line": 50,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-latte.js",
+      "line": 59,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-liquid.js",
+      "line": 43,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-liquid.js",
+      "line": 47,
+      "column": 97,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "components/prism-liquid.js",
+      "line": 64,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-markdown.js",
+      "line": 202,
+      "column": 4,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-markdown.js",
+      "line": 261,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-markdown.js",
+      "line": 266,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In walkTokens(): parameter 'tokens' needs a type. Add: @param {object} tokens"
+    },
+    {
+      "file": "components/prism-markdown.js",
+      "line": 323,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-markdown.js",
+      "line": 387,
+      "column": 69,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'code' needs a type. Add: @param {object} code"
+    },
+    {
+      "file": "components/prism-markup-templating.js",
+      "line": 27,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-markup-templating.js",
+      "line": 34,
+      "column": 63,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "components/prism-markup-templating.js",
+      "line": 63,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In value(): parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-markup-templating.js",
+      "line": 74,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In walkTokens(): parameter 'tokens' needs a type. Add: @param {object} tokens"
+    },
+    {
+      "file": "components/prism-markup.js",
+      "line": 85,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-naniscript.js",
+      "line": 121,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-perl.js",
+      "line": 30,
+      "column": 7,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-perl.js",
+      "line": 67,
+      "column": 7,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-perl.js",
+      "line": 89,
+      "column": 7,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-perl.js",
+      "line": 93,
+      "column": 7,
+      "rule": "regexp/strict",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/strict' was not found."
+    },
+    {
+      "file": "components/prism-php.js",
+      "line": 329,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-php.js",
+      "line": 338,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-pure.js",
+      "line": 47,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-misleading-character-class')."
+    },
+    {
+      "file": "components/prism-qsharp.js",
+      "line": 14,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'index' needs a type. Add: @param {number} index"
+    },
+    {
+      "file": "components/prism-qsharp.js",
+      "line": 51,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In keywordsToPattern(): parameter 'words' needs a type. Add: @param {string} words"
+    },
+    {
+      "file": "components/prism-robotframework.js",
+      "line": 17,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createSection needs types for 2 parameters: name: string, inside: object"
+    },
+    {
+      "file": "components/prism-smarty.js",
+      "line": 104,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-smarty.js",
+      "line": 109,
+      "column": 98,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "components/prism-smarty.js",
+      "line": 127,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-soy.js",
+      "line": 68,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-soy.js",
+      "line": 74,
+      "column": 92,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'match' needs a type. Add: @param {unknown} match"
+    },
+    {
+      "file": "components/prism-soy.js",
+      "line": 92,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-t4-templating.js",
+      "line": 3,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createBlock needs types for 3 parameters: prefix: string, inside, contentAlias"
+    },
+    {
+      "file": "components/prism-t4-templating.js",
+      "line": 21,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createT4(): parameter 'insideLang' needs a type. Add: @param {unknown} insideLang"
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 94,
+      "column": 6,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 102,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 109,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 116,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 124,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 132,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 139,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 146,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 179,
+      "column": 6,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-textile.js",
+      "line": 183,
+      "column": 8,
+      "rule": "regexp/no-super-linear-backtracking",
+      "severity": "error",
+      "message": "Definition for rule 'regexp/no-super-linear-backtracking' was not found."
+    },
+    {
+      "file": "components/prism-tt2.js",
+      "line": 44,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-tt2.js",
+      "line": 49,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-twig.js",
+      "line": 33,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-twig.js",
+      "line": 42,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {unknown} env"
+    },
+    {
+      "file": "components/prism-xquery.js",
+      "line": 69,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stringifyToken(): parameter 'token' needs a type. Add: @param {object} token"
+    },
+    {
+      "file": "components/prism-xquery.js",
+      "line": 79,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In walkTokens(): parameter 'tokens' needs a type. Add: @param {any[]} tokens"
+    },
+    {
+      "file": "components/prism-xquery.js",
+      "line": 155,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'env' needs a type. Add: @param {object} env"
+    },
+    {
+      "file": "components/prism-zig.js",
+      "line": 3,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In literal(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "components/prism-zig.js",
+      "line": 95,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'obj' needs a type. Add: @param {object} obj"
+    }
+  ],
+  "typesPackage": "@types/prismjs",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.26.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 21842
+}

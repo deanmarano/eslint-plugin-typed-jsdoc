@@ -1,0 +1,825 @@
+{
+  "name": "decimal.js",
+  "downloadedAt": "2026-02-03T22:04:25.835Z",
+  "lintedAt": "2026-02-03T22:04:25.835Z",
+  "filesAnalyzed": 64,
+  "totalIssues": 101,
+  "errors": 6,
+  "warnings": 95,
+  "byRule": {
+    "tjd/no-implicit-any": 95,
+    "unknown": 6
+  },
+  "issues": [
+    {
+      "file": "decimal.js",
+      "line": 1,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'globalScope' needs a type. Add: @param {object} globalScope"
+    },
+    {
+      "file": "decimal.js",
+      "line": 225,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clamp needs types for 2 parameters: min: number, max: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 246,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cmp(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 468,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In div(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 478,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In divToInt(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 489,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In eq(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 509,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In gt(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 519,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In gte(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1086,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lt(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1095,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lte(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1130,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log(): parameter 'base' needs a type. Add: @param {object} base"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1263,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sub(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1437,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mod(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1527,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In add(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1646,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sd(): parameter 'z' needs a type. Add: @param {number} z"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1872,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mul(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1949,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toBinary needs types for 2 parameters: sd, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1964,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toDP needs types for 2 parameters: dp, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 1988,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toExponential needs types for 2 parameters: dp, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2025,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toFixed needs types for 2 parameters: dp, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2059,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In toFraction(): parameter 'maxD' needs a type. Add: @param {object} maxD"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2130,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toHex needs types for 2 parameters: sd, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2151,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toNearest needs types for 2 parameters: y: number, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2219,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toOctal needs types for 2 parameters: sd, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2267,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In pow(): parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2378,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toPrecision needs types for 2 parameters: sd, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2413,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toSD needs types for 2 parameters: sd, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2519,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In digitsToString(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2549,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkInt32 needs types for 3 parameters: i, min: number, max: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2561,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkRoundingDigits needs types for 4 parameters: d: object, i: number, rm, repeating"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2612,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "convertBase needs types for 3 parameters: str: string, baseIn, baseOut: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2640,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "cosine needs types for 2 parameters: Ctor: object, x: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2680,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "multiplyInteger needs types for 3 parameters: x: number, k: number, base: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2696,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "compare needs types for 4 parameters: a: object, b: object, aL, bL"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2713,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "subtract needs types for 4 parameters: a: any[], b: object, aL, base: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2727,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 6 parameters: x: number, y: number, pr, rm, dp, base: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 2945,
+      "column": 4,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "finalise needs types for 4 parameters: x: number, sd: number, rm, isTruncated: boolean"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3112,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "finiteToString needs types for 3 parameters: x: number, isExp: boolean, sd: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3146,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getBase10Exponent needs types for 2 parameters: digits, e"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3155,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getLn10 needs types for 3 parameters: Ctor: object, sd, pr"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3167,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getPi needs types for 3 parameters: Ctor, sd, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3173,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getPrecision(): parameter 'digits' needs a type. Add: @param {object} digits"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3193,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getZeroString(): parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3207,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "intPow needs types for 4 parameters: Ctor, x: number, n: number, pr: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3242,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isOdd(): parameter 'n' needs a type. Add: @param {object} n"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3250,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "maxOrMin needs types for 3 parameters: Ctor, args: any[], n"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3306,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "naturalExponential needs types for 2 parameters: x: number, sd"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3397,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "naturalLogarithm needs types for 2 parameters: y: number, sd"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3513,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In nonFiniteToString(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3522,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseDecimal needs types for 2 parameters: x: number, str: string"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3606,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parseOther needs types for 2 parameters: x: number, str: string"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3686,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sine needs types for 2 parameters: Ctor, x: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3720,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "taylorSeries needs types for 5 parameters: Ctor: object, n, x: number, y: number, isHyperbolic: boolean"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3756,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tinyPow needs types for 2 parameters: b, e"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3764,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toLessThanHalfPi needs types for 2 parameters: Ctor: object, x: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3802,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toStringBinary needs types for 4 parameters: x: number, baseOut, sd: number, rm"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3935,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "truncate needs types for 2 parameters: arr: object, len"
+    },
+    {
+      "file": "decimal.js",
+      "line": 3997,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In abs(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4008,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In acos(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4020,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In acosh(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4033,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "add needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4045,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In asin(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4057,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In asinh(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4069,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In atan(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4081,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In atanh(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4111,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "atan2 needs types for 2 parameters: y: number, x: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4162,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cbrt(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4173,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ceil(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4186,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clamp needs types for 3 parameters: x: number, min: number, max: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4209,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In config(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4260,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cos(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4272,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In cosh(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4282,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clone(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4292,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Decimal(): parameter 'v' needs a type. Add: @param {number} v"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4484,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "div needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4496,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exp(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4507,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In floor(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4551,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isDecimalInstance(): parameter 'obj' needs a type. Add: @param {object} obj"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4563,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ln(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4578,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "log needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4590,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log2(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4602,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In log10(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4637,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mod needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4650,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "mul needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4663,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pow needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4676,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In random(): parameter 'sd' needs a type. Add: @param {number} sd"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4781,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In round(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4797,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sign(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4810,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sin(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4822,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sinh(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4834,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In sqrt(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4847,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "sub needs types for 2 parameters: x: number, y: number"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4881,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tan(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4893,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In tanh(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "decimal.js",
+      "line": 4904,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In trunc(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "test/modules/cmp.js",
+      "line": 105,
+      "column": 8,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Invalid number"
+    },
+    {
+      "file": "test/modules/div.js",
+      "line": 73,
+      "column": 8,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Invalid number"
+    },
+    {
+      "file": "test/modules/minus.js",
+      "line": 91,
+      "column": 8,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Invalid number"
+    },
+    {
+      "file": "test/modules/mod.js",
+      "line": 69,
+      "column": 8,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Invalid number"
+    },
+    {
+      "file": "test/modules/plus.js",
+      "line": 90,
+      "column": 8,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Invalid number"
+    },
+    {
+      "file": "test/modules/times.js",
+      "line": 68,
+      "column": 8,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Parsing error: Invalid number"
+    }
+  ],
+  "typesPackage": null,
+  "duration": 19426
+}

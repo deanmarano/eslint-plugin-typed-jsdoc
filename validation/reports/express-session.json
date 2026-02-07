@@ -1,0 +1,198 @@
+{
+  "name": "express-session",
+  "downloadedAt": "2026-02-03T21:59:27.777Z",
+  "lintedAt": "2026-02-03T21:59:27.777Z",
+  "filesAnalyzed": 13,
+  "totalIssues": 22,
+  "errors": 1,
+  "warnings": 21,
+  "byRule": {
+    "tjd/no-implicit-any": 21,
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 67,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "index.js",
+      "line": 87,
+      "column": 18,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Object → { cookie?: any; genid?: Function; name?: string; proxy?: .... JSDoc uses generic \"object\" but TypeScript infers a specific shape. Consider using @typedef to document the object structure."
+    },
+    {
+      "file": "index.js",
+      "line": 158,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In generate(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 185,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: req: object, res: object, next: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 265,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "end needs types for 2 parameters: chunk: object, encoding: string"
+    },
+    {
+      "file": "index.js",
+      "line": 325,
+      "column": 57,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 350,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 362,
+      "column": 66,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 386,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "inflate needs types for 2 parameters: req: object, sess"
+    },
+    {
+      "file": "index.js",
+      "line": 398,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rewrapmethods needs types for 2 parameters: sess, callback: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 409,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapmethods(): parameter 'sess' needs a type. Add: @param {object} sess"
+    },
+    {
+      "file": "index.js",
+      "line": 413,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In reload(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "index.js",
+      "line": 440,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isModified(): parameter 'sess' needs a type. Add: @param {object} sess"
+    },
+    {
+      "file": "index.js",
+      "line": 445,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isSaved(): parameter 'sess' needs a type. Add: @param {object} sess"
+    },
+    {
+      "file": "index.js",
+      "line": 450,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shouldDestroy(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 455,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shouldSave(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 468,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shouldTouch(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 479,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In shouldSetCookie(): parameter 'req' needs a type. Add: @param {object} req"
+    },
+    {
+      "file": "index.js",
+      "line": 500,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: err: Error, sess"
+    },
+    {
+      "file": "index.js",
+      "line": 544,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getcookie needs types for 3 parameters: req: object, name: string, secrets"
+    },
+    {
+      "file": "index.js",
+      "line": 613,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'val' needs a type. Add: @param {unknown} val"
+    },
+    {
+      "file": "index.js",
+      "line": 670,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setcookie needs types for 5 parameters: res: object, name: string, val, secret, options: object"
+    }
+  ],
+  "typesPackage": "@types/express-session",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.18.2",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22397
+}

@@ -1,0 +1,38 @@
+{
+  "name": "humanize-duration",
+  "downloadedAt": "2026-02-03T22:04:05.615Z",
+  "lintedAt": "2026-02-03T22:04:05.615Z",
+  "filesAnalyzed": 7,
+  "totalIssues": 2,
+  "errors": 1,
+  "warnings": 1,
+  "byRule": {
+    "tjd/no-implicit-any": 1,
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "humanize-duration.js",
+      "line": 89,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'arg' needs a type. Add: @param {unknown} arg"
+    },
+    {
+      "file": "humanize-duration.js",
+      "line": 1490,
+      "column": 33,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@param 'options': Pick<Required<Options>, \"units\" | \"language\" | \"languages... → Pick<Required<Options>, \"language\" | \"fallbacks\" | \"langu.... Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    }
+  ],
+  "typesPackage": "@types/humanize-duration",
+  "typesComparison": {
+    "definitelyTypedVersion": "3.27.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19677
+}

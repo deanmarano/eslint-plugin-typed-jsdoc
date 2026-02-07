@@ -1,0 +1,183 @@
+{
+  "name": "minimist",
+  "downloadedAt": "2026-02-03T21:57:03.722Z",
+  "lintedAt": "2026-02-03T21:57:03.722Z",
+  "filesAnalyzed": 18,
+  "totalIssues": 20,
+  "errors": 1,
+  "warnings": 19,
+  "byRule": {
+    "tjd/no-implicit-any": 18,
+    "tjd/require-jsdoc-types": 1,
+    "unknown": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "hasKey needs types for 2 parameters: obj: object, keys: any[]"
+    },
+    {
+      "file": "index.js",
+      "line": 5,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 13,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isNumber(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "index.js",
+      "line": 19,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "isConstructorOrProto needs types for 2 parameters: obj: object, key: string"
+    },
+    {
+      "file": "index.js",
+      "line": 23,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: args: any[], opts: object"
+    },
+    {
+      "file": "index.js",
+      "line": 23,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} args, @param {any} opts, @returns {{ _: any[]; }}"
+    },
+    {
+      "file": "index.js",
+      "line": 39,
+      "column": 61,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 46,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBooleanKey(): parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 53,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "index.js",
+      "line": 60,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "index.js",
+      "line": 61,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'y' needs a type. Add: @param {number} y"
+    },
+    {
+      "file": "index.js",
+      "line": 67,
+      "column": 59,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "index.js",
+      "line": 70,
+      "column": 46,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "index.js",
+      "line": 80,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "argDefined needs types for 2 parameters: key: string, arg"
+    },
+    {
+      "file": "index.js",
+      "line": 87,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setKey needs types for 3 parameters: obj: object, keys: any[], value"
+    },
+    {
+      "file": "index.js",
+      "line": 123,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setArg needs types for 3 parameters: key: string, val, arg"
+    },
+    {
+      "file": "index.js",
+      "line": 133,
+      "column": 42,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {string} x"
+    },
+    {
+      "file": "index.js",
+      "line": 256,
+      "column": 41,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'x' needs a type. Add: @param {string} x"
+    },
+    {
+      "file": "index.js",
+      "line": 265,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'k' needs a type. Add: @param {unknown} k"
+    },
+    {
+      "file": "test/proto.js",
+      "line": 8,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "error",
+      "message": "Rule \"no-proto\" is already configured by another configuration comment in the preceding code. This configuration is ignored."
+    }
+  ],
+  "typesPackage": "@types/minimist",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.2.5",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 31362
+}

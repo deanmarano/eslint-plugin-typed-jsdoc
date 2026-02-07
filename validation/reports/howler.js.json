@@ -1,0 +1,165 @@
+{
+  "name": "howler.js",
+  "downloadedAt": "2026-02-03T22:08:49.572Z",
+  "lintedAt": "2026-02-03T22:08:49.572Z",
+  "filesAnalyzed": 2,
+  "totalIssues": 18,
+  "errors": 0,
+  "warnings": 18,
+  "byRule": {
+    "tjd/no-implicit-any": 18
+  },
+  "issues": [
+    {
+      "file": "src/howler.core.js",
+      "line": 327,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In unlock(): parameter 'e' needs a type. Add: @param {unknown} e"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 445,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _releaseHtml5Audio(): parameter 'audio' needs a type. Add: @param {object} audio"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 556,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Howl(): parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 573,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In init(): parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 741,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In play(): parameter 'sprite' needs a type. Add: @param {unknown} sprite"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 1356,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _startFadeInterval(): parameter 'sound' needs a type. Add: @param {object} sound"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 1902,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 1925,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _loadQueue(): parameter 'event' needs a type. Add: @param {Event} event"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 2166,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _cleanBuffer(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 2190,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _clearSound(): parameter 'node' needs a type. Add: @param {object} node"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 2205,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Sound(): parameter 'howl' needs a type. Add: @param {unknown} howl"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 2448,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In safeXhrSend(): parameter 'xhr' needs a type. Add: @param {object} xhr"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 2468,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In success(): parameter 'buffer' needs a type. Add: @param {unknown} buffer"
+    },
+    {
+      "file": "src/howler.core.js",
+      "line": 2490,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In loadSound(): parameter 'buffer' needs a type. Add: @param {object} buffer"
+    },
+    {
+      "file": "src/plugins/howler.spatial.js",
+      "line": 141,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_super' needs a type. Add: @param {object} _super"
+    },
+    {
+      "file": "src/plugins/howler.spatial.js",
+      "line": 142,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'o' needs a type. Add: @param {object} o"
+    },
+    {
+      "file": "src/plugins/howler.spatial.js",
+      "line": 553,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_super' needs a type. Add: @param {object} _super"
+    },
+    {
+      "file": "src/plugins/howler.spatial.js",
+      "line": 581,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_super' needs a type. Add: @param {object} _super"
+    }
+  ],
+  "typesPackage": "@types/howler",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.2.12",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 18050
+}

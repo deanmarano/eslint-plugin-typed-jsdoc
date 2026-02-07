@@ -1,0 +1,18 @@
+{
+  "name": "methods",
+  "downloadedAt": "2026-02-03T21:57:54.551Z",
+  "lintedAt": "2026-02-03T21:57:54.551Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 0,
+  "errors": 0,
+  "warnings": 0,
+  "byRule": {},
+  "issues": [],
+  "typesPackage": "@types/methods",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.1.4",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22283
+}

@@ -1,0 +1,69 @@
+{
+  "name": "send",
+  "downloadedAt": "2026-02-03T21:57:54.551Z",
+  "lintedAt": "2026-02-03T21:57:54.551Z",
+  "filesAnalyzed": 3,
+  "totalIssues": 6,
+  "errors": 0,
+  "warnings": 6,
+  "byRule": {
+    "tjd/no-implicit-any": 6
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 490,
+      "column": 50,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In send(): parameter 'stat' needs a type. Add: @param {object} stat"
+    },
+    {
+      "file": "index.js",
+      "line": 618,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 647,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In next(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "index.js",
+      "line": 675,
+      "column": 54,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stream(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "index.js",
+      "line": 736,
+      "column": 60,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setHeader(): parameter 'stat' needs a type. Add: @param {object} stat"
+    },
+    {
+      "file": "index.js",
+      "line": 807,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In containsDotFile(): parameter 'parts' needs a type. Add: @param {any[]} parts"
+    }
+  ],
+  "typesPackage": "@types/send",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.2.1",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 20100
+}

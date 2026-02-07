@@ -1,0 +1,569 @@
+{
+  "name": "node-fetch",
+  "downloadedAt": "2026-02-03T22:01:28.986Z",
+  "lintedAt": "2026-02-03T22:01:28.986Z",
+  "filesAnalyzed": 13,
+  "totalIssues": 68,
+  "errors": 2,
+  "warnings": 66,
+  "byRule": {
+    "tjd/no-implicit-any": 45,
+    "tjd/require-jsdoc-types": 12,
+    "unknown": 9,
+    "promise/prefer-await-to-then": 1,
+    "tjd/accurate-jsdoc": 1
+  },
+  "issues": [
+    {
+      "file": "src/body.js",
+      "line": 32,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "src/body.js",
+      "line": 83,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error_' needs a type. Add: @param {object} error_"
+    },
+    {
+      "file": "src/body.js",
+      "line": 194,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In consumeBody(): parameter 'data' needs a type. Add: @param {object} data"
+    },
+    {
+      "file": "src/body.js",
+      "line": 240,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/body.js",
+      "line": 260,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "clone needs types for 2 parameters: instance: object, highWaterMark"
+    },
+    {
+      "file": "src/body.js",
+      "line": 260,
+      "column": 22,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "clone needs JSDoc: @param {any} instance, @param {any} highWaterMark, @returns {any}"
+    },
+    {
+      "file": "src/body.js",
+      "line": 287,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'body' needs a type. Add: @param {object} body"
+    },
+    {
+      "file": "src/body.js",
+      "line": 302,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "extractContentType needs types for 2 parameters: body: object, request: object"
+    },
+    {
+      "file": "src/body.js",
+      "line": 302,
+      "column": 35,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "extractContentType needs JSDoc: @param {any} request"
+    },
+    {
+      "file": "src/body.js",
+      "line": 355,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getTotalBytes(): parameter 'request' needs a type. Add: @param {object} request"
+    },
+    {
+      "file": "src/body.js",
+      "line": 355,
+      "column": 30,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getTotalBytes needs JSDoc: @param {any} request"
+    },
+    {
+      "file": "src/errors/abort-error.js",
+      "line": 7,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'message' needs a type. Add: @param {string} message"
+    },
+    {
+      "file": "src/errors/base.js",
+      "line": 2,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "constructor needs types for 2 parameters: message: string, type: string"
+    },
+    {
+      "file": "src/errors/fetch-error.js",
+      "line": 21,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-multi-assign')."
+    },
+    {
+      "file": "src/headers.js",
+      "line": 13,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 24,
+      "column": 2,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: name: string, value"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 60,
+      "column": 30,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null' or 'eqeqeq')."
+    },
+    {
+      "file": "src/headers.js",
+      "line": 64,
+      "column": 4,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null' or 'eqeqeq')."
+    },
+    {
+      "file": "src/headers.js",
+      "line": 76,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'pair' needs a type. Add: @param {any[] | object} pair"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 109,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-constructor-return')."
+    },
+    {
+      "file": "src/headers.js",
+      "line": 111,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'receiver' needs a type. Add: @param {unknown} receiver"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 115,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: name: string, value"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 128,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 158,
+      "column": 6,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In get(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 172,
+      "column": 10,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In forEach(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "src/headers.js",
+      "line": 245,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "fromRawHeaders needs JSDoc: @returns {Headers}"
+    },
+    {
+      "file": "src/index.js",
+      "line": 48,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fetch needs types for 2 parameters: url: string, options_: object"
+    },
+    {
+      "file": "src/index.js",
+      "line": 112,
+      "column": 49,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "src/index.js",
+      "line": 322,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'chunk' needs a type. Add: @param {unknown} chunk"
+    },
+    {
+      "file": "src/index.js",
+      "line": 369,
+      "column": 3,
+      "rule": "promise/prefer-await-to-then",
+      "severity": "error",
+      "message": "Definition for rule 'promise/prefer-await-to-then' was not found."
+    },
+    {
+      "file": "src/index.js",
+      "line": 374,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fixResponseChunkedTransferBadEnding needs types for 2 parameters: request: object, errorCallback: Function"
+    },
+    {
+      "file": "src/index.js",
+      "line": 381,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'response' needs a type. Add: @param {object} response"
+    },
+    {
+      "file": "src/index.js",
+      "line": 386,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'socket' needs a type. Add: @param {object} socket"
+    },
+    {
+      "file": "src/index.js",
+      "line": 395,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onData(): parameter 'buf' needs a type. Add: @param {object} buf"
+    },
+    {
+      "file": "src/request.js",
+      "line": 27,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isRequest(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "src/request.js",
+      "line": 48,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In constructor(): parameter 'input' needs a type. Add: @param {object} input"
+    },
+    {
+      "file": "src/request.js",
+      "line": 72,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null' or 'eqeqeq')."
+    },
+    {
+      "file": "src/request.js",
+      "line": 104,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null' or 'eqeqeq')."
+    },
+    {
+      "file": "src/request.js",
+      "line": 110,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null' or 'eqeqeq')."
+    },
+    {
+      "file": "src/request.js",
+      "line": 191,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In referrerPolicy(): parameter 'referrerPolicy' needs a type. Add: @param {unknown} referrerPolicy"
+    },
+    {
+      "file": "src/request.js",
+      "line": 226,
+      "column": 38,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getNodeRequestOptions needs JSDoc: @returns {{ parsedURL: URL; options: { path: string; method: string; headers: any; insecureHTTPParser: any; agent: any; }; }}"
+    },
+    {
+      "file": "src/response.js",
+      "line": 26,
+      "column": 3,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null', 'eqeqeq', or 'no-negated-condition')."
+    },
+    {
+      "file": "src/utils/get-search.js",
+      "line": 1,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getSearch(): parameter 'parsedURL' needs a type. Add: @param {object} parsedURL"
+    },
+    {
+      "file": "src/utils/get-search.js",
+      "line": 1,
+      "column": 26,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "getSearch needs JSDoc: @param {any} parsedURL, @returns {any}"
+    },
+    {
+      "file": "src/utils/is.js",
+      "line": 15,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isURLSearchParameters(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "src/utils/is.js",
+      "line": 34,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isBlob(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "src/utils/is.js",
+      "line": 51,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isAbortSignal(): parameter 'object' needs a type. Add: @param {object} object"
+    },
+    {
+      "file": "src/utils/is.js",
+      "line": 68,
+      "column": 36,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isDomainOrSubdomain needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/is.js",
+      "line": 82,
+      "column": 31,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isSameProtocol needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 32,
+      "column": 15,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lower(): parameter 'c' needs a type. Add: @param {unknown} c"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 80,
+      "column": 16,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In mark(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 84,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In clear(): parameter 'name' needs a type. Add: @param {string} name"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 88,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "callback needs types for 4 parameters: callbackSymbol, start: number, end: number, ui8a: object"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 94,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "dataCallback needs types for 2 parameters: name: string, clear"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 320,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _fileName(): parameter 'headerValue' needs a type. Add: @param {string} headerValue"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 330,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: m, code"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 336,
+      "column": 8,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "toFormData needs types for 2 parameters: Body: object, ct: string"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 336,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "toFormData needs JSDoc: @param {any} Body, @param {any} ct, @returns {Promise<any>}"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 358,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onPartData(): parameter 'ui8a' needs a type. Add: @param {unknown} ui8a"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 362,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In appendToFile(): parameter 'ui8a' needs a type. Add: @param {unknown} ui8a"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 391,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onHeaderField(): parameter 'ui8a' needs a type. Add: @param {unknown} ui8a"
+    },
+    {
+      "file": "src/utils/multipart-parser.js",
+      "line": 395,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onHeaderValue(): parameter 'ui8a' needs a type. Add: @param {unknown} ui8a"
+    },
+    {
+      "file": "src/utils/referrer.js",
+      "line": 18,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "stripURLForUseAsAReferrer needs JSDoc: @param {any} url, @returns {any}"
+    },
+    {
+      "file": "src/utils/referrer.js",
+      "line": 18,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In stripURLForUseAsAReferrer(): parameter 'url' needs a type. Add: @param {string} url"
+    },
+    {
+      "file": "src/utils/referrer.js",
+      "line": 20,
+      "column": 21,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-eq-null' or 'eqeqeq')."
+    },
+    {
+      "file": "src/utils/referrer.js",
+      "line": 95,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isOriginPotentiallyTrustworthy needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/referrer.js",
+      "line": 146,
+      "column": 8,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "isUrlPotentiallyTrustworthy needs JSDoc: @returns {boolean}"
+    },
+    {
+      "file": "src/utils/referrer.js",
+      "line": 192,
+      "column": 8,
+      "rule": "tjd/accurate-jsdoc",
+      "severity": "error",
+      "message": "@returns: external:URL → external. Types differ. Run with --fix to update JSDoc, or verify the intended type."
+    }
+  ],
+  "typesPackage": "@types/node-fetch",
+  "typesComparison": {
+    "definitelyTypedVersion": "2.6.13",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 19412
+}

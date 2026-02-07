@@ -1,0 +1,325 @@
+{
+  "name": "http-proxy",
+  "downloadedAt": "2026-02-03T22:03:19.679Z",
+  "lintedAt": "2026-02-03T22:03:19.679Z",
+  "filesAnalyzed": 6,
+  "totalIssues": 38,
+  "errors": 0,
+  "warnings": 38,
+  "byRule": {
+    "tjd/no-implicit-any": 38
+  },
+  "issues": [
+    {
+      "file": "lib/http-proxy.js",
+      "line": 21,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createProxyServer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/http-proxy/common.js",
+      "line": 33,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setupOutgoing needs types for 4 parameters: outgoing: object, options: object, req: object, forward"
+    },
+    {
+      "file": "lib/http-proxy/common.js",
+      "line": 125,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setupSocket(): parameter 'socket' needs a type. Add: @param {object} socket"
+    },
+    {
+      "file": "lib/http-proxy/common.js",
+      "line": 213,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "rewriteCookieProperty needs types for 3 parameters: header: object, config: object, property"
+    },
+    {
+      "file": "lib/http-proxy/common.js",
+      "line": 215,
+      "column": 33,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'headerElement' needs a type. Add: @param {unknown} headerElement"
+    },
+    {
+      "file": "lib/http-proxy/common.js",
+      "line": 219,
+      "column": 77,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 3 parameters: match, prefix: string, previousValue"
+    },
+    {
+      "file": "lib/http-proxy/common.js",
+      "line": 246,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In hasPort(): parameter 'host' needs a type. Add: @param {object} host"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 28,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createRightProxy(): parameter 'type' needs a type. Add: @param {string} type"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 30,
+      "column": 19,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 31,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 90,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In ProxyServer(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 114,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onError(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 124,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "listen needs types for 2 parameters: port: number, hostname"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 126,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "closure needs types for 2 parameters: req: object, res: object"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 141,
+      "column": 40,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In close(): parameter 'callback' needs a type. Add: @param {Function} callback"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 156,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "before needs types for 3 parameters: type: string, passName: string, callback: Function"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 163,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 171,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "after needs types for 3 parameters: type: string, passName: string, callback: Function"
+    },
+    {
+      "file": "lib/http-proxy/index.js",
+      "line": 178,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 34,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deleteLength needs types for 3 parameters: req: object, res: object, options: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 52,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "timeout needs types for 3 parameters: req: object, res: object, options: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 68,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "XHeaders needs types for 3 parameters: req: object, res: object, options: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 100,
+      "column": 11,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 6 parameters: req: object, res: object, options: object, _, server: object, clb: Function"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 131,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'socket' needs a type. Add: @param {unknown} socket"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 155,
+      "column": 5,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createErrorHandler needs types for 2 parameters: proxyReq: object, url: string"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 156,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-incoming.js",
+      "line": 172,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'proxyRes' needs a type. Add: @param {object} proxyRes"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-outgoing.js",
+      "line": 26,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "removeChunked needs types for 3 parameters: req: object, res: object, proxyRes: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-outgoing.js",
+      "line": 42,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setConnection needs types for 3 parameters: req: object, res: object, proxyRes: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-outgoing.js",
+      "line": 50,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setRedirectHostRewrite needs types for 4 parameters: req: object, res: object, proxyRes: object, options: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-outgoing.js",
+      "line": 85,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeHeaders needs types for 4 parameters: req: object, res: object, proxyRes: object, options: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-outgoing.js",
+      "line": 90,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "setHeader needs types for 2 parameters: key: string, header"
+    },
+    {
+      "file": "lib/http-proxy/passes/web-outgoing.js",
+      "line": 137,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "writeStatusCode needs types for 3 parameters: req: object, res: object, proxyRes: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/ws-incoming.js",
+      "line": 30,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "checkMethodAndHeader needs types for 2 parameters: req: object, socket: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/ws-incoming.js",
+      "line": 52,
+      "column": 14,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "XHeaders needs types for 3 parameters: req: object, socket, options: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/ws-incoming.js",
+      "line": 79,
+      "column": 12,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "stream needs types for 6 parameters: req: object, socket: any[], options: object, head: any[], server: object, clb: Function"
+    },
+    {
+      "file": "lib/http-proxy/passes/ws-incoming.js",
+      "line": 81,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "createHttpHeader needs types for 2 parameters: line, headers: object"
+    },
+    {
+      "file": "lib/http-proxy/passes/ws-incoming.js",
+      "line": 153,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onOutgoingError(): parameter 'err' needs a type. Add: @param {Error} err"
+    }
+  ],
+  "typesPackage": "@types/http-proxy",
+  "typesComparison": {
+    "definitelyTypedVersion": "1.17.17",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 22561
+}

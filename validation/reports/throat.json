@@ -1,0 +1,113 @@
+{
+  "name": "throat",
+  "downloadedAt": "2026-02-03T22:06:31.727Z",
+  "lintedAt": "2026-02-03T22:06:31.727Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 12,
+  "errors": 0,
+  "warnings": 12,
+  "byRule": {
+    "tjd/no-implicit-any": 11,
+    "tjd/require-jsdoc-types": 1
+  },
+  "issues": [
+    {
+      "file": "index.js",
+      "line": 3,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In throatInternal(): parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "index.js",
+      "line": 7,
+      "column": 3,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "run needs types for 3 parameters: fn: Function, self, args: any[]"
+    },
+    {
+      "file": "index.js",
+      "line": 18,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In runDelayed(): parameter 'd' needs a type. Add: @param {object} d"
+    },
+    {
+      "file": "index.js",
+      "line": 28,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onFulfill(): parameter 'result' needs a type. Add: @param {unknown} result"
+    },
+    {
+      "file": "index.js",
+      "line": 32,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In onReject(): parameter 'error' needs a type. Add: @param {Error} error"
+    },
+    {
+      "file": "index.js",
+      "line": 48,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "earlyBound needs types for 2 parameters: size: number, fn: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 58,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In lateBound(): parameter 'size' needs a type. Add: @param {number} size"
+    },
+    {
+      "file": "index.js",
+      "line": 60,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "index.js",
+      "line": 73,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "exports needs types for 2 parameters: size: number, fn: Function"
+    },
+    {
+      "file": "index.js",
+      "line": 73,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} size, @param {any} fn, @returns {function(any[]): Promise<any>}"
+    },
+    {
+      "file": "index.js",
+      "line": 98,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Delayed needs types for 4 parameters: resolve, fn: Function, self, args: any[]"
+    },
+    {
+      "file": "index.js",
+      "line": 114,
+      "column": 34,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 'value' needs a type. Add: @param {unknown} value"
+    }
+  ],
+  "typesPackage": "@types/throat",
+  "duration": 16943
+}

@@ -1,0 +1,567 @@
+{
+  "name": "tape",
+  "downloadedAt": "2026-02-03T22:00:08.067Z",
+  "lintedAt": "2026-02-03T22:00:08.067Z",
+  "filesAnalyzed": 4,
+  "totalIssues": 68,
+  "errors": 0,
+  "warnings": 68,
+  "byRule": {
+    "tjd/require-jsdoc-types": 2,
+    "tjd/no-implicit-any": 60,
+    "unknown": 6
+  },
+  "issues": [
+    {
+      "file": "lib/default_stream.js",
+      "line": 8,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @returns {any}"
+    },
+    {
+      "file": "lib/default_stream.js",
+      "line": 13,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 'buf' needs a type. Add: @param {string} buf"
+    },
+    {
+      "file": "lib/default_stream.js",
+      "line": 15,
+      "column": 16,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'eqeqeq')."
+    },
+    {
+      "file": "lib/default_stream.js",
+      "line": 42,
+      "column": 58,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/default_stream.js",
+      "line": 43,
+      "column": 25,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-console')."
+    },
+    {
+      "file": "lib/isObject.js",
+      "line": 3,
+      "column": 18,
+      "rule": "tjd/require-jsdoc-types",
+      "severity": "warning",
+      "message": "exports needs JSDoc: @param {any} x, @returns {boolean}"
+    },
+    {
+      "file": "lib/isObject.js",
+      "line": 3,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In exports(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 20,
+      "column": 30,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In coalesceWhiteSpaces(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 24,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In getNextTest(): parameter 'results' needs a type. Add: @param {any[]} results"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 39,
+      "column": 22,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In invalidYaml(): parameter 'str' needs a type. Add: @param {string} str"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 43,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "encodeResult needs types for 3 parameters: res: object, count: number, todoIsOK"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 93,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In Results(): parameter 'options' needs a type. Add: @param {object} options"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 109,
+      "column": 44,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In createStream(): parameter 'opts' needs a type. Add: @param {object} opts"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 116,
+      "column": 20,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 2 parameters: t: object, extra: object"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 131,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'st' needs a type. Add: @param {unknown} st"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 134,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 170,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In push(): parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 176,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In only(): parameter 't' needs a type. Add: @param {unknown} t"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 180,
+      "column": 38,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _watch(): parameter 't' needs a type. Add: @param {object} t"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 182,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 196,
+      "column": 27,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'res' needs a type. Add: @param {object} res"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 212,
+      "column": 25,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'st' needs a type. Add: @param {unknown} st"
+    },
+    {
+      "file": "lib/results.js",
+      "line": 220,
+      "column": 17,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In write(): parameter 's' needs a type. Add: @param {unknown} s"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 38,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'C' needs a type. Add: @param {string} C"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 41,
+      "column": 32,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'C' needs a type. Add: @param {string} C"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 51,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 52,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "getTestArgs needs types for 3 parameters: name_, opts_, cb_"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 74,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "Test needs types for 3 parameters: name_, opts_, cb_"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 115,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In isPromiseLike(): parameter 'x' needs a type. Add: @param {number} x"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 139,
+      "column": 21,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 154,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "test needs types for 3 parameters: name: string, opts, cb: Function"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 177,
+      "column": 43,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In comment(): parameter 'msg' needs a type. Add: @param {unknown} msg"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 179,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'aMsg' needs a type. Add: @param {unknown} aMsg"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 184,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In plan(): parameter 'n' needs a type. Add: @param {unknown} n"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 189,
+      "column": 53,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In timeoutAfter(): parameter 'ms' needs a type. Add: @param {unknown} ms"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 201,
+      "column": 35,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In end(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 213,
+      "column": 45,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In teardown(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 221,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In wrapFunction(): parameter 'original' needs a type. Add: @param {unknown} original"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 259,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "capture needs types for 2 parameters: obj: object, method"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 280,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In captureFn(): parameter 'original' needs a type. Add: @param {unknown} original"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 290,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "intercept needs types for 2 parameters: obj: object, property"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 341,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In setInterceptor(): parameter 'v' needs a type. Add: @param {string} v"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 387,
+      "column": 37,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In _end(): parameter 'err' needs a type. Add: @param {Error} err"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 427,
+      "column": 29,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter '_err' needs a type. Add: @param {unknown} _err"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 461,
+      "column": 26,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "_assert needs types for 2 parameters: ok, opts: object"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 598,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "fail needs types for 2 parameters: msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 606,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "pass needs types for 2 parameters: msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 614,
+      "column": 23,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skip needs types for 2 parameters: msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 623,
+      "column": 18,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "testAssert needs types for 3 parameters: value, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 623,
+      "column": 55,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'func-style')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 637,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notOK needs types for 3 parameters: value, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 651,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "error needs types for 3 parameters: err: Error, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 665,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "strictEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 685,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notStrictEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 709,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "looseEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 726,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notLooseEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 742,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "tapeDeepEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 760,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notDeepEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 783,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "deepLooseEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 799,
+      "column": 1,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "notDeepLooseEqual needs types for 4 parameters: a, b, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 816,
+      "column": 28,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "function needs types for 4 parameters: fn: Function, expected: object, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 864,
+      "column": 36,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "parameter 'key' needs a type. Add: @param {string} key"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 889,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "doesNotThrow needs types for 4 parameters: fn: Function, expected, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 910,
+      "column": 24,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "match needs types for 4 parameters: string: string, regexp, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 943,
+      "column": 31,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "doesNotMatch needs types for 4 parameters: string: string, regexp, msg, extra"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 976,
+      "column": 47,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "In assertion(): parameter 'fn' needs a type. Add: @param {Function} fn"
+    },
+    {
+      "file": "lib/test.js",
+      "line": 980,
+      "column": 1,
+      "rule": "unknown",
+      "severity": "warning",
+      "message": "Unused eslint-disable directive (no problems were reported from 'no-unused-vars')."
+    },
+    {
+      "file": "lib/test.js",
+      "line": 981,
+      "column": 13,
+      "rule": "tjd/no-implicit-any",
+      "severity": "warning",
+      "message": "skip needs types for 3 parameters: name_, _opts, _cb"
+    }
+  ],
+  "typesPackage": "@types/tape",
+  "typesComparison": {
+    "definitelyTypedVersion": "5.8.1",
+    "exportCount": 0,
+    "jsdocCoverage": 0
+  },
+  "duration": 36606
+}
