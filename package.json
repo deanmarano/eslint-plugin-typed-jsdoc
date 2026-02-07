@@ -35,13 +35,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/deanmarano/typedjs.git",
-    "directory": "packages/eslint-plugin-typed-jsdoc"
+    "url": "https://github.com/deanmarano/eslint-plugin-typed-jsdoc.git"
   },
   "bugs": {
-    "url": "https://github.com/deanmarano/typedjs/issues"
+    "url": "https://github.com/deanmarano/eslint-plugin-typed-jsdoc/issues"
   },
-  "homepage": "https://github.com/deanmarano/typedjs/tree/main/packages/eslint-plugin-typed-jsdoc#readme",
+  "homepage": "https://github.com/deanmarano/eslint-plugin-typed-jsdoc#readme",
   "peerDependencies": {
     "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9.0.0",
@@ -55,6 +54,7 @@
     "@typescript-eslint/parser": "^8.0.0",
     "@typescript-eslint/rule-tester": "^8.0.0",
     "eslint": "^9.0.0",
+    "release-plan": "^0.17.4",
     "typescript": "^5.3.0",
     "vitest": "^1.0.0"
   },
