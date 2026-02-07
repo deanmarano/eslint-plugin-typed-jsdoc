@@ -1,0 +1,1 @@
+{"type":"data","nodes":[null,{"type":"data","data":[{"report":1},{"name":2,"downloadedAt":3,"lintedAt":3,"filesAnalyzed":4,"totalIssues":4,"errors":4,"warnings":4,"byRule":5,"issues":6,"typesPackage":7,"duration":8},"pixi.js","2026-02-03T22:08:26.872Z",0,{},[],null,26828],"uses":{"params":["package"]}}]}

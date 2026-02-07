@@ -1,0 +1,1 @@
+{"type":"data","nodes":[null,{"type":"data","data":[{"report":1},{"name":2,"downloadedAt":3,"lintedAt":3,"filesAnalyzed":4,"totalIssues":5,"errors":5,"warnings":5,"byRule":6,"issues":7,"typesPackage":8,"duration":9},"log-symbols","2026-02-03T22:04:47.944Z",5,0,{},[],null,19767],"uses":{"params":["package"]}}]}

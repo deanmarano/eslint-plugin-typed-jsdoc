@@ -1,0 +1,1 @@
+{"type":"data","nodes":[null,{"type":"data","data":[{"report":1},{"name":2,"downloadedAt":3,"lintedAt":3,"filesAnalyzed":4,"totalIssues":5,"errors":5,"warnings":5,"byRule":6,"issues":7,"typesPackage":8,"duration":9},"fast-deep-equal","2026-02-03T22:06:10.192Z",6,0,{},[],"@types/fast-deep-equal",17095],"uses":{"params":["package"]}}]}
